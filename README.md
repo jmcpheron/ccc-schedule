@@ -220,6 +220,7 @@ The Python components use pytest with:
 
 - [API Documentation](docs/API.md) - Python API reference and examples
 - [Deployment Guide](docs/DEPLOYMENT.md) - How to deploy for your college
+- [Local Development Guide](docs/LOCAL_DEVELOPMENT.md) - Set up test branches and run locally with your data
 - [Contributing Guidelines](CONTRIBUTING.md) - How to contribute to the project
 
 ## Contributing
