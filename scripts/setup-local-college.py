@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Setup script for creating a local college test environment.
 This script automates the process of setting up a test branch with college-specific data.
