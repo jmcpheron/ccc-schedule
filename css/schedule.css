@@ -435,13 +435,14 @@ footer {
     border-top: 1px solid #dee2e6;
 }
 
-footer .btn-outline-dark {
-    transition: all 0.3s ease;
+footer .link-secondary {
+    color: #495057;
+    transition: color 0.3s ease;
 }
 
-footer .btn-outline-dark:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+footer .link-secondary:hover {
+    color: #212529;
+    text-decoration: underline !important;
 }
 
 /* Responsive footer adjustments */
