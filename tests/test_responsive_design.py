@@ -139,9 +139,7 @@ class TestResponsiveDesign:
         _ = index_html.find_all("div", class_="btn-group")
 
         # Check for full-width buttons on mobile
-        _ = index_html.find_all(
-            "button", class_=lambda x: x and "w-100" in str(x)
-        )
+        _ = index_html.find_all("button", class_=lambda x: x and "w-100" in str(x))
 
         # Check for responsive button sizing
         _ = index_html.find_all(
