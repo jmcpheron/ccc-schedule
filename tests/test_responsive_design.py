@@ -46,7 +46,7 @@ class TestResponsiveDesign:
         responsive_cols = []
         for col_class in col_classes:
             cols = index_html.find_all(
-                attrs={"class": lambda x: x and col_class in str(x)}
+                attrs={"class": lambda x, cc=col_class: x and cc in str(x)}
             )
             responsive_cols.extend(cols)
 
@@ -60,7 +60,7 @@ class TestResponsiveDesign:
 
         for util in display_utils:
             elements = index_html.find_all(
-                attrs={"class": lambda x: x and util in str(x)}
+                attrs={"class": lambda x, u=util: x and u in str(x)}
             )
             found_utils.extend(elements)
 
@@ -72,7 +72,8 @@ class TestResponsiveDesign:
         # Check for navbar toggler (mobile menu)
         navbar = index_html.find("nav", class_="navbar")
         if navbar:
-            toggler = navbar.find("button", class_="navbar-toggler")
+            # Check for navbar toggler
+            navbar.find("button", class_="navbar-toggler")
             # This might not exist in current implementation but should in updated version
             # assert toggler is not None, "Navbar toggler button not found"
 
@@ -89,7 +90,8 @@ class TestResponsiveDesign:
         for img in images:
             classes = img.get("class", [])
             # Check for responsive image classes or inline styles
-            has_responsive = (
+            # Check for responsive image classes or inline styles
+            _ = (
                 "img-fluid" in classes
                 or "logo-size" in classes
                 or img.get("style")
@@ -107,7 +109,8 @@ class TestResponsiveDesign:
             # Check if table is wrapped in responsive container
             if parent and parent.get("class"):
                 classes = parent.get("class", [])
-                is_responsive = "table-responsive" in classes
+                # Check if table is wrapped in responsive container
+                _ = "table-responsive" in classes
                 # Tables should ideally be wrapped in responsive containers
 
     def test_responsive_form_elements(self, index_html):
@@ -116,7 +119,8 @@ class TestResponsiveDesign:
 
         for form in forms:
             # Check for responsive form groups
-            form_groups = form.find_all("div", class_="form-group") or form.find_all(
+            # Check for responsive form groups
+            _ = form.find_all("div", class_="form-group") or form.find_all(
                 "div", class_="mb-3"
             )
 
@@ -132,15 +136,15 @@ class TestResponsiveDesign:
     def test_responsive_buttons(self, index_html):
         """Test responsive button layouts."""
         # Check for button groups
-        btn_groups = index_html.find_all("div", class_="btn-group")
+        _ = index_html.find_all("div", class_="btn-group")
 
         # Check for full-width buttons on mobile
-        full_width_btns = index_html.find_all(
+        _ = index_html.find_all(
             "button", class_=lambda x: x and "w-100" in str(x)
         )
 
         # Check for responsive button sizing
-        responsive_btns = index_html.find_all(
+        _ = index_html.find_all(
             "button", class_=lambda x: x and ("btn-sm" in str(x) or "btn-lg" in str(x))
         )
 
@@ -174,7 +178,7 @@ class TestResponsiveDesign:
         found_spacing = []
         for pattern in spacing_patterns:
             elements = index_html.find_all(
-                attrs={"class": lambda x: x and pattern in str(x)}
+                attrs={"class": lambda x, p=pattern: x and p in str(x)}
             )
             found_spacing.extend(elements)
 
@@ -187,8 +191,8 @@ class TestResponsiveDesign:
             pytest.skip("CSS file not found")
 
         # Mobile-first uses min-width queries predominantly
-        min_width_count = css_content.count("@media (min-width:")
-        max_width_count = css_content.count("@media (max-width:")
+        _ = css_content.count("@media (min-width:")
+        _ = css_content.count("@media (max-width:")
 
         # This is a guideline test - both approaches are valid
         # but mobile-first is preferred
@@ -208,14 +212,14 @@ class TestResponsiveDesign:
         found_text = []
         for text_class in text_classes:
             elements = index_html.find_all(
-                attrs={"class": lambda x: x and text_class in str(x)}
+                attrs={"class": lambda x, tc=text_class: x and tc in str(x)}
             )
             found_text.extend(elements)
 
         # Check for font-size responsive utilities
         heading_tags = ["h1", "h2", "h3", "h4", "h5", "h6"]
         for tag in heading_tags:
-            headings = index_html.find_all(tag)
+            _ = index_html.find_all(tag)
             # Headings should scale appropriately
 
     def test_responsive_modals(self, index_html):
@@ -225,9 +229,9 @@ class TestResponsiveDesign:
         for modal in modals:
             dialog = modal.find("div", class_="modal-dialog")
             if dialog:
-                classes = dialog.get("class", [])
+                _ = dialog.get("class", [])
                 # Check for responsive modal sizes
-                responsive_sizes = [
+                _ = [
                     "modal-sm",
                     "modal-lg",
                     "modal-xl",
@@ -239,7 +243,7 @@ class TestResponsiveDesign:
         """Test touch-friendly interactive elements."""
         # Check button sizes for touch targets
         buttons = index_html.find_all("button")
-        small_buttons = [btn for btn in buttons if "btn-sm" in btn.get("class", [])]
+        _ = [btn for btn in buttons if "btn-sm" in btn.get("class", [])]
 
         # Touch targets should be appropriately sized
         # Minimum recommended size is 44x44 pixels
