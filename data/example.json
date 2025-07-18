@@ -29,6 +29,30 @@
       "title": "Physical Fitness",
       "units": 1,
       "description": "Personal fitness and wellness"
+    },
+    {
+      "course_id": "CACT101",
+      "title": "Introduction to Desert Survival",
+      "units": 3,
+      "description": "Learn essential cactus identification and desert navigation skills"
+    },
+    {
+      "course_id": "COSM202",
+      "title": "Intergalactic Communication",
+      "units": 4,
+      "description": "Study alien languages and cosmic signal interpretation"
+    },
+    {
+      "course_id": "UFO303",
+      "title": "Advanced Flying Saucer Engineering",
+      "units": 5,
+      "description": "Design and maintenance of extraterrestrial vehicles"
+    },
+    {
+      "course_id": "TACO150",
+      "title": "The Physics of Taco Construction",
+      "units": 2,
+      "description": "Engineering principles applied to optimal taco assembly"
     }
   ]
 }

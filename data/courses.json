@@ -7,7 +7,7 @@
       "title": "Introduction to Computer Science",
       "units": 3,
       "description": "An introduction to computer science concepts and programming",
-      "college": "West Valley College",
+      "college": "Cosmic Cactus Community College",
       "term": "Spring 2024",
       "creditType": "CR",
       "sections": [
@@ -48,7 +48,7 @@
       "title": "Calculus I",
       "units": 4,
       "description": "Differential calculus with applications",
-      "college": "Mission College",
+      "college": "Cosmic Cactus Community College",
       "term": "Spring 2024",
       "creditType": "CR",
       "sections": [
@@ -75,7 +75,7 @@
       "title": "English Composition",
       "units": 3,
       "description": "College-level writing and critical thinking",
-      "college": "West Valley College",
+      "college": "Cosmic Cactus Community College",
       "term": "Spring 2024",
       "creditType": "CR",
       "sections": [
@@ -116,7 +116,7 @@
       "title": "Organic Chemistry",
       "units": 5,
       "description": "Structure and reactivity of organic compounds",
-      "college": "Mission College",
+      "college": "Cosmic Cactus Community College",
       "term": "Spring 2024",
       "creditType": "CR",
       "sections": [
@@ -143,7 +143,7 @@
       "title": "Physical Fitness",
       "units": 1,
       "description": "Personal fitness and wellness",
-      "college": "West Valley College",
+      "college": "Cosmic Cactus Community College",
       "term": "Spring 2024",
       "creditType": "CR",
       "sections": [
@@ -170,6 +170,114 @@
           "startTime": "16:00",
           "endTime": "17:30",
           "location": "Fitness Center",
+          "dates": "01/15/24 - 05/15/24",
+          "enrollStatus": "Open",
+          "textbookCost": "ZTC",
+          "length": "Full Term"
+        }
+      ]
+    },
+    {
+      "subj": "CACT",
+      "crse": "101",
+      "course_id": "CACT101",
+      "title": "Introduction to Desert Survival",
+      "units": 3,
+      "description": "Learn essential cactus identification and desert navigation skills",
+      "college": "Cosmic Cactus Community College",
+      "term": "Spring 2024",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "67890",
+          "instructorEmail": "prickly@example.com",
+          "instructorName": "Prof. Prickly",
+          "instrMethod": "INP",
+          "days": "MW",
+          "startTime": "15:00",
+          "endTime": "16:30",
+          "location": "Desert Lab",
+          "dates": "01/15/24 - 05/15/24",
+          "enrollStatus": "Open",
+          "textbookCost": "ZTC",
+          "length": "Full Term"
+        }
+      ]
+    },
+    {
+      "subj": "COSM",
+      "crse": "202",
+      "course_id": "COSM202",
+      "title": "Intergalactic Communication",
+      "units": 4,
+      "description": "Study alien languages and cosmic signal interpretation",
+      "college": "Cosmic Cactus Community College",
+      "term": "Spring 2024",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "78901",
+          "instructorEmail": "stardust@example.com",
+          "instructorName": "Dr. Stardust",
+          "instrMethod": "HYB",
+          "days": "TR",
+          "startTime": "18:00",
+          "endTime": "20:00",
+          "location": "Observatory / Online",
+          "dates": "01/15/24 - 05/15/24",
+          "enrollStatus": "Waitlist",
+          "textbookCost": "LTC",
+          "length": "Full Term"
+        }
+      ]
+    },
+    {
+      "subj": "UFO",
+      "crse": "303",
+      "course_id": "UFO303",
+      "title": "Advanced Flying Saucer Engineering",
+      "units": 5,
+      "description": "Design and maintenance of extraterrestrial vehicles",
+      "college": "Cosmic Cactus Community College",
+      "term": "Spring 2024",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "89012",
+          "instructorEmail": "antigrav@example.com",
+          "instructorName": "Prof. Antigrav",
+          "instrMethod": "INP",
+          "days": "MTWRF",
+          "startTime": "10:00",
+          "endTime": "12:00",
+          "location": "Hangar 51",
+          "dates": "01/15/24 - 05/15/24",
+          "enrollStatus": "Open",
+          "textbookCost": null,
+          "length": "Full Term"
+        }
+      ]
+    },
+    {
+      "subj": "TACO",
+      "crse": "150",
+      "course_id": "TACO150",
+      "title": "The Physics of Taco Construction",
+      "units": 2,
+      "description": "Engineering principles applied to optimal taco assembly",
+      "college": "Cosmic Cactus Community College",
+      "term": "Spring 2024",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "90123",
+          "instructorEmail": "salsa@example.com",
+          "instructorName": "Chef Salsa",
+          "instrMethod": "INP",
+          "days": "F",
+          "startTime": "11:00",
+          "endTime": "14:00",
+          "location": "Culinary Lab",
           "dates": "01/15/24 - 05/15/24",
           "enrollStatus": "Open",
           "textbookCost": "ZTC",
