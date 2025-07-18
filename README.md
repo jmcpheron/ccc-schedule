@@ -26,6 +26,7 @@ CCC Schedule provides a modern, accessible interface for browsing community coll
 - 🔍 **Advanced Search**: Real-time search across course titles, descriptions, and course numbers
 - 🎯 **Smart Filtering**: Filter by term, college, subject, units, days, time, and more
 - 📱 **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
+- 🌓 **Dark Mode**: Automatic theme detection with manual toggle and persistence
 - 📊 **Multiple Views**: Card view and table view for different browsing preferences
 - 📄 **Pagination**: Efficient browsing of large course catalogs
 - 🎨 **Customizable**: Easy to brand for your college's identity
@@ -63,7 +64,7 @@ pip install uv
 
 ### Using the Web Application
 
-1. Clone the repository
+1. Clone the repository (or fork it for your own college)
 2. Add your JSON data files to the `data/` directory
 3. Customize the branding in `index.html`
 4. Deploy to any static web host
@@ -72,8 +73,12 @@ pip install uv
 
 ```bash
 # Clone the repository
-git clone https://github.com/[your-username]/ccc-schedule.git
+git clone https://github.com/jmcpheron/ccc-schedule.git
 cd ccc-schedule
+
+# Or if you've forked it:
+# git clone https://github.com/YOUR-USERNAME/ccc-schedule.git
+# cd ccc-schedule
 
 # Install Python dependencies
 uv sync --all-extras
@@ -84,6 +89,10 @@ uv run pytest
 # Check code quality
 uv run ruff check .
 uv run mypy .
+
+# Run locally
+python3 -m http.server 8000
+# Then open http://localhost:8000 in your browser
 ```
 
 ## Data Structure
