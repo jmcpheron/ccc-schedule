@@ -401,3 +401,37 @@ caption {
     border: 1px solid #81c784;
     font-weight: bold;
 }
+
+/* Footer Styles */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 120px; /* Adjust based on footer height */
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
+
+footer .btn-outline-dark {
+    transition: all 0.3s ease;
+}
+
+footer .btn-outline-dark:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Responsive footer adjustments */
+@media (max-width: 768px) {
+    body {
+        margin-bottom: 150px; /* More space for stacked footer on mobile */
+    }
+}
