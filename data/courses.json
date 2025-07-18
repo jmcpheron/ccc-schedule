@@ -1,0 +1,181 @@
+{
+  "courses": [
+    {
+      "subj": "CS",
+      "crse": "101",
+      "course_id": "CS101",
+      "title": "Introduction to Computer Science",
+      "units": 3,
+      "description": "An introduction to computer science concepts and programming",
+      "college": "West Valley College",
+      "term": "Spring 2024",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "12345",
+          "instructorEmail": "smith@example.com",
+          "instructorName": "Dr. Smith",
+          "instrMethod": "INP",
+          "days": "MW",
+          "startTime": "09:00",
+          "endTime": "10:30",
+          "location": "Room 201",
+          "dates": "01/15/24 - 05/15/24",
+          "enrollStatus": "Open",
+          "textbookCost": "ZTC",
+          "length": "Full Term"
+        },
+        {
+          "crn": "12346",
+          "instructorEmail": "jones@example.com", 
+          "instructorName": "Prof. Jones",
+          "instrMethod": "HYB",
+          "days": "TR",
+          "startTime": "14:00",
+          "endTime": "15:30",
+          "location": "Room 105 / Online",
+          "dates": "01/15/24 - 05/15/24",
+          "enrollStatus": "Waitlist",
+          "textbookCost": "LTC",
+          "length": "Full Term"
+        }
+      ]
+    },
+    {
+      "subj": "MATH",
+      "crse": "201",
+      "course_id": "MATH201",
+      "title": "Calculus I",
+      "units": 4,
+      "description": "Differential calculus with applications",
+      "college": "Mission College",
+      "term": "Spring 2024",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "23456",
+          "instructorEmail": "johnson@example.com",
+          "instructorName": "Dr. Johnson",
+          "instrMethod": "INP",
+          "days": "MWF",
+          "startTime": "08:00",
+          "endTime": "09:20",
+          "location": "Math Building 301",
+          "dates": "01/15/24 - 05/15/24",
+          "enrollStatus": "Open",
+          "textbookCost": null,
+          "length": "Full Term"
+        }
+      ]
+    },
+    {
+      "subj": "ENG",
+      "crse": "100",
+      "course_id": "ENG100",
+      "title": "English Composition",
+      "units": 3,
+      "description": "College-level writing and critical thinking",
+      "college": "West Valley College",
+      "term": "Spring 2024",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "34567",
+          "instructorEmail": "williams@example.com",
+          "instructorName": "Prof. Williams",
+          "instrMethod": "AON",
+          "days": null,
+          "startTime": null,
+          "endTime": null,
+          "location": "Online",
+          "dates": "01/15/24 - 05/15/24",
+          "enrollStatus": "Open",
+          "textbookCost": "ZTC",
+          "length": "Full Term"
+        },
+        {
+          "crn": "34568",
+          "instructorEmail": "davis@example.com",
+          "instructorName": "Dr. Davis",
+          "instrMethod": "INP",
+          "days": "TR",
+          "startTime": "10:00",
+          "endTime": "11:30",
+          "location": "Humanities 204",
+          "dates": "01/15/24 - 05/15/24",
+          "enrollStatus": "Closed",
+          "textbookCost": null,
+          "length": "Full Term"
+        }
+      ]
+    },
+    {
+      "subj": "CHEM",
+      "crse": "301",
+      "course_id": "CHEM301",
+      "title": "Organic Chemistry",
+      "units": 5,
+      "description": "Structure and reactivity of organic compounds",
+      "college": "Mission College",
+      "term": "Spring 2024",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "45678",
+          "instructorEmail": "brown@example.com",
+          "instructorName": "Dr. Brown",
+          "instrMethod": "INP",
+          "days": "MTWR",
+          "startTime": "13:00",
+          "endTime": "14:50",
+          "location": "Science Lab 102",
+          "dates": "01/15/24 - 05/15/24",
+          "enrollStatus": "Open",
+          "textbookCost": "LTC",
+          "length": "Full Term"
+        }
+      ]
+    },
+    {
+      "subj": "PE",
+      "crse": "110",
+      "course_id": "PE110",
+      "title": "Physical Fitness",
+      "units": 1,
+      "description": "Personal fitness and wellness",
+      "college": "West Valley College",
+      "term": "Spring 2024",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "56789",
+          "instructorEmail": "martinez@example.com",
+          "instructorName": "Coach Martinez",
+          "instrMethod": "INP",
+          "days": "MWF",
+          "startTime": "07:00",
+          "endTime": "08:00",
+          "location": "Gym",
+          "dates": "01/15/24 - 05/15/24",
+          "enrollStatus": "Open",
+          "textbookCost": "ZTC",
+          "length": "Full Term"
+        },
+        {
+          "crn": "56790",
+          "instructorEmail": "garcia@example.com",
+          "instructorName": "Coach Garcia",
+          "instrMethod": "INP",
+          "days": "TR",
+          "startTime": "16:00",
+          "endTime": "17:30",
+          "location": "Fitness Center",
+          "dates": "01/15/24 - 05/15/24",
+          "enrollStatus": "Open",
+          "textbookCost": "ZTC",
+          "length": "Full Term"
+        }
+      ]
+    }
+  ]
+}

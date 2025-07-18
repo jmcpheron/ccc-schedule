@@ -12,12 +12,89 @@
 /* General Styles */
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    background-color: var(--light-bg);
+    background-color: white;
+}
+
+.list-style-none {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.badge {
+    font-weight: 400;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.badge-monday {
+    padding-left: .48em;
+    padding-right: .48em;
+}
+
+.badge-wednesday {
+    padding-left: .43em;
+    padding-right: .43em;
+}
+
+.badge-friday {
+    padding-left: .66em;
+    padding-right: .66em;
+}
+
+.badge-saturday {
+    padding-left: .66em;
+    padding-right: .66em;
+}
+
+table {
+    caption-side: top;
+}
+
+caption {
+    color: black;
+    font-weight: bold;
+}
+
+.button-select {
+    background-image: none;
+}
+
+.page-link.text {
+    color: black;
+}
+
+.nav-end {
+    float: right;
+}
+
+.circle {
+    background: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.text-end-desk {
+    text-align: inherit;
+}
+
+.height-75 {
+    height: 75px;
+}
+
+.logo-size {
+    max-width: 100%;
+    max-height: 100px;
 }
 
 /* Navigation */
-.navbar-brand img {
-    filter: brightness(0) invert(1);
+#top-navbar {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border-color);
 }
 
 /* Filters Card */
@@ -38,22 +115,51 @@ body {
     box-shadow: 0 0 0 0.2rem rgba(0, 102, 204, 0.25);
 }
 
-/* Day Selection Buttons */
-.btn-group-vertical .btn-check:checked + .btn-outline-secondary {
+/* Search Form */
+#search-form {
+    margin-top: 2rem;
+}
+
+#search_input_main {
+    margin-bottom: 1rem;
+}
+
+#button-search, #button-search-open {
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+/* Dropdown Customization */
+.dropdown-menu {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.form-check-input:checked {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
-    color: white;
 }
 
 /* Course Cards */
 .course-card {
     transition: transform 0.2s, box-shadow 0.2s;
     height: 100%;
+    border-color: rgb(0, 0, 0, .9);
+    border-bottom-color: rgb(0, 0, 0, .3);
 }
 
 .course-card:hover {
     transform: translateY(-2px);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.section-card {
+    border-color: #cfcfcf;
+}
+
+.card-body-meeting {
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .course-header {
@@ -171,6 +277,19 @@ body {
 }
 
 /* Responsive Adjustments */
+@media (min-width: 576px) {
+    .text-end-desk {
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 575.8px) {
+    .card-body-meeting {
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+}
+
 @media (max-width: 768px) {
     .btn-group[role="group"] {
         width: 100%;
@@ -182,6 +301,15 @@ body {
     
     .course-card {
         margin-bottom: 1rem;
+    }
+    
+    #search_input_main {
+        width: 100%;
+    }
+    
+    #button-search, #button-search-open {
+        width: 48%;
+        display: inline-block;
     }
 }
 
@@ -213,27 +341,30 @@ body {
     height: auto !important;
 }
 
-/* Custom Scrollbar for Filters */
-.card-body {
-    max-height: calc(100vh - 200px);
-    overflow-y: auto;
+/* Time Range Sliders */
+.form-range {
+    width: 100%;
 }
 
-.card-body::-webkit-scrollbar {
-    width: 6px;
+#start-time-result, #end-time-result {
+    font-weight: bold;
+    color: var(--primary-color);
 }
 
-.card-body::-webkit-scrollbar-track {
-    background: #f1f1f1;
+/* Search Results */
+#search-results-container {
+    margin-top: 2rem;
 }
 
-.card-body::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 3px;
+#search-results-spinner {
+    margin: 2rem 0;
 }
 
-.card-body::-webkit-scrollbar-thumb:hover {
-    background: #555;
+/* More Options Section */
+#more-options {
+    background-color: var(--light-bg);
+    border-radius: 0.5rem;
+    margin-top: 1rem;
 }
 
 /* Attribute Badges */

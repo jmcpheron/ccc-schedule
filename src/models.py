@@ -166,4 +166,3 @@ class FilterOptions:
     textbook_cost: Optional[str] = None
     open_only: bool = False
     keyword: Optional[str] = None
-

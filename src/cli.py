@@ -31,9 +31,7 @@ def main() -> int:
     validate_parser.add_argument("file", help="Path to course JSON file")
 
     # Filter command
-    filter_parser = subparsers.add_parser(
-        "filter", help="Filter courses by unit range"
-    )
+    filter_parser = subparsers.add_parser("filter", help="Filter courses by unit range")
     filter_parser.add_argument("file", help="Path to course JSON file")
     filter_parser.add_argument(
         "--min-units", type=float, default=0, help="Minimum units (default: 0)"
@@ -62,9 +60,7 @@ def main() -> int:
     schedule_filter_parser.add_argument(
         "--term", help="Filter by term code (e.g., 202530)"
     )
-    schedule_filter_parser.add_argument(
-        "--college", help="Filter by college ID"
-    )
+    schedule_filter_parser.add_argument("--college", help="Filter by college ID")
     schedule_filter_parser.add_argument(
         "--subject", help="Filter by subject code (e.g., CS)"
     )
@@ -74,18 +70,12 @@ def main() -> int:
     schedule_filter_parser.add_argument(
         "--keyword", help="Search in course title and description"
     )
-    schedule_filter_parser.add_argument(
-        "--min-units", type=float, help="Minimum units"
-    )
-    schedule_filter_parser.add_argument(
-        "--max-units", type=float, help="Maximum units"
-    )
+    schedule_filter_parser.add_argument("--min-units", type=float, help="Minimum units")
+    schedule_filter_parser.add_argument("--max-units", type=float, help="Maximum units")
     schedule_filter_parser.add_argument(
         "--open-only", action="store_true", help="Show only open sections"
     )
-    schedule_filter_parser.add_argument(
-        "--output", help="Output file path (optional)"
-    )
+    schedule_filter_parser.add_argument("--output", help="Output file path (optional)")
 
     args = parser.parse_args()
 
@@ -141,15 +131,17 @@ def main() -> int:
             for college in schedule.metadata.colleges:
                 print(f"    - {college.id}: {college.name} ({college.abbreviation})")
             print(f"\nSubjects ({len(unique_values['subjects'])}):")
-            for _, subject_code in enumerate(unique_values['subjects'][:10]):
+            for _, subject_code in enumerate(unique_values["subjects"][:10]):
                 subject = next(s for s in schedule.subjects if s.code == subject_code)
                 print(f"    - {subject.code}: {subject.name}")
-            if len(unique_values['subjects']) > 10:
+            if len(unique_values["subjects"]) > 10:
                 print(f"    ... and {len(unique_values['subjects']) - 10} more")
-            print(f"\nInstruction modes: {', '.join(unique_values['instruction_modes'])}")
+            print(
+                f"\nInstruction modes: {', '.join(unique_values['instruction_modes'])}"
+            )
             print(f"Textbook costs: {', '.join(unique_values['textbook_costs'])}")
             print(f"GE areas: {', '.join(unique_values['ge_areas'][:10])}")
-            if len(unique_values['ge_areas']) > 10:
+            if len(unique_values["ge_areas"]) > 10:
                 print(f"    ... and {len(unique_values['ge_areas']) - 10} more")
             return 0
 
@@ -165,7 +157,7 @@ def main() -> int:
                 keyword=args.keyword,
                 units_min=args.min_units,
                 units_max=args.max_units,
-                open_only=args.open_only
+                open_only=args.open_only,
             )
 
             # Apply filters
@@ -174,7 +166,9 @@ def main() -> int:
             # Count results
             total_sections = sum(len(course.sections) for course in filtered_courses)
 
-            print(f"Found {len(filtered_courses)} courses with {total_sections} sections")
+            print(
+                f"Found {len(filtered_courses)} courses with {total_sections} sections"
+            )
 
             # Show first few results
             for course in filtered_courses[:5]:
@@ -182,7 +176,9 @@ def main() -> int:
                 print(f"  Units: {course.units}")
                 print(f"  Sections: {len(course.sections)}")
                 for section in course.sections[:2]:
-                    print(f"    - CRN {section.crn}: {section.instruction_mode}, {section.status}")
+                    print(
+                        f"    - CRN {section.crn}: {section.instruction_mode}, {section.status}"
+                    )
                 if len(course.sections) > 2:
                     print(f"    ... and {len(course.sections) - 2} more sections")
 
@@ -216,4 +212,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-
