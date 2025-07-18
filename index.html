@@ -1,244 +1,450 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CCC Schedule</title>
     
-    <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/schedule.css">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="assets/placeholder-logo.svg" alt="Logo" height="30" class="d-inline-block align-text-top me-2">
-                CCC Schedule
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#helpModal">
-                            <i class="bi bi-question-circle"></i> Help
-                        </a>
-                    </li>
-                </ul>
+    <nav class="navbar navbar-light bg-light" id="top-navbar" aria-label="navigation">
+        <div class="container">
+            <div class="mx-auto">
+                <img src="assets/placeholder-logo.svg" alt="Logo" class="logo-size">
             </div>
         </div>
     </nav>
 
-    <!-- Main Content -->
-    <div class="container-fluid mt-3">
-        <div class="row">
-            <!-- Filters Sidebar -->
-            <div class="col-lg-3 col-md-4">
-                <div class="card">
-                    <div class="card-header">
-                        <h5 class="mb-0">
-                            <i class="bi bi-funnel"></i> Filters
-                        </h5>
+    <!-- Main Search Container -->
+    <div class="container">
+        <div class="mt-4">
+            <form id="search-form" action=".">
+                <div class="row align-items-end">
+                    <div class="col-12">
+                        <h1 class="text-center mb-4">Search for Classes</h1>
                     </div>
-                    <div class="card-body">
-                        <!-- Search -->
-                        <div class="mb-3">
-                            <label for="searchInput" class="form-label">Search</label>
-                            <input type="text" class="form-control" id="searchInput" 
-                                   placeholder="Search courses...">
+                    <div class="col-12 mb-3">
+                        <input id="search_input_main" class="form-control form-control-lg" type="search" placeholder="Subject, Course Number, CRN, or Keyword" aria-label="#search_input_main">
+                        <button class="btn btn-primary" type="submit" id="button-search" value="ALL" title="Search all sections"><span class="bi bi-search"></span> All</button>
+                        <button class="btn btn-success" type="submit" id="button-search-open" value="OPEN" title="Search open sections only"><span class="bi bi-search"></span> Open Classes</button>
+                    </div>
+                </div>
+                <div class="row g-3 mb-3">
+                    <div class="col-md-3">
+                        <label for="term-select" class="form-label">Term</label>
+                        <select class="form-select" id="term-select" aria-label="term select">
+                            <option value="">All Terms</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="college-select" class="form-label">College</label>
+                        <select class="form-select" id="college-select" aria-label="college select">
+                            <option value="">All Colleges</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="subject-select" class="form-label">Subject</label>
+                        <select class="form-select" aria-label="Select Subject" id="subject-select">
+                            <option value="">All Subjects</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <div id="instr-method-label">Instructional Mode</div>
+                        <div class="dropdown" id="instr-method-drop-down">
+                            <button class="form-select button-select dropdown-toggle" type="button" id="instr-method-button" data-bs-toggle="dropdown" aria-expanded="false">
+                                All Modes
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="instr-method-label">
+                                <li class="dropdown-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod1" value="INP">
+                                        <label class="form-check-label" for="flexRadioInstrMethod1">
+                                            In-Person
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod2" value="HYB">
+                                        <label class="form-check-label" for="flexRadioInstrMethod2">
+                                            Hybrid
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod6" value="FLX">
+                                        <label class="form-check-label" for="flexRadioInstrMethod6">
+                                            Flexible
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="dropdown-divider"></li>
+                                <li class="dropdown-item">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod4" value="AON">
+                                                <label class="form-check-label" for="flexRadioInstrMethod4">
+                                                    Asynchronous Online
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod5" value="SON">
+                                                <label class="form-check-label" for="flexRadioInstrMethod5">
+                                                    Synchronous Online
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-divider"></li>
+                                <li class="dropdown-item">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod6" value="TUT">
+                                                <label class="form-check-label" for="flexRadioInstrMethod6">
+                                                    Tutorial
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod7" value="WRK">
+                                                <label class="form-check-label" for="flexRadioInstrMethod7">
+                                                    Work Experience
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
+                    </div>
+                </div>
+            </form>
+        </div>
 
-                        <!-- Term -->
-                        <div class="mb-3">
-                            <label for="termSelect" class="form-label">Term</label>
-                            <select class="form-select" id="termSelect">
-                                <option value="">All Terms</option>
-                            </select>
-                        </div>
+        <div class="text-center mb-3">
+            <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#more-options" aria-expanded="false" aria-controls="more-options">
+                <i class="bi bi-chevron-down"></i> More Options
+            </button>
+        </div>
+    </div>
 
-                        <!-- College -->
-                        <div class="mb-3">
-                            <label for="collegeSelect" class="form-label">College</label>
-                            <select class="form-select" id="collegeSelect">
-                                <option value="">All Colleges</option>
-                            </select>
-                        </div>
-
-                        <!-- Subject -->
-                        <div class="mb-3">
-                            <label for="subjectSelect" class="form-label">Subject</label>
-                            <select class="form-select" id="subjectSelect">
-                                <option value="">All Subjects</option>
-                            </select>
-                        </div>
-
-                        <!-- Instruction Mode -->
-                        <div class="mb-3">
-                            <label for="modeSelect" class="form-label">Instruction Mode</label>
-                            <select class="form-select" id="modeSelect">
-                                <option value="">All Modes</option>
-                            </select>
-                        </div>
-
-                        <!-- Units Range -->
-                        <div class="mb-3">
-                            <label class="form-label">Units</label>
-                            <div class="row g-2">
-                                <div class="col">
-                                    <input type="number" class="form-control" id="minUnits" 
-                                           placeholder="Min" step="0.5" min="0">
-                                </div>
-                                <div class="col">
-                                    <input type="number" class="form-control" id="maxUnits" 
-                                           placeholder="Max" step="0.5" min="0">
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Days -->
-                        <div class="mb-3">
-                            <label class="form-label">Days</label>
-                            <div class="btn-group-vertical w-100" role="group">
-                                <input type="checkbox" class="btn-check" id="dayM" value="M">
-                                <label class="btn btn-outline-secondary btn-sm" for="dayM">Monday</label>
-                                
-                                <input type="checkbox" class="btn-check" id="dayT" value="T">
-                                <label class="btn btn-outline-secondary btn-sm" for="dayT">Tuesday</label>
-                                
-                                <input type="checkbox" class="btn-check" id="dayW" value="W">
-                                <label class="btn btn-outline-secondary btn-sm" for="dayW">Wednesday</label>
-                                
-                                <input type="checkbox" class="btn-check" id="dayR" value="R">
-                                <label class="btn btn-outline-secondary btn-sm" for="dayR">Thursday</label>
-                                
-                                <input type="checkbox" class="btn-check" id="dayF" value="F">
-                                <label class="btn btn-outline-secondary btn-sm" for="dayF">Friday</label>
-                                
-                                <input type="checkbox" class="btn-check" id="dayS" value="S">
-                                <label class="btn btn-outline-secondary btn-sm" for="dayS">Saturday</label>
-                            </div>
-                        </div>
-
-                        <!-- Time Range -->
-                        <div class="mb-3">
-                            <label class="form-label">Time Range</label>
-                            <div class="row g-2">
-                                <div class="col">
-                                    <input type="time" class="form-control" id="startTime">
-                                </div>
-                                <div class="col">
-                                    <input type="time" class="form-control" id="endTime">
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Additional Filters -->
-                        <div class="mb-3">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="openOnly">
-                                <label class="form-check-label" for="openOnly">
-                                    Open Sections Only
-                                </label>
-                            </div>
-                        </div>
-
-                        <!-- Reset Button -->
-                        <button class="btn btn-secondary w-100" id="resetFilters">
-                            <i class="bi bi-arrow-clockwise"></i> Reset Filters
+    <!-- More Options Collapsible Section -->
+    <div class="container">
+        <div class="collapse p-3" id="more-options">
+            <div class="row g-3">
+                <div class="col-md-3">
+                    <div id="sessions-label">Class Length</div>
+                    <div class="dropdown">
+                        <button class="form-select button-select dropdown-toggle" type="button" id="dropdownMenuButtonSessions" data-bs-toggle="dropdown" aria-expanded="false">
+                            Any Length
                         </button>
+                        <ul class="dropdown-menu" aria-labelledby="sessions-label" id="sessions-list">
+                            <li class="dropdown-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioSessions" id="flexRadioSessions1" value="1">
+                                    <label class="form-check-label" for="flexRadioSessions1">Full Term</label>
+                                </div>
+                            </li>
+                            <li class="dropdown-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioSessions" id="flexRadioSessions2" value="S">
+                                    <label class="form-check-label" for="flexRadioSessions2">Short Term</label>
+                                </div>
+                            </li>
+                            <li class="dropdown-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioSessions" id="flexRadioSessions3" value="x">
+                                    <label class="form-check-label" for="flexRadioSessions3">Any</label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <label for="instructor-input" class="form-label">Instructor</label>
+                    <input class="form-control" type="text" placeholder="Search for Instructor" aria-label="instructor" id="instructor-input" data-bs-toggle="dropdown">
+                    <input class="d-none" type="hidden" id="instructor-input-email">
+                    <ul class="dropdown-menu" id="instructor-drop-down">
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div id="textbook-cost-label">Textbook Cost</div>
+                    <div class="dropdown">
+                        <button class="form-select button-select dropdown-toggle" type="button" id="textbookDropDown" data-bs-toggle="dropdown" aria-expanded="false">Any Cost</button>
+                        <ul class="dropdown-menu" aria-labelledby="textbook-cost-label">
+                            <li class="dropdown-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="ZTC" name="textbookCost" id="textbookCost1">
+                                    <label class="form-check-label" for="textbookCost1">
+                                        <strong>ZTC</strong> - Zero Textbook Cost
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="dropdown-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="LTC" name="textbookCost" id="textbookCost2">
+                                    <label class="form-check-label" for="textbookCost2">
+                                        <strong>LTC</strong> - Low Textbook Cost (< $50)
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="meeting-days-label">Meeting Days</div>
+                    <div class="dropdown" id="instr-method-drop-down">
+                        <button class="form-select button-select dropdown-toggle" type="button" id="meetingDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            Any Days
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="meeting-days-label">
+                            <li class="dropdown-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="flexRadioMeetingDays" id="flexRadioMeetingDays1" value="M">
+                                    <label class="form-check-label" for="flexRadioMeetingDays1">Monday</label>
+                                </div>
+                            </li>
+                            <li class="dropdown-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="flexRadioMeetingDays" id="flexRadioMeetingDays2" value="T">
+                                    <label class="form-check-label" for="flexRadioMeetingDays2">Tuesday</label>
+                                </div>
+                            </li>
+                            <li class="dropdown-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="flexRadioMeetingDays" id="flexRadioMeetingDays3" value="W">
+                                    <label class="form-check-label" for="flexRadioMeetingDays3">Wednesday</label>
+                                </div>
+                            </li>
+                            <li class="dropdown-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="flexRadioMeetingDays" id="flexRadioMeetingDays4" value="R">
+                                    <label class="form-check-label" for="flexRadioMeetingDays4">Thursday</label>
+                                </div>
+                            </li>
+                            <li class="dropdown-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="flexRadioMeetingDays" id="flexRadioMeetingDays5" value="F">
+                                    <label class="form-check-label" for="flexRadioMeetingDays5">Friday</label>
+                                </div>
+                            </li>
+                            <li class="dropdown-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="flexRadioMeetingDays" id="flexRadioMeetingDays6" value="S">
+                                    <label class="form-check-label" for="flexRadioMeetingDays6">Saturday</label>
+                                </div>
+                            </li>
+                            <li class="dropdown-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="flexRadioMeetingDays" id="flexRadioMeetingDays7" value="U">
+                                    <label class="form-check-label" for="flexRadioMeetingDays7">Sunday</label>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-
-            <!-- Results Area -->
-            <div class="col-lg-9 col-md-8">
-                <!-- Results Header -->
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                    <h4 class="mb-0">
-                        <span id="resultCount">0</span> Results
-                    </h4>
-                    <div class="btn-group" role="group">
-                        <input type="radio" class="btn-check" name="viewMode" id="cardView" checked>
-                        <label class="btn btn-outline-primary" for="cardView">
-                            <i class="bi bi-grid-3x2-gap"></i> Card View
-                        </label>
-                        
-                        <input type="radio" class="btn-check" name="viewMode" id="tableView">
-                        <label class="btn btn-outline-primary" for="tableView">
-                            <i class="bi bi-table"></i> Table View
-                        </label>
+            <div class="row g-3 mt-3">
+                <div class="col-md-6">
+                    <label for="start-time" class="form-label">Start Time</label>
+                    <div><span id="start-time-result">05:00 AM</span></div>
+                    <input type="range" class="form-range" min="5" max="23" step="0.5" value="5" id="start-time">
+                </div>
+                <div class="col-md-6">
+                    <label for="end-time" class="form-label">End Time</label>
+                    <div><span id="end-time-result">12:00 AM</span></div>
+                    <input type="range" class="form-range" min="5" max="24" step="0.5" value="24" id="end-time">
+                </div>
+            </div>
+            <div class="row g-3 mt-3">
+                <div class="col-md-3">
+                    <div id="csuge-label">CSU Transfer/GE Requirements</div>
+                    <div class="dropdown">
+                        <button class="form-select dropdown-toggle" type="button" id="dropdownMenuButtonCSUGE" data-bs-toggle="dropdown" aria-expanded="false">
+                            Any
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="csuge-label" id="csuge-list">
+                        </ul>
                     </div>
                 </div>
-
-                <!-- Loading Spinner -->
-                <div id="loadingSpinner" class="text-center py-5">
-                    <div class="spinner-border text-primary" role="status">
-                        <span class="visually-hidden">Loading...</span>
+                <div class="col-md-3">
+                    <div id="igetc-label">UC/IGETC Transfer/GE Requirements</div>
+                    <div class="dropdown">
+                        <button class="form-select dropdown-toggle" type="button" id="dropdownMenuButtonIGETC" data-bs-toggle="dropdown" aria-expanded="false">
+                            Any
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="igetc-label" id="igetc-list">
+                        </ul>
                     </div>
-                    <p class="mt-2">Loading schedule data...</p>
                 </div>
-
-                <!-- Results Container -->
-                <div id="resultsContainer" style="display: none;">
-                    <!-- Card View Container -->
-                    <div id="cardViewContainer" class="row g-3">
-                        <!-- Course cards will be inserted here -->
+                <div class="col-md-3">
+                    <div id="wvm-label">Local GE Requirements</div>
+                    <div class="dropdown">
+                        <button class="form-select dropdown-toggle" type="button" id="dropdownMenuButtonWVM" data-bs-toggle="dropdown" aria-expanded="false">
+                            Any
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="wvm-label" id="wvm-list">
+                        </ul>
                     </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="calgetc-label">CalGETC Transfer/GE Requirements</div>
+                    <div class="dropdown">
+                        <button class="form-select dropdown-toggle" type="button" id="dropdownMenuButtonCALGETC" data-bs-toggle="dropdown" aria-expanded="false">
+                            Any
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="calgetc-label" id="calgetc-list">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-3 mt-3">
+                <div class="col-md-3">
+                    <label for="credit-select" class="form-label">Credit Type</label>
+                    <select class="form-select" aria-label="Credit Type" id="credit-select" name="credit-select">
+                        <option value="">All Types</option>
+                        <option value="CR">Credit</option>
+                        <option value="NC">Non-Credit</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                    <!-- Table View Container -->
-                    <div id="tableViewContainer" style="display: none;">
-                        <div class="table-responsive">
-                            <table class="table table-hover">
+    <!-- Search Results Container -->
+    <div id="search-results-container" class="container d-none">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="mt-4"><span id="term-title"></span>Search Results</h2>
+                <nav aria-label="Page navigation">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <button id="results-pagination-previous" class="page-link" type="button" aria-label="Previous" data-min=0 disabled>
+                                <span aria-hidden="true">&laquo;</span>
+                            </button>
+                        </li>
+                        <li class="page-item"><span class="page-link text"><span id="results-display-count"></span> of <span id="results-total-count"></span></span></li>
+                        <li class="page-item">
+                            <button class="page-link" id="results-pagination-next" type="button" aria-label="Next" data-min=0>
+                                <span aria-hidden="true">&raquo;</span>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="card" style="display:none" id="search-results-spinner">
+            <div class="card-body text-center">
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <ul class="list-style-none" id="class-search-results">
+            </ul>
+        </div>
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                <li class="page-item">
+                    <button id="results-pagination-previous-bottom" class="page-link" type="button" aria-label="Previous" data-min=0 disabled>
+                        <span aria-hidden="true">&laquo;</span>
+                    </button>
+                </li>
+                <li class="page-item"><span class="page-link text"><span id="results-display-count-bottom"></span> of <span id="results-total-count-bottom"></span></span></li>
+                <li class="page-item">
+                    <button class="page-link" id="results-pagination-next-bottom" type="button" aria-label="Next" data-min=0>
+                        <span aria-hidden="true">&raquo;</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Section Details Modal -->
+    <div class="modal fade" id="section-details-modal" tabindex="-1" aria-labelledby="section-details-college" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="section-details-college"></h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3 class="h3"><span id="section-details-subj"></span> <span id="section-details-crse"></span> <span id="section-details-title"></span></h3>
+                    <div class="row">
+                        <div>CRN <span id="section-details-crn"></span></div>
+                    </div>
+                    <div class="row mt-3">
+                        <div id="section-details-instructors">
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-4">
+                            <h5>Units</h5>
+                            <span id="section-details-units"></span>
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Length</h5>
+                            <span id="section-details-length"></span>
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Description</h5>
+                            <span id="section-details-description"></span>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <h5>Attributes</h5>
+                            <ul class="list-group" id="section-details-attributes"></ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div id="section-details-linked-courses">
+                            <h5>Linked Courses</h5>
+                            <table class="table" id="">
                                 <thead>
                                     <tr>
+                                        <th>CRN</th>
+                                        <th>Subject</th>
                                         <th>Course</th>
                                         <th>Title</th>
-                                        <th>Units</th>
-                                        <th>Sections</th>
-                                        <th>Actions</th>
                                     </tr>
                                 </thead>
-                                <tbody id="tableBody">
-                                    <!-- Table rows will be inserted here -->
+                                <tbody id="section-details-linked-courses-tbody">
                                 </tbody>
                             </table>
                         </div>
                     </div>
-
-                    <!-- Pagination -->
-                    <nav aria-label="Page navigation" class="mt-4">
-                        <ul class="pagination justify-content-center" id="pagination">
-                            <!-- Pagination will be inserted here -->
-                        </ul>
-                    </nav>
-                </div>
-
-                <!-- No Results Message -->
-                <div id="noResults" class="alert alert-info" style="display: none;">
-                    <i class="bi bi-info-circle"></i> No courses found matching your criteria.
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Section Details Modal -->
-    <div class="modal fade" id="sectionModal" tabindex="-1">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="sectionModalTitle">Section Details</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body" id="sectionModalBody">
-                    <!-- Section details will be inserted here -->
+                    <div class="p-2" id="section-details-cohorts-container">
+                        <h5>Learning Communities</h5>
+                        <ul class="list-group" id="section-details-cohorts"></ul>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <h5>Textbook Information</h5>
+                            <span id="section-details-bookstore-link"></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -247,52 +453,23 @@
         </div>
     </div>
 
-    <!-- Help Modal -->
-    <div class="modal fade" id="helpModal" tabindex="-1">
-        <div class="modal-dialog modal-lg">
+    <!-- Spinner Modal -->
+    <div class="modal fade" id="spinner-modal" tabindex="-1">
+        <div class="modal-dialog modal-sm">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">How to Use CCC Schedule</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body">
-                    <h6>Search and Filters</h6>
-                    <ul>
-                        <li>Use the search box to find courses by keyword, course number, or title</li>
-                        <li>Select specific terms, colleges, or subjects from the dropdowns</li>
-                        <li>Filter by instruction mode, units, days, and time</li>
-                        <li>Check "Open Sections Only" to see only available sections</li>
-                    </ul>
-                    
-                    <h6>View Modes</h6>
-                    <ul>
-                        <li><strong>Card View:</strong> Shows detailed course information in cards</li>
-                        <li><strong>Table View:</strong> Compact view for browsing many courses</li>
-                    </ul>
-                    
-                    <h6>Section Information</h6>
-                    <p>Click on any section to view detailed information including:</p>
-                    <ul>
-                        <li>Meeting times and locations</li>
-                        <li>Instructor information</li>
-                        <li>Enrollment status</li>
-                        <li>Textbook requirements</li>
-                    </ul>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <div class="modal-body text-center">
+                    <div class="spinner-border" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p class="mt-2">Loading...</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    
-    <!-- Bootstrap 5 JS Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Scripts already loaded in head section -->
     
     <!-- Custom JS -->
-    <script src="js/schedule.js"></script>
+    <script src="js/schedule-enhanced.js"></script>
 </body>
 </html>
