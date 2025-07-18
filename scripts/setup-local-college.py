@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 Setup script for creating a local college test environment.
 This script automates the process of setting up a test branch with college-specific data.
@@ -7,8 +6,6 @@ This script automates the process of setting up a test branch with college-speci
 
 import argparse
 import json
-import os
-import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -50,7 +47,7 @@ def setup_college_data(college_name, college_id):
         sys.exit(1)
 
     # Load template
-    with open(template_path, "r") as f:
+    with open(template_path) as f:
         data = json.load(f)
 
     # Update college name in all courses
@@ -74,7 +71,7 @@ def update_javascript(data_file):
         return
 
     # Read the file
-    with open(js_file, "r") as f:
+    with open(js_file) as f:
         content = f.read()
 
     # Replace the data file path
@@ -98,7 +95,7 @@ def update_branding(college_name):
         print("Warning: index.html not found.")
         return
 
-    with open(html_file, "r") as f:
+    with open(html_file) as f:
         content = f.read()
 
     # Update title
@@ -201,7 +198,7 @@ def main():
     if not args.no_server:
         start_server(args.port)
     else:
-        print(f"\nTo start the server manually, run:")
+        print("\nTo start the server manually, run:")
         print(f"python -m http.server {args.port}")
 
 
