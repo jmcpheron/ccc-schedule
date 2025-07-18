@@ -1,0 +1,17 @@
+
+[
+  {
+    "ROW_NUMBER": 1,
+    "SSRRCHR_TERM_CODE": "202110",
+    "SSRRCHR_CRN": "10269",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  },
+  {
+    "ROW_NUMBER": 2,
+    "SSRRCHR_TERM_CODE": "202110",
+    "SSRRCHR_CRN": "10270",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  }
+]

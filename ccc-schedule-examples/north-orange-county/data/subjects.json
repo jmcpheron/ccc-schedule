@@ -1,0 +1,426 @@
+[{
+    "subjKey": "AC/R",
+    "subjCode": "AC/R",
+    "subjDesc": "Air Conditioning/Refrigeration",
+    "c": ["1"]
+}, {
+    "subjKey": "ACCT",
+    "subjCode": "ACCT",
+    "subjDesc": "Accounting",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "ACR",
+    "subjCode": "ACR",
+    "subjDesc": "Automotive Collision Repair",
+    "c": ["1"]
+}, {
+    "subjKey": "AJ",
+    "subjCode": "AJ",
+    "subjDesc": "Administration of Justice",
+    "c": ["1", "1NH", "2"]
+}, {
+    "subjKey": "ANAT",
+    "subjCode": "ANAT",
+    "subjDesc": "Anatomy and Physiology",
+    "c": ["2"]
+}, {
+    "subjKey": "ANTH",
+    "subjCode": "ANTH",
+    "subjDesc": "Anthropology",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "ARCH",
+    "subjCode": "ARCH",
+    "subjDesc": "Architecture",
+    "c": ["2"]
+}, {
+    "subjKey": "ART",
+    "subjCode": "ART",
+    "subjDesc": "Art",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "ARTH",
+    "subjCode": "ARTH",
+    "subjDesc": "Art History",
+    "c": ["2", "2NH"]
+}, {
+    "subjKey": "ASL",
+    "subjCode": "ASL",
+    "subjDesc": "American Sign Language",
+    "c": ["2"]
+}, {
+    "subjKey": "ASTR",
+    "subjCode": "ASTR",
+    "subjDesc": "Astronomy",
+    "c": ["1"]
+}, {
+    "subjKey": "AT",
+    "subjCode": "AT",
+    "subjDesc": "Automotive Technology",
+    "c": ["1", "1NH"]
+}, {
+    "subjKey": "ATC",
+    "subjCode": "ATC",
+    "subjDesc": "Aviation and Travel Careers",
+    "c": ["1", "1NH"]
+}, {
+    "subjKey": "BIOL",
+    "subjCode": "BIOL",
+    "subjDesc": "Biology",
+    "c": ["1", "2", "2NH"]
+}, {
+    "subjKey": "BUS",
+    "subjCode": "BUS",
+    "subjDesc": "Business Management",
+    "c": ["1", "1NH", "2"]
+}, {
+    "subjKey": "CDES",
+    "subjCode": "CDES",
+    "subjDesc": "Child Development Ed Studies",
+    "c": ["2"]
+}, {
+    "subjKey": "CHEM",
+    "subjCode": "CHEM",
+    "subjDesc": "Chemistry",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "CHIN",
+    "subjCode": "CHIN",
+    "subjDesc": "Chinese",
+    "c": ["1"]
+}, {
+    "subjKey": "CIS",
+    "subjCode": "CIS",
+    "subjDesc": "Computer Information Systems",
+    "c": ["1", "1NH", "2"]
+}, {
+    "subjKey": "CISG",
+    "subjCode": "CISG",
+    "subjDesc": "Computer Games",
+    "c": ["2"]
+}, {
+    "subjKey": "COMM",
+    "subjCode": "COMM",
+    "subjDesc": "Communication Studies",
+    "c": ["1", "1NH", "2", "2NH"]
+}, {
+    "subjKey": "COSM",
+    "subjCode": "COSM",
+    "subjDesc": "Cosmetology",
+    "c": ["2"]
+}, {
+    "subjKey": "COUN",
+    "subjCode": "COUN",
+    "subjDesc": "Counseling and Guidance",
+    "c": ["1", "1NH", "2", "2NH"]
+}, {
+    "subjKey": "CRTV",
+    "subjCode": "CRTV",
+    "subjDesc": "Cinema, Radio and Television",
+    "c": ["2"]
+}, {
+    "subjKey": "CSCI",
+    "subjCode": "CSCI",
+    "subjDesc": "Computer Science",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "CTRP",
+    "subjCode": "CTRP",
+    "subjDesc": "Court Reporting",
+    "c": ["1"]
+}, {
+    "subjKey": "CYBR",
+    "subjCode": "CYBR",
+    "subjDesc": "Cybersecurity",
+    "c": ["2"]
+}, {
+    "subjKey": "DANC",
+    "subjCode": "DANC",
+    "subjDesc": "Dance",
+    "c": ["1", "1NH", "2"]
+}, {
+    "subjKey": "DART",
+    "subjCode": "DART",
+    "subjDesc": "Digital Arts",
+    "c": ["2"]
+}, {
+    "subjKey": "DH",
+    "subjCode": "DH",
+    "subjDesc": "Dental Hygiene",
+    "c": ["1"]
+}, {
+    "subjKey": "DIST",
+    "subjCode": "DIST",
+    "subjDesc": "Distance Education",
+    "c": ["2"]
+}, {
+    "subjKey": "DMS",
+    "subjCode": "DMS",
+    "subjDesc": "Diagnostic Medical Technology",
+    "c": ["1"]
+}, {
+    "subjKey": "ECON",
+    "subjCode": "ECON",
+    "subjDesc": "Economics",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "ENGL",
+    "subjCode": "ENGL",
+    "subjDesc": "English",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "ENGR",
+    "subjCode": "ENGR",
+    "subjDesc": "Engineering",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "ESC",
+    "subjCode": "ESC",
+    "subjDesc": "Earth Sciences",
+    "c": ["2"]
+}, {
+    "subjKey": "ESL",
+    "subjCode": "ESL",
+    "subjDesc": "English as a Second Language",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "ETHS",
+    "subjCode": "ETHS",
+    "subjDesc": "Ethnic Studies",
+    "c": ["1", "2", "2NH"]
+}, {
+    "subjKey": "FASH",
+    "subjCode": "FASH",
+    "subjDesc": "Fashion",
+    "c": ["2"]
+}, {
+    "subjKey": "FREN",
+    "subjCode": "FREN",
+    "subjDesc": "French",
+    "c": ["2"]
+}, {
+    "subjKey": "GEOG",
+    "subjCode": "GEOG",
+    "subjDesc": "Geography",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "GEOL",
+    "subjCode": "GEOL",
+    "subjDesc": "Geology",
+    "c": ["1"]
+}, {
+    "subjKey": "GERM",
+    "subjCode": "GERM",
+    "subjDesc": "German",
+    "c": ["2"]
+}, {
+    "subjKey": "GRFX",
+    "subjCode": "GRFX",
+    "subjDesc": "Graphic Design",
+    "c": ["2"]
+}, {
+    "subjKey": "HED",
+    "subjCode": "HED",
+    "subjDesc": "Health Education",
+    "c": ["2"]
+}, {
+    "subjKey": "HIST",
+    "subjCode": "HIST",
+    "subjDesc": "History",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "HRC",
+    "subjCode": "HRC",
+    "subjDesc": "Hotel, Restaurant, Culinary Ar",
+    "c": ["1", "1NH"]
+}, {
+    "subjKey": "HS",
+    "subjCode": "HS",
+    "subjDesc": "Health Science",
+    "c": ["1"]
+}, {
+    "subjKey": "HUM",
+    "subjCode": "HUM",
+    "subjDesc": "Humanities",
+    "c": ["2"]
+}, {
+    "subjKey": "HUSR",
+    "subjCode": "HUSR",
+    "subjDesc": "Human Services",
+    "c": ["1"]
+}, {
+    "subjKey": "JAPN",
+    "subjCode": "JAPN",
+    "subjDesc": "Japanese",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "JOUR",
+    "subjCode": "JOUR",
+    "subjDesc": "Journalism",
+    "c": ["1", "1NH", "2"]
+}, {
+    "subjKey": "KIN",
+    "subjCode": "KIN",
+    "subjDesc": "Kinesiology",
+    "c": ["1", "1NH"]
+}, {
+    "subjKey": "LAR",
+    "subjCode": "LAR",
+    "subjDesc": "Learning and Academic Resource",
+    "c": ["1"]
+}, {
+    "subjKey": "LIB",
+    "subjCode": "LIB",
+    "subjDesc": "Library Technology",
+    "c": ["2"]
+}, {
+    "subjKey": "MAD",
+    "subjCode": "MAD",
+    "subjDesc": "Media Arts Design",
+    "c": ["1", "1NH"]
+}, {
+    "subjKey": "MATH",
+    "subjCode": "MATH",
+    "subjDesc": "Mathematics",
+    "c": ["1", "2", "2NH"]
+}, {
+    "subjKey": "MIND",
+    "subjCode": "MIND",
+    "subjDesc": "Mindfulness",
+    "c": ["2"]
+}, {
+    "subjKey": "MKT",
+    "subjCode": "MKT",
+    "subjDesc": "Marketing",
+    "c": ["2"]
+}, {
+    "subjKey": "MORT",
+    "subjCode": "MORT",
+    "subjDesc": "Mortuary Science",
+    "c": ["1"]
+}, {
+    "subjKey": "MUS",
+    "subjCode": "MUS",
+    "subjDesc": "Music",
+    "c": ["1", "1NH", "2", "2NH"]
+}, {
+    "subjKey": "MUSA",
+    "subjCode": "MUSA",
+    "subjDesc": "Music-Applied",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "NURS",
+    "subjCode": "NURS",
+    "subjDesc": "Nursing",
+    "c": ["1"]
+}, {
+    "subjKey": "NUTR",
+    "subjCode": "NUTR",
+    "subjDesc": "Nutrition and Foods",
+    "c": ["2"]
+}, {
+    "subjKey": "PAYR",
+    "subjCode": "PAYR",
+    "subjDesc": "Payroll Purposes Only - FC",
+    "c": ["2"]
+}, {
+    "subjKey": "PE",
+    "subjCode": "PE",
+    "subjDesc": "Physical Education",
+    "c": ["2"]
+}, {
+    "subjKey": "PHIL",
+    "subjCode": "PHIL",
+    "subjDesc": "Philosophy & Religious Studies",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "PHOT",
+    "subjCode": "PHOT",
+    "subjDesc": "Photography",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "PHS",
+    "subjCode": "PHS",
+    "subjDesc": "Public Health Science",
+    "c": ["1"]
+}, {
+    "subjKey": "PHYS",
+    "subjCode": "PHYS",
+    "subjDesc": "Physics",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "PLEG",
+    "subjCode": "PLEG",
+    "subjDesc": "Paralegal Studies",
+    "c": ["2"]
+}, {
+    "subjKey": "POSC",
+    "subjCode": "POSC",
+    "subjDesc": "Political Science",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "PSY",
+    "subjCode": "PSY",
+    "subjDesc": "Psychology",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "PT",
+    "subjCode": "PT",
+    "subjDesc": "Psychiatric Technology",
+    "c": ["1"]
+}, {
+    "subjKey": "RADT",
+    "subjCode": "RADT",
+    "subjDesc": "Radiologic Technology",
+    "c": ["1"]
+}, {
+    "subjKey": "RE",
+    "subjCode": "RE",
+    "subjDesc": "Real Estate",
+    "c": ["2"]
+}, {
+    "subjKey": "READ",
+    "subjCode": "READ",
+    "subjDesc": "Reading",
+    "c": ["2"]
+}, {
+    "subjKey": "SOC",
+    "subjCode": "SOC",
+    "subjDesc": "Sociology",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "SPAN",
+    "subjCode": "SPAN",
+    "subjDesc": "Spanish",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "TECH",
+    "subjCode": "TECH",
+    "subjDesc": "Technology-Related Courses",
+    "c": ["2"]
+}, {
+    "subjKey": "THEA",
+    "subjCode": "THEA",
+    "subjDesc": "Theatre Arts",
+    "c": ["1", "2"]
+}, {
+    "subjKey": "TUT",
+    "subjCode": "TUT",
+    "subjDesc": "Tutoring",
+    "c": ["2NH"]
+}, {
+    "subjKey": "WELD",
+    "subjCode": "WELD",
+    "subjDesc": "Welding",
+    "c": ["2"]
+}, {
+    "subjKey": "WELL",
+    "subjCode": "WELL",
+    "subjDesc": "Wellness",
+    "c": ["2"]
+}, {
+    "subjKey": "WKEX",
+    "subjCode": "WKEX",
+    "subjDesc": "Work Experience",
+    "c": ["2"]
+}]

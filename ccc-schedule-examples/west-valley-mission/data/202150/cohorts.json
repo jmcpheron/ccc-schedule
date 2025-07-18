@@ -1,0 +1,101 @@
+
+[
+  {
+    "ROW_NUMBER": 1,
+    "SSRRCHR_TERM_CODE": "202150",
+    "SSRRCHR_CRN": "52582",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 2,
+    "SSRRCHR_TERM_CODE": "202150",
+    "SSRRCHR_CRN": "52185",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  },
+  {
+    "ROW_NUMBER": 3,
+    "SSRRCHR_TERM_CODE": "202150",
+    "SSRRCHR_CRN": "52246",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  },
+  {
+    "ROW_NUMBER": 4,
+    "SSRRCHR_TERM_CODE": "202150",
+    "SSRRCHR_CRN": "52156",
+    "SSRRCHR_CHRT_CODE": "WHONR",
+    "STVCHRT_DESC": "WV Honors Student"
+  },
+  {
+    "ROW_NUMBER": 5,
+    "SSRRCHR_TERM_CODE": "202150",
+    "SSRRCHR_CRN": "52553",
+    "SSRRCHR_CHRT_CODE": "MNA1A",
+    "STVCHRT_DESC": "MC Nursing Assistant"
+  },
+  {
+    "ROW_NUMBER": 6,
+    "SSRRCHR_TERM_CODE": "202150",
+    "SSRRCHR_CRN": "52554",
+    "SSRRCHR_CHRT_CODE": "MNA1A",
+    "STVCHRT_DESC": "MC Nursing Assistant"
+  },
+  {
+    "ROW_NUMBER": 7,
+    "SSRRCHR_TERM_CODE": "202150",
+    "SSRRCHR_CRN": "52555",
+    "SSRRCHR_CHRT_CODE": "MNA1A",
+    "STVCHRT_DESC": "MC Nursing Assistant"
+  },
+  {
+    "ROW_NUMBER": 8,
+    "SSRRCHR_TERM_CODE": "202150",
+    "SSRRCHR_CRN": "52556",
+    "SSRRCHR_CHRT_CODE": "MNA1A",
+    "STVCHRT_DESC": "MC Nursing Assistant"
+  },
+  {
+    "ROW_NUMBER": 9,
+    "SSRRCHR_TERM_CODE": "202150",
+    "SSRRCHR_CRN": "52557",
+    "SSRRCHR_CHRT_CODE": "MRN1A",
+    "STVCHRT_DESC": "MC Registered Nurse 1st sem"
+  },
+  {
+    "ROW_NUMBER": 10,
+    "SSRRCHR_TERM_CODE": "202150",
+    "SSRRCHR_CRN": "52558",
+    "SSRRCHR_CHRT_CODE": "MRN1A",
+    "STVCHRT_DESC": "MC Registered Nurse 1st sem"
+  },
+  {
+    "ROW_NUMBER": 11,
+    "SSRRCHR_TERM_CODE": "202150",
+    "SSRRCHR_CRN": "52559",
+    "SSRRCHR_CHRT_CODE": "MRN1A",
+    "STVCHRT_DESC": "MC Registered Nurse 1st sem"
+  },
+  {
+    "ROW_NUMBER": 12,
+    "SSRRCHR_TERM_CODE": "202150",
+    "SSRRCHR_CRN": "52560",
+    "SSRRCHR_CHRT_CODE": "MRN1A",
+    "STVCHRT_DESC": "MC Registered Nurse 1st sem"
+  },
+  {
+    "ROW_NUMBER": 13,
+    "SSRRCHR_TERM_CODE": "202150",
+    "SSRRCHR_CRN": "52561",
+    "SSRRCHR_CHRT_CODE": "MRN1A",
+    "STVCHRT_DESC": "MC Registered Nurse 1st sem"
+  },
+  {
+    "ROW_NUMBER": 14,
+    "SSRRCHR_TERM_CODE": "202150",
+    "SSRRCHR_CRN": "52603",
+    "SSRRCHR_CHRT_CODE": "MRN1A",
+    "STVCHRT_DESC": "MC Registered Nurse 1st sem"
+  }
+]

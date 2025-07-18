@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCC Schedule</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/schedule.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/placeholder-logo.svg" alt="Logo" height="30" class="d-inline-block align-text-top me-2">
+                CCC Schedule
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#helpModal">
+                            <i class="bi bi-question-circle"></i> Help
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <!-- Filters Sidebar -->
+            <div class="col-lg-3 col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <i class="bi bi-funnel"></i> Filters
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <!-- Search -->
+                        <div class="mb-3">
+                            <label for="searchInput" class="form-label">Search</label>
+                            <input type="text" class="form-control" id="searchInput" 
+                                   placeholder="Search courses...">
+                        </div>
+
+                        <!-- Term -->
+                        <div class="mb-3">
+                            <label for="termSelect" class="form-label">Term</label>
+                            <select class="form-select" id="termSelect">
+                                <option value="">All Terms</option>
+                            </select>
+                        </div>
+
+                        <!-- College -->
+                        <div class="mb-3">
+                            <label for="collegeSelect" class="form-label">College</label>
+                            <select class="form-select" id="collegeSelect">
+                                <option value="">All Colleges</option>
+                            </select>
+                        </div>
+
+                        <!-- Subject -->
+                        <div class="mb-3">
+                            <label for="subjectSelect" class="form-label">Subject</label>
+                            <select class="form-select" id="subjectSelect">
+                                <option value="">All Subjects</option>
+                            </select>
+                        </div>
+
+                        <!-- Instruction Mode -->
+                        <div class="mb-3">
+                            <label for="modeSelect" class="form-label">Instruction Mode</label>
+                            <select class="form-select" id="modeSelect">
+                                <option value="">All Modes</option>
+                            </select>
+                        </div>
+
+                        <!-- Units Range -->
+                        <div class="mb-3">
+                            <label class="form-label">Units</label>
+                            <div class="row g-2">
+                                <div class="col">
+                                    <input type="number" class="form-control" id="minUnits" 
+                                           placeholder="Min" step="0.5" min="0">
+                                </div>
+                                <div class="col">
+                                    <input type="number" class="form-control" id="maxUnits" 
+                                           placeholder="Max" step="0.5" min="0">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Days -->
+                        <div class="mb-3">
+                            <label class="form-label">Days</label>
+                            <div class="btn-group-vertical w-100" role="group">
+                                <input type="checkbox" class="btn-check" id="dayM" value="M">
+                                <label class="btn btn-outline-secondary btn-sm" for="dayM">Monday</label>
+                                
+                                <input type="checkbox" class="btn-check" id="dayT" value="T">
+                                <label class="btn btn-outline-secondary btn-sm" for="dayT">Tuesday</label>
+                                
+                                <input type="checkbox" class="btn-check" id="dayW" value="W">
+                                <label class="btn btn-outline-secondary btn-sm" for="dayW">Wednesday</label>
+                                
+                                <input type="checkbox" class="btn-check" id="dayR" value="R">
+                                <label class="btn btn-outline-secondary btn-sm" for="dayR">Thursday</label>
+                                
+                                <input type="checkbox" class="btn-check" id="dayF" value="F">
+                                <label class="btn btn-outline-secondary btn-sm" for="dayF">Friday</label>
+                                
+                                <input type="checkbox" class="btn-check" id="dayS" value="S">
+                                <label class="btn btn-outline-secondary btn-sm" for="dayS">Saturday</label>
+                            </div>
+                        </div>
+
+                        <!-- Time Range -->
+                        <div class="mb-3">
+                            <label class="form-label">Time Range</label>
+                            <div class="row g-2">
+                                <div class="col">
+                                    <input type="time" class="form-control" id="startTime">
+                                </div>
+                                <div class="col">
+                                    <input type="time" class="form-control" id="endTime">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Additional Filters -->
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="openOnly">
+                                <label class="form-check-label" for="openOnly">
+                                    Open Sections Only
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Reset Button -->
+                        <button class="btn btn-secondary w-100" id="resetFilters">
+                            <i class="bi bi-arrow-clockwise"></i> Reset Filters
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results Area -->
+            <div class="col-lg-9 col-md-8">
+                <!-- Results Header -->
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="mb-0">
+                        <span id="resultCount">0</span> Results
+                    </h4>
+                    <div class="btn-group" role="group">
+                        <input type="radio" class="btn-check" name="viewMode" id="cardView" checked>
+                        <label class="btn btn-outline-primary" for="cardView">
+                            <i class="bi bi-grid-3x2-gap"></i> Card View
+                        </label>
+                        
+                        <input type="radio" class="btn-check" name="viewMode" id="tableView">
+                        <label class="btn btn-outline-primary" for="tableView">
+                            <i class="bi bi-table"></i> Table View
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Loading Spinner -->
+                <div id="loadingSpinner" class="text-center py-5">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p class="mt-2">Loading schedule data...</p>
+                </div>
+
+                <!-- Results Container -->
+                <div id="resultsContainer" style="display: none;">
+                    <!-- Card View Container -->
+                    <div id="cardViewContainer" class="row g-3">
+                        <!-- Course cards will be inserted here -->
+                    </div>
+
+                    <!-- Table View Container -->
+                    <div id="tableViewContainer" style="display: none;">
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Course</th>
+                                        <th>Title</th>
+                                        <th>Units</th>
+                                        <th>Sections</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tableBody">
+                                    <!-- Table rows will be inserted here -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Pagination -->
+                    <nav aria-label="Page navigation" class="mt-4">
+                        <ul class="pagination justify-content-center" id="pagination">
+                            <!-- Pagination will be inserted here -->
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- No Results Message -->
+                <div id="noResults" class="alert alert-info" style="display: none;">
+                    <i class="bi bi-info-circle"></i> No courses found matching your criteria.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section Details Modal -->
+    <div class="modal fade" id="sectionModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="sectionModalTitle">Section Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="sectionModalBody">
+                    <!-- Section details will be inserted here -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Help Modal -->
+    <div class="modal fade" id="helpModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">How to Use CCC Schedule</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Search and Filters</h6>
+                    <ul>
+                        <li>Use the search box to find courses by keyword, course number, or title</li>
+                        <li>Select specific terms, colleges, or subjects from the dropdowns</li>
+                        <li>Filter by instruction mode, units, days, and time</li>
+                        <li>Check "Open Sections Only" to see only available sections</li>
+                    </ul>
+                    
+                    <h6>View Modes</h6>
+                    <ul>
+                        <li><strong>Card View:</strong> Shows detailed course information in cards</li>
+                        <li><strong>Table View:</strong> Compact view for browsing many courses</li>
+                    </ul>
+                    
+                    <h6>Section Information</h6>
+                    <p>Click on any section to view detailed information including:</p>
+                    <ul>
+                        <li>Meeting times and locations</li>
+                        <li>Instructor information</li>
+                        <li>Enrollment status</li>
+                        <li>Textbook requirements</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/schedule.js"></script>
+</body>
+</html>

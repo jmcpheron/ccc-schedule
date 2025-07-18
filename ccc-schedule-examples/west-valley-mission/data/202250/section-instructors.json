@@ -1,0 +1,4420 @@
+
+[
+  {
+    "ROW_NUMBER": 1,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50001",
+    "INSTRUCTOR_NAME": "Jackman, Rashi",
+    "INSTRUCTOR_EMAIL": "rashi.jackman@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 2,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50002",
+    "INSTRUCTOR_NAME": "Morgan, Tim",
+    "INSTRUCTOR_EMAIL": "tim.morgan@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 3,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50003",
+    "INSTRUCTOR_NAME": "Jackman, Rashi",
+    "INSTRUCTOR_EMAIL": "rashi.jackman@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 4,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50004",
+    "INSTRUCTOR_NAME": "Kelly, Tim",
+    "INSTRUCTOR_EMAIL": "tim.kelly@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 5,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50005",
+    "INSTRUCTOR_NAME": "Kelly, Tim",
+    "INSTRUCTOR_EMAIL": "tim.kelly@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 6,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50006",
+    "INSTRUCTOR_NAME": "Wise, Adriano",
+    "INSTRUCTOR_EMAIL": "adriano.wise@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 7,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50007",
+    "INSTRUCTOR_NAME": "Wise, Adriano",
+    "INSTRUCTOR_EMAIL": "adriano.wise@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 8,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50008",
+    "INSTRUCTOR_NAME": "Ukudeeva, Jamilya",
+    "INSTRUCTOR_EMAIL": "jamilya.ukudeeva@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 9,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50009",
+    "INSTRUCTOR_NAME": "DeDen, Tom",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 10,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50010",
+    "INSTRUCTOR_NAME": "Castillo, Victor",
+    "INSTRUCTOR_EMAIL": "victor.castillo@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 11,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50011",
+    "INSTRUCTOR_NAME": "DeDen, Tom",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 12,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50015",
+    "INSTRUCTOR_NAME": "Ho, Jennifer",
+    "INSTRUCTOR_EMAIL": "jennifer.ho@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 13,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50017",
+    "INSTRUCTOR_NAME": "De Les Dernier, Bruce",
+    "INSTRUCTOR_EMAIL": "bruce.delesdernier@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 14,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50018",
+    "INSTRUCTOR_NAME": "De Les Dernier, Bruce",
+    "INSTRUCTOR_EMAIL": "bruce.delesdernier@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 15,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50019",
+    "INSTRUCTOR_NAME": "Allen, Jerry",
+    "INSTRUCTOR_EMAIL": "jerry.allen@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 16,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50020",
+    "INSTRUCTOR_NAME": "Zsadanyi-Yale, Amy",
+    "INSTRUCTOR_EMAIL": "amy.yale@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 17,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50021",
+    "INSTRUCTOR_NAME": "Zsadanyi-Yale, Amy",
+    "INSTRUCTOR_EMAIL": "amy.yale@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 18,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50022",
+    "INSTRUCTOR_NAME": "Zsadanyi-Yale, Amy",
+    "INSTRUCTOR_EMAIL": "amy.yale@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 19,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50023",
+    "INSTRUCTOR_NAME": "Mendelsohn, Benjamin",
+    "INSTRUCTOR_EMAIL": "benjamin.mendelsohn@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 20,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50024",
+    "INSTRUCTOR_NAME": "Lopez, Robert",
+    "INSTRUCTOR_EMAIL": "robert.lopez@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 21,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50026",
+    "INSTRUCTOR_NAME": "Lawson, Linda",
+    "INSTRUCTOR_EMAIL": "linda.lawson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 22,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50026",
+    "INSTRUCTOR_NAME": "Ortiz, Maggie",
+    "INSTRUCTOR_EMAIL": "maggie.ortiz@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 23,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50027",
+    "INSTRUCTOR_NAME": "Lawson, Linda",
+    "INSTRUCTOR_EMAIL": "linda.lawson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 24,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50027",
+    "INSTRUCTOR_NAME": "Ortiz, Maggie",
+    "INSTRUCTOR_EMAIL": "maggie.ortiz@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 25,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50028",
+    "INSTRUCTOR_NAME": "Lawson, Linda",
+    "INSTRUCTOR_EMAIL": "linda.lawson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 26,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50028",
+    "INSTRUCTOR_NAME": "Ortiz, Maggie",
+    "INSTRUCTOR_EMAIL": "maggie.ortiz@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 27,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50029",
+    "INSTRUCTOR_NAME": "Star, Terry",
+    "INSTRUCTOR_EMAIL": "terry.star@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 28,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50029",
+    "INSTRUCTOR_NAME": "Vartanian, Sharon",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 29,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50030",
+    "INSTRUCTOR_NAME": "Star, Terry",
+    "INSTRUCTOR_EMAIL": "terry.star@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 30,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50030",
+    "INSTRUCTOR_NAME": "Vartanian, Sharon",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 31,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50031",
+    "INSTRUCTOR_NAME": "Van Dorn, Eric",
+    "INSTRUCTOR_EMAIL": "eric.van.dorn@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 32,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50031",
+    "INSTRUCTOR_NAME": "Leung, Christine",
+    "INSTRUCTOR_EMAIL": "christine.leung@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 33,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50032",
+    "INSTRUCTOR_NAME": "Nath, Kashi",
+    "INSTRUCTOR_EMAIL": "kashi.nath@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 34,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50033",
+    "INSTRUCTOR_NAME": "Epperson, Doug",
+    "INSTRUCTOR_EMAIL": "doug.epperson@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 35,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50034",
+    "INSTRUCTOR_NAME": "Koons, Stephen",
+    "INSTRUCTOR_EMAIL": "stephen.koons@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 36,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50035",
+    "INSTRUCTOR_NAME": "Shahram, Moe",
+    "INSTRUCTOR_EMAIL": "moe.shahram@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 37,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50036",
+    "INSTRUCTOR_NAME": "Van Dorn, Eric",
+    "INSTRUCTOR_EMAIL": "eric.van.dorn@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 38,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50036",
+    "INSTRUCTOR_NAME": "Leung, Christine",
+    "INSTRUCTOR_EMAIL": "christine.leung@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 39,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50037",
+    "INSTRUCTOR_NAME": "Van Dorn, Eric",
+    "INSTRUCTOR_EMAIL": "eric.van.dorn@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 40,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50037",
+    "INSTRUCTOR_NAME": "Leung, Christine",
+    "INSTRUCTOR_EMAIL": "christine.leung@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 41,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50037",
+    "INSTRUCTOR_NAME": "Vartanian, Sharon",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 42,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50038",
+    "INSTRUCTOR_NAME": "Van Dorn, Eric",
+    "INSTRUCTOR_EMAIL": "eric.van.dorn@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 43,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50038",
+    "INSTRUCTOR_NAME": "Leung, Christine",
+    "INSTRUCTOR_EMAIL": "christine.leung@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 44,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50038",
+    "INSTRUCTOR_NAME": "Vartanian, Sharon",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 45,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50039",
+    "INSTRUCTOR_NAME": "Satana, Lucille",
+    "INSTRUCTOR_EMAIL": "lucille.satana@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 46,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50040",
+    "INSTRUCTOR_NAME": "Van Dorn, Eric",
+    "INSTRUCTOR_EMAIL": "eric.van.dorn@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 47,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50040",
+    "INSTRUCTOR_NAME": "Leung, Christine",
+    "INSTRUCTOR_EMAIL": "christine.leung@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 48,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50040",
+    "INSTRUCTOR_NAME": "Vartanian, Sharon",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 49,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50041",
+    "INSTRUCTOR_NAME": "Otte, John",
+    "INSTRUCTOR_EMAIL": "john.otte@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 50,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50042",
+    "INSTRUCTOR_NAME": "Leung, Christine",
+    "INSTRUCTOR_EMAIL": "christine.leung@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 51,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50043",
+    "INSTRUCTOR_NAME": "Star, Terry",
+    "INSTRUCTOR_EMAIL": "terry.star@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 52,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50044",
+    "INSTRUCTOR_NAME": "Vartanian, Sharon",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 53,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50046",
+    "INSTRUCTOR_NAME": "Otte, John",
+    "INSTRUCTOR_EMAIL": "john.otte@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 54,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50047",
+    "INSTRUCTOR_NAME": "Smith, Jamie",
+    "INSTRUCTOR_EMAIL": "jamie.smith@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 55,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50048",
+    "INSTRUCTOR_NAME": "Ulloa, John",
+    "INSTRUCTOR_EMAIL": "john.ulloa@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 56,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50049",
+    "INSTRUCTOR_NAME": "Smith, Jamie",
+    "INSTRUCTOR_EMAIL": "jamie.smith@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 57,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50050",
+    "INSTRUCTOR_NAME": "Hasty, Joseph",
+    "INSTRUCTOR_EMAIL": "joseph.hasty@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 58,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50051",
+    "INSTRUCTOR_NAME": "Wang, Jennifer",
+    "INSTRUCTOR_EMAIL": "jennifer.wang@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 59,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50052",
+    "INSTRUCTOR_NAME": "Hasty, Joseph",
+    "INSTRUCTOR_EMAIL": "joseph.hasty@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 60,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50053",
+    "INSTRUCTOR_NAME": "Hasty, Joseph",
+    "INSTRUCTOR_EMAIL": "joseph.hasty@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 61,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50054",
+    "INSTRUCTOR_NAME": "Upton, Barbara",
+    "INSTRUCTOR_EMAIL": "barbara.upton@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 62,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50055",
+    "INSTRUCTOR_NAME": "Upton, Barbara",
+    "INSTRUCTOR_EMAIL": "barbara.upton@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 63,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50056",
+    "INSTRUCTOR_NAME": "Cisneros-Diaz, Rebecca",
+    "INSTRUCTOR_EMAIL": "rebecca.cisneros-diaz@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 64,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50057",
+    "INSTRUCTOR_NAME": "Rascov, Jeff",
+    "INSTRUCTOR_EMAIL": "jeff.rascov@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 65,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50058",
+    "INSTRUCTOR_NAME": "Castello-Heath, Randy",
+    "INSTRUCTOR_EMAIL": "randy.castello-heath@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 66,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50059",
+    "INSTRUCTOR_NAME": "Castello-Heath, Randy",
+    "INSTRUCTOR_EMAIL": "randy.castello-heath@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 67,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50060",
+    "INSTRUCTOR_NAME": "Henderson, Jim",
+    "INSTRUCTOR_EMAIL": "jim.henderson@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 68,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50061",
+    "INSTRUCTOR_NAME": "McEwan, Mary Ann",
+    "INSTRUCTOR_EMAIL": "maryann.mcewan@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 69,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50062",
+    "INSTRUCTOR_NAME": "Henderson, Jim",
+    "INSTRUCTOR_EMAIL": "jim.henderson@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 70,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50063",
+    "INSTRUCTOR_NAME": "Hammond, Laurie",
+    "INSTRUCTOR_EMAIL": "laurie.hammond@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 71,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50066",
+    "INSTRUCTOR_NAME": "Ghahramani, Soroush",
+    "INSTRUCTOR_EMAIL": "soroush.ghahramani@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 72,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50067",
+    "INSTRUCTOR_NAME": "Smith, Richard",
+    "INSTRUCTOR_EMAIL": "richard.smith@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 73,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50068",
+    "INSTRUCTOR_NAME": "Ghahramani, Soroush",
+    "INSTRUCTOR_EMAIL": "soroush.ghahramani@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 74,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50069",
+    "INSTRUCTOR_NAME": "Ghahramani, Soroush",
+    "INSTRUCTOR_EMAIL": "soroush.ghahramani@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 75,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50070",
+    "INSTRUCTOR_NAME": "Liu, Sam",
+    "INSTRUCTOR_EMAIL": "sam.liu@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 76,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50071",
+    "INSTRUCTOR_NAME": "Liu, Sam",
+    "INSTRUCTOR_EMAIL": "sam.liu@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 77,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50072",
+    "INSTRUCTOR_NAME": "Zill, Stephen",
+    "INSTRUCTOR_EMAIL": "stephen.zill@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 78,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50073",
+    "INSTRUCTOR_NAME": "Zill, Stephen",
+    "INSTRUCTOR_EMAIL": "stephen.zill@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 79,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50074",
+    "INSTRUCTOR_NAME": "Sinclair, Robert",
+    "INSTRUCTOR_EMAIL": "robert.sinclair@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 80,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50075",
+    "INSTRUCTOR_NAME": "Eldridge, Glenn",
+    "INSTRUCTOR_EMAIL": "glenn.eldridge@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 81,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50076",
+    "INSTRUCTOR_NAME": "Ng, Terry",
+    "INSTRUCTOR_EMAIL": "terry.ng@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 82,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50077",
+    "INSTRUCTOR_NAME": "Harrison, Blaine",
+    "INSTRUCTOR_EMAIL": "blaine.harrison@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 83,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50079",
+    "INSTRUCTOR_NAME": "Angles, Michael",
+    "INSTRUCTOR_EMAIL": "michael.angles@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 84,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50080",
+    "INSTRUCTOR_NAME": "Hatter, Amber",
+    "INSTRUCTOR_EMAIL": "amber.hatter@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 85,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50081",
+    "INSTRUCTOR_NAME": "Angles, Michael",
+    "INSTRUCTOR_EMAIL": "michael.angles@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 86,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50082",
+    "INSTRUCTOR_NAME": "Zilg, Christopher",
+    "INSTRUCTOR_EMAIL": "christopher.zilg@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 87,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50083",
+    "INSTRUCTOR_NAME": "Foster, Jerrod",
+    "INSTRUCTOR_EMAIL": "jerrod.foster@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 88,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50084",
+    "INSTRUCTOR_NAME": "Foster, Jerrod",
+    "INSTRUCTOR_EMAIL": "jerrod.foster@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 89,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50085",
+    "INSTRUCTOR_NAME": "Firenzi, Gina",
+    "INSTRUCTOR_EMAIL": "gina.firenzi@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 90,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50086",
+    "INSTRUCTOR_NAME": "Yurtseven, Lale",
+    "INSTRUCTOR_EMAIL": "lale.yurtseven@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 91,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50087",
+    "INSTRUCTOR_NAME": "Reed, Michelle",
+    "INSTRUCTOR_EMAIL": "michelle.reed@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 92,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50088",
+    "INSTRUCTOR_NAME": "Reed, Michelle",
+    "INSTRUCTOR_EMAIL": "michelle.reed@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 93,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50089",
+    "INSTRUCTOR_NAME": "Bautista, Jose",
+    "INSTRUCTOR_EMAIL": "jose.bautista@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 94,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50093",
+    "INSTRUCTOR_NAME": "Juarez, Steve",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 95,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50095",
+    "INSTRUCTOR_NAME": "Rascov, Jeff",
+    "INSTRUCTOR_EMAIL": "jeff.rascov@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 96,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50097",
+    "INSTRUCTOR_NAME": "Rascov, Jeff",
+    "INSTRUCTOR_EMAIL": "jeff.rascov@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 97,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50098",
+    "INSTRUCTOR_NAME": "Nguyen, Hoang",
+    "INSTRUCTOR_EMAIL": "hoang.nguyen@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 98,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50099",
+    "INSTRUCTOR_NAME": "Segal, Jory",
+    "INSTRUCTOR_EMAIL": "jory.segal@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 99,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50100",
+    "INSTRUCTOR_NAME": "Kelly, Tim",
+    "INSTRUCTOR_EMAIL": "tim.kelly@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 100,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50101",
+    "INSTRUCTOR_NAME": "Segal, Jory",
+    "INSTRUCTOR_EMAIL": "jory.segal@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 101,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50102",
+    "INSTRUCTOR_NAME": "Liu, Takyiu",
+    "INSTRUCTOR_EMAIL": "takyiu.liu@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 102,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50103",
+    "INSTRUCTOR_NAME": "Segal, Jory",
+    "INSTRUCTOR_EMAIL": "jory.segal@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 103,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50104",
+    "INSTRUCTOR_NAME": "Kerwin, Jennifer",
+    "INSTRUCTOR_EMAIL": "jennifer.kerwin@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 104,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50105",
+    "INSTRUCTOR_NAME": "Kerwin, Jennifer",
+    "INSTRUCTOR_EMAIL": "jennifer.kerwin@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 105,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50106",
+    "INSTRUCTOR_NAME": "Wong, Davidson",
+    "INSTRUCTOR_EMAIL": "davidson.wong@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 106,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50106",
+    "INSTRUCTOR_NAME": "Zakarian, Armen",
+    "INSTRUCTOR_EMAIL": "armen.zakarian@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 107,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50108",
+    "INSTRUCTOR_NAME": "Wong, Davidson",
+    "INSTRUCTOR_EMAIL": "davidson.wong@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 108,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50108",
+    "INSTRUCTOR_NAME": "Zakarian, Armen",
+    "INSTRUCTOR_EMAIL": "armen.zakarian@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 109,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50109",
+    "INSTRUCTOR_NAME": "Wong, Davidson",
+    "INSTRUCTOR_EMAIL": "davidson.wong@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 110,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50109",
+    "INSTRUCTOR_NAME": "Zakarian, Armen",
+    "INSTRUCTOR_EMAIL": "armen.zakarian@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 111,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50111",
+    "INSTRUCTOR_NAME": "Zakarian, Armen",
+    "INSTRUCTOR_EMAIL": "armen.zakarian@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 112,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50112",
+    "INSTRUCTOR_NAME": "Piatt, Vicky",
+    "INSTRUCTOR_EMAIL": "vicky.piatt@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 113,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50114",
+    "INSTRUCTOR_NAME": "Rodriguez, Willo",
+    "INSTRUCTOR_EMAIL": "willo.rodriguez@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 114,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50116",
+    "INSTRUCTOR_NAME": "Rodriguez, Willo",
+    "INSTRUCTOR_EMAIL": "willo.rodriguez@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 115,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50117",
+    "INSTRUCTOR_NAME": "Rodriguez, Willo",
+    "INSTRUCTOR_EMAIL": "willo.rodriguez@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 116,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50118",
+    "INSTRUCTOR_NAME": "Rodriguez, Willo",
+    "INSTRUCTOR_EMAIL": "willo.rodriguez@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 117,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50119",
+    "INSTRUCTOR_NAME": "Rodriguez, Willo",
+    "INSTRUCTOR_EMAIL": "willo.rodriguez@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 118,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50120",
+    "INSTRUCTOR_NAME": "Silveira, Gaspar",
+    "INSTRUCTOR_EMAIL": "gaspar.silveira@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 119,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50121",
+    "INSTRUCTOR_NAME": "Silveira, Gaspar",
+    "INSTRUCTOR_EMAIL": "gaspar.silveira@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 120,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50122",
+    "INSTRUCTOR_NAME": "Vargas, Erika",
+    "INSTRUCTOR_EMAIL": "erika.vargas@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 121,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50124",
+    "INSTRUCTOR_NAME": "Vargas, Erika",
+    "INSTRUCTOR_EMAIL": "erika.vargas@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 122,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50125",
+    "INSTRUCTOR_NAME": "Vargas, Erika",
+    "INSTRUCTOR_EMAIL": "erika.vargas@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 123,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50126",
+    "INSTRUCTOR_NAME": "Vargas, Erika",
+    "INSTRUCTOR_EMAIL": "erika.vargas@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 124,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50127",
+    "INSTRUCTOR_NAME": "Vargas, Erika",
+    "INSTRUCTOR_EMAIL": "erika.vargas@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 125,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50128",
+    "INSTRUCTOR_NAME": "Vargas, Erika",
+    "INSTRUCTOR_EMAIL": "erika.vargas@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 126,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50129",
+    "INSTRUCTOR_NAME": "Vargas, Erika",
+    "INSTRUCTOR_EMAIL": "erika.vargas@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 127,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50130",
+    "INSTRUCTOR_NAME": "Vargas, Erika",
+    "INSTRUCTOR_EMAIL": "erika.vargas@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 128,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50132",
+    "INSTRUCTOR_NAME": "Hopkins, Stacy",
+    "INSTRUCTOR_EMAIL": "stacy.hopkins@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 129,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50133",
+    "INSTRUCTOR_NAME": "Hopkins, Stacy",
+    "INSTRUCTOR_EMAIL": "stacy.hopkins@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 130,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50134",
+    "INSTRUCTOR_NAME": "Valdez, Robert",
+    "INSTRUCTOR_EMAIL": "robert.valdez@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 131,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50135",
+    "INSTRUCTOR_NAME": "Hopkins, Stacy",
+    "INSTRUCTOR_EMAIL": "stacy.hopkins@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 132,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50136",
+    "INSTRUCTOR_NAME": "Fujishin, Jared",
+    "INSTRUCTOR_EMAIL": "jared.fujishin@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 133,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50137",
+    "INSTRUCTOR_NAME": "Borchard, Jill",
+    "INSTRUCTOR_EMAIL": "jill.borchard@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 134,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50138",
+    "INSTRUCTOR_NAME": "Svensson, Peter",
+    "INSTRUCTOR_EMAIL": "peter.svensson@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 135,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50139",
+    "INSTRUCTOR_NAME": "Hackworth, Cheryl",
+    "INSTRUCTOR_EMAIL": "cheryl.hackworth@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 136,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50140",
+    "INSTRUCTOR_NAME": "Steinhardt, Alicia",
+    "INSTRUCTOR_EMAIL": "alicia.steinhardt@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 137,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50142",
+    "INSTRUCTOR_NAME": "Steinhardt, Alicia",
+    "INSTRUCTOR_EMAIL": "alicia.steinhardt@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 138,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50143",
+    "INSTRUCTOR_NAME": "Schrey, Molly",
+    "INSTRUCTOR_EMAIL": "molly.schrey@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 139,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50144",
+    "INSTRUCTOR_NAME": "Hackworth, Cheryl",
+    "INSTRUCTOR_EMAIL": "cheryl.hackworth@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 140,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50145",
+    "INSTRUCTOR_NAME": "Frisbee, Adrienne",
+    "INSTRUCTOR_EMAIL": "adrienne.frisbee@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 141,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50146",
+    "INSTRUCTOR_NAME": "Gallardo, Leticia",
+    "INSTRUCTOR_EMAIL": "leticia.gallardo@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 142,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50147",
+    "INSTRUCTOR_NAME": "Norris, Nathan",
+    "INSTRUCTOR_EMAIL": "nathan.norris@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 143,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50148",
+    "INSTRUCTOR_NAME": "Gallardo, Leticia",
+    "INSTRUCTOR_EMAIL": "leticia.gallardo@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 144,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50149",
+    "INSTRUCTOR_NAME": "Kalivitis, Vicky",
+    "INSTRUCTOR_EMAIL": "vicky.kalivitis@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 145,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50150",
+    "INSTRUCTOR_NAME": "Richey, Jeanette",
+    "INSTRUCTOR_EMAIL": "jeanette.richey@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 146,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50152",
+    "INSTRUCTOR_NAME": "Meng, Hongyan",
+    "INSTRUCTOR_EMAIL": "hongyan.meng@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 147,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50153",
+    "INSTRUCTOR_NAME": "Meng, Hongyan",
+    "INSTRUCTOR_EMAIL": "hongyan.meng@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 148,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50154",
+    "INSTRUCTOR_NAME": "Mani, Padma",
+    "INSTRUCTOR_EMAIL": "padma.mani@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 149,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50155",
+    "INSTRUCTOR_NAME": "Pham, Kim",
+    "INSTRUCTOR_EMAIL": "kim.pham@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 150,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50156",
+    "INSTRUCTOR_NAME": "Gonzalez, Jesus",
+    "INSTRUCTOR_EMAIL": "jesus.gonzalez@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 151,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50157",
+    "INSTRUCTOR_NAME": "Aleu, Gerardo",
+    "INSTRUCTOR_EMAIL": "gerardo.aleu@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 152,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50158",
+    "INSTRUCTOR_NAME": "Maddux, Faun",
+    "INSTRUCTOR_EMAIL": "faun.maddux@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 153,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50159",
+    "INSTRUCTOR_NAME": "Hannigan, John",
+    "INSTRUCTOR_EMAIL": "john.hannigan@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 154,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50160",
+    "INSTRUCTOR_NAME": "Breder, William",
+    "INSTRUCTOR_EMAIL": "william.breder@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 155,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50161",
+    "INSTRUCTOR_NAME": "Chen, Serkuang",
+    "INSTRUCTOR_EMAIL": "serkuang.chen@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 156,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50162",
+    "INSTRUCTOR_NAME": "Warecki, Rebecca",
+    "INSTRUCTOR_EMAIL": "rebecca.warecki@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 157,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50163",
+    "INSTRUCTOR_NAME": "Nguyen, Viet",
+    "INSTRUCTOR_EMAIL": "viet.nguyen@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 158,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50164",
+    "INSTRUCTOR_NAME": "Lam Ha, Quynh",
+    "INSTRUCTOR_EMAIL": "quynh.lamha@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 159,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50166",
+    "INSTRUCTOR_NAME": "Vu, Amy",
+    "INSTRUCTOR_EMAIL": "amy.vu@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 160,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50167",
+    "INSTRUCTOR_NAME": "Robledo, Lucinda",
+    "INSTRUCTOR_EMAIL": "lucinda.robledo@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 161,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50168",
+    "INSTRUCTOR_NAME": "Jackanich, Kristen",
+    "INSTRUCTOR_EMAIL": "kristen.jackanich@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 162,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50169",
+    "INSTRUCTOR_NAME": "Naik, Tejal",
+    "INSTRUCTOR_EMAIL": "tejal.naik@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 163,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50170",
+    "INSTRUCTOR_NAME": "Naik, Tejal",
+    "INSTRUCTOR_EMAIL": "tejal.naik@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 164,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50171",
+    "INSTRUCTOR_NAME": "Robledo, Lucinda",
+    "INSTRUCTOR_EMAIL": "lucinda.robledo@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 165,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50172",
+    "INSTRUCTOR_NAME": "Chin, Brad",
+    "INSTRUCTOR_EMAIL": "brad.chin@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 166,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50173",
+    "INSTRUCTOR_NAME": "Pham, Kim",
+    "INSTRUCTOR_EMAIL": "kim.pham@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 167,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50174",
+    "INSTRUCTOR_NAME": "Barron, Nicholas",
+    "INSTRUCTOR_EMAIL": "nicholas.barron@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 168,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50175",
+    "INSTRUCTOR_NAME": "Pham, Kim",
+    "INSTRUCTOR_EMAIL": "kim.pham@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 169,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50176",
+    "INSTRUCTOR_NAME": "Chin, Brad",
+    "INSTRUCTOR_EMAIL": "brad.chin@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 170,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50177",
+    "INSTRUCTOR_NAME": "Chin, Brad",
+    "INSTRUCTOR_EMAIL": "brad.chin@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 171,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50178",
+    "INSTRUCTOR_NAME": "Chin, Brad",
+    "INSTRUCTOR_EMAIL": "brad.chin@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 172,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50179",
+    "INSTRUCTOR_NAME": "Chin, Brad",
+    "INSTRUCTOR_EMAIL": "brad.chin@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 173,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50180",
+    "INSTRUCTOR_NAME": "Ybarra, Carolyn",
+    "INSTRUCTOR_EMAIL": "carolyn.ybarra@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 174,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50181",
+    "INSTRUCTOR_NAME": "Lang, Ghislaine",
+    "INSTRUCTOR_EMAIL": "ghislaine.lang@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 175,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50182",
+    "INSTRUCTOR_NAME": "Sandhu, Malkiat",
+    "INSTRUCTOR_EMAIL": "malkiat.sandhu@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 176,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50183",
+    "INSTRUCTOR_NAME": "Demiray, Deniz",
+    "INSTRUCTOR_EMAIL": "deniz.demiray@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 177,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50184",
+    "INSTRUCTOR_NAME": "Uy-Barreta, Don",
+    "INSTRUCTOR_EMAIL": "don.uy-barreta@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 178,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50185",
+    "INSTRUCTOR_NAME": "Hanle, Greg",
+    "INSTRUCTOR_EMAIL": "greg.hanle@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 179,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50186",
+    "INSTRUCTOR_NAME": "Lirenso, Alemayehu",
+    "INSTRUCTOR_EMAIL": "alemayehu.lirenso@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 180,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50187",
+    "INSTRUCTOR_NAME": "Hannigan, John",
+    "INSTRUCTOR_EMAIL": "john.hannigan@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 181,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50188",
+    "INSTRUCTOR_NAME": "Heizer, Rachna",
+    "INSTRUCTOR_EMAIL": "rachna.heizer@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 182,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50189",
+    "INSTRUCTOR_NAME": "Heizer, Rachna",
+    "INSTRUCTOR_EMAIL": "rachna.heizer@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 183,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50190",
+    "INSTRUCTOR_NAME": "Wise, Adriano",
+    "INSTRUCTOR_EMAIL": "adriano.wise@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 184,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50191",
+    "INSTRUCTOR_NAME": "Roloff, Michael",
+    "INSTRUCTOR_EMAIL": "michael.roloff@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 185,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50192",
+    "INSTRUCTOR_NAME": "Lerma, Jess",
+    "INSTRUCTOR_EMAIL": "jess.lerma@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 186,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50193",
+    "INSTRUCTOR_NAME": "Von Ploennies, Mary",
+    "INSTRUCTOR_EMAIL": "mary.vonploennies@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 187,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50194",
+    "INSTRUCTOR_NAME": "Lerma, Jess",
+    "INSTRUCTOR_EMAIL": "jess.lerma@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 188,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50195",
+    "INSTRUCTOR_NAME": "Richey, Jeanette",
+    "INSTRUCTOR_EMAIL": "jeanette.richey@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 189,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50196",
+    "INSTRUCTOR_NAME": "Adams-Palmer, Gina",
+    "INSTRUCTOR_EMAIL": "gina.adams-palmer@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 190,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50197",
+    "INSTRUCTOR_NAME": "Von Ploennies, Mary",
+    "INSTRUCTOR_EMAIL": "mary.vonploennies@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 191,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50199",
+    "INSTRUCTOR_NAME": "Fields, Rachael",
+    "INSTRUCTOR_EMAIL": "rachael.fields@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 192,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50201",
+    "INSTRUCTOR_NAME": "Fields, Rachael",
+    "INSTRUCTOR_EMAIL": "rachael.fields@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 193,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50202",
+    "INSTRUCTOR_NAME": "Vo, Binh",
+    "INSTRUCTOR_EMAIL": "binh.vo@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 194,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50203",
+    "INSTRUCTOR_NAME": "Shani, Guy",
+    "INSTRUCTOR_EMAIL": "guy.shani@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 195,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50204",
+    "INSTRUCTOR_NAME": "Drazkiewicz, Aneta",
+    "INSTRUCTOR_EMAIL": "aneta.drazkiewicz@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 196,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50205",
+    "INSTRUCTOR_NAME": "Taylor, Josi",
+    "INSTRUCTOR_EMAIL": "josi.taylor@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 197,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50206",
+    "INSTRUCTOR_NAME": "Taylor, Josi",
+    "INSTRUCTOR_EMAIL": "josi.taylor@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 198,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50207",
+    "INSTRUCTOR_NAME": "Girardi, Judith",
+    "INSTRUCTOR_EMAIL": "judith.girardi@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 199,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50208",
+    "INSTRUCTOR_NAME": "Shaw, Danielle",
+    "INSTRUCTOR_EMAIL": "danielle.shaw@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 200,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50209",
+    "INSTRUCTOR_NAME": "Girardi, Judith",
+    "INSTRUCTOR_EMAIL": "judith.girardi@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 201,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50210",
+    "INSTRUCTOR_NAME": "Stevenson, Christina",
+    "INSTRUCTOR_EMAIL": "christina.stevenson@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 202,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50211",
+    "INSTRUCTOR_NAME": "Stevenson, Christina",
+    "INSTRUCTOR_EMAIL": "christina.stevenson@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 203,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50212",
+    "INSTRUCTOR_NAME": "Shaw, Danielle",
+    "INSTRUCTOR_EMAIL": "danielle.shaw@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 204,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50213",
+    "INSTRUCTOR_NAME": "Shaw, Danielle",
+    "INSTRUCTOR_EMAIL": "danielle.shaw@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 205,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50214",
+    "INSTRUCTOR_NAME": "Harness, Mary",
+    "INSTRUCTOR_EMAIL": "mary.harness@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 206,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50215",
+    "INSTRUCTOR_NAME": "Smiley, James",
+    "INSTRUCTOR_EMAIL": "james.smiley@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 207,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50216",
+    "INSTRUCTOR_NAME": "Ansari, Unbareen",
+    "INSTRUCTOR_EMAIL": "unbareen.ansari@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 208,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50217",
+    "INSTRUCTOR_NAME": "Hulbert, Robin",
+    "INSTRUCTOR_EMAIL": "robin.hulbert@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 209,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50220",
+    "INSTRUCTOR_NAME": "Moossavi, Mehdi",
+    "INSTRUCTOR_EMAIL": "mehdi.moossavi@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 210,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50223",
+    "INSTRUCTOR_NAME": "Liu, Takyiu",
+    "INSTRUCTOR_EMAIL": "takyiu.liu@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 211,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50224",
+    "INSTRUCTOR_NAME": "Chen, Irene",
+    "INSTRUCTOR_EMAIL": "irene.chen@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 212,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50224",
+    "INSTRUCTOR_NAME": "Rafati, Saied",
+    "INSTRUCTOR_EMAIL": "saied.rafati@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 213,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50226",
+    "INSTRUCTOR_NAME": "Rafati, Saied",
+    "INSTRUCTOR_EMAIL": "saied.rafati@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 214,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50227",
+    "INSTRUCTOR_NAME": "Guich, Daniel",
+    "INSTRUCTOR_EMAIL": "daniel.guich@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 215,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50228",
+    "INSTRUCTOR_NAME": "Santos, John",
+    "INSTRUCTOR_EMAIL": "john.santos@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 216,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50232",
+    "INSTRUCTOR_NAME": "Venkata, Lakshmamma",
+    "INSTRUCTOR_EMAIL": "lakshmamma.venkata@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 217,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50233",
+    "INSTRUCTOR_NAME": "Beckum, Calvin",
+    "INSTRUCTOR_EMAIL": "calvin.beckum@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 218,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50234",
+    "INSTRUCTOR_NAME": "Cormier, Jeff",
+    "INSTRUCTOR_EMAIL": "jeff.cormier@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 219,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50235",
+    "INSTRUCTOR_NAME": "Constantin, Jennifer",
+    "INSTRUCTOR_EMAIL": "jennifer.constantin@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 220,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50236",
+    "INSTRUCTOR_NAME": "Cormier, Jeff",
+    "INSTRUCTOR_EMAIL": "jeff.cormier@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 221,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50237",
+    "INSTRUCTOR_NAME": "Constantin, Jennifer",
+    "INSTRUCTOR_EMAIL": "jennifer.constantin@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 222,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50238",
+    "INSTRUCTOR_NAME": "Cormier, Jeff",
+    "INSTRUCTOR_EMAIL": "jeff.cormier@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 223,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50239",
+    "INSTRUCTOR_NAME": "Guich, Daniel",
+    "INSTRUCTOR_EMAIL": "daniel.guich@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 224,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50240",
+    "INSTRUCTOR_NAME": "Pasion, Mark",
+    "INSTRUCTOR_EMAIL": "mark.pasion@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 225,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50241",
+    "INSTRUCTOR_NAME": "Gibbs Stayte, Patricia",
+    "INSTRUCTOR_EMAIL": "patricia.gibbs@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 226,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50242",
+    "INSTRUCTOR_NAME": "Houston, Qiana",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 227,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50243",
+    "INSTRUCTOR_NAME": "Wagner, Jennifer",
+    "INSTRUCTOR_EMAIL": "jennifer.wagner@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 228,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50244",
+    "INSTRUCTOR_NAME": "Pasion, Mark",
+    "INSTRUCTOR_EMAIL": "mark.pasion@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 229,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50247",
+    "INSTRUCTOR_NAME": "Houston, Qiana",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 230,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50248",
+    "INSTRUCTOR_NAME": "Aburous, Dina",
+    "INSTRUCTOR_EMAIL": "dina.aburous@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 231,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50249",
+    "INSTRUCTOR_NAME": "Engel, Mark",
+    "INSTRUCTOR_EMAIL": "mark.engel@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 232,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50250",
+    "INSTRUCTOR_NAME": "Tseng, Jennifer",
+    "INSTRUCTOR_EMAIL": "jennifer.tseng@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 233,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50251",
+    "INSTRUCTOR_NAME": "Engel, Mark",
+    "INSTRUCTOR_EMAIL": "mark.engel@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 234,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50252",
+    "INSTRUCTOR_NAME": "Ardizzone, Arthur",
+    "INSTRUCTOR_EMAIL": "arthur.ardizzone@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 235,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50253",
+    "INSTRUCTOR_NAME": "Ardizzone, Arthur",
+    "INSTRUCTOR_EMAIL": "arthur.ardizzone@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 236,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50254",
+    "INSTRUCTOR_NAME": "Manske, Steven",
+    "INSTRUCTOR_EMAIL": "steven.manske@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 237,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50255",
+    "INSTRUCTOR_NAME": "Wagner, Jennifer",
+    "INSTRUCTOR_EMAIL": "jennifer.wagner@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 238,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50256",
+    "INSTRUCTOR_NAME": "Sturgess, Anan",
+    "INSTRUCTOR_EMAIL": "anan.sturgess@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 239,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50257",
+    "INSTRUCTOR_NAME": "Coon, Cheryl",
+    "INSTRUCTOR_EMAIL": "cheryl.coon@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 240,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50259",
+    "INSTRUCTOR_NAME": "Mneimneh, Maher",
+    "INSTRUCTOR_EMAIL": "maher.mneimneh@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 241,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50261",
+    "INSTRUCTOR_NAME": "Ghofraniha, Jahan",
+    "INSTRUCTOR_EMAIL": "jahan.ghofraniha@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 242,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50262",
+    "INSTRUCTOR_NAME": "Mortezaie, Faramarz",
+    "INSTRUCTOR_EMAIL": "faramarz.mortezaie@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 243,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50263",
+    "INSTRUCTOR_NAME": "Mortezaie, Faramarz",
+    "INSTRUCTOR_EMAIL": "faramarz.mortezaie@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 244,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50264",
+    "INSTRUCTOR_NAME": "Sun, Helen",
+    "INSTRUCTOR_EMAIL": "helen.sun@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 245,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50265",
+    "INSTRUCTOR_NAME": "Sun, Helen",
+    "INSTRUCTOR_EMAIL": "helen.sun@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 246,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50268",
+    "INSTRUCTOR_NAME": "Magid, Samir",
+    "INSTRUCTOR_EMAIL": "samir.magid@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 247,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50269",
+    "INSTRUCTOR_NAME": "El Kaissi, Rouba",
+    "INSTRUCTOR_EMAIL": "rouba.elkaissi@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 248,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50270",
+    "INSTRUCTOR_NAME": "Abdeljabbar, Wael",
+    "INSTRUCTOR_EMAIL": "wael.abdeljabbar@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 249,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50271",
+    "INSTRUCTOR_NAME": "Abdeljabbar, Wael",
+    "INSTRUCTOR_EMAIL": "wael.abdeljabbar@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 250,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50274",
+    "INSTRUCTOR_NAME": "Garrett, Mark",
+    "INSTRUCTOR_EMAIL": "mark.garrett@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 251,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50275",
+    "INSTRUCTOR_NAME": "Coon, Cheryl",
+    "INSTRUCTOR_EMAIL": "cheryl.coon@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 252,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50276",
+    "INSTRUCTOR_NAME": "Garrett, Mark",
+    "INSTRUCTOR_EMAIL": "mark.garrett@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 253,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50277",
+    "INSTRUCTOR_NAME": "Coon, Cheryl",
+    "INSTRUCTOR_EMAIL": "cheryl.coon@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 254,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50278",
+    "INSTRUCTOR_NAME": "Rivas, Rick",
+    "INSTRUCTOR_EMAIL": "rick.rivas@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 255,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50279",
+    "INSTRUCTOR_NAME": "Coon, Cheryl",
+    "INSTRUCTOR_EMAIL": "cheryl.coon@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 256,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50280",
+    "INSTRUCTOR_NAME": "Coon, Cheryl",
+    "INSTRUCTOR_EMAIL": "cheryl.coon@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 257,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50281",
+    "INSTRUCTOR_NAME": "Rivas, Rick",
+    "INSTRUCTOR_EMAIL": "rick.rivas@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 258,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50282",
+    "INSTRUCTOR_NAME": "Lindseth, Kristin",
+    "INSTRUCTOR_EMAIL": "kristin.lindseth@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 259,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50284",
+    "INSTRUCTOR_NAME": "Rivas, Monica",
+    "INSTRUCTOR_EMAIL": "monica.rivas@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 260,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50285",
+    "INSTRUCTOR_NAME": "Rivas, Monica",
+    "INSTRUCTOR_EMAIL": "monica.rivas@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 261,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50286",
+    "INSTRUCTOR_NAME": "Chow, Albert",
+    "INSTRUCTOR_EMAIL": "albert.chow@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 262,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50286",
+    "INSTRUCTOR_NAME": "Cafferata, Corey",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 263,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50287",
+    "INSTRUCTOR_NAME": "Rivas, Monica",
+    "INSTRUCTOR_EMAIL": "monica.rivas@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 264,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50287",
+    "INSTRUCTOR_NAME": "Breidenbach, Carla",
+    "INSTRUCTOR_EMAIL": "carla.breidenbach@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 265,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50288",
+    "INSTRUCTOR_NAME": "Hill, Bobby",
+    "INSTRUCTOR_EMAIL": "bobby.hill@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 266,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50289",
+    "INSTRUCTOR_NAME": "Rivas, Monica",
+    "INSTRUCTOR_EMAIL": "monica.rivas@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 267,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50289",
+    "INSTRUCTOR_NAME": "Breidenbach, Carla",
+    "INSTRUCTOR_EMAIL": "carla.breidenbach@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 268,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50290",
+    "INSTRUCTOR_NAME": "Chow, Albert",
+    "INSTRUCTOR_EMAIL": "albert.chow@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 269,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50291",
+    "INSTRUCTOR_NAME": "Breidenbach, Carla",
+    "INSTRUCTOR_EMAIL": "carla.breidenbach@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 270,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50292",
+    "INSTRUCTOR_NAME": "Howard, Scott",
+    "INSTRUCTOR_EMAIL": "scott.howard@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 271,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50293",
+    "INSTRUCTOR_NAME": "Breidenbach, Carla",
+    "INSTRUCTOR_EMAIL": "carla.breidenbach@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 272,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50296",
+    "INSTRUCTOR_NAME": "Ferguson, Kaitlin",
+    "INSTRUCTOR_EMAIL": "kaitlin.ferguson@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 273,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50297",
+    "INSTRUCTOR_NAME": "Wundram, Brenna",
+    "INSTRUCTOR_EMAIL": "brenna.wundram@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 274,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50298",
+    "INSTRUCTOR_NAME": "Wundram, Brenna",
+    "INSTRUCTOR_EMAIL": "brenna.wundram@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 275,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50299",
+    "INSTRUCTOR_NAME": "Wundram, Brenna",
+    "INSTRUCTOR_EMAIL": "brenna.wundram@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 276,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50301",
+    "INSTRUCTOR_NAME": "Hawkins, Phil",
+    "INSTRUCTOR_EMAIL": "phil.hawkins@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 277,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50303",
+    "INSTRUCTOR_NAME": "Johnson, Keith",
+    "INSTRUCTOR_EMAIL": "keith.johnson@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 278,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50304",
+    "INSTRUCTOR_NAME": "Buss, Scott",
+    "INSTRUCTOR_EMAIL": "scott.buss@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 279,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50305",
+    "INSTRUCTOR_NAME": "Hawkins, Phil",
+    "INSTRUCTOR_EMAIL": "phil.hawkins@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 280,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50308",
+    "INSTRUCTOR_NAME": "Buss, Scott",
+    "INSTRUCTOR_EMAIL": "scott.buss@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 281,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50309",
+    "INSTRUCTOR_NAME": "Buss, Scott",
+    "INSTRUCTOR_EMAIL": "scott.buss@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 282,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50311",
+    "INSTRUCTOR_NAME": "Buss, Scott",
+    "INSTRUCTOR_EMAIL": "scott.buss@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 283,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50315",
+    "INSTRUCTOR_NAME": "Micodin, Dragos",
+    "INSTRUCTOR_EMAIL": "dragos.micodin@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 284,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50320",
+    "INSTRUCTOR_NAME": "Buss, Scott",
+    "INSTRUCTOR_EMAIL": "scott.buss@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 285,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50321",
+    "INSTRUCTOR_NAME": "Buss, Scott",
+    "INSTRUCTOR_EMAIL": "scott.buss@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 286,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50322",
+    "INSTRUCTOR_NAME": "Louderback, Patricia",
+    "INSTRUCTOR_EMAIL": "patricia.louderback@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 287,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50323",
+    "INSTRUCTOR_NAME": "Hsu, Shih",
+    "INSTRUCTOR_EMAIL": "shih.hsu@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 288,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50324",
+    "INSTRUCTOR_NAME": "Hsu, Shih",
+    "INSTRUCTOR_EMAIL": "shih.hsu@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 289,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50325",
+    "INSTRUCTOR_NAME": "Louderback, Patricia",
+    "INSTRUCTOR_EMAIL": "patricia.louderback@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 290,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50326",
+    "INSTRUCTOR_NAME": "Beck, John",
+    "INSTRUCTOR_EMAIL": "john.beck@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 291,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50327",
+    "INSTRUCTOR_NAME": "Burrell, Jim",
+    "INSTRUCTOR_EMAIL": "jim.burrell@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 292,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50328",
+    "INSTRUCTOR_NAME": "Wiens, Rick",
+    "INSTRUCTOR_EMAIL": "rick.wiens@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 293,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50329",
+    "INSTRUCTOR_NAME": "Wiens, Rick",
+    "INSTRUCTOR_EMAIL": "rick.wiens@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 294,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50330",
+    "INSTRUCTOR_NAME": "Wiens, Rick",
+    "INSTRUCTOR_EMAIL": "rick.wiens@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 295,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50331",
+    "INSTRUCTOR_NAME": "Wiens, Rick",
+    "INSTRUCTOR_EMAIL": "rick.wiens@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 296,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50332",
+    "INSTRUCTOR_NAME": "Wiens, Rick",
+    "INSTRUCTOR_EMAIL": "rick.wiens@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 297,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50333",
+    "INSTRUCTOR_NAME": "Wiens, Rick",
+    "INSTRUCTOR_EMAIL": "rick.wiens@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 298,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50334",
+    "INSTRUCTOR_NAME": "Yoshikawa, Danny",
+    "INSTRUCTOR_EMAIL": "danny.yoshikawa@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 299,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50335",
+    "INSTRUCTOR_NAME": "Yoshikawa, Danny",
+    "INSTRUCTOR_EMAIL": "danny.yoshikawa@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 300,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50336",
+    "INSTRUCTOR_NAME": "Yoshikawa, Danny",
+    "INSTRUCTOR_EMAIL": "danny.yoshikawa@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 301,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50337",
+    "INSTRUCTOR_NAME": "Carr, Mindy",
+    "INSTRUCTOR_EMAIL": "mindy.carr@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 302,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50338",
+    "INSTRUCTOR_NAME": "Yoshikawa, Danny",
+    "INSTRUCTOR_EMAIL": "danny.yoshikawa@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 303,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50339",
+    "INSTRUCTOR_NAME": "Hwang, Cliff",
+    "INSTRUCTOR_EMAIL": "cliff.hwang@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 304,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50340",
+    "INSTRUCTOR_NAME": "Vu, Tracy",
+    "INSTRUCTOR_EMAIL": "tracy.vu@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 305,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50341",
+    "INSTRUCTOR_NAME": "Weber, Heidi",
+    "INSTRUCTOR_EMAIL": "heidi.weber@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 306,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50342",
+    "INSTRUCTOR_NAME": "Weber, Heidi",
+    "INSTRUCTOR_EMAIL": "heidi.weber@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 307,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50344",
+    "INSTRUCTOR_NAME": "Musat, Carmen",
+    "INSTRUCTOR_EMAIL": "carmen.musat@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 308,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50345",
+    "INSTRUCTOR_NAME": "Chow, Albert",
+    "INSTRUCTOR_EMAIL": "albert.chow@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 309,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50345",
+    "INSTRUCTOR_NAME": "Cafferata, Corey",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 310,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50346",
+    "INSTRUCTOR_NAME": "Chow, Albert",
+    "INSTRUCTOR_EMAIL": "albert.chow@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 311,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50346",
+    "INSTRUCTOR_NAME": "Cafferata, Corey",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 312,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50347",
+    "INSTRUCTOR_NAME": "Lovern, Leti",
+    "INSTRUCTOR_EMAIL": "leti.lovern@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 313,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50348",
+    "INSTRUCTOR_NAME": "Chow, Albert",
+    "INSTRUCTOR_EMAIL": "albert.chow@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 314,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50348",
+    "INSTRUCTOR_NAME": "Cafferata, Corey",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 315,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50349",
+    "INSTRUCTOR_NAME": "Chang, Irene",
+    "INSTRUCTOR_EMAIL": "irene.chang@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 316,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50350",
+    "INSTRUCTOR_NAME": "Chow, Albert",
+    "INSTRUCTOR_EMAIL": "albert.chow@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 317,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50350",
+    "INSTRUCTOR_NAME": "Cafferata, Corey",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 318,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50351",
+    "INSTRUCTOR_NAME": "Evans, Anne",
+    "INSTRUCTOR_EMAIL": "anne.evans@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 319,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50354",
+    "INSTRUCTOR_NAME": "Sundaresan, Revathi",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 320,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50356",
+    "INSTRUCTOR_NAME": "Lavallo, Pat",
+    "INSTRUCTOR_EMAIL": "pat.lavallo@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 321,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50357",
+    "INSTRUCTOR_NAME": "Gee, John",
+    "INSTRUCTOR_EMAIL": "john.gee@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 322,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50358",
+    "INSTRUCTOR_NAME": "Fineman, Benjamin",
+    "INSTRUCTOR_EMAIL": "benjamin.fineman@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 323,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50360",
+    "INSTRUCTOR_NAME": "Wang, Jiayin",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 324,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50361",
+    "INSTRUCTOR_NAME": "Gee, John",
+    "INSTRUCTOR_EMAIL": "john.gee@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 325,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50363",
+    "INSTRUCTOR_NAME": "Ting, Karl",
+    "INSTRUCTOR_EMAIL": "karl.ting@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 326,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50364",
+    "INSTRUCTOR_NAME": "Carr, Mindy",
+    "INSTRUCTOR_EMAIL": "mindy.carr@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 327,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50365",
+    "INSTRUCTOR_NAME": "Cao, Michael",
+    "INSTRUCTOR_EMAIL": "michael.cao@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 328,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50366",
+    "INSTRUCTOR_NAME": "Cao, Michael",
+    "INSTRUCTOR_EMAIL": "michael.cao@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 329,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50367",
+    "INSTRUCTOR_NAME": "Gaiero, Kris",
+    "INSTRUCTOR_EMAIL": "kris.gaiero@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 330,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50368",
+    "INSTRUCTOR_NAME": "Johnston, Matthew",
+    "INSTRUCTOR_EMAIL": "matthew.johnston@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 331,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50369",
+    "INSTRUCTOR_NAME": "Rettus, Sara",
+    "INSTRUCTOR_EMAIL": "sara.rettus@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 332,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50370",
+    "INSTRUCTOR_NAME": "Ramsey, RaeAnn",
+    "INSTRUCTOR_EMAIL": "raeann.ramsey@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 333,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50371",
+    "INSTRUCTOR_NAME": "Ramsey, RaeAnn",
+    "INSTRUCTOR_EMAIL": "raeann.ramsey@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 334,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50372",
+    "INSTRUCTOR_NAME": "Nguyen, Hai",
+    "INSTRUCTOR_EMAIL": "hai.nguyen2@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 335,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50373",
+    "INSTRUCTOR_NAME": "Nguyen, Hai",
+    "INSTRUCTOR_EMAIL": "hai.nguyen2@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 336,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50374",
+    "INSTRUCTOR_NAME": "Nguyen, Hai",
+    "INSTRUCTOR_EMAIL": "hai.nguyen2@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 337,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50375",
+    "INSTRUCTOR_NAME": "Holland, Kristy",
+    "INSTRUCTOR_EMAIL": "kristy.holland@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 338,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50376",
+    "INSTRUCTOR_NAME": "Ramsey, RaeAnn",
+    "INSTRUCTOR_EMAIL": "raeann.ramsey@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 339,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50377",
+    "INSTRUCTOR_NAME": "Holland, Kristy",
+    "INSTRUCTOR_EMAIL": "kristy.holland@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 340,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50378",
+    "INSTRUCTOR_NAME": "Santos, John",
+    "INSTRUCTOR_EMAIL": "john.santos@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 341,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50379",
+    "INSTRUCTOR_NAME": "Santos, John",
+    "INSTRUCTOR_EMAIL": "john.santos@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 342,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50380",
+    "INSTRUCTOR_NAME": "Santos, John",
+    "INSTRUCTOR_EMAIL": "john.santos@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 343,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50381",
+    "INSTRUCTOR_NAME": "Santos, John",
+    "INSTRUCTOR_EMAIL": "john.santos@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 344,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50382",
+    "INSTRUCTOR_NAME": "Santos, John",
+    "INSTRUCTOR_EMAIL": "john.santos@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 345,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50383",
+    "INSTRUCTOR_NAME": "Gaiero, Kris",
+    "INSTRUCTOR_EMAIL": "kris.gaiero@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 346,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50384",
+    "INSTRUCTOR_NAME": "Piatt, Vicky",
+    "INSTRUCTOR_EMAIL": "vicky.piatt@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 347,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50385",
+    "INSTRUCTOR_NAME": "Piatt, Vicky",
+    "INSTRUCTOR_EMAIL": "vicky.piatt@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 348,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50386",
+    "INSTRUCTOR_NAME": "Piatt, Vicky",
+    "INSTRUCTOR_EMAIL": "vicky.piatt@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 349,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50387",
+    "INSTRUCTOR_NAME": "Piatt, Vicky",
+    "INSTRUCTOR_EMAIL": "vicky.piatt@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 350,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50388",
+    "INSTRUCTOR_NAME": "Piatt, Vicky",
+    "INSTRUCTOR_EMAIL": "vicky.piatt@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 351,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50390",
+    "INSTRUCTOR_NAME": "Salehi, Niloo",
+    "INSTRUCTOR_EMAIL": "niloo.salehi@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 352,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50390",
+    "INSTRUCTOR_NAME": "Espineli, Dinah",
+    "INSTRUCTOR_EMAIL": "dinah.espineli@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 353,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50390",
+    "INSTRUCTOR_NAME": "Al Baker, Salaam",
+    "INSTRUCTOR_EMAIL": "salaam.albaker@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 354,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50392",
+    "INSTRUCTOR_NAME": "Al Baker, Salaam",
+    "INSTRUCTOR_EMAIL": "salaam.albaker@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 355,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50393",
+    "INSTRUCTOR_NAME": "Viernes, Neil",
+    "INSTRUCTOR_EMAIL": "neil.viernes@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 356,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50395",
+    "INSTRUCTOR_NAME": "Slobodova, Irina",
+    "INSTRUCTOR_EMAIL": "irina.slobodova@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 357,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50396",
+    "INSTRUCTOR_NAME": "Tran, Anh-Tuyet",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 358,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50398",
+    "INSTRUCTOR_NAME": "Nolan, Paul",
+    "INSTRUCTOR_EMAIL": "paul.nolan@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 359,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50399",
+    "INSTRUCTOR_NAME": "Zilg, Christopher",
+    "INSTRUCTOR_EMAIL": "christopher.zilg@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 360,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50400",
+    "INSTRUCTOR_NAME": "Shan, Wenlei",
+    "INSTRUCTOR_EMAIL": "wenlei.shan@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 361,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50401",
+    "INSTRUCTOR_NAME": "Shan, Wenlei",
+    "INSTRUCTOR_EMAIL": "wenlei.shan@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 362,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50402",
+    "INSTRUCTOR_NAME": "Kim, Chang-Sik",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 363,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50403",
+    "INSTRUCTOR_NAME": "Bowers-Gachesa, Wendy",
+    "INSTRUCTOR_EMAIL": "wendy.bowers-gachesa@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 364,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50404",
+    "INSTRUCTOR_NAME": "Russo, Denise",
+    "INSTRUCTOR_EMAIL": "denise.russo@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 365,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50405",
+    "INSTRUCTOR_NAME": "Dyer, Judith",
+    "INSTRUCTOR_EMAIL": "judith.dyer@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 366,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50406",
+    "INSTRUCTOR_NAME": "Shivers, Lisa",
+    "INSTRUCTOR_EMAIL": "lisa.shivers@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 367,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50406",
+    "INSTRUCTOR_NAME": "Williams, Lania",
+    "INSTRUCTOR_EMAIL": "lania.williams@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 368,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50406",
+    "INSTRUCTOR_NAME": "Anderson, Cynthia",
+    "INSTRUCTOR_EMAIL": "cynthia.anderson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 369,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50408",
+    "INSTRUCTOR_NAME": "Shivers, Lisa",
+    "INSTRUCTOR_EMAIL": "lisa.shivers@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 370,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50408",
+    "INSTRUCTOR_NAME": "Anderson, Cynthia",
+    "INSTRUCTOR_EMAIL": "cynthia.anderson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 371,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50409",
+    "INSTRUCTOR_NAME": "Flores, Carol",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 372,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50409",
+    "INSTRUCTOR_NAME": "Anderson, Cynthia",
+    "INSTRUCTOR_EMAIL": "cynthia.anderson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 373,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50410",
+    "INSTRUCTOR_NAME": "Johnsen, Tess",
+    "INSTRUCTOR_EMAIL": "tess.johnsen@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 374,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50410",
+    "INSTRUCTOR_NAME": "Anderson, Cynthia",
+    "INSTRUCTOR_EMAIL": "cynthia.anderson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 375,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50411",
+    "INSTRUCTOR_NAME": "Rafizadeh, Elbina",
+    "INSTRUCTOR_EMAIL": "elbina.rafizadeh@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 376,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50412",
+    "INSTRUCTOR_NAME": "Anderson, Cynthia",
+    "INSTRUCTOR_EMAIL": "cynthia.anderson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 377,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50413",
+    "INSTRUCTOR_NAME": "Chin, James",
+    "INSTRUCTOR_EMAIL": "james.chin@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 378,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50413",
+    "INSTRUCTOR_NAME": "Dyer, Judith",
+    "INSTRUCTOR_EMAIL": "judith.dyer@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 379,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50413",
+    "INSTRUCTOR_NAME": "Kight, Amanda",
+    "INSTRUCTOR_EMAIL": "amanda.kight@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 380,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50413",
+    "INSTRUCTOR_NAME": "Hartman, Carol",
+    "INSTRUCTOR_EMAIL": "carol.hartman@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 381,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50413",
+    "INSTRUCTOR_NAME": "Nicolai, Brent",
+    "INSTRUCTOR_EMAIL": "brent.nicolai@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 382,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50413",
+    "INSTRUCTOR_NAME": "Savage, Brenna",
+    "INSTRUCTOR_EMAIL": "brenna.savage@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 383,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50413",
+    "INSTRUCTOR_NAME": "Trenado, Emily",
+    "INSTRUCTOR_EMAIL": "emily.trenado@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 384,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50413",
+    "INSTRUCTOR_NAME": "Berkley, Judith",
+    "INSTRUCTOR_EMAIL": "judith.berkley@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 385,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50414",
+    "INSTRUCTOR_NAME": "Trenado, Emily",
+    "INSTRUCTOR_EMAIL": "emily.trenado@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 386,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50414",
+    "INSTRUCTOR_NAME": "Berkley, Judith",
+    "INSTRUCTOR_EMAIL": "judith.berkley@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 387,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50415",
+    "INSTRUCTOR_NAME": "Dyer, Judith",
+    "INSTRUCTOR_EMAIL": "judith.dyer@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 388,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50415",
+    "INSTRUCTOR_NAME": "Savage, Brenna",
+    "INSTRUCTOR_EMAIL": "brenna.savage@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 389,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50416",
+    "INSTRUCTOR_NAME": "Kight, Amanda",
+    "INSTRUCTOR_EMAIL": "amanda.kight@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 390,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50416",
+    "INSTRUCTOR_NAME": "Savage, Brenna",
+    "INSTRUCTOR_EMAIL": "brenna.savage@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 391,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50417",
+    "INSTRUCTOR_NAME": "Son, Ryan",
+    "INSTRUCTOR_EMAIL": "ryan.son@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 392,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50417",
+    "INSTRUCTOR_NAME": "Hartman, Carol",
+    "INSTRUCTOR_EMAIL": "carol.hartman@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 393,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50417",
+    "INSTRUCTOR_NAME": "Nicolai, Brent",
+    "INSTRUCTOR_EMAIL": "brent.nicolai@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 394,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50417",
+    "INSTRUCTOR_NAME": "Savage, Brenna",
+    "INSTRUCTOR_EMAIL": "brenna.savage@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 395,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50417",
+    "INSTRUCTOR_NAME": "Berkley, Judith",
+    "INSTRUCTOR_EMAIL": "judith.berkley@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 396,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50418",
+    "INSTRUCTOR_NAME": "Kwong, Willy",
+    "INSTRUCTOR_EMAIL": "willy.kwong@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 397,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50420",
+    "INSTRUCTOR_NAME": "Nguyen-Vu, Mytra",
+    "INSTRUCTOR_EMAIL": "mytra.nguyen-vu@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 398,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50421",
+    "INSTRUCTOR_NAME": "Sousa, Pedro",
+    "INSTRUCTOR_EMAIL": "pedro.sousa@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 399,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50424",
+    "INSTRUCTOR_NAME": "Drown, Neeley",
+    "INSTRUCTOR_EMAIL": "neeley.drown@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 400,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50427",
+    "INSTRUCTOR_NAME": "Bucher, Joe",
+    "INSTRUCTOR_EMAIL": "joe.bucher@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 401,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50429",
+    "INSTRUCTOR_NAME": "Eldridge, Glenn",
+    "INSTRUCTOR_EMAIL": "glenn.eldridge@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 402,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50431",
+    "INSTRUCTOR_NAME": "Cardamone, Andrew",
+    "INSTRUCTOR_EMAIL": "andrew.cardamone@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 403,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50433",
+    "INSTRUCTOR_NAME": "West, Michael",
+    "INSTRUCTOR_EMAIL": "michael.west@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 404,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50436",
+    "INSTRUCTOR_NAME": "Cardenas, Alicia",
+    "INSTRUCTOR_EMAIL": "alicia.cardenas@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 405,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50439",
+    "INSTRUCTOR_NAME": "Cardamone, Andrew",
+    "INSTRUCTOR_EMAIL": "andrew.cardamone@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 406,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50440",
+    "INSTRUCTOR_NAME": "Byers, Michael",
+    "INSTRUCTOR_EMAIL": "michael.byers@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 407,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50441",
+    "INSTRUCTOR_NAME": "Cardenas, Alicia",
+    "INSTRUCTOR_EMAIL": "alicia.cardenas@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 408,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50442",
+    "INSTRUCTOR_NAME": "Jones, Chris",
+    "INSTRUCTOR_EMAIL": "chris.jones@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 409,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50443",
+    "INSTRUCTOR_NAME": "Bangle, Angelica",
+    "INSTRUCTOR_EMAIL": "angelica.bangle@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 410,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50444",
+    "INSTRUCTOR_NAME": "Bangle, Angelica",
+    "INSTRUCTOR_EMAIL": "angelica.bangle@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 411,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50445",
+    "INSTRUCTOR_NAME": "Severe, Philip",
+    "INSTRUCTOR_EMAIL": "philip.severe@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 412,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50446",
+    "INSTRUCTOR_NAME": "Severe, Philip",
+    "INSTRUCTOR_EMAIL": "philip.severe@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 413,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50447",
+    "INSTRUCTOR_NAME": "Rose, David",
+    "INSTRUCTOR_EMAIL": "david.rose@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 414,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50448",
+    "INSTRUCTOR_NAME": "Chand, Vikash",
+    "INSTRUCTOR_EMAIL": "vikash.chand@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 415,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50451",
+    "INSTRUCTOR_NAME": "Dennis, Haze",
+    "INSTRUCTOR_EMAIL": "haze.dennis@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 416,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50453",
+    "INSTRUCTOR_NAME": "Hall, Guy",
+    "INSTRUCTOR_EMAIL": "guy.hall@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 417,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50454",
+    "INSTRUCTOR_NAME": "Rose, David",
+    "INSTRUCTOR_EMAIL": "david.rose@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 418,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50455",
+    "INSTRUCTOR_NAME": "Hall, Guy",
+    "INSTRUCTOR_EMAIL": "guy.hall@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 419,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50460",
+    "INSTRUCTOR_NAME": "Little, Eve",
+    "INSTRUCTOR_EMAIL": "eve.little@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 420,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50461",
+    "INSTRUCTOR_NAME": "Little, Eve",
+    "INSTRUCTOR_EMAIL": "eve.little@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 421,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50462",
+    "INSTRUCTOR_NAME": "Gabareen Mokhtar, Arafat",
+    "INSTRUCTOR_EMAIL": "arafat.mokhtar@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 422,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50466",
+    "INSTRUCTOR_NAME": "Barrilleaux, Ann",
+    "INSTRUCTOR_EMAIL": "ann.barrilleaux@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 423,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50466",
+    "INSTRUCTOR_NAME": "Ligocki, Christel",
+    "INSTRUCTOR_EMAIL": "christel.ligocki@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 424,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50468",
+    "INSTRUCTOR_NAME": "Barrilleaux, Ann",
+    "INSTRUCTOR_EMAIL": "ann.barrilleaux@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 425,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50468",
+    "INSTRUCTOR_NAME": "Ligocki, Christel",
+    "INSTRUCTOR_EMAIL": "christel.ligocki@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 426,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50471",
+    "INSTRUCTOR_NAME": "Barrilleaux, Ann",
+    "INSTRUCTOR_EMAIL": "ann.barrilleaux@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 427,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50471",
+    "INSTRUCTOR_NAME": "Ligocki, Christel",
+    "INSTRUCTOR_EMAIL": "christel.ligocki@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 428,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50473",
+    "INSTRUCTOR_NAME": "Ensminger, Betty",
+    "INSTRUCTOR_EMAIL": "betty.ensminger@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 429,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50474",
+    "INSTRUCTOR_NAME": "Esparza, Nita",
+    "INSTRUCTOR_EMAIL": "nita.esparza@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 430,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50475",
+    "INSTRUCTOR_NAME": "Firenzi, Gina",
+    "INSTRUCTOR_EMAIL": "gina.firenzi@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 431,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50476",
+    "INSTRUCTOR_NAME": "Morrison, Jennifer",
+    "INSTRUCTOR_EMAIL": "jennifer.morrison@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 432,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50477",
+    "INSTRUCTOR_NAME": "Beller, Jonathan",
+    "INSTRUCTOR_EMAIL": "jonathan.beller@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 433,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50478",
+    "INSTRUCTOR_NAME": "Ensminger, Betty",
+    "INSTRUCTOR_EMAIL": "betty.ensminger@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 434,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50479",
+    "INSTRUCTOR_NAME": "Sullivan, Sarah",
+    "INSTRUCTOR_EMAIL": "sarah.sullivan@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 435,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50482",
+    "INSTRUCTOR_NAME": "Cudahy, Mary",
+    "INSTRUCTOR_EMAIL": "mary.cudahy@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 436,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50483",
+    "INSTRUCTOR_NAME": "Cudahy, Mary",
+    "INSTRUCTOR_EMAIL": "mary.cudahy@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 437,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50484",
+    "INSTRUCTOR_NAME": "Alvarez, Patricia",
+    "INSTRUCTOR_EMAIL": "patricia.alvarez@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 438,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50485",
+    "INSTRUCTOR_NAME": "Mahony, Marlene",
+    "INSTRUCTOR_EMAIL": "marlene.mahony@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 439,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50487",
+    "INSTRUCTOR_NAME": "Petrosyan, Alla",
+    "INSTRUCTOR_EMAIL": "alla.petrosyan@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 440,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50491",
+    "INSTRUCTOR_NAME": "Varbel, Andy",
+    "INSTRUCTOR_EMAIL": "andy.varbel@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 441,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50492",
+    "INSTRUCTOR_NAME": "McGee, Donnelle",
+    "INSTRUCTOR_EMAIL": "donnelle.mcgee@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 442,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50493",
+    "INSTRUCTOR_NAME": "McGee, Donnelle",
+    "INSTRUCTOR_EMAIL": "donnelle.mcgee@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 443,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50494",
+    "INSTRUCTOR_NAME": "Garcia, Mary",
+    "INSTRUCTOR_EMAIL": "mary.garcia@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 444,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50495",
+    "INSTRUCTOR_NAME": "Garcia, Mary",
+    "INSTRUCTOR_EMAIL": "mary.garcia@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 445,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50496",
+    "INSTRUCTOR_NAME": "Sullivan, Sarah",
+    "INSTRUCTOR_EMAIL": "sarah.sullivan@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 446,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50498",
+    "INSTRUCTOR_NAME": "Chew, John",
+    "INSTRUCTOR_EMAIL": "john.chew@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 447,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50498",
+    "INSTRUCTOR_NAME": "Zamzow, Mark",
+    "INSTRUCTOR_EMAIL": "mark.zamzow@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 448,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50498",
+    "INSTRUCTOR_NAME": "Dooley, Edith",
+    "INSTRUCTOR_EMAIL": "edith.dooley@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 449,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50499",
+    "INSTRUCTOR_NAME": "Zamzow, Mark",
+    "INSTRUCTOR_EMAIL": "mark.zamzow@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 450,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50499",
+    "INSTRUCTOR_NAME": "Dooley, Edith",
+    "INSTRUCTOR_EMAIL": "edith.dooley@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 451,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50500",
+    "INSTRUCTOR_NAME": "Chew, John",
+    "INSTRUCTOR_EMAIL": "john.chew@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 452,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50500",
+    "INSTRUCTOR_NAME": "Dooley, Edith",
+    "INSTRUCTOR_EMAIL": "edith.dooley@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 453,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50500",
+    "INSTRUCTOR_NAME": "Nicolai, Brent",
+    "INSTRUCTOR_EMAIL": "brent.nicolai@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 454,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50501",
+    "INSTRUCTOR_NAME": "Chew, John",
+    "INSTRUCTOR_EMAIL": "john.chew@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 455,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50501",
+    "INSTRUCTOR_NAME": "Trenado, Emily",
+    "INSTRUCTOR_EMAIL": "emily.trenado@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 456,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50503",
+    "INSTRUCTOR_NAME": "Noel, Marina",
+    "INSTRUCTOR_EMAIL": "marina.noel@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 457,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50504",
+    "INSTRUCTOR_NAME": "Reyes, Francis",
+    "INSTRUCTOR_EMAIL": "francis.reyes@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 458,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50505",
+    "INSTRUCTOR_NAME": "Noel, Marina",
+    "INSTRUCTOR_EMAIL": "marina.noel@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 459,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50508",
+    "INSTRUCTOR_NAME": "Broeder, Marina",
+    "INSTRUCTOR_EMAIL": "marina.broeder@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 460,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50509",
+    "INSTRUCTOR_NAME": "Sanchez, Claudio",
+    "INSTRUCTOR_EMAIL": "claudio.sanchez@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 461,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50510",
+    "INSTRUCTOR_NAME": "Lee, Paula",
+    "INSTRUCTOR_EMAIL": "paula.lee@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 462,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50510",
+    "INSTRUCTOR_NAME": "Haven, Kathy",
+    "INSTRUCTOR_EMAIL": "kathy.haven@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 463,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50511",
+    "INSTRUCTOR_NAME": "Broeder, Marina",
+    "INSTRUCTOR_EMAIL": "marina.broeder@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 464,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50512",
+    "INSTRUCTOR_NAME": "Sanchez, Claudio",
+    "INSTRUCTOR_EMAIL": "claudio.sanchez@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 465,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50514",
+    "INSTRUCTOR_NAME": "Winiecki, Cecily",
+    "INSTRUCTOR_EMAIL": "cecily.winiecki@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 466,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50515",
+    "INSTRUCTOR_NAME": "Broeder, Marina",
+    "INSTRUCTOR_EMAIL": "marina.broeder@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 467,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50516",
+    "INSTRUCTOR_NAME": "Trang, Thuy",
+    "INSTRUCTOR_EMAIL": "thuy.trang@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 468,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50517",
+    "INSTRUCTOR_NAME": "Park, Gaozong",
+    "INSTRUCTOR_EMAIL": "gaozong.park@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 469,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50520",
+    "INSTRUCTOR_NAME": "Cameron, Melodie",
+    "INSTRUCTOR_EMAIL": "melodie.cameron@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 470,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50522",
+    "INSTRUCTOR_NAME": "Martinez-Carrasco, Lorena",
+    "INSTRUCTOR_EMAIL": "lorena.carrasco@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 471,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50523",
+    "INSTRUCTOR_NAME": "Martinez-Carrasco, Lorena",
+    "INSTRUCTOR_EMAIL": "lorena.carrasco@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 472,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50524",
+    "INSTRUCTOR_NAME": "Choubabko, Alla",
+    "INSTRUCTOR_EMAIL": "alla.choubabko@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 473,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50525",
+    "INSTRUCTOR_NAME": "Collins, Ruthie",
+    "INSTRUCTOR_EMAIL": "ruthie.collins@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 474,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50526",
+    "INSTRUCTOR_NAME": "Collins, Ruthie",
+    "INSTRUCTOR_EMAIL": "ruthie.collins@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 475,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50527",
+    "INSTRUCTOR_NAME": "Dasalla, Mitchell",
+    "INSTRUCTOR_EMAIL": "mitchell.dasalla@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 476,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50528",
+    "INSTRUCTOR_NAME": "Dasalla, Mitchell",
+    "INSTRUCTOR_EMAIL": "mitchell.dasalla@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 477,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50529",
+    "INSTRUCTOR_NAME": "Dasalla, Mitchell",
+    "INSTRUCTOR_EMAIL": "mitchell.dasalla@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 478,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50530",
+    "INSTRUCTOR_NAME": "Dasalla, Mitchell",
+    "INSTRUCTOR_EMAIL": "mitchell.dasalla@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 479,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50531",
+    "INSTRUCTOR_NAME": "Dasalla, Mitchell",
+    "INSTRUCTOR_EMAIL": "mitchell.dasalla@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 480,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50532",
+    "INSTRUCTOR_NAME": "Dasalla, Mitchell",
+    "INSTRUCTOR_EMAIL": "mitchell.dasalla@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 481,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50533",
+    "INSTRUCTOR_NAME": "Graham, Alison",
+    "INSTRUCTOR_EMAIL": "alison.graham@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 482,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50534",
+    "INSTRUCTOR_NAME": "Grant, David",
+    "INSTRUCTOR_EMAIL": "david.grant@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 483,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50535",
+    "INSTRUCTOR_NAME": "Grant, David",
+    "INSTRUCTOR_EMAIL": "david.grant@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 484,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50536",
+    "INSTRUCTOR_NAME": "Grant, David",
+    "INSTRUCTOR_EMAIL": "david.grant@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 485,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50537",
+    "INSTRUCTOR_NAME": "Grant, David",
+    "INSTRUCTOR_EMAIL": "david.grant@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 486,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50538",
+    "INSTRUCTOR_NAME": "Hegstrom, Catherine",
+    "INSTRUCTOR_EMAIL": "catherine.hegstrom@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 487,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50539",
+    "INSTRUCTOR_NAME": "Hegstrom, Catherine",
+    "INSTRUCTOR_EMAIL": "catherine.hegstrom@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 488,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50540",
+    "INSTRUCTOR_NAME": "Hegstrom, Catherine",
+    "INSTRUCTOR_EMAIL": "catherine.hegstrom@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 489,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50541",
+    "INSTRUCTOR_NAME": "McPeek, Emily",
+    "INSTRUCTOR_EMAIL": "emily.mcpeek@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 490,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50542",
+    "INSTRUCTOR_NAME": "McPeek, Emily",
+    "INSTRUCTOR_EMAIL": "emily.mcpeek@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 491,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50543",
+    "INSTRUCTOR_NAME": "McPeek, Emily",
+    "INSTRUCTOR_EMAIL": "emily.mcpeek@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 492,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50544",
+    "INSTRUCTOR_NAME": "Lett, Krystyna",
+    "INSTRUCTOR_EMAIL": "krystyna.lett@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 493,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50545",
+    "INSTRUCTOR_NAME": "Lett, Krystyna",
+    "INSTRUCTOR_EMAIL": "krystyna.lett@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 494,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50546",
+    "INSTRUCTOR_NAME": "Lett, Krystyna",
+    "INSTRUCTOR_EMAIL": "krystyna.lett@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 495,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50547",
+    "INSTRUCTOR_NAME": "Lett, Krystyna",
+    "INSTRUCTOR_EMAIL": "krystyna.lett@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 496,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50548",
+    "INSTRUCTOR_NAME": "Lett, Krystyna",
+    "INSTRUCTOR_EMAIL": "krystyna.lett@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 497,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50549",
+    "INSTRUCTOR_NAME": "Zendejas, Saul",
+    "INSTRUCTOR_EMAIL": "saul.zendejas@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 498,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50550",
+    "INSTRUCTOR_NAME": "Zendejas, Saul",
+    "INSTRUCTOR_EMAIL": "saul.zendejas@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 499,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50552",
+    "INSTRUCTOR_NAME": "Zendejas, Saul",
+    "INSTRUCTOR_EMAIL": "saul.zendejas@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 500,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50553",
+    "INSTRUCTOR_NAME": "Zendejas, Saul",
+    "INSTRUCTOR_EMAIL": "saul.zendejas@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 501,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50554",
+    "INSTRUCTOR_NAME": "Zendejas, Saul",
+    "INSTRUCTOR_EMAIL": "saul.zendejas@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 502,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50555",
+    "INSTRUCTOR_NAME": "Hegstrom, Catherine",
+    "INSTRUCTOR_EMAIL": "catherine.hegstrom@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 503,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50556",
+    "INSTRUCTOR_NAME": "Hegstrom, Catherine",
+    "INSTRUCTOR_EMAIL": "catherine.hegstrom@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 504,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50559",
+    "INSTRUCTOR_NAME": "Watson, Nathan",
+    "INSTRUCTOR_EMAIL": "nathan.watson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 505,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50560",
+    "INSTRUCTOR_NAME": "Watson, Nathan",
+    "INSTRUCTOR_EMAIL": "nathan.watson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 506,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50561",
+    "INSTRUCTOR_NAME": "Watson, Nathan",
+    "INSTRUCTOR_EMAIL": "nathan.watson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 507,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50562",
+    "INSTRUCTOR_NAME": "Watson, Nathan",
+    "INSTRUCTOR_EMAIL": "nathan.watson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 508,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50563",
+    "INSTRUCTOR_NAME": "Watson, Nathan",
+    "INSTRUCTOR_EMAIL": "nathan.watson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 509,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50564",
+    "INSTRUCTOR_NAME": "Watson, Nathan",
+    "INSTRUCTOR_EMAIL": "nathan.watson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 510,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50565",
+    "INSTRUCTOR_NAME": "Zilg, Christopher",
+    "INSTRUCTOR_EMAIL": "christopher.zilg@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 511,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50567",
+    "INSTRUCTOR_NAME": "Napoli Abella Reiss, Cindi",
+    "INSTRUCTOR_EMAIL": "cindi.napoliabellareiss@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 512,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50568",
+    "INSTRUCTOR_NAME": "Napoli Abella Reiss, Cindi",
+    "INSTRUCTOR_EMAIL": "cindi.napoliabellareiss@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 513,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50569",
+    "INSTRUCTOR_NAME": "Arnold, Kathy",
+    "INSTRUCTOR_EMAIL": "kathy.arnold@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 514,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50570",
+    "INSTRUCTOR_NAME": "Arnold, Kathy",
+    "INSTRUCTOR_EMAIL": "kathy.arnold@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 515,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50571",
+    "INSTRUCTOR_NAME": "Arnold, Kathy",
+    "INSTRUCTOR_EMAIL": "kathy.arnold@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 516,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50572",
+    "INSTRUCTOR_NAME": "Napoli Abella Reiss, Cindi",
+    "INSTRUCTOR_EMAIL": "cindi.napoliabellareiss@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 517,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50573",
+    "INSTRUCTOR_NAME": "Louden, Lesley",
+    "INSTRUCTOR_EMAIL": "lesley.louden@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 518,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50575",
+    "INSTRUCTOR_NAME": "Zakarian, Armen",
+    "INSTRUCTOR_EMAIL": "armen.zakarian@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 519,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50579",
+    "INSTRUCTOR_NAME": "Wood, Kathryn",
+    "INSTRUCTOR_EMAIL": "kathryn.wood@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 520,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50580",
+    "INSTRUCTOR_NAME": "Wood, Kathryn",
+    "INSTRUCTOR_EMAIL": "kathryn.wood@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 521,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50581",
+    "INSTRUCTOR_NAME": "Harris, Lenore",
+    "INSTRUCTOR_EMAIL": "lenore.harris@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 522,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50582",
+    "INSTRUCTOR_NAME": "Chand, Vikash",
+    "INSTRUCTOR_EMAIL": "vikash.chand@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 523,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50583",
+    "INSTRUCTOR_NAME": "Chand, Vikash",
+    "INSTRUCTOR_EMAIL": "vikash.chand@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 524,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50592",
+    "INSTRUCTOR_NAME": "Hickey, Lauren",
+    "INSTRUCTOR_EMAIL": "lauren.hickey@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 525,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50593",
+    "INSTRUCTOR_NAME": "Hickey, Lauren",
+    "INSTRUCTOR_EMAIL": "lauren.hickey@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 526,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50595",
+    "INSTRUCTOR_NAME": "Sadasivan, Lathika",
+    "INSTRUCTOR_EMAIL": "lathika.sadasivan@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 527,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50596",
+    "INSTRUCTOR_NAME": "Sadasivan, Lathika",
+    "INSTRUCTOR_EMAIL": "lathika.sadasivan@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 528,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50597",
+    "INSTRUCTOR_NAME": "Sadasivan, Lathika",
+    "INSTRUCTOR_EMAIL": "lathika.sadasivan@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 529,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50598",
+    "INSTRUCTOR_NAME": "Eastman, Elizabeth",
+    "INSTRUCTOR_EMAIL": "elizabeth.eastman@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 530,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50601",
+    "INSTRUCTOR_NAME": "Yu Costa, Ellen",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 531,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50602",
+    "INSTRUCTOR_NAME": "Grant, David",
+    "INSTRUCTOR_EMAIL": "david.grant@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 532,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50603",
+    "INSTRUCTOR_NAME": "Grant, David",
+    "INSTRUCTOR_EMAIL": "david.grant@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 533,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50604",
+    "INSTRUCTOR_NAME": "Watson, Brian",
+    "INSTRUCTOR_EMAIL": "brian.watson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 534,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50605",
+    "INSTRUCTOR_NAME": "Watson, Brian",
+    "INSTRUCTOR_EMAIL": "brian.watson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 535,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50606",
+    "INSTRUCTOR_NAME": "Watson, Brian",
+    "INSTRUCTOR_EMAIL": "brian.watson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 536,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50607",
+    "INSTRUCTOR_NAME": "Watson, Brian",
+    "INSTRUCTOR_EMAIL": "brian.watson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 537,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50608",
+    "INSTRUCTOR_NAME": "Watson, Brian",
+    "INSTRUCTOR_EMAIL": "brian.watson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 538,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50609",
+    "INSTRUCTOR_NAME": "Watson, Brian",
+    "INSTRUCTOR_EMAIL": "brian.watson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 539,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50610",
+    "INSTRUCTOR_NAME": "Watson, Brian",
+    "INSTRUCTOR_EMAIL": "brian.watson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 540,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50611",
+    "INSTRUCTOR_NAME": "Rankin, Wiley",
+    "INSTRUCTOR_EMAIL": "wiley.rankin@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 541,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50612",
+    "INSTRUCTOR_NAME": "Rankin, Wiley",
+    "INSTRUCTOR_EMAIL": "wiley.rankin@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 542,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50613",
+    "INSTRUCTOR_NAME": "Masters, Jan",
+    "INSTRUCTOR_EMAIL": "janet.masters@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 543,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50614",
+    "INSTRUCTOR_NAME": "Masters, Jan",
+    "INSTRUCTOR_EMAIL": "janet.masters@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 544,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50615",
+    "INSTRUCTOR_NAME": "Masters, Jan",
+    "INSTRUCTOR_EMAIL": "janet.masters@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 545,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50616",
+    "INSTRUCTOR_NAME": "Masters, Jan",
+    "INSTRUCTOR_EMAIL": "janet.masters@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 546,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50617",
+    "INSTRUCTOR_NAME": "Masters, Jan",
+    "INSTRUCTOR_EMAIL": "janet.masters@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 547,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50618",
+    "INSTRUCTOR_NAME": "Masters, Jan",
+    "INSTRUCTOR_EMAIL": "janet.masters@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 548,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50619",
+    "INSTRUCTOR_NAME": "Hegstrom, Edward",
+    "INSTRUCTOR_EMAIL": "edward.hegstrom@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 549,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50620",
+    "INSTRUCTOR_NAME": "Hegstrom, Edward",
+    "INSTRUCTOR_EMAIL": "edward.hegstrom@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 550,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50621",
+    "INSTRUCTOR_NAME": "Hegstrom, Edward",
+    "INSTRUCTOR_EMAIL": "edward.hegstrom@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 551,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50622",
+    "INSTRUCTOR_NAME": "Hegstrom, Edward",
+    "INSTRUCTOR_EMAIL": "edward.hegstrom@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 552,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50623",
+    "INSTRUCTOR_NAME": "Hegstrom, Edward",
+    "INSTRUCTOR_EMAIL": "edward.hegstrom@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 553,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50624",
+    "INSTRUCTOR_NAME": "Hegstrom, Edward",
+    "INSTRUCTOR_EMAIL": "edward.hegstrom@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 554,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50625",
+    "INSTRUCTOR_NAME": "Hegstrom, Edward",
+    "INSTRUCTOR_EMAIL": "edward.hegstrom@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 555,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50626",
+    "INSTRUCTOR_NAME": "Hegstrom, Edward",
+    "INSTRUCTOR_EMAIL": "edward.hegstrom@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 556,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50627",
+    "INSTRUCTOR_NAME": "Hegstrom, Edward",
+    "INSTRUCTOR_EMAIL": "edward.hegstrom@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 557,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50628",
+    "INSTRUCTOR_NAME": "Hegstrom, Edward",
+    "INSTRUCTOR_EMAIL": "edward.hegstrom@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 558,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50629",
+    "INSTRUCTOR_NAME": "Watkins, Sandy",
+    "INSTRUCTOR_EMAIL": "sandra.watkins@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 559,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50630",
+    "INSTRUCTOR_NAME": "Watkins, Sandy",
+    "INSTRUCTOR_EMAIL": "sandra.watkins@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 560,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50631",
+    "INSTRUCTOR_NAME": "Vickery, Lisa",
+    "INSTRUCTOR_EMAIL": "lisa.vickery@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 561,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50632",
+    "INSTRUCTOR_NAME": "Hardcastle, Michelle",
+    "INSTRUCTOR_EMAIL": "michelle.hardcastle@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 562,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50633",
+    "INSTRUCTOR_NAME": "Hardcastle, Michelle",
+    "INSTRUCTOR_EMAIL": "michelle.hardcastle@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 563,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50634",
+    "INSTRUCTOR_NAME": "Hardcastle, Michelle",
+    "INSTRUCTOR_EMAIL": "michelle.hardcastle@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 564,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50636",
+    "INSTRUCTOR_NAME": "Teerlink, Cynthia",
+    "INSTRUCTOR_EMAIL": "cynthia.teerlink@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 565,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50637",
+    "INSTRUCTOR_NAME": "Teerlink, Cynthia",
+    "INSTRUCTOR_EMAIL": "cynthia.teerlink@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 566,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50638",
+    "INSTRUCTOR_NAME": "Chen, Serkuang",
+    "INSTRUCTOR_EMAIL": "serkuang.chen@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 567,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50639",
+    "INSTRUCTOR_NAME": "Hill, Bobby",
+    "INSTRUCTOR_EMAIL": "bobby.hill@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 568,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50641",
+    "INSTRUCTOR_NAME": "Neary, Kelly",
+    "INSTRUCTOR_EMAIL": "kelly.neary@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 569,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50642",
+    "INSTRUCTOR_NAME": "Neary, Kelly",
+    "INSTRUCTOR_EMAIL": "kelly.neary@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 570,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50643",
+    "INSTRUCTOR_NAME": "Neary, Kelly",
+    "INSTRUCTOR_EMAIL": "kelly.neary@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 571,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50643",
+    "INSTRUCTOR_NAME": "Cabanilla, Joanne",
+    "INSTRUCTOR_EMAIL": "joanne.cabanilla@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 572,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50644",
+    "INSTRUCTOR_NAME": "Badea, Iuliana",
+    "INSTRUCTOR_EMAIL": "iuliana.badea@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 573,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50645",
+    "INSTRUCTOR_NAME": "Badea, Iuliana",
+    "INSTRUCTOR_EMAIL": "iuliana.badea@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 574,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50646",
+    "INSTRUCTOR_NAME": "Badea, Iuliana",
+    "INSTRUCTOR_EMAIL": "iuliana.badea@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 575,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50647",
+    "INSTRUCTOR_NAME": "Badea, Iuliana",
+    "INSTRUCTOR_EMAIL": "iuliana.badea@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 576,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50648",
+    "INSTRUCTOR_NAME": "Walton, Georgia",
+    "INSTRUCTOR_EMAIL": "georgia.walton@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 577,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50649",
+    "INSTRUCTOR_NAME": "Ansari, Unbareen",
+    "INSTRUCTOR_EMAIL": "unbareen.ansari@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 578,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50649",
+    "INSTRUCTOR_NAME": "Javier-Tolentino, Lauren",
+    "INSTRUCTOR_EMAIL": "lauren.javier-tolentino@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 579,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50650",
+    "INSTRUCTOR_NAME": "Walton, Georgia",
+    "INSTRUCTOR_EMAIL": "georgia.walton@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 580,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50651",
+    "INSTRUCTOR_NAME": "Walton, Georgia",
+    "INSTRUCTOR_EMAIL": "georgia.walton@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 581,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50652",
+    "INSTRUCTOR_NAME": "Walton, Georgia",
+    "INSTRUCTOR_EMAIL": "georgia.walton@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 582,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50653",
+    "INSTRUCTOR_NAME": "Walton, Georgia",
+    "INSTRUCTOR_EMAIL": "georgia.walton@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 583,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50654",
+    "INSTRUCTOR_NAME": "Walton, Georgia",
+    "INSTRUCTOR_EMAIL": "georgia.walton@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 584,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50655",
+    "INSTRUCTOR_NAME": "Rodriguez, Willo",
+    "INSTRUCTOR_EMAIL": "willo.rodriguez@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 585,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50656",
+    "INSTRUCTOR_NAME": "Vargas, Erika",
+    "INSTRUCTOR_EMAIL": "erika.vargas@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 586,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50657",
+    "INSTRUCTOR_NAME": "Dennis, Haze",
+    "INSTRUCTOR_EMAIL": "haze.dennis@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 587,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50658",
+    "INSTRUCTOR_NAME": "Arias, Daniel",
+    "INSTRUCTOR_EMAIL": "daniel.arias@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 588,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50659",
+    "INSTRUCTOR_NAME": "Watson, Brian",
+    "INSTRUCTOR_EMAIL": "brian.watson@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 589,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50660",
+    "INSTRUCTOR_NAME": "Kim, Justin",
+    "INSTRUCTOR_EMAIL": "justin.kim@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 590,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50661",
+    "INSTRUCTOR_NAME": "Kim, Justin",
+    "INSTRUCTOR_EMAIL": "justin.kim@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 591,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50662",
+    "INSTRUCTOR_NAME": "Kim, Justin",
+    "INSTRUCTOR_EMAIL": "justin.kim@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 592,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50663",
+    "INSTRUCTOR_NAME": "Kim, Justin",
+    "INSTRUCTOR_EMAIL": "justin.kim@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 593,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50664",
+    "INSTRUCTOR_NAME": "Kim, Justin",
+    "INSTRUCTOR_EMAIL": "justin.kim@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 594,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50665",
+    "INSTRUCTOR_NAME": "Vu, Amy",
+    "INSTRUCTOR_EMAIL": "amy.vu@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 595,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50666",
+    "INSTRUCTOR_NAME": "Ho, Jennifer",
+    "INSTRUCTOR_EMAIL": "jennifer.ho@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 596,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50667",
+    "INSTRUCTOR_NAME": "Ho, Jennifer",
+    "INSTRUCTOR_EMAIL": "jennifer.ho@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 597,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50668",
+    "INSTRUCTOR_NAME": "Jovel, Steve",
+    "INSTRUCTOR_EMAIL": "steve.jovel@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 598,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50670",
+    "INSTRUCTOR_NAME": "Syty, Greg",
+    "INSTRUCTOR_EMAIL": "greg.syty@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 599,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50671",
+    "INSTRUCTOR_NAME": "Varia, Bijal",
+    "INSTRUCTOR_EMAIL": "bijal.varia@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 600,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50672",
+    "INSTRUCTOR_NAME": "Morrison, Jennifer",
+    "INSTRUCTOR_EMAIL": "jennifer.morrison@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 601,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50673",
+    "INSTRUCTOR_NAME": "Ulloa, John",
+    "INSTRUCTOR_EMAIL": "john.ulloa@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 602,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50674",
+    "INSTRUCTOR_NAME": "Yarahmadi, Fatemeh",
+    "INSTRUCTOR_EMAIL": "fatemeh.yarahmadi@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 603,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50675",
+    "INSTRUCTOR_NAME": "Hackworth, Cheryl",
+    "INSTRUCTOR_EMAIL": "cheryl.hackworth@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 604,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50676",
+    "INSTRUCTOR_NAME": "Mahony, Marlene",
+    "INSTRUCTOR_EMAIL": "marlene.mahony@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 605,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50677",
+    "INSTRUCTOR_NAME": "Sun, Helen",
+    "INSTRUCTOR_EMAIL": "helen.sun@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 606,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50678",
+    "INSTRUCTOR_NAME": "Blaustein, Josh",
+    "INSTRUCTOR_EMAIL": "josh.blaustein@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 607,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50679",
+    "INSTRUCTOR_NAME": "Firenzi, Gina",
+    "INSTRUCTOR_EMAIL": "gina.firenzi@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 608,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50680",
+    "INSTRUCTOR_NAME": "Omidi, Pejman",
+    "INSTRUCTOR_EMAIL": "pejman.omidi@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 609,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50681",
+    "INSTRUCTOR_NAME": "Rodriguez Juarez, Martin",
+    "INSTRUCTOR_EMAIL": "martin.rodriguez@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 610,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50682",
+    "INSTRUCTOR_NAME": "Rodriguez Juarez, Martin",
+    "INSTRUCTOR_EMAIL": "martin.rodriguez@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 611,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50683",
+    "INSTRUCTOR_NAME": "Lavallo, Pat",
+    "INSTRUCTOR_EMAIL": "pat.lavallo@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 612,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50685",
+    "INSTRUCTOR_NAME": "Vu, Tracy",
+    "INSTRUCTOR_EMAIL": "tracy.vu@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 613,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50686",
+    "INSTRUCTOR_NAME": "Dinh, Hung",
+    "INSTRUCTOR_EMAIL": "hung.dinh@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 614,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50688",
+    "INSTRUCTOR_NAME": "Mneimneh, Maher",
+    "INSTRUCTOR_EMAIL": "maher.mneimneh@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 615,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50688",
+    "INSTRUCTOR_NAME": "El Kaissi, Rouba",
+    "INSTRUCTOR_EMAIL": "rouba.elkaissi@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 616,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50690",
+    "INSTRUCTOR_NAME": "Castorena, Jose",
+    "INSTRUCTOR_EMAIL": "jose.castorena@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 617,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50691",
+    "INSTRUCTOR_NAME": "Blassingame, Brian",
+    "INSTRUCTOR_EMAIL": "brian.blassingame@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 618,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50692",
+    "INSTRUCTOR_NAME": "Blassingame, Brian",
+    "INSTRUCTOR_EMAIL": "brian.blassingame@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 619,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50693",
+    "INSTRUCTOR_NAME": "Miller, Louis",
+    "INSTRUCTOR_EMAIL": "louis.miller@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 620,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50694",
+    "INSTRUCTOR_NAME": "Miller, Louis",
+    "INSTRUCTOR_EMAIL": "louis.miller@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 621,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50695",
+    "INSTRUCTOR_NAME": "Allen, Jerry",
+    "INSTRUCTOR_EMAIL": "jerry.allen@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 622,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50696",
+    "INSTRUCTOR_NAME": "Smith, Mary Ann",
+    "INSTRUCTOR_EMAIL": "maryann.smith@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 623,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50697",
+    "INSTRUCTOR_NAME": "Sinclair, Robert",
+    "INSTRUCTOR_EMAIL": "robert.sinclair@westvalley.edu"
+  },
+  {
+    "ROW_NUMBER": 624,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50698",
+    "INSTRUCTOR_NAME": "Juarez, Steve",
+    "INSTRUCTOR_EMAIL": null
+  },
+  {
+    "ROW_NUMBER": 625,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50699",
+    "INSTRUCTOR_NAME": "Nadkarni, Hema",
+    "INSTRUCTOR_EMAIL": "hema.nadkarni@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 626,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50700",
+    "INSTRUCTOR_NAME": "Yarahmadi, Fatemeh",
+    "INSTRUCTOR_EMAIL": "fatemeh.yarahmadi@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 627,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50702",
+    "INSTRUCTOR_NAME": "Lett, Krystyna",
+    "INSTRUCTOR_EMAIL": "krystyna.lett@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 628,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50703",
+    "INSTRUCTOR_NAME": "Lett, Krystyna",
+    "INSTRUCTOR_EMAIL": "krystyna.lett@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 629,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50705",
+    "INSTRUCTOR_NAME": "Hegstrom, Edward",
+    "INSTRUCTOR_EMAIL": "edward.hegstrom@wvm.edu"
+  },
+  {
+    "ROW_NUMBER": 630,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50707",
+    "INSTRUCTOR_NAME": "Castorena, Jose",
+    "INSTRUCTOR_EMAIL": "jose.castorena@missioncollege.edu"
+  },
+  {
+    "ROW_NUMBER": 631,
+    "SIRASGN_TERM_CODE": "202250",
+    "SIRASGN_CRN": "50708",
+    "INSTRUCTOR_NAME": "Castorena, Jose",
+    "INSTRUCTOR_EMAIL": "jose.castorena@missioncollege.edu"
+  }
+]

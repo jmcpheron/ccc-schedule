@@ -1,0 +1,57 @@
+[
+  {
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "UC Transfer Only"
+  },
+    {
+      "SSRATTR_ATTR_CODE": "1A",
+      "STVATTR_DESC": "IGETC English Composition"
+    },
+    {
+      "SSRATTR_ATTR_CODE": "1B",
+      "STVATTR_DESC": "IGETC Critical Thinking"
+    },
+    {
+      "SSRATTR_ATTR_CODE": "1C",
+      "STVATTR_DESC": "IGETC Oral Communication"
+    },
+    {
+      "SSRATTR_ATTR_CODE": "2A",
+      "STVATTR_DESC": "IGETC Quantitative Reasoning"
+    },
+    {
+      "SSRATTR_ATTR_CODE": "3A",
+      "STVATTR_DESC": "IGETC Arts"
+    },
+    {
+      "SSRATTR_ATTR_CODE": "3B",
+      "STVATTR_DESC": "IGETC Humanities"
+    },
+    {
+      "SSRATTR_ATTR_CODE": "4",
+      "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+    },
+    {
+      "ROW_NUMBER": 8,
+      "SSRATTR_TERM_CODE": "202270",
+      "SSRATTR_ATTR_CODE": "5A",
+      "STVATTR_DESC": "IGETC Physical Sciences"
+    },
+    {
+      "SSRATTR_ATTR_CODE": "5B",
+      "STVATTR_DESC": "IGETC Biological Sciences"
+    },
+    {
+      "SSRATTR_ATTR_CODE": "5C",
+      "STVATTR_DESC": "IGETC Laboratory Sciences"
+    },
+    {
+      "SSRATTR_ATTR_CODE": "6A",
+      "STVATTR_DESC": "IGETC Languages (LOTE)"
+    },
+    {
+      "SSRATTR_ATTR_CODE": "7",
+      "STVATTR_DESC": "IGETC Ethnic Studies"
+    }
+
+  ]

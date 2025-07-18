@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Loading Test</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>North Orange County Data Loading Test</h1>
+    <div id="results"></div>
+    
+    <script>
+        $(document).ready(function() {
+            let results = $('#results');
+            
+            // Test loading terms.json
+            $.getJSON("data/terms.json", function(data) {
+                results.append('<h2>Terms Loaded:</h2>');
+                results.append('<pre>' + JSON.stringify(data, null, 2) + '</pre>');
+            }).fail(function(xhr, status, error) {
+                results.append('<p style="color:red">Failed to load terms.json: ' + error + '</p>');
+            });
+            
+            // Test loading courses.json
+            $.getJSON("data/courses.json", function(data) {
+                results.append('<h2>Courses Loaded (first 3):</h2>');
+                results.append('<pre>' + JSON.stringify(data.slice(0, 3), null, 2) + '</pre>');
+                results.append('<p>Total courses: ' + data.length + '</p>');
+            }).fail(function(xhr, status, error) {
+                results.append('<p style="color:red">Failed to load courses.json: ' + error + '</p>');
+            });
+            
+            // Test loading sections.json
+            $.getJSON("data/sections.json", function(data) {
+                results.append('<h2>Sections Loaded (first 3):</h2>');
+                results.append('<pre>' + JSON.stringify(data.slice(0, 3), null, 2) + '</pre>');
+                results.append('<p>Total sections: ' + data.length + '</p>');
+            }).fail(function(xhr, status, error) {
+                results.append('<p style="color:red">Failed to load sections.json: ' + error + '</p>');
+            });
+            
+            // Test loading csuge.json
+            $.getJSON("data/csuge.json", function(data) {
+                results.append('<h2>CSU GE Loaded:</h2>');
+                results.append('<pre>' + JSON.stringify(data, null, 2) + '</pre>');
+            }).fail(function(xhr, status, error) {
+                results.append('<p style="color:red">Failed to load csuge.json: ' + error + '</p>');
+            });
+            
+            // Test loading igetc.json
+            $.getJSON("data/igetc.json", function(data) {
+                results.append('<h2>IGETC Loaded:</h2>');
+                results.append('<pre>' + JSON.stringify(data.slice(0, 5), null, 2) + '</pre>');
+                results.append('<p>Total IGETC items: ' + data.length + '</p>');
+            }).fail(function(xhr, status, error) {
+                results.append('<p style="color:red">Failed to load igetc.json: ' + error + '</p>');
+            });
+        });
+    </script>
+</body>
+</html>

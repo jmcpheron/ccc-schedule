@@ -1,0 +1,1361 @@
+
+[
+  {
+    "ROW_NUMBER": 1,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74270",
+    "SSRRCHR_CHRT_CODE": "WVMC",
+    "STVCHRT_DESC": "WV Middle College"
+  },
+  {
+    "ROW_NUMBER": 2,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73907",
+    "SSRRCHR_CHRT_CODE": "MSBAEC",
+    "STVCHRT_DESC": "MC S Bay Adult Ed Consortium"
+  },
+  {
+    "ROW_NUMBER": 3,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73336",
+    "SSRRCHR_CHRT_CODE": "MUMOJA",
+    "STVCHRT_DESC": "MC Umoja Program"
+  },
+  {
+    "ROW_NUMBER": 4,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73579",
+    "SSRRCHR_CHRT_CODE": "MUMOJA",
+    "STVCHRT_DESC": "MC Umoja Program"
+  },
+  {
+    "ROW_NUMBER": 5,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "72998",
+    "SSRRCHR_CHRT_CODE": "WNAI",
+    "STVCHRT_DESC": "WV Native Amer/Indigenous"
+  },
+  {
+    "ROW_NUMBER": 6,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73522",
+    "SSRRCHR_CHRT_CODE": "WNAI",
+    "STVCHRT_DESC": "WV Native Amer/Indigenous"
+  },
+  {
+    "ROW_NUMBER": 7,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "72760",
+    "SSRRCHR_CHRT_CODE": "WUMOJA",
+    "STVCHRT_DESC": "WV Umoja"
+  },
+  {
+    "ROW_NUMBER": 8,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73153",
+    "SSRRCHR_CHRT_CODE": "WUMOJA",
+    "STVCHRT_DESC": "WV Umoja"
+  },
+  {
+    "ROW_NUMBER": 9,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73338",
+    "SSRRCHR_CHRT_CODE": "MPUENTE",
+    "STVCHRT_DESC": "MC Puente"
+  },
+  {
+    "ROW_NUMBER": 10,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73578",
+    "SSRRCHR_CHRT_CODE": "MPUENTE",
+    "STVCHRT_DESC": "MC Puente"
+  },
+  {
+    "ROW_NUMBER": 11,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73809",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 12,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73810",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 13,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74394",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 14,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74395",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 15,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74396",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 16,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74397",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 17,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74399",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 18,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74400",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 19,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74401",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 20,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74403",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 21,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74405",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 22,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74406",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 23,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74407",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 24,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74413",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 25,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74414",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 26,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74417",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 27,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74421",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 28,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74441",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 29,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74475",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 30,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74478",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 31,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74479",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 32,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74480",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 33,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74481",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 34,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74482",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 35,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74483",
+    "SSRRCHR_CHRT_CODE": "MELMWOOD",
+    "STVCHRT_DESC": "MC Elmwood Correctional Facil."
+  },
+  {
+    "ROW_NUMBER": 36,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73629",
+    "SSRRCHR_CHRT_CODE": "MYUH",
+    "STVCHRT_DESC": "MC Year Up Help Desk"
+  },
+  {
+    "ROW_NUMBER": 37,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73964",
+    "SSRRCHR_CHRT_CODE": "MYUH",
+    "STVCHRT_DESC": "MC Year Up Help Desk"
+  },
+  {
+    "ROW_NUMBER": 38,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74033",
+    "SSRRCHR_CHRT_CODE": "MYUH",
+    "STVCHRT_DESC": "MC Year Up Help Desk"
+  },
+  {
+    "ROW_NUMBER": 39,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74034",
+    "SSRRCHR_CHRT_CODE": "MYUH",
+    "STVCHRT_DESC": "MC Year Up Help Desk"
+  },
+  {
+    "ROW_NUMBER": 40,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74044",
+    "SSRRCHR_CHRT_CODE": "MYUH",
+    "STVCHRT_DESC": "MC Year Up Help Desk"
+  },
+  {
+    "ROW_NUMBER": 41,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74057",
+    "SSRRCHR_CHRT_CODE": "MYUH",
+    "STVCHRT_DESC": "MC Year Up Help Desk"
+  },
+  {
+    "ROW_NUMBER": 42,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74109",
+    "SSRRCHR_CHRT_CODE": "MYUH",
+    "STVCHRT_DESC": "MC Year Up Help Desk"
+  },
+  {
+    "ROW_NUMBER": 43,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74490",
+    "SSRRCHR_CHRT_CODE": "MYUH",
+    "STVCHRT_DESC": "MC Year Up Help Desk"
+  },
+  {
+    "ROW_NUMBER": 44,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73942",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 45,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74316",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 46,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74391",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 47,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74392",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 48,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74393",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 49,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74398",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 50,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74402",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 51,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74442",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 52,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74443",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 53,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74444",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 54,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74445",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 55,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74446",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 56,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74447",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 57,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74448",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 58,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74484",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 59,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74485",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 60,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74486",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 61,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74487",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 62,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74488",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 63,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74489",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 64,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74492",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 65,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74493",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 66,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74494",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 67,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74495",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 68,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74496",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 69,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74497",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 70,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74504",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 71,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74505",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 72,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74508",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 73,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74509",
+    "SSRRCHR_CHRT_CODE": "MTRN",
+    "STVCHRT_DESC": "MC CA Apprenticeship Initiativ"
+  },
+  {
+    "ROW_NUMBER": 74,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73628",
+    "SSRRCHR_CHRT_CODE": "MYUD",
+    "STVCHRT_DESC": "MC Year Up Data Analyst"
+  },
+  {
+    "ROW_NUMBER": 75,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73965",
+    "SSRRCHR_CHRT_CODE": "MYUD",
+    "STVCHRT_DESC": "MC Year Up Data Analyst"
+  },
+  {
+    "ROW_NUMBER": 76,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74007",
+    "SSRRCHR_CHRT_CODE": "MYUD",
+    "STVCHRT_DESC": "MC Year Up Data Analyst"
+  },
+  {
+    "ROW_NUMBER": 77,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74010",
+    "SSRRCHR_CHRT_CODE": "MYUD",
+    "STVCHRT_DESC": "MC Year Up Data Analyst"
+  },
+  {
+    "ROW_NUMBER": 78,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74049",
+    "SSRRCHR_CHRT_CODE": "MYUD",
+    "STVCHRT_DESC": "MC Year Up Data Analyst"
+  },
+  {
+    "ROW_NUMBER": 79,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74052",
+    "SSRRCHR_CHRT_CODE": "MYUD",
+    "STVCHRT_DESC": "MC Year Up Data Analyst"
+  },
+  {
+    "ROW_NUMBER": 80,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73630",
+    "SSRRCHR_CHRT_CODE": "MYUM",
+    "STVCHRT_DESC": "MC Year Up Program Management"
+  },
+  {
+    "ROW_NUMBER": 81,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73966",
+    "SSRRCHR_CHRT_CODE": "MYUM",
+    "STVCHRT_DESC": "MC Year Up Program Management"
+  },
+  {
+    "ROW_NUMBER": 82,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74016",
+    "SSRRCHR_CHRT_CODE": "MYUM",
+    "STVCHRT_DESC": "MC Year Up Program Management"
+  },
+  {
+    "ROW_NUMBER": 83,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74017",
+    "SSRRCHR_CHRT_CODE": "MYUM",
+    "STVCHRT_DESC": "MC Year Up Program Management"
+  },
+  {
+    "ROW_NUMBER": 84,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74026",
+    "SSRRCHR_CHRT_CODE": "MYUM",
+    "STVCHRT_DESC": "MC Year Up Program Management"
+  },
+  {
+    "ROW_NUMBER": 85,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74032",
+    "SSRRCHR_CHRT_CODE": "MYUM",
+    "STVCHRT_DESC": "MC Year Up Program Management"
+  },
+  {
+    "ROW_NUMBER": 86,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74035",
+    "SSRRCHR_CHRT_CODE": "MYUM",
+    "STVCHRT_DESC": "MC Year Up Program Management"
+  },
+  {
+    "ROW_NUMBER": 87,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74036",
+    "SSRRCHR_CHRT_CODE": "MYUM",
+    "STVCHRT_DESC": "MC Year Up Program Management"
+  },
+  {
+    "ROW_NUMBER": 88,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73329",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  },
+  {
+    "ROW_NUMBER": 89,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73346",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  },
+  {
+    "ROW_NUMBER": 90,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73359",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  },
+  {
+    "ROW_NUMBER": 91,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73361",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  },
+  {
+    "ROW_NUMBER": 92,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73366",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  },
+  {
+    "ROW_NUMBER": 93,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73368",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  },
+  {
+    "ROW_NUMBER": 94,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73419",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  },
+  {
+    "ROW_NUMBER": 95,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73727",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  },
+  {
+    "ROW_NUMBER": 96,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73887",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  },
+  {
+    "ROW_NUMBER": 97,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73893",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  },
+  {
+    "ROW_NUMBER": 98,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73900",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  },
+  {
+    "ROW_NUMBER": 99,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73914",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  },
+  {
+    "ROW_NUMBER": 100,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73917",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  },
+  {
+    "ROW_NUMBER": 101,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73924",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  },
+  {
+    "ROW_NUMBER": 102,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73926",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  },
+  {
+    "ROW_NUMBER": 103,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74166",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  },
+  {
+    "ROW_NUMBER": 104,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74213",
+    "SSRRCHR_CHRT_CODE": "MHONR",
+    "STVCHRT_DESC": "MC Honors Student"
+  },
+  {
+    "ROW_NUMBER": 105,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "72345",
+    "SSRRCHR_CHRT_CODE": "WHONR",
+    "STVCHRT_DESC": "WV Honors Student"
+  },
+  {
+    "ROW_NUMBER": 106,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "72357",
+    "SSRRCHR_CHRT_CODE": "WHONR",
+    "STVCHRT_DESC": "WV Honors Student"
+  },
+  {
+    "ROW_NUMBER": 107,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "72373",
+    "SSRRCHR_CHRT_CODE": "WHONR",
+    "STVCHRT_DESC": "WV Honors Student"
+  },
+  {
+    "ROW_NUMBER": 108,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "72471",
+    "SSRRCHR_CHRT_CODE": "WHONR",
+    "STVCHRT_DESC": "WV Honors Student"
+  },
+  {
+    "ROW_NUMBER": 109,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "72515",
+    "SSRRCHR_CHRT_CODE": "WHONR",
+    "STVCHRT_DESC": "WV Honors Student"
+  },
+  {
+    "ROW_NUMBER": 110,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "72692",
+    "SSRRCHR_CHRT_CODE": "WHONR",
+    "STVCHRT_DESC": "WV Honors Student"
+  },
+  {
+    "ROW_NUMBER": 111,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "72694",
+    "SSRRCHR_CHRT_CODE": "WHONR",
+    "STVCHRT_DESC": "WV Honors Student"
+  },
+  {
+    "ROW_NUMBER": 112,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "72981",
+    "SSRRCHR_CHRT_CODE": "WHONR",
+    "STVCHRT_DESC": "WV Honors Student"
+  },
+  {
+    "ROW_NUMBER": 113,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73050",
+    "SSRRCHR_CHRT_CODE": "WHONR",
+    "STVCHRT_DESC": "WV Honors Student"
+  },
+  {
+    "ROW_NUMBER": 114,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73094",
+    "SSRRCHR_CHRT_CODE": "WHONR",
+    "STVCHRT_DESC": "WV Honors Student"
+  },
+  {
+    "ROW_NUMBER": 115,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73110",
+    "SSRRCHR_CHRT_CODE": "WHONR",
+    "STVCHRT_DESC": "WV Honors Student"
+  },
+  {
+    "ROW_NUMBER": 116,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73113",
+    "SSRRCHR_CHRT_CODE": "WHONR",
+    "STVCHRT_DESC": "WV Honors Student"
+  },
+  {
+    "ROW_NUMBER": 117,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73448",
+    "SSRRCHR_CHRT_CODE": "WHONR",
+    "STVCHRT_DESC": "WV Honors Student"
+  },
+  {
+    "ROW_NUMBER": 118,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73595",
+    "SSRRCHR_CHRT_CODE": "WHONR",
+    "STVCHRT_DESC": "WV Honors Student"
+  },
+  {
+    "ROW_NUMBER": 119,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74108",
+    "SSRRCHR_CHRT_CODE": "WHONR",
+    "STVCHRT_DESC": "WV Honors Student"
+  },
+  {
+    "ROW_NUMBER": 120,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "72766",
+    "SSRRCHR_CHRT_CODE": "WPUENTE",
+    "STVCHRT_DESC": "WV Puente"
+  },
+  {
+    "ROW_NUMBER": 121,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73152",
+    "SSRRCHR_CHRT_CODE": "WPUENTE",
+    "STVCHRT_DESC": "WV Puente"
+  },
+  {
+    "ROW_NUMBER": 122,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73901",
+    "SSRRCHR_CHRT_CODE": "MFFA",
+    "STVCHRT_DESC": "MC 1st 5 Early Ed. Apprentice"
+  },
+  {
+    "ROW_NUMBER": 123,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74377",
+    "SSRRCHR_CHRT_CODE": "MFFA",
+    "STVCHRT_DESC": "MC 1st 5 Early Ed. Apprentice"
+  },
+  {
+    "ROW_NUMBER": 124,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73857",
+    "SSRRCHR_CHRT_CODE": "MSJPLIB",
+    "STVCHRT_DESC": "MC San Jose Public Library"
+  },
+  {
+    "ROW_NUMBER": 125,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73862",
+    "SSRRCHR_CHRT_CODE": "MSJPLIB",
+    "STVCHRT_DESC": "MC San Jose Public Library"
+  },
+  {
+    "ROW_NUMBER": 126,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73718",
+    "SSRRCHR_CHRT_CODE": "MVN1A",
+    "STVCHRT_DESC": "MC Vocational Nurse 1st sem"
+  },
+  {
+    "ROW_NUMBER": 127,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73719",
+    "SSRRCHR_CHRT_CODE": "MVN1A",
+    "STVCHRT_DESC": "MC Vocational Nurse 1st sem"
+  },
+  {
+    "ROW_NUMBER": 128,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73720",
+    "SSRRCHR_CHRT_CODE": "MVN1A",
+    "STVCHRT_DESC": "MC Vocational Nurse 1st sem"
+  },
+  {
+    "ROW_NUMBER": 129,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73721",
+    "SSRRCHR_CHRT_CODE": "MVN1A",
+    "STVCHRT_DESC": "MC Vocational Nurse 1st sem"
+  },
+  {
+    "ROW_NUMBER": 130,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73722",
+    "SSRRCHR_CHRT_CODE": "MVN1A",
+    "STVCHRT_DESC": "MC Vocational Nurse 1st sem"
+  },
+  {
+    "ROW_NUMBER": 131,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73729",
+    "SSRRCHR_CHRT_CODE": "MVN1A",
+    "STVCHRT_DESC": "MC Vocational Nurse 1st sem"
+  },
+  {
+    "ROW_NUMBER": 132,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73730",
+    "SSRRCHR_CHRT_CODE": "MVN1A",
+    "STVCHRT_DESC": "MC Vocational Nurse 1st sem"
+  },
+  {
+    "ROW_NUMBER": 133,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73747",
+    "SSRRCHR_CHRT_CODE": "MVN1A",
+    "STVCHRT_DESC": "MC Vocational Nurse 1st sem"
+  },
+  {
+    "ROW_NUMBER": 134,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73819",
+    "SSRRCHR_CHRT_CODE": "MVN1A",
+    "STVCHRT_DESC": "MC Vocational Nurse 1st sem"
+  },
+  {
+    "ROW_NUMBER": 135,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73820",
+    "SSRRCHR_CHRT_CODE": "MVN1A",
+    "STVCHRT_DESC": "MC Vocational Nurse 1st sem"
+  },
+  {
+    "ROW_NUMBER": 136,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73824",
+    "SSRRCHR_CHRT_CODE": "MVN1A",
+    "STVCHRT_DESC": "MC Vocational Nurse 1st sem"
+  },
+  {
+    "ROW_NUMBER": 137,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73787",
+    "SSRRCHR_CHRT_CODE": "MVN1B",
+    "STVCHRT_DESC": "MC Vocational Nurse 2nd sem"
+  },
+  {
+    "ROW_NUMBER": 138,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73788",
+    "SSRRCHR_CHRT_CODE": "MVN1B",
+    "STVCHRT_DESC": "MC Vocational Nurse 2nd sem"
+  },
+  {
+    "ROW_NUMBER": 139,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73790",
+    "SSRRCHR_CHRT_CODE": "MVN1B",
+    "STVCHRT_DESC": "MC Vocational Nurse 2nd sem"
+  },
+  {
+    "ROW_NUMBER": 140,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73791",
+    "SSRRCHR_CHRT_CODE": "MVN1B",
+    "STVCHRT_DESC": "MC Vocational Nurse 2nd sem"
+  },
+  {
+    "ROW_NUMBER": 141,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73793",
+    "SSRRCHR_CHRT_CODE": "MVN1B",
+    "STVCHRT_DESC": "MC Vocational Nurse 2nd sem"
+  },
+  {
+    "ROW_NUMBER": 142,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73794",
+    "SSRRCHR_CHRT_CODE": "MVN1B",
+    "STVCHRT_DESC": "MC Vocational Nurse 2nd sem"
+  },
+  {
+    "ROW_NUMBER": 143,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73825",
+    "SSRRCHR_CHRT_CODE": "MVN1B",
+    "STVCHRT_DESC": "MC Vocational Nurse 2nd sem"
+  },
+  {
+    "ROW_NUMBER": 144,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73826",
+    "SSRRCHR_CHRT_CODE": "MVN1B",
+    "STVCHRT_DESC": "MC Vocational Nurse 2nd sem"
+  },
+  {
+    "ROW_NUMBER": 145,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73827",
+    "SSRRCHR_CHRT_CODE": "MVN1B",
+    "STVCHRT_DESC": "MC Vocational Nurse 2nd sem"
+  },
+  {
+    "ROW_NUMBER": 146,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73795",
+    "SSRRCHR_CHRT_CODE": "MVN1C",
+    "STVCHRT_DESC": "MC Vocational Nurse 3rd sem"
+  },
+  {
+    "ROW_NUMBER": 147,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73796",
+    "SSRRCHR_CHRT_CODE": "MVN1C",
+    "STVCHRT_DESC": "MC Vocational Nurse 3rd sem"
+  },
+  {
+    "ROW_NUMBER": 148,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73797",
+    "SSRRCHR_CHRT_CODE": "MVN1C",
+    "STVCHRT_DESC": "MC Vocational Nurse 3rd sem"
+  },
+  {
+    "ROW_NUMBER": 149,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73798",
+    "SSRRCHR_CHRT_CODE": "MVN1C",
+    "STVCHRT_DESC": "MC Vocational Nurse 3rd sem"
+  },
+  {
+    "ROW_NUMBER": 150,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73799",
+    "SSRRCHR_CHRT_CODE": "MVN1C",
+    "STVCHRT_DESC": "MC Vocational Nurse 3rd sem"
+  },
+  {
+    "ROW_NUMBER": 151,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73800",
+    "SSRRCHR_CHRT_CODE": "MVN1C",
+    "STVCHRT_DESC": "MC Vocational Nurse 3rd sem"
+  },
+  {
+    "ROW_NUMBER": 152,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73801",
+    "SSRRCHR_CHRT_CODE": "MVN1C",
+    "STVCHRT_DESC": "MC Vocational Nurse 3rd sem"
+  },
+  {
+    "ROW_NUMBER": 153,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73828",
+    "SSRRCHR_CHRT_CODE": "MVN1C",
+    "STVCHRT_DESC": "MC Vocational Nurse 3rd sem"
+  },
+  {
+    "ROW_NUMBER": 154,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73829",
+    "SSRRCHR_CHRT_CODE": "MVN1C",
+    "STVCHRT_DESC": "MC Vocational Nurse 3rd sem"
+  },
+  {
+    "ROW_NUMBER": 155,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73830",
+    "SSRRCHR_CHRT_CODE": "MVN1C",
+    "STVCHRT_DESC": "MC Vocational Nurse 3rd sem"
+  },
+  {
+    "ROW_NUMBER": 156,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73706",
+    "SSRRCHR_CHRT_CODE": "MNA1A",
+    "STVCHRT_DESC": "MC Nursing Assistant"
+  },
+  {
+    "ROW_NUMBER": 157,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73710",
+    "SSRRCHR_CHRT_CODE": "MNA1A",
+    "STVCHRT_DESC": "MC Nursing Assistant"
+  },
+  {
+    "ROW_NUMBER": 158,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73714",
+    "SSRRCHR_CHRT_CODE": "MNA1A",
+    "STVCHRT_DESC": "MC Nursing Assistant"
+  },
+  {
+    "ROW_NUMBER": 159,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73715",
+    "SSRRCHR_CHRT_CODE": "MNA1A",
+    "STVCHRT_DESC": "MC Nursing Assistant"
+  },
+  {
+    "ROW_NUMBER": 160,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74378",
+    "SSRRCHR_CHRT_CODE": "MNA1A",
+    "STVCHRT_DESC": "MC Nursing Assistant"
+  },
+  {
+    "ROW_NUMBER": 161,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74379",
+    "SSRRCHR_CHRT_CODE": "MNA1A",
+    "STVCHRT_DESC": "MC Nursing Assistant"
+  },
+  {
+    "ROW_NUMBER": 162,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73803",
+    "SSRRCHR_CHRT_CODE": "MRN1B",
+    "STVCHRT_DESC": "MC Registered Nurse 2nd sem"
+  },
+  {
+    "ROW_NUMBER": 163,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73805",
+    "SSRRCHR_CHRT_CODE": "MRN1B",
+    "STVCHRT_DESC": "MC Registered Nurse 2nd sem"
+  },
+  {
+    "ROW_NUMBER": 164,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73806",
+    "SSRRCHR_CHRT_CODE": "MRN1B",
+    "STVCHRT_DESC": "MC Registered Nurse 2nd sem"
+  },
+  {
+    "ROW_NUMBER": 165,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73807",
+    "SSRRCHR_CHRT_CODE": "MRN1B",
+    "STVCHRT_DESC": "MC Registered Nurse 2nd sem"
+  },
+  {
+    "ROW_NUMBER": 166,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73808",
+    "SSRRCHR_CHRT_CODE": "MRN1B",
+    "STVCHRT_DESC": "MC Registered Nurse 2nd sem"
+  },
+  {
+    "ROW_NUMBER": 167,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73831",
+    "SSRRCHR_CHRT_CODE": "MRN1B",
+    "STVCHRT_DESC": "MC Registered Nurse 2nd sem"
+  },
+  {
+    "ROW_NUMBER": 168,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73832",
+    "SSRRCHR_CHRT_CODE": "MRN1B",
+    "STVCHRT_DESC": "MC Registered Nurse 2nd sem"
+  },
+  {
+    "ROW_NUMBER": 169,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73833",
+    "SSRRCHR_CHRT_CODE": "MRN1B",
+    "STVCHRT_DESC": "MC Registered Nurse 2nd sem"
+  },
+  {
+    "ROW_NUMBER": 170,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73834",
+    "SSRRCHR_CHRT_CODE": "MRN1B",
+    "STVCHRT_DESC": "MC Registered Nurse 2nd sem"
+  },
+  {
+    "ROW_NUMBER": 171,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "72456",
+    "SSRRCHR_CHRT_CODE": "WFYE",
+    "STVCHRT_DESC": "WV FYE"
+  },
+  {
+    "ROW_NUMBER": 172,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "72459",
+    "SSRRCHR_CHRT_CODE": "WFYE",
+    "STVCHRT_DESC": "WV FYE"
+  },
+  {
+    "ROW_NUMBER": 173,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "72501",
+    "SSRRCHR_CHRT_CODE": "WFYE",
+    "STVCHRT_DESC": "WV FYE"
+  },
+  {
+    "ROW_NUMBER": 174,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "72514",
+    "SSRRCHR_CHRT_CODE": "WFYE",
+    "STVCHRT_DESC": "WV FYE"
+  },
+  {
+    "ROW_NUMBER": 175,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "72773",
+    "SSRRCHR_CHRT_CODE": "WFYE",
+    "STVCHRT_DESC": "WV FYE"
+  },
+  {
+    "ROW_NUMBER": 176,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73017",
+    "SSRRCHR_CHRT_CODE": "WFYE",
+    "STVCHRT_DESC": "WV FYE"
+  },
+  {
+    "ROW_NUMBER": 177,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73018",
+    "SSRRCHR_CHRT_CODE": "WFYE",
+    "STVCHRT_DESC": "WV FYE"
+  },
+  {
+    "ROW_NUMBER": 178,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73019",
+    "SSRRCHR_CHRT_CODE": "WFYE",
+    "STVCHRT_DESC": "WV FYE"
+  },
+  {
+    "ROW_NUMBER": 179,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73022",
+    "SSRRCHR_CHRT_CODE": "WFYE",
+    "STVCHRT_DESC": "WV FYE"
+  },
+  {
+    "ROW_NUMBER": 180,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73023",
+    "SSRRCHR_CHRT_CODE": "WFYE",
+    "STVCHRT_DESC": "WV FYE"
+  },
+  {
+    "ROW_NUMBER": 181,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73051",
+    "SSRRCHR_CHRT_CODE": "WFYE",
+    "STVCHRT_DESC": "WV FYE"
+  },
+  {
+    "ROW_NUMBER": 182,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73149",
+    "SSRRCHR_CHRT_CODE": "WFYE",
+    "STVCHRT_DESC": "WV FYE"
+  },
+  {
+    "ROW_NUMBER": 183,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73150",
+    "SSRRCHR_CHRT_CODE": "WFYE",
+    "STVCHRT_DESC": "WV FYE"
+  },
+  {
+    "ROW_NUMBER": 184,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73151",
+    "SSRRCHR_CHRT_CODE": "WFYE",
+    "STVCHRT_DESC": "WV FYE"
+  },
+  {
+    "ROW_NUMBER": 185,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74198",
+    "SSRRCHR_CHRT_CODE": "WFYE",
+    "STVCHRT_DESC": "WV FYE"
+  },
+  {
+    "ROW_NUMBER": 186,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74311",
+    "SSRRCHR_CHRT_CODE": "WFYE",
+    "STVCHRT_DESC": "WV FYE"
+  },
+  {
+    "ROW_NUMBER": 187,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74312",
+    "SSRRCHR_CHRT_CODE": "WFYE",
+    "STVCHRT_DESC": "WV FYE"
+  },
+  {
+    "ROW_NUMBER": 188,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74314",
+    "SSRRCHR_CHRT_CODE": "WFYE",
+    "STVCHRT_DESC": "WV FYE"
+  },
+  {
+    "ROW_NUMBER": 189,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73352",
+    "SSRRCHR_CHRT_CODE": "MSCUSD",
+    "STVCHRT_DESC": "MC Santa Clara Unified SD"
+  },
+  {
+    "ROW_NUMBER": 190,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73821",
+    "SSRRCHR_CHRT_CODE": "MSCUSD",
+    "STVCHRT_DESC": "MC Santa Clara Unified SD"
+  },
+  {
+    "ROW_NUMBER": 191,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73937",
+    "SSRRCHR_CHRT_CODE": "MSCUSD",
+    "STVCHRT_DESC": "MC Santa Clara Unified SD"
+  },
+  {
+    "ROW_NUMBER": 192,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74167",
+    "SSRRCHR_CHRT_CODE": "MSCUSD",
+    "STVCHRT_DESC": "MC Santa Clara Unified SD"
+  },
+  {
+    "ROW_NUMBER": 193,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "74389",
+    "SSRRCHR_CHRT_CODE": "MSCUSD",
+    "STVCHRT_DESC": "MC Santa Clara Unified SD"
+  },
+  {
+    "ROW_NUMBER": 194,
+    "SSRRCHR_TERM_CODE": "202370",
+    "SSRRCHR_CRN": "73524",
+    "SSRRCHR_CHRT_CODE": "MESUHSD",
+    "STVCHRT_DESC": "MC East Side Union UHSD"
+  }
+]

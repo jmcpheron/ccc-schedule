@@ -1,0 +1,33 @@
+
+[
+  {
+    "ROW_NUMBER": 1,
+    "SOBPTRM_TERM_CODE": "202110",
+    "SOBPTRM_PTRM_CODE": "1",
+    "SOBPTRM_DESC": "Full Term"
+  },
+  {
+    "ROW_NUMBER": 2,
+    "SOBPTRM_TERM_CODE": "202110",
+    "SOBPTRM_PTRM_CODE": "F",
+    "SOBPTRM_DESC": "Short Term with Sundays"
+  },
+  {
+    "ROW_NUMBER": 3,
+    "SOBPTRM_TERM_CODE": "202110",
+    "SOBPTRM_PTRM_CODE": "G",
+    "SOBPTRM_DESC": "Long Term with Sundays"
+  },
+  {
+    "ROW_NUMBER": 4,
+    "SOBPTRM_TERM_CODE": "202110",
+    "SOBPTRM_PTRM_CODE": "S",
+    "SOBPTRM_DESC": "Short Term"
+  },
+  {
+    "ROW_NUMBER": 5,
+    "SOBPTRM_TERM_CODE": "202110",
+    "SOBPTRM_PTRM_CODE": "VTA",
+    "SOBPTRM_DESC": "Valley Transit Authority"
+  }
+]

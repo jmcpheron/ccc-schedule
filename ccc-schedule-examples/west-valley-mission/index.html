@@ -1,0 +1,2595 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/jpg" href="/images/favicon.ico"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1PYH727RXW"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1PYH727RXW');
+    </script>
+    <style>
+        .list-style-none{ list-style-type:none; margin-left:0;padding-left:0;
+        }
+        
+        .badge {font-weight:400;
+            margin-right: 2px;
+            margin-left: 2px;
+        }
+        .badge-monday{
+            padding-left: .48em;
+            padding-right: .48em;
+        }
+        .badge-wednesday{
+            padding-left: .43em;
+            padding-right: .43em;
+        }
+        .badge-friday{
+            padding-left: .66em;
+            padding-right: .66em;
+        }
+        .badge-saturday{
+            padding-left: .66em;
+            padding-right: .66em;
+        }
+        table{
+            caption-side: top;
+        }
+        caption{
+            color: black;
+            font-weight: bold;
+        }
+        .button-select{
+            background-image: none;
+        }
+        .page-link.text{
+            color:black;
+        }
+        .nav-end{
+            float: right;
+        }
+        .circle {
+            background: white;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        .text-end-desk{
+            text-align:inherit;
+        }
+        .height-75{
+            height: 75px;
+        }
+        .logo-size{
+            max-width: 100%;
+            max-height: 44px;
+        }
+        @media (min-width: 576px){
+            .text-end-desk{
+                text-align: center!important;
+        
+            }
+        }
+        .card-body-meeting{
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+        
+        @media (max-width: 575.8px){
+            .card-body-meeting{
+                padding-left: .5em;
+                padding-right: .5em;
+            }
+        }
+        
+        .course-card{
+            border-color: rgb(0, 0, 0, .9);
+            border-bottom-color: rgb(0,0,0,.3);
+        }
+        .section-card{
+            
+            border-color: #cfcfcf;
+
+
+            padding: 0px;
+            border-width:2px;
+            border-width: 7px;
+            border-left-width:6px;
+            border-right-width:6px;
+            border-style: groove;
+        }
+        .section-card th{
+            border-bottom-color: rgb(0, 0, 0, .3)!important;
+        }
+        
+        .btn-primary.selected{
+            /*background-color:var(--bs-primary) !important; */ 
+        }
+        
+    </style>
+    <title>Class Search | West Valley - Mission CCD</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-light bg-light" id="top-navbar" aria-label="navigation">
+        <div class="container">
+          <a class="navbar-brand" href="https://web.wvm.edu">
+            <img src="/images/wvc-mc-combined-logo.png" alt="Mission College / West Valley College" class="logo-size">
+          </a>
+        </div>
+      </nav>
+      <div class="container">
+        <h1 class="mt-4">Class Search</h1>
+	<form id="search-form" action=".">
+
+        <div style="max-width:1000px; margin:auto;">
+            <label for="search_input_main" class="fs-2">Search</label>
+            <div class="input-group mb-3">
+                
+                <input id="search_input_main" class="form-control form-control-lg"  type="search" placeholder="Subject, Course Number, CRN, or Keyword" aria-label="#search_input_main">
+                <button class="btn btn-primary" type="submit" id="button-search" value="ALL" title="Search all sections"><span class="bi bi-search"></span> All</button>
+                <button class="btn btn-grn" type="submit" id="button-search-open" value="OPEN"  title="Search open sections only"></span> Open Classes</button>
+                
+            </div>
+        </div>
+        
+        </form>
+        <div class="p-3">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+
+                    
+                    <div>Term:</div>
+
+                    <select class="form-select" id="term-select" aria-label="term select">
+                    </select>
+                    
+                </div>
+                <div class="col-md-6 col-lg-3">
+
+                    <div>College:</div>
+                    <select class="form-select" id="college-select" aria-label="college select">
+                        <option value="ALL" selected>Both Colleges</option>
+                        <option value="MC">Mission College</option>
+                        <option value="WV">West Valley College</option>
+                    </select>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <label for="subject-select">Subject</label>
+                    <select class="form-select" aria-label="Select Subject" id="subject-select">
+                        
+                        
+                    </select>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div id="instr-method-label">Instructional Mode</div>
+                 <!--   <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> -->
+                    <div class="dropdown" id="instr-method-drop-down">
+                        <button class="form-select button-select dropdown-toggle" type="button" id="instr-method-button" data-bs-toggle="dropdown" aria-expanded="false">
+                            
+                          </button>
+                            <ul class="dropdown-menu" aria-labelledby="instr-method-label">
+                                <li class="dropdown-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod1" value="INP">
+                                        <label class="form-check-label" for="flexRadioInstrMethod1">In-Person</label>
+                                        <a tabindex="0" role="button" class="btn-link float-end" data-bs-toggle="popover-hover" data-bs-trigger="hover" data-bs-title="In-Person" data-bs-content="All instruction occurs in-person at an assigned location."><i class="bi bi-info-circle"></i></a>
+                                        
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod2" value="HYB">
+                                        <label class="form-check-label" for="flexRadioInstrMethod2">Hybrid</label>
+                                        <a tabindex="0" role="button" class="btn-link float-end" data-bs-toggle="popover-hover" data-bs-trigger="hover" data-bs-title="Hybrid" data-bs-content="Some instruction occurs in-person at an assigned location, and some instruction occurs online either asynchronously or synchronously."><i class="bi bi-info-circle"></i></a>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod6" value="FLX">
+                                        <label class="form-check-label" for="flexRadioInstrMethod6">Hyflex</label>
+                                        <a tabindex="0" role="button" class="btn-link float-end" data-bs-toggle="popover-hover" data-bs-trigger="hover" data-bs-title="Hyflex" data-bs-content="Instruction occurs in-person, but students also have the option to attend via online synchronous videoconference."><i class="bi bi-info-circle"></i></a>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    Fully Online
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod4" value="AON">
+                                                <label class="form-check-label" for="flexRadioInstrMethod4">Asynchronous</label>
+                                                <a tabindex="0" role="button" class="btn-link float-end" data-bs-toggle="popover-hover" data-bs-trigger="hover" data-bs-title="Asynchronous" data-bs-content="All instruction occurs online, with no requirements for online synchronous videoconferences."><i class="bi bi-info-circle"></i></a>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod5" value="SON">
+                                                <label class="form-check-label" for="flexRadioInstrMethod5">Synchronous</label>
+                                                <a tabindex="0" role="button" class="btn-link float-end" data-bs-toggle="popover-hover" data-bs-trigger="hover" data-bs-title="Synchronous" data-bs-content="All instruction occurs online, with required attendance at synchronous videoconferences."><i class="bi bi-info-circle"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-item">
+                                    Other
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod6" value="TUT">
+                                                <label class="form-check-label" for="flexRadioInstrMethod6">Tutoring</label>
+                                                <a tabindex="0" role="button" class="btn-link float-end" data-bs-toggle="popover-hover" data-bs-trigger="hover" data-bs-title="Tutoring" data-bs-content="Tutoring"><i class="bi bi-info-circle"></i></a>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod7" value="WRK">
+                                                <label class="form-check-label me-2" for="flexRadioInstrMethod7">Work Exp/Internship</label>
+                                                <a tabindex="0" role="button" class="btn-link float-end" data-bs-toggle="popover-hover" data-bs-trigger="hover" data-bs-title="Work Experience / Internship" data-bs-content="Courses in which students earn credit for work experience or internships."><i class="bi bi-info-circle"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        
+                      </div>
+                    </div>
+
+                </div>
+                
+                
+
+        </div>
+    </div>
+    <div class="container">
+        <p>
+            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#more-options" aria-expanded="false" aria-controls="more-options">
+              More Options
+            </button>
+            <button class="btn btn-primary" type="button" onclick="reset()">Clear Search</button>
+          </p>
+          <div class="collapse p-3" id="more-options">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div id="sessions-label">Class Length</div>
+                    <div class="dropdown">
+                        <button class="form-select button-select dropdown-toggle" type="button" id="dropdownMenuButtonSessions" data-bs-toggle="dropdown" aria-expanded="false">
+                          
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="sessions-label" id="sessions-list">
+                            
+                            <li class="dropdown-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioSessions" id="flexRadioSessions1" value="1">
+                                    <label class="form-check-label" for="flexRadioSessions1">Full-Term</label>
+                                </div>
+                            </li>
+                            <li class="dropdown-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioSessions" id="flexRadioSessions2" value="S">
+                                    <label class="form-check-label" for="flexRadioSessions2">Short-Term</label>
+                                </div>
+                            </li>
+                            <li class="dropdown-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioSessions" id="flexRadioSessions3" value="x">
+                                    <label class="form-check-label" for="flexRadioSessions3">Any</label>
+                                </div>
+                            </li>
+
+                        </ul>
+                      </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div>Instructor</div>
+                    <div class="dropdown">
+                        <input class="form-control" type="text" placeholder="Search for Instructor" aria-label="instructor" id="instructor-input" data-bs-toggle="dropdown">
+                        <input class="d-none" type="hidden" id="instructor-input-email">
+                        <ul class="dropdown-menu" id="instructor-drop-down">
+                            <li class="dropdown-item">Results</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div id="textbook-cost-label">Textbook Cost</div>
+                    <div class="dropdown">
+                        <button class="form-select button-select dropdown-toggle" type="button" id="textbookDropDown" data-bs-toggle="dropdown" aria-expanded="false"></button>
+                        <ul class="dropdown-menu" aria-labelledby="textbook-cost-label">
+                            <li class="dropdown-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="ZTC" name="textbookCost" id="textbookCost1">
+                                    <label class="form-check-label" for="textbookCost1">
+                                    Zero Textbook Cost (ZTC)
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="dropdown-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="LTC" name="textbookCost" id="textbookCost2">
+                                    <label class="form-check-label" for="textbookCost2">
+                                    Low Textbook Cost (LTC)
+                                    </label>
+                                </div>
+                            </li>
+
+                        </ul>
+                        
+                        
+                    </div>
+                   
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div id="meeting-days-label">Meeting Days</div>
+                    <div class="dropdown" id="instr-method-drop-down">
+                        <button class="form-select button-select dropdown-toggle" type="button" id="meetingDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            
+                          </button>
+                            <ul class="dropdown-menu" aria-labelledby="meeting-days-label">
+                                <li class="dropdown-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="flexRadioMeetingDays" id="flexRadioMeetingDays1" value="M">
+                                        <label class="form-check-label" for="flexRadioMeetingDays1">Monday</label>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="flexRadioMeetingDays" id="flexRadioMeetingDays2" value="T">
+                                        <label class="form-check-label" for="flexRadioMeetingDays2">Tuesday</label>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="flexRadioMeetingDays" id="flexRadioMeetingDays3" value="W">
+                                        <label class="form-check-label" for="flexRadioMeetingDays3">Wednesday</label>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="flexRadioMeetingDays" id="flexRadioMeetingDays4" value="R">
+                                        <label class="form-check-label" for="flexRadioMeetingDays4">Thursday</label>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="flexRadioMeetingDays" id="flexRadioMeetingDays5" value="F">
+                                        <label class="form-check-label" for="flexRadioMeetingDays5">Friday</label>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="flexRadioMeetingDays" id="flexRadioMeetingDays6" value="S">
+                                        <label class="form-check-label" for="flexRadioMeetingDays6">Saturday</label>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="flexRadioMeetingDays" id="flexRadioMeetingDays7" value="U">
+                                        <label class="form-check-label" for="flexRadioMeetingDays7">Sunday</label>
+                                    </div>
+                                </li>
+                            </ul>
+                        
+                      </div>
+                </div>
+
+
+            </div>
+            <div class="row mt-2">
+                <div class="col-md-6 col-lg-3 mt-2">
+                    <label for="start-time" class="form-label">Earliest Start Time</label>
+                    <div><span id="start-time-result">05:00 AM</span></div>
+                    <input type="range" class="form-range" min="5" max="23" step="0.5" value="5" id="start-time">
+                </div>
+
+                <div class="col-md-6 col-lg-3 mt-2"> 
+                    <label for="end-time" class="form-label">Latest End Time</label>
+                    <div><span id="end-time-result">12:00 AM</span></div>
+                    <input type="range" class="form-range" min="5" max="24" step="0.5" value="24" id="end-time">
+                </div>
+
+                <div class="col-md-6 col-lg-3 mt-2">
+                    <div id="csuge-label">CSU Transfer/GE Requirements</div>
+                    <div class="dropdown">
+                        <button class="form-select dropdown-toggle" type="button" id="dropdownMenuButtonCSUGE" data-bs-toggle="dropdown" aria-expanded="false">
+                          
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="csuge-label" id="csuge-list">
+                          
+                        </ul>
+                      </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mt-2">
+                    <div id="igetc-label">UC/IGETC Transfer/GE Requirements</div>
+                    <div class="dropdown">
+                        <button class="form-select dropdown-toggle" type="button" id="dropdownMenuButtonIGETC" data-bs-toggle="dropdown" aria-expanded="false">
+                         
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="igetc-label" id="igetc-list">
+                            
+                        </ul>
+                      </div>
+                </div>
+            </div>
+			
+            <div class="row mt-2">
+                <div class="col-md-6 col-lg-3 mt-2">
+                    <div id="wvm-label">West Valley/Mission local GE Requirements</div>
+                    <div class="dropdown">
+                        <button class="form-select dropdown-toggle" type="button" id="dropdownMenuButtonWVM" data-bs-toggle="dropdown" aria-expanded="false">
+                          
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="wvm-label" id="wvm-list">
+                          
+                        </ul>
+                      </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mt-2">
+                    <div id="calgetc-label">CalGETC Transfer/GE Requirements</div>
+                    <div class="dropdown">
+                        <button class="form-select dropdown-toggle" type="button" id="dropdownMenuButtonCALGETC" data-bs-toggle="dropdown" aria-expanded="false">
+                         
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="calgetc-label" id="calgetc-list">
+                            
+                        </ul>
+                      </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mt-2">
+                    <div>Credit Type:</div>
+                    <select class="form-select" aria-label="Credit Type" id="credit-select" name="credit-select">
+                        <option value="CRNC" selected>Credit and Noncredit</option>
+						<option value="CR">Credit only</option>
+                        <option value="NC">Noncredit only</option>
+                    </select>
+                </div>
+            </div>			
+            
+          </div>
+    </div>
+    <div id="search-results-container" class="container d-none">
+        <div class="row">
+            <div class="col-6">
+                <h2 class="mt-4"><span id="term-title"></span>Search Results</h2>
+            </div>
+            
+            <div class="col-6 text-end mt-4">
+                <nav aria-label="Results display navigation" class="nav-end">
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <button id="results-pagination-previous" class="page-link" type="button" aria-label="Previous" data-min=0 disabled>
+                          <span aria-hidden="true">&laquo;</span>
+                        </button>
+                      </li>
+                     <li class="page-item"><span class="page-link text"><span id="results-display-count"></span> of <span id="results-total-count"></span></span></li>
+                  <!--    <li class="page-item"><button id="results-pagination-2" type="button" class="page-link">2</button></li>
+                      <li class="page-item"><button id="results-pagination-3" type="button" class="page-link" >3</button></li> -->
+                      <li class="page-item">
+                        <button class="page-link" id="results-pagination-next" type="button" aria-label="Next" data-min=0>
+                          <span aria-hidden="true">&raquo;</span>
+                        </button>
+                      </li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+        <div class="card" style="display:none" id="search-results-spinner">
+            <div class="card-body">
+                <div class="d-flex justify-content-center spinner-border text-primary" style="width: 10rem; height: 10rem; margin: auto;" role="status"></div>
+            </div>
+        </div>
+        
+        <div>  
+            <ul class="list-style-none" id="class-search-results">
+
+            </ul>
+            <div class="modal fade" id="section-details-modal" tabindex="-1" aria-labelledby="section-details-college" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h3 class="modal-title" id="section-details-college"></h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h3 class="h3"><span id="section-details-subj"></span> <span id="section-details-crse"></span> <span id="section-details-title"></span></h3>
+                            <div class="p-2">
+                                <div>CRN <span id="section-details-crn"></span></div>
+                            </div>
+                            <div class="p-2">
+                                <div id="section-details-instructors">
+                                    <table class='table'>
+                                        <caption>Instructor(s)</caption>
+                                        <thead>
+                                        <tr><th scope="col">Name</th><th scope="col">Email</th></tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+                                </div>
+                                
+                            </div>
+                            <div class="p-2">
+                                Units
+                                <span id="section-details-units"></span>
+                            </div>
+                            <div class="p-2">
+                                Length
+                                <span id="section-details-length"></span>
+                            </div>
+                            <div class="p-2">
+                                Section Notes
+                                <span id="section-details-description"></span>
+                            </div>
+                            
+                            <div class="p-2">
+                                <div>Attributes</div>
+                                <ul class="list-group" id="section-details-attributes"></ul>
+                                
+                            </div>
+                            <div class="p-2">
+                                <div id="section-details-linked-courses">
+                                    
+                                    <table class="table" id="">
+                                        <caption>Linked Courses</caption>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">CRN</th>
+                                                <th scope="col">Course</th>
+                                                <th scope="col">Title</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                        
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="p-2" id="section-details-cohorts-container">
+                                <div>Cohorts</div>
+                                <ul class="list-group" id="section-details-cohorts"></ul>
+                                
+                            </div>
+                            <div class="p-2">
+                                <div>Bookstore Link</div>
+                                <span id="section-details-bookstore-link"></span>
+
+                            </div>
+                            
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+            <div class="col-12 text-end">
+                <nav aria-label="Results display navigation" class="nav-end">
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <button id="results-pagination-previous-bottom" class="page-link" type="button" aria-label="Previous" data-min=0 disabled>
+                          <span aria-hidden="true">&laquo;</span>
+                        </button>
+                      </li>
+                     <li class="page-item"><span class="page-link text"><span id="results-display-count-bottom"></span> of <span id="results-total-count-bottom"></span></span></li>
+                      <li class="page-item">
+                        <button class="page-link" id="results-pagination-next-bottom" type="button" aria-label="Next" data-min=0>
+                          <span aria-hidden="true">&raquo;</span>
+                        </button>
+                      </li>
+                    </ul>
+                  </nav>
+            </div>        
+    </div>
+    <div class="modal fade" id="spinner-modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered" >
+          <!--   <div class="modal-content"> -->
+               <div class="modal-body"> 
+                    <div class="d-flex justify-content-center spinner-border text-light" style="width: 10rem; height: 10rem; margin: auto;" role="status">
+                        
+                        <span class="visually-hidden">Loading...</span>
+                      </div>
+                </div> 
+           <!-- </div>-->
+            
+            
+        </div>
+    </div>
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover-hover"]');
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl,{trigger: "hover focus"}));
+    </script>
+    <script>
+        var subjectOnly = false;
+        var scheduleJSON;
+        var instructorsJSON;
+        var termCode;
+        var spinnerModal = new bootstrap.Modal(document.getElementById('spinner-modal'));
+        var showMore = false;
+        var courseSearchResults = new Array();
+        var termChange = false;
+
+
+        //loads the schedule into scheduleJSON
+        function loadScheduleFromTerm(termCode){
+
+            //console.log(spinnerModal);
+            spinnerModal.show();
+            var wholeShebang = new Array();
+            var comparisonsCount = 0;
+            const date = new Date();
+            const day = date.getDate().toString();
+            const hour = date.getHours().toString();
+            const minute = date.getMinutes().toString();
+            const year = date.getFullYear().toString();
+            const month = date.getMonth().toString();
+            const paramStringDay = year+month+day;
+            const paramStringHour = paramStringDay + hour;
+            const paramStringMinute = paramStringHour + minute;
+            //console.log(paramStringMinute);
+            $.getJSON("data/" + termCode + "/courses.json?p=" + paramStringDay, function(){
+
+            }).done(function(courses){
+                //console.log(courses);
+                wholeShebang = courses;
+                $.getJSON("data/" + termCode + "/crns.json?p=" + paramStringMinute, function(){
+
+                }).done(function(sections){
+                    //console.log(sections);
+                    $.getJSON("data/" + termCode + "/ssrmeet.json?p=" + paramStringHour, function(){
+
+                    }).done(function(meetings){
+                        //console.log(meetings);
+                        
+                        
+
+                        $.getJSON("data/" + termCode + "/section-instructors.json?p=" + paramStringHour, function(){
+
+                        }).done(function(instructors){
+                            //console.log("Section Instructors");
+                            //console.log(instructors);
+
+                            $.getJSON("data/" + termCode + "/section-attributes.json?p=" + paramStringHour, function(){
+
+
+                            }).done(function(attributes){
+                                //console.log("Section Attributes");
+                                //console.log(attributes);
+
+                                $.getJSON("data/" + termCode + "/xlst.json?p=" + paramStringHour, function(){
+
+                                }).done(function(xlsts){
+                                    //console.log("Xlsts");
+                                    //console.log(xlsts);
+                                        
+                                    $.getJSON("data/" + termCode + "/cohorts.json?p=" + paramStringHour, function(){
+                                    
+                                    }).done(function(cohorts){
+                                        //console.log("Cohorts");
+                                        //console.log(cohorts);
+                                        
+
+                                        wholeShebang.forEach(course => {
+                                        
+                                            const sectionsArray = new Array();
+                                            sections.forEach(section => {
+                                                comparisonsCount ++;
+                                                if(section.SUBJ_CODE == course.SUBJ_CODE && section.CRSE_NUMB == course.CRSE_NUMB){
+                                                    sectionsArray.push(section);
+                                                }   
+                                            });
+                                            sectionsArray.forEach(section => {
+                                                const meetingsArray = new Array();
+                                                meetings.forEach(meeting =>{
+                                                    comparisonsCount ++;
+                                                    if(meeting.CRN == section.CRN){
+                                                        meetingsArray.push(meeting);
+                                                    }
+                                                });
+                                                section.MEETINGS = meetingsArray;
+                                                
+                                                const instructorsArray = new Array();
+                                                instructors.forEach(instructor =>{
+                                                    comparisonsCount ++;
+                                                    if(instructor.SIRASGN_CRN == section.CRN){
+                                                        instructorsArray.push(instructor);
+                                                    }
+                                                });
+                                                section.INSTRUCTORS = instructorsArray;
+
+                                                const attributesArray = new Array();
+                                                attributes.forEach(attribute =>{
+                                                    comparisonsCount ++;
+                                                    if(attribute.SSRATTR_CRN == section.CRN){
+                                                        attributesArray.push(attribute);
+                                                    }
+                                                });
+                                                section.ATTRIBUTES = attributesArray;
+                                                
+                                                const xlstArray = new Array();
+                                                xlsts.forEach(xlst =>{
+                                                    comparisonsCount ++;
+                                                    if(xlst.SEARCH_CRN == section.CRN){
+                                                        xlstArray.push(xlst);
+                                                    }
+                                                });
+                                                section.XLST = xlstArray;
+                                                
+                                                const cohortsArray = new Array();
+                                                if(section.COHORT_RESTRICTED_IND == "Y"){
+                                                    cohorts.forEach(cohort =>{
+                                                        comparisonsCount ++;
+                                                        if(cohort.SSRRCHR_CRN == section.CRN){
+                                                            cohortsArray.push(cohort);
+                                                        }
+                                                    });
+                                                }
+                                                section.COHORTS = cohortsArray;
+                                            });
+                                            course.SECTIONS = sectionsArray;
+                                        });
+
+
+                                        scheduleJSON = wholeShebang;
+                                        
+                                        //console.log(scheduleJSON);
+                                        
+                                        //console.log("Ready");
+
+                                        //console.log(comparisonsCount + "Comparisons");
+
+                                        //trigger search if term was changed from #term-select
+                                        if(termChange == true){
+                                            termChange = false;
+                                            triggerSearch();
+                                        }
+                                        
+                                        const hideInaSec = setTimeout(function(){
+                                            spinnerModal.hide();
+                                        }, 500);
+                                    
+                                    });
+
+                                });
+                            });
+                        });
+                    });
+                });
+
+            });
+        }
+
+
+        function loadSubjectsSelect(term){
+            const college = $("#college-select").val();
+            const date = new Date();
+            const dayParam = date.getFullYear().toString() + date.getMonth().toString() + date.getDate().toString();
+            $.getJSON("data/" + term + "/subjects.json?p=" + dayParam, function(){
+
+            }).done(function(subjects){
+                //console.log("SUBJECTS:");
+                //console.log(subjects);
+
+                //console.log(subjects[0].SUBJ_CODE + " " + subjects[0].SUBJ_DESC + " " + subjects[0].COLL_CODE);
+                populateSubjects(subjects);
+        
+
+            });
+
+        }
+
+        function loadInstructorsSearch(){
+            $("#instructor-input").val("");
+            $("#instructor-input-email").val("");
+            //spinnerModal.show();
+            const term = $("#term-select").val();
+            const college = $("#college-select").val();
+            const date = new Date();
+            const dayParam = date.getFullYear().toString() + date.getMonth().toString() + date.getDate().toString();
+            $.getJSON("data/" + term + "/instructors.json?p=" + dayParam, function(){
+
+            }).done(function(instructors){
+                //console.log("INSTRUCTORS:");
+                //console.log(instructors);
+                //console.log(college);
+                filteredInstructors = new Array();
+                if(college == "ALL"){
+                    //console.log("college: " + college);
+                    filteredInstructors = instructors;
+                }else if(college == "MC"){
+                    instructors.forEach(instructor =>{
+                        if(instructor.MC_INSTRUCTOR_IND == "Y"){
+                            filteredInstructors.push(instructor);
+                        }
+                    })
+                }else if(college == "WV"){
+                    instructors.forEach(instructor =>{
+                        if(instructor.WV_INSTRUCTOR_IND == "Y"){
+                            filteredInstructors.push(instructor);
+                        }
+                    });
+                }
+                
+                instructorsJSON = filteredInstructors;
+                //spinnerModal.hide();
+                //populateInstructors(instructors);
+            })
+        }
+        var status = "ALL";
+        $(document).ready(function(){
+
+            populateGESelects("csuge");
+            populateGESelects("igetc");
+            populateGESelects("wvm");
+            populateGESelects("calgetc");
+            //looking for "https://blahblah.com/?college=wv" or ?college=mc
+            //console.log("college params");
+            const url = new URL(window.location.href);
+            const collegeParam = url.searchParams.get("college");
+            const termParam = url.searchParams.get("term");
+            let subjParam = url.searchParams.get("subj");
+            const startParam = url.searchParams.get("start");
+            const lengthParam = url.searchParams.get("length");
+            const instrParam = url.searchParams.get("instr");
+            const creditType = url.searchParams.get("credittype")
+           // console.log(collegeParam);
+           // console.log(termParam);
+           // console.log(subjParam);
+           if(instrParam){
+            if(instrParam.toUpperCase() == "SYNC"){
+                $("#flexRadioInstrMethod1").attr("checked", "true");
+                $("#flexRadioInstrMethod2").attr("checked", "true");
+                $("#flexRadioInstrMethod6").attr("checked", "true");
+                $("#flexRadioInstrMethod5").attr("checked", "true");
+                $("#instr-method-button").text("INP HYB FLX SON");
+            }
+            else if(instrParam.toUpperCase() == "ONLINEONLY"){
+                $("#flexRadioInstrMethod4").attr("checked", "true");
+                $("#flexRadioInstrMethod5").attr("checked", "true");
+                $("#instr-method-button").text("AON SON");
+            }
+           }
+           if(lengthParam){
+                if(lengthParam.toUpperCase() == "S"){
+                    $("#dropdownMenuButtonSessions").text("Short-Term");
+                    $("#flexRadioSessions2").attr("checked", "true");
+                    
+                }
+                else if(lengthParam == "1"){
+                    $("#dropdownMenuButtonSessions").text("Full-Term");
+                    $("#flexRadioSessions1").attr("checked", "true");
+                }
+                else{
+                    $("#dropdownMenuButtonSessions").text("Any");
+                    $("#flexRadioSessions3").attr("checked", "true");
+                }
+                $("#more-options").addClass("show");
+           }
+           if(startParam){
+                $("#start-time").val(startParam);
+                const startTime = convertNumberToStandardTime(startParam);
+                $("#start-time-result").text(startTime);
+                $("#more-options").addClass("show");
+           }
+
+            let defaultCollege;
+            if(collegeParam){
+                switch(collegeParam.toUpperCase()){
+                    case "WV" : defaultCollege = collegeParam.toUpperCase();
+                    break;
+                    case "MC" : defaultCollege = collegeParam.toUpperCase();
+                    break;
+                    default : defaultCollege = "ALL"
+                }
+                $("select#college-select").val(defaultCollege);
+            }
+
+
+            const date = new Date();
+            const dayParam = date.getFullYear().toString() + date.getMonth().toString() + date.getDate().toString();
+           //console.log(dayParam);
+           //console.log(termParam);
+
+            $.getJSON("data/sobterm.json?p=" + dayParam, function(){
+
+            }).done(function(data){
+               //console.log("SOBTERM");
+               //console.log(data);
+                data.forEach(element =>{
+
+                    $("#term-select").append("<option value='" + element.SOBTERM_TERM_CODE + "'>"+ element.STVTERM_DESC+"</option>");
+                });
+                if(termParam){
+                    $("#term-select").val(termParam);
+                }
+                
+                termCode = $("#term-select").val();
+
+
+                if(creditType){
+                    $("#credit-select").val(creditType);
+                }
+                
+
+                //load the schdule into scheduleJSON
+
+                loadSubjectsSelect(termCode);
+                loadScheduleFromTerm(termCode);
+                loadInstructorsSearch();
+                //loadSessions(); static data
+                
+            });
+
+
+            $("#search-form").submit(function(event){
+                event.preventDefault();
+                console.log(event);
+                //console.log(event.originalEvent.submitter.value);
+                status = event.originalEvent.submitter.value;
+                if(status == "OPEN"){
+                    $("#button-search-open").addClass("selected");
+                    $("#button-search").removeClass("selected");
+                    /*
+                    $("#button-search-open").removeClass("btn-grn");
+                    $("#button-search-open").addClass("btn-outline-success");
+                    $("#button-search").removeClass("btn-outline-primary");
+                    $("#button-search").addClass("btn-primary");
+                    */
+                }
+                else{
+                    $("#button-search").addClass("selected");
+                    $("#button-search-open").removeClass("selected");
+                    /*
+                    $("#button-search-open").removeClass("btn-outline-success");
+                    $("#button-search-open").addClass("btn-grn");
+                    $("#button-search").removeClass("btn-primary");
+                    $("#button-search").addClass("btn-outline-primary");
+                    */
+                }
+                triggerSearch();
+                jump("search-results-container");
+            });
+            $("#search_input_main").keyup(function(){
+                if($(this).val().length != 1){
+                    //$("#search-results-spinner").show();
+                    //$("#search-results-container").removeClass("d-none");
+                    triggerSearch();
+                }
+            });
+
+
+
+            $("#college-select").change(function(){
+                    loadTopNavBar();    
+                    loadSubjectsSelect(termCode);
+
+                    loadInstructorsSearch();
+                    triggerSearch();
+                    jump("search-results-container");
+            });
+
+            loadTopNavBar();
+
+            $("#status-select").change(function(){
+                triggerSearch();
+                jump("search-results-container");
+            });
+            //Reload everything when term changes
+            $("#term-select").change(function(){
+                //console.log($(this).val());
+                termChange = true;
+                termCode = $(this).val();
+                $("#search-results-container").addClass("d-none");
+                loadScheduleFromTerm(termCode);
+                loadInstructorsSearch();
+                loadSubjectsSelect(termCode);
+                //loadSessions();
+            })
+            /*
+            $("#flexRadioInstrMethod3").click(function(){
+                $("#flexRadioInstrMethod4").attr("checked", "true");
+                $("#flexRadioInstrMethod5").attr("checked", "true");
+
+            });
+            */
+            
+            checkBoxGroupSetup("flexRadioInstrMethod", "instr-method-button");
+            checkBoxGroupSetup("textbookCost", "textbookDropDown");
+            checkBoxGroupSetup("flexRadioMeetingDays", "meetingDropdown");
+            radioGroupSetup("flexRadioSessions", "dropdownMenuButtonSessions", "L");
+            checkBoxGroupSetup("flexRadioTransfer", "dropdownMenuButtonTransferability");
+            
+            
+           //console.log(collegeParam);
+
+            function addSpaceAfterComma(str) {
+                return str.split(',').map(part => {
+                    // Trim the part to remove leading/trailing spaces
+                    part = part.trim();
+
+                    return part;
+                }).join(', ');//add the space at the end
+            }
+
+// Example usage:
+/*
+const originalString = "apple,banana,orange";
+const modifiedString = addSpaceAfterComma(originalString);
+console.log(modifiedString); // Output: "apple, banana, orange"
+*/
+
+
+
+            
+            if(subjParam){
+                if(subjParam.toUpperCase() != "ALL" ){
+                    subjectOnly = true;
+                    subjParam = addSpaceAfterComma(subjParam);
+                    console.log(subjParam);
+                    $("#search_input_main").val(subjParam);
+                }
+                
+
+                const loadSubjectFromParam = function(){
+                    setTimeout(function(){
+                        if(scheduleJSON){
+ 
+                            triggerSearch();
+                            jump("search-results-container");
+                        }
+                        else loadSubjectFromParam();
+                    }, 200);
+                    
+                }
+                loadSubjectFromParam();
+
+                
+            }
+            
+            
+            
+        });
+
+        const loadTopNavBar = function(){
+            const college = $("#college-select").val();
+            let src;
+            let alt;
+            let href;
+            let cssPath;
+            switch(college){
+                case "ALL" : 
+                    src = "wvc-mc-combined-logo.png";
+                    alt = "Mission College / West Valley College";
+                    href = "https://www.wvm.edu";
+                    cssPath = "/css/combined/bootstrap.min.css";
+                    break;
+                case "WV" :
+                    src = "wvc-logo.svg";
+                    alt = "West Valley College";
+                    href = "https://westvalley.edu";
+                    cssPath = "/css/wv/bootstrap.min.css";
+                    break;
+                case "MC" :
+                    src = "mc-logo-horizontal.png";
+                    alt = "Mission College";
+                    href = "https://missioncollege.edu";
+                    cssPath = "/css/mc/bootstrap.min.css";
+                    break; 
+                default :
+                    src = "mc-wv-logo.jpg";
+                    alt = "Mission College / West Valley College";
+                    href = "https://www.wvm.edu";
+                    cssPath = "/css/combined/bootstrap.min.css";
+                    break;
+  
+            }
+            $("#top-navbar a.navbar-brand").attr("href", href);
+            $("#top-navbar a.navbar-brand img").attr("src", "/images/"+src);
+            $("#top-navbar a.navbar-brand img").attr("alt", alt);
+            $('head').append('<link rel="stylesheet" type="text/css" href="'+cssPath+'">');
+
+        }
+
+        const populateGESelects = function(attrCode){
+            //attr codes: CSUGE, IGETC
+            const codeLower = attrCode.toLowerCase();
+            const codeUpper = attrCode.toUpperCase();
+            const date = new Date();
+            const dayParam = date.getFullYear().toString() + date.getMonth().toString() + date.getDate().toString();
+            $.getJSON("static_data/" + codeLower + ".json?p=" + dayParam, function(){
+
+            }).done(function(data){
+                //$("#csuge-list").html("");
+                $("#"+codeLower+"-list").html("");
+                
+                //console.log(codeLower);
+                //console.log(data);
+                //let igetcIndex = 1;
+                let i = 1;
+                data.forEach(element =>{
+    
+                    const code = element.SSRATTR_ATTR_CODE;
+                    const desc = element.STVATTR_DESC;
+
+                    //const checkBox = createCheckBox("flexRadioIGETC", desc, code, igetcIndex);
+                    const checkBox = createCheckBox("flexRadio" + codeUpper, desc, code, i);
+                    $("#"+codeLower+"-list").append(checkBox);
+                    i ++;
+
+                });
+                checkBoxGroupSetup("flexRadio"+codeUpper, "dropdownMenuButton"+codeUpper);
+                //checkBoxGroupSetup("flexRadioCSUGE", "dropdownMenuButtonCSUGE");
+            });
+        }
+
+        const createCheckBox = function(nameId, label, value, index){
+            return('<li class="dropdown-item"><div class="form-check"><input class="form-check-input" type="checkbox" name="'+nameId+'" value="'+value+'" id="'+nameId+index+'"><label class="form-check-label" for="'+nameId+index+'">'+value+'. '+label+'</label></div></li>');
+        }
+
+        const checkBoxGroupSetup = function(nameId, buttonId){     
+            $("input:checkbox[name="+ nameId+"]").click(function(){
+                let resultText = "";
+                $("input:checkbox[name="+nameId+"]:checked").each(function(){
+                    //methodsVals.push($(this).val());
+                    resultText += $(this).val() + " ";
+                });
+                $("#"+buttonId).text(resultText);
+                triggerSearch();
+                jump("search-results-container");
+            });
+            $("input:checkbox[name="+ nameId+"]").change(function(){
+                let resultText = "";
+                $("input:checkbox[name="+nameId+"]:checked").each(function(){
+                    //methodsVals.push($(this).val());
+                    resultText += $(this).val() + " ";
+                });
+                $("#"+buttonId).text(resultText);
+                triggerSearch();
+                jump("search-results-container");
+            });
+        }
+
+        const radioGroupSetup = function(nameId, buttonId, vL){     
+            $("input:radio[name="+ nameId+"]").click(function(){
+                let resultText = "";
+                $("input:radio[name="+nameId+"]:checked").each(function(){
+                    //methodsVals.push($(this).val());
+                    if(vL == "L"){ //show label instead of value
+                        resultText += $('label[for="'+$(this).attr('id')+'"]').text();
+                    }
+                    else{
+                        resultText += $(this).val() + " ";
+                    }
+                });
+                $("#"+buttonId).text(resultText);
+                triggerSearch();
+                jump("search-results-container");
+            });
+        }
+
+        const getCoursesSubjSearch = function(courses, searchArray){
+            //split the searchArray into groups word/number groups
+            //console.log("subject-select value:");
+            subjectSelected = $("#subject-select").val();
+            //console.log(subjectSelected);
+            //console.log(subjectSelected.length);
+
+            
+            const wordArray = new Array();
+            const numbArray = new Array();
+            searchArray.forEach(searchString =>{
+                if(/\d/.test(searchString)){
+                    numbArray.push(searchString);
+                }
+                else if(searchString.length > 0){
+                    wordArray.push(searchString);
+                }
+            });
+            //console.log("Words");
+            //console.log(wordArray);
+            //console.log(numbArray);
+            
+            if(subjectSelected.length == 0){
+                //we only make guesses if the subject is not selected
+                wordArray.forEach(word =>{
+                    switch (word.toLowerCase()){
+                        case "psych":wordArray.push("psy", "psyc");
+                        break;
+                        case "math":wordArray.push("mat", "stat");
+                        break;
+                        case "acct":wordArray.push("ncbu");
+                        break;
+                        case "comm":wordArray.push("com");
+                        break;                        
+                        case "english":wordArray.push("eng", "engl");
+                        break;                           
+                        case "engl":wordArray.push("eng");
+                        break;                        
+                        default:
+                            //do nothing 
+                        break;
+                    }
+                });
+            }
+            else{ //subject is selected
+                wordArray.push(subjectSelected);
+
+                wordArray.forEach(word =>{
+                    switch (word.toLowerCase()){
+                        case "acct":wordArray.push("ncbu");
+                        break;
+                        case "pols":wordArray.push("pol");
+                        break;
+                        case "comm":wordArray.push("com");
+                        break;
+                        case "engl":wordArray.push("eng");
+                        break;                        
+                        case "psyc":wordArray.push("psy");
+                        break;
+                        case "stat":wordArray.push("mat", "math");
+                        break;
+                        case "mat":wordArray.push("stat");
+                        break;
+                        case "math":wordArray.push("stat");
+                        break;                                                
+                        default:
+                        //do nothing 
+                        break;
+                    }
+                });
+            }
+            //console.log(wordArray);
+            //console.log("Numbers");
+            //console.log(numbArray);
+
+            const wordMatchArray = new Array();
+            const numberMatchArray = new Array();
+            const titleNumberMatchArray = new Array();
+            const titleMatchArray = new Array();
+            const descMatchArray = new Array();
+            const numberPartialMatchArray = new Array();
+            
+            const resultArray = new Array();
+            //console.log("All Courses");
+            //console.log(courses);
+            courses.forEach(course =>{
+                let wordMatch = false;
+                let numberMatch = false;
+                let numberPartialMatch = false;
+                let titleMatch = false;
+                let descMatch = false;
+                //find out if exact match on subject
+                wordArray.forEach(word =>{
+                    if(word.toUpperCase() == course.SUBJ_CODE){
+                        wordMatch = true;
+                    };
+                    if(course.CRSE_TITLE.toLowerCase().indexOf(word.toLowerCase()) >= 0){
+                        titleMatch = true;
+                    };
+                    if(course.CATALOG_DESC){
+                        if(course.CATALOG_DESC.toLowerCase().indexOf(word.toLowerCase()) >= 0){
+                            descMatch = true;
+                        }
+                    }
+                });
+                //find out if exact match on number
+                numbArray.forEach(number => {
+                    if(number.toUpperCase() == course.CRSE_NUMB || number.toUpperCase() == course.COURSE_ALIAS){
+                        numberMatch = true;
+                    }
+                    if(course.CRSE_NUMB.toLowerCase().indexOf(number.toLowerCase()) >= 0 || course.COURSE_ALIAS.toLowerCase().indexOf(number.toLowerCase()) >= 0){
+                        numberPartialMatch = true;
+                        
+                    }
+                });
+                //if both match, push immediately and go to next in loop
+                if(wordMatch == true && (numberMatch == true || numberPartialMatch == true)){
+                    resultArray.push(course);
+                }//find lesser matches and save them to be added later
+
+                else if(wordMatch == true){
+                    wordMatchArray.push(course);
+                }
+                
+                else if((titleMatch == true && numberMatch == true) || (titleMatch == true && numberPartialMatch == true)){
+                    titleNumberMatchArray.push(course);
+                }
+                
+                else if(titleMatch == true){
+                    titleMatchArray.push(course);
+                }
+                else if(numberMatch == true){
+                    numberMatchArray.push(course);
+                }
+                else if(descMatch == true){
+                    descMatchArray.push(course);
+                }
+                else if(numberPartialMatch == true){
+                    numberPartialMatchArray.push(course);
+                }
+                
+            });
+            wordMatchArray.forEach(course =>{
+                resultArray.push(course);
+            });
+            if(subjectSelected.length == 0 && subjectOnly == false){ //subject is not selected
+                titleNumberMatchArray.forEach(course =>{
+                    resultArray.push(course);
+                });
+                
+                titleMatchArray.forEach(course =>{
+                    resultArray.push(course);
+                });
+                numberMatchArray.forEach(course => {
+                    resultArray.push(course);
+                });
+                descMatchArray.forEach(course => {
+                    resultArray.push(course);
+                });
+                numberPartialMatchArray.forEach(course => {
+                    resultArray.push(course);
+                });
+            }
+            //console.log("Results to return");
+            //console.log(resultArray);
+            subjectOnly = false;
+            return resultArray;
+        };
+
+        const executeSearch = function(){
+            //process initial search string
+            searchString = $("#search_input_main").val();
+            
+           //console.log(searchString);
+            searchString = searchString.replace("-", " ");
+            searchString = searchString.replace(",", " ");
+            searchString = searchString.replace(";", " ");
+            //break up search string into an array of strings
+            const searchArray = searchString.split(" ");
+            //separate alphanumeric strings                
+            let i = 0;
+ 
+            searchArray.forEach(element => {
+                const insert = element.match(/[a-z]+|\d{1,4}[a-z]{0,3}|\d+/ig);
+                if(insert){
+                    searchArray.splice(i, 1);
+                    //console.log(searchArray);
+                    insert.forEach(element =>{
+                        searchArray.push(element);
+                    });
+                }
+                i++;
+            });
+            //console.log("Search Strings:");
+            //console.log(searchArray);
+
+            //TERM
+            const term = $("#term-select").val();
+            //console.log("term: "+term);
+            //COLLEGE                
+            const college = $("#college-select").val();
+            //console.log("college: "+college);
+            //SUBJECT
+            const subject = $("#subject-select").val();
+            //console.log("manually chosen subject: " + subject);
+           //console.log(scheduleJSON);
+            
+            const scheduleJSONCopy = JSON.parse(JSON.stringify(scheduleJSON));
+
+            //const courseList = searches.courseList[searchCount];
+            let coursesList;
+            //console.log(searchArray.length);
+            let emptySearch = true;
+            searchArray.forEach(element =>{
+                if(element.length > 0){
+                    emptySearch = false;
+                }
+            })
+            if(emptySearch == true){
+                coursesList = scheduleJSONCopy;
+            }
+            else{
+                coursesList = getCoursesSubjSearch(scheduleJSONCopy, searchArray);
+            }
+
+            
+            
+            
+            
+            //console.log("Search Results:");
+            //console.log(coursesList);
+            /*
+            searchResults.forEach(result =>{
+                console.log(result.SUBJ_CODE + " " + result.CRSE_NUMB + " " + result.CRSE_TITLE);
+            });
+            */
+
+
+
+            //INSTRUCTIONAL METHODS
+            let instrMethods = getArrayFromCheckboxes("flexRadioInstrMethod");
+            //console.log(instrMethods);
+            const instructor = $("#instructor-input-email").val();
+            //console.log("Instructor: " + instructor);
+            //TEXTBOOK COST
+            const textbookCost = getArrayFromCheckboxes("textbookCost");
+            //MEETING DAYS
+            const meetingDays = getArrayFromCheckboxes("flexRadioMeetingDays");
+            //console.log("Meeting Days");
+            //console.log(meetingDays);
+            //SESSIONS
+            const sessions = $("[name='flexRadioSessions']:checked").val()
+            //console.log("Sessions");
+            //console.log(sessions);
+            //TRANSFER
+            const transferability = getArrayFromCheckboxes("flexRadioTransfer");
+            //CSU GE
+            const csuge = getArrayFromCheckboxes("flexRadioCSUGE");
+            //IGETC
+            const igetc = getArrayFromCheckboxes("flexRadioIGETC");
+            //WVM
+            const wvm = getArrayFromCheckboxes("flexRadioWVM");
+            //CALGETC
+            const calgetc = getArrayFromCheckboxes("flexRadioCALGETC");
+            const startTime = convertNumberToMilitaryTime($("#start-time").val());
+            const endTime = convertNumberToMilitaryTime($("#end-time").val());
+            console.log("Start");
+            console.log(startTime);
+            console.log("End");
+            console.log(endTime);
+
+            //CREDIT TYPE
+            const credit_type = $("#credit-select").val();
+            console.log("Credit Type");
+            console.log(credit_type);
+
+            /*
+            console.log("Igetc");
+            console.log(igetc);
+            console.log(igetc.length);
+            console.log(csuge);
+            */
+            const units = $("#units-input").val();
+            //console.log("units: " + units);
+
+            
+            /*
+                put all conditions for removal through one loop
+            */
+            const coursesLength = coursesList.length;
+            //const status = $("#status-select").val();
+            let spliceCount = 0;
+            let sectionsSpliced = 0;
+            for(let i = coursesLength - 1; i >= 0; i--){
+                    let sectionsLength = coursesList[i].SECTIONS.length;
+                    
+                    let sectionsRemaining = sectionsLength;
+                    let removeCourse = false;
+                    //College Fitering
+                    if(college != "ALL"){
+                        if(college == "MC"){
+                            if(coursesList[i].COLL_CODE == "WV"){
+                                removeCourse = true;
+                                sectionsLength = 0; //prevent it from trying to loop below.
+                                
+                            }
+                        }
+                        else if(college == "WV"){
+                            if(coursesList[i].COLL_CODE == "MC"){
+                                removeCourse = true;
+                                sectionsLength = 0; //prevent it from trying to loop below.
+                                
+                            }
+                        }        
+                    }
+                    //console.log(status);
+                    for(let j = sectionsLength - 1; j >= 0; j--){
+                        const section = coursesList[i].SECTIONS[j];
+                        let removeSection = false;
+                        //STATUS
+                        //Open/Waitlist filtering - this needs testing
+                        if(status == "OPEN"){
+                            const now = Date.now();
+                            const cutOffDate = Date.parse(section.SSBSECT_ENRL_CUT_OFF_DATE);
+                            //console.log("now " + now);
+                            //console.log("cutoff " + cutOffDate); 
+                            
+                            if(section.SSBSECT_SEATS_AVAIL <= 0 || now > cutOffDate ){
+                              // console.log("Removing " + section.CRN);
+                                removeSection = true;
+                            }
+                        }
+                        else if(status == "WAIT"){
+                            if(section.SSBSECT_SEATS_AVAIL <= 0 && section.SSBSECT_WAIT_AVAIL < 1){
+                            //console.log("Section Closed" + j);
+                            removeSection = true;
+                            }
+                        }
+
+                        if(igetc.length > 0){
+                            //console.log("igetc filter detected");
+                            let found = false;
+                            section.ATTRIBUTES.forEach(attribute =>{
+                                igetc.forEach(value =>{
+                                    if(attribute.SSRATTR_ATTR_CODE == value){
+                                        found = true;
+                                    }
+                                });
+                            });
+                            if(found == false){
+                                removeSection = true;
+                            }
+                            
+                        }
+                        if(csuge.length > 0){
+                            //console.log("csuge filter detected");
+                            let found = false;
+                            section.ATTRIBUTES.forEach(attribute =>{
+                                csuge.forEach(value =>{
+                                    if(attribute.SSRATTR_ATTR_CODE == value){
+                                        found = true;
+                                    }
+                                });
+                            });
+                            if(found == false){
+                                removeSection = true;
+                            }
+                            
+                        }
+                        if(wvm.length > 0){
+                            //console.log("wvm filter detected");
+                            let found = false;
+                            section.ATTRIBUTES.forEach(attribute =>{
+                                wvm.forEach(value =>{
+                                    if(attribute.SSRATTR_ATTR_CODE == value){
+                                        found = true;
+                                    }
+                                });
+                            });
+                            if(found == false){
+                                removeSection = true;
+                            }
+                            
+                        }
+                        if(calgetc.length > 0){
+                            //console.log("calgetc filter detected");
+                            let found = false;
+                            section.ATTRIBUTES.forEach(attribute =>{
+                                calgetc.forEach(value =>{
+                                    if(attribute.SSRATTR_ATTR_CODE == value){
+                                        found = true;
+                                    }
+                                });
+                            });
+                            if(found == false){
+                                removeSection = true;
+                            }
+                            
+                        }
+                        if(transferability.length > 0){
+                            //console.log("tranfserability filter detected");
+                            let found = false;
+                            let csuFound = false;
+                            let ucFound = false;
+                            section.ATTRIBUTES.forEach(attribute =>{
+                                transferability.forEach(value =>{
+                                    if(attribute.SSRATTR_ATTR_CODE == value){
+                                        found = true;
+                                    }
+                                    if(attribute.SSRATTR_ATTR_CODE == "UC"){
+                                        ucFound = true;
+                                    }
+                                    if(attribute.SSRATTR_ATTR_CODE == "CSU"){
+                                        csuFound = true;
+                                    }
+                                    if(value == "BOTH"){
+                                        if(ucFound == true && csuFound == true){
+                                            found = true;
+                                        }
+                                        else{
+                                            found = false;
+                                        }
+                                    }
+                                });
+                            });
+                            if(found == false){
+                                removeSection = true;
+                            }
+                            
+                        }
+                        if(textbookCost.length > 0){
+                            //textbookCost = checked checkbox values
+                            console.log(textbookCost);
+                            let found = false;
+                            const ztcs = [];
+                            if(textbookCost.includes("ZTC")){
+                                ztcs.push("ZTC");
+                                ztcs.push("OER");
+                                ztcs.push("NSC");
+                                ztcs.push("OERE");
+                                ztcs.push("OERF");
+                                ztcs.push("OERG");
+                            }
+                            if(textbookCost.includes("LTC")){
+                                ztcs.push("LTC");
+                            }
+
+                            section.ATTRIBUTES.forEach(attribute =>{
+                                console.log(attribute);
+                                //console.log(attribute.SSRATTR_ATTR_CODE);
+                                if(ztcs.includes(attribute.SSRATTR_ATTR_CODE)){
+                                    found = true;
+                                }
+                                /*
+                                textbookCost.forEach(value =>{
+                                    
+                                    /*if(ztcs.includes(value)){
+                                        found = true;
+                                    }
+                                   /* if(attribute.SSRATTR_ATTR_CODE == value){
+                                        found = true;
+                                    }
+                                    
+                                });
+                                */
+                            });
+                            if(found == false){
+                                removeSection = true;
+                            }
+                        }
+                        if(instrMethods.length > 0){
+                            let found = false;
+                            instrMethods.forEach(value =>{
+                                if(section.SSBSECT_INSM_CODE == value){
+                                    found = true;
+                                }
+                            });
+                            
+                            if(found == false){
+                                removeSection = true;
+                            }
+                        }
+                        if(instructor){
+                            let found = false;
+                            
+                            section.INSTRUCTORS.forEach(instr =>{
+                                if(instr.INSTRUCTOR_EMAIL){
+                                    if(instr.INSTRUCTOR_EMAIL.toLowerCase() == instructor.toLowerCase()){
+                                        found = true;
+                                    }
+                                }
+                            })
+                            
+                            if(found == false){
+                                removeSection = true;
+                            }
+                        }
+                        if(sessions){
+                            
+                            let found = true;
+                            if(sessions == "1"){ //full term
+                                //console.log("Session = 1");
+                                switch(section.SSBSECT_PTRM_CODE){
+                                    case "S" : found = false;
+                                    break;
+                                    case "F" : found = false;
+                                    break;
+                                    default : found = true;
+                                    break;
+                                }
+                            }
+                            if(sessions == "S"){
+                                switch(section.SSBSECT_PTRM_CODE){
+                                    case "1" : found = false;
+                                    break;
+                                    case "G" : found = false;
+                                    break;
+                                    case "E" : found = false;
+                                    break;
+                                    case "L" : found = false;
+                                    break;
+                                    default : found = true;
+                                    break;
+                                }
+                            }
+                            if(found == false){
+                                removeSection = true;
+                            }
+   
+                        }
+                        if(meetingDays.length > 0){
+                            let found = false;
+                            if(section.MEETINGS.length > 0){
+                                section.MEETINGS.forEach(meeting =>{
+                                    meetingDays.forEach(meetingDay =>{
+                                        if(meeting.DOW){
+                                            if(meeting.DOW.indexOf(meetingDay) >= 0){
+                                                found = true;
+                                            }
+                                        }
+                                    })
+                                    
+                                })
+                            }
+                            if(found == false){
+                                removeSection = true;
+                            }
+                        }
+                        section.MEETINGS.forEach(meeting =>{
+                            if(meeting.BEGIN_TIME != null && meeting.BEGIN_TIME < startTime){
+                                console.log("Starting time: " + meeting.BEGIN_TIME);
+                                console.log("removing " + section.CRN);
+                                removeSection = true;
+                            }
+                            if(meeting.END_TIME != null && meeting.END_TIME > endTime){
+                                console.log("End time: " + meeting.END_TIME);
+                                console.log("removing " + section.CRN);
+                                removeSection = true;
+                            }
+                        })
+
+
+                        if(section.CREDIT_HRS == 0 && credit_type == 'CR'){
+							removeSection = true;
+				    	}
+                        if(section.CREDIT_HRS > 0 && credit_type == 'NC'){
+							removeSection = true;
+				    	}				    	
+
+                        if(removeSection == true){
+                            sectionsRemaining --;
+                            sectionsSpliced ++;
+                            coursesList[i].SECTIONS.splice(j, 1);
+                        }
+                        
+                        
+                    }
+                    if(sectionsRemaining == 0){
+                            removeCourse = true;
+                    }
+                    if(removeCourse == true){
+                        coursesList.splice(i, 1);
+                        spliceCount ++;
+                    }
+                    
+                }
+            
+
+            //console.log("Splice Count: "+ spliceCount);
+            //console.log("Sections Spliced: " + sectionsSpliced );
+            //console.log("coursesList length");
+            //console.log(coursesList.length);
+            //console.log(coursesList);
+
+            courseSearchResults = coursesList;
+
+			//CRN Search
+			if(searchString.length == 5 && searchString > '10000' && searchString < '99999'){
+				$(scheduleJSON).each( function(q, s){
+					$(this['SECTIONS']).each( function(k, v){
+						if(v['CRN'] == searchString){
+							console.log('CRN Search');
+							courseSearchResults = [s];
+							loadSearchResultsToPage(0);
+							
+						}
+					});
+				});
+				$("#search-results-spinner").hide();
+			}else{
+			
+				//get json from term
+                //console.log("hello");
+				loadSearchResultsToPage(0);
+			}
+        }
+
+        function triggerSearch(){
+            $("#search-results-spinner").show();
+            $("#search-results-container").removeClass("d-none");
+            executeSearch();
+                
+        }
+
+          $(document).ready(function(){
+
+            
+            $("#instructor-input").keyup(function(){
+                
+                const searchString = $(this).val();
+                //console.log(searchString.length);
+                if(searchString.length < 1){
+                    $("#instructor-input-email").val("");
+                    return;
+                }
+                
+                //console.log(instructorsJSON);
+                let resultString = "";
+                const instructorsArrayLength = instructorsJSON.length > 20 ? 20 : instructorsJSON.length; 
+                let instructorsFound = 0;
+                let i = 0;
+                while (i < instructorsJSON.length && instructorsFound <= 20){
+                
+                    if(instructorsJSON[i].FIRST_NAME.toLowerCase().indexOf(searchString.toLowerCase()) >= 0 || instructorsJSON[i].LAST_NAME.toLowerCase().indexOf(searchString.toLowerCase()) >= 0){
+                        //instructors_array.push(instructors_json[i]);
+                        resultString = resultString + "<button class='dropdown-item' value="+instructorsJSON[i].INSTRUCTOR_EMAIL+">" + instructorsJSON[i].INSTRUCTOR_NAME + "</button>";
+                        instructorsFound ++;
+                    }
+                    i++;
+                }
+                $("#instructor-drop-down").html("<li class='dropdown-item'>Results</li>");
+                $("#instructor-drop-down").append(resultString);
+               // $("#instructor-drop-down").addClass("show");
+               $("#instructor-drop-down .dropdown-item").click(function(){
+                    //console.log($(this).val());
+                    $("#instructor-input").val($(this).text());
+                    $("#instructor-input-email").val($(this).val());
+                    triggerSearch();
+                    jump("search-results-container");
+                });
+            });
+
+            $("#units-input").change(function(){
+                //console.log($(this).val());
+                $("#units-max").text($(this).val());
+            });
+
+            //console.log("Getting Subjects");
+            /*
+            $.getJSON("https://generalssb-prod.ec.wvm.edu/BannerExtensibility/internalPb/virtualDomains.subjByTerm?term=202230", function(data){
+                console.log(data);
+            });
+            */
+            $("#subject-select").change(function(){
+                $("#search_input_main").val($(this).val());
+                //console.log($(this).val());
+                triggerSearch();
+                jump("search-results-container");
+            });
+
+        });
+            
+
+
+
+        
+        const reloadResults = function(min){
+            $("#search-results-spinner").show();
+            loadSearchResultsToPage(min);
+        }
+
+        $("#results-pagination-previous").click(function(){
+            reloadResults($(this).data("min"));
+        });
+        $("#results-pagination-next").click(function(){
+                reloadResults($(this).data("min"));
+        });
+        $("#results-pagination-previous-bottom").click(function(){
+            reloadResults($(this).data("min"));
+			document.getElementById('results-display-count').scrollIntoView(true);
+        });
+        $("#results-pagination-next-bottom").click(function(){
+                reloadResults($(this).data("min"));
+				document.getElementById('results-display-count').scrollIntoView(true);
+        });
+        const getinstrModeDescription = function(mode){
+            if (mode == "INP"){
+                return "All instruction occurs in-person at an assigned location.";
+            }
+            if(mode == "HYB"){
+                return "Some instruction occurs in-person at an assigned location, and some instruction occurs online either asynchronously or synchronously.";
+            }
+            if(mode == "FLX"){
+                return "Instruction occurs in-person, but students also have the option to attend via online synchronous videoconference. ";
+            }
+            if(mode == "AON"){
+                return "All instruction occurs online, with no requirements for online synchronous videoconferences.";
+            }
+            if(mode == "SON"){
+                return "All instruction occurs online, with required attendance at synchronous videoconferences. ";
+            }
+            if(mode == "WRK"){
+                return "Courses in which students earn credit for work experience or internships.";
+            }
+            if(mode = "TUT"){
+                return "Tutoring";
+            }
+
+
+        }
+        const loadSearchResultsToPage = function(min){
+
+            courses = courseSearchResults;
+  
+            const maxLength = 25;
+            //const min = 50;
+            let max = min + maxLength;
+            let prev = min - maxLength;
+            if(prev < 0 ){prev = 0;}
+            if (courses.length < max ){
+                max = courses.length;
+                $("#results-pagination-next").prop("disabled", true);
+				$("#results-pagination-next-bottom").prop("disabled", true);
+            }
+            else{
+                $("#results-pagination-next").data("min", max);
+                $("#results-pagination-previous").data("min", prev);
+                $("#results-pagination-next").prop("disabled", false);
+				
+				$("#results-pagination-next-bottom").data("min", max);
+                $("#results-pagination-previous-bottom").data("min", prev);
+                $("#results-pagination-next-bottom").prop("disabled", false);
+                
+            }
+            if(min > 0){
+                $("#results-pagination-previous").prop("disabled", false);
+				$("#results-pagination-previous-bottom").prop("disabled", false);
+                
+            }
+            else{
+                $("#results-pagination-previous").prop("disabled", true);
+				$("#results-pagination-previous-bottom").prop("disabled", true);
+            }
+            const minDisplayed = min + 1;
+            const maxDisplayed = max;
+            
+            
+            $("#results-total-count").text(courses.length);
+            $("#results-display-count").text(minDisplayed + " - " + maxDisplayed);
+			
+			$("#results-total-count-bottom").text(courses.length);
+            $("#results-display-count-bottom").text(minDisplayed + " - " + maxDisplayed);
+            
+            //console.log(courses);
+
+            //$("#term-desc").text(courses.TERM_DESC);
+            $("ul#class-search-results").html(""); //clear it
+            //Populate outline
+            
+            
+            for(let i = min; i < max; i ++){
+
+                /*
+                if(courses[i].dnu == true){
+                    console.log("dnu is true");
+                    coursesCount --;
+                    i++;
+                    continue;
+                }
+                */
+                const sections = courses[i].SECTIONS;
+                const sectionsLengthLabel = (sections.length == 1) ? " Section" : " Sections";
+                $('ul#class-search-results').append('<li><div class="card mb-4 course-card" id="course-'+i+'-card"></div></li>');
+                
+                $('#course-'+i+'-card').html('<div class="card-header bg-primary text-white"><div class="row"><div class="col-9 align-self-start"><h3 class="fs-5 text-white m-auto"><span id="course-'+i+'-subj"></span> <span id="course-'+i+'-crse"></span>: <span id="course-'+i+'-title"></span></h3></div><div class="col-3 align-self-end text-end"><span id="course-'+i+'-units"></span></div></div></div><div class="card-header bg-light text-dark"><div class="row"><div class="col align-self-start"><span id="course-'+i+'-college"></span></div></div><div><span id="course-'+i+'-description"></span></div></div>');
+                //show/hide sections button
+                $('#course-'+i+'-card').append('<div class="p-3"><button id="course-'+i+'-sections-show" data-bs-toggle="collapse" data-bs-target="#course-'+i+'-sections" class="btn btn-primary bi-caret-down-fill" aria-expanded="false" aria-controls="course-'+i+'-sections">Show Sections</button><button id="course-'+i+'-sections-hide" data-bs-toggle="collapse" data-bs-target="#course-'+i+'-sections" class="btn btn-primary bi-caret-up-fill" aria-expanded="false" aria-controls="course-'+i+'-sections" style="display: none;">Hide Sections</button><span class="badge bg-success">' + sections.length + sectionsLengthLabel + '</span></div>');
+
+                $('#course-'+i+'-sections-show').click(function(){
+                    
+                    $(this).hide();
+                    $('#course-'+i+'-sections-hide').show();
+                });
+                $('#course-'+i+'-sections-hide').click(function(){
+                    $(this).hide();
+                    $('#course-'+i+'-sections-show').show();
+                });
+                logo_url = '<img style="position:relative;" src="images/' + courses[i].COLL_CODE.toLowerCase() +  '_logo.png" height="90px" class="border bg-white mb-4"/>';
+				if(courses[i].COLL_CODE == 'MC'){
+					college_name = "Mission College";
+				}
+				if(courses[i].COLL_CODE == 'WV'){
+					college_name = "West Valley College";
+				}
+                $('#course-'+i+'-subj').text(courses[i].SUBJ_CODE);
+                
+                //$('#course-'+i+'-crse').text(courses[i].CRSE_NUMB);
+                let alias = courses[i].COURSE_ALIAS;
+                let number = courses[i].CRSE_NUMB;
+                if (alias && alias !== number) {
+                    $('#course-' + i + '-crse').text(alias);
+                } else {
+                    $('#course-' + i + '-crse').text(number);
+                }
+                
+				let course_title = courses[i].LONG_CRSE_TITLE ? courses[i].LONG_CRSE_TITLE : courses[i].CRSE_TITLE;
+                $('#course-'+i+'-title').text(course_title);
+                $('#course-'+i+'-college').html(logo_url + ' ' + '<span class="fs-5">' + college_name + '</span>');
+                $('#course-'+i+'-description').text(courses[i].CATALOG_DESC);
+                let units = courses[i].SCBCRSE_CREDIT_HR_LOW;
+                let unitsLabel = " units";
+                const unitsNumber = parseFloat(courses[i].SCBCRSE_CREDIT_HR_LOW);
+                if( unitsNumber == 1) unitsLabel = " unit";
+                if(courses[i].SCBCRSE_CREDIT_HR_IND){
+                    units = units + " - " + courses[i].SCBCRSE_CREDIT_HR_HIGH;
+                    unitsLabel = " units";
+                }
+                if(unitsNumber > 0){
+                    $('#course-'+i+'-units').text(units + unitsLabel);
+                }
+                else{
+                    $('#course-'+i+'-units').text("Noncredit");
+                }
+                
+
+                
+                $('#course-'+i+'-card').append('<div><ul class="list-group collapse" id="course-'+i+'-sections"></ul></div>');
+                
+                $('ul#course-'+i+'-sections').html('');
+                for(let j = 0; j < sections.length; j++){
+                    
+                    
+                    const section = sections[j];
+                    $('#course-'+i+'-sections').append('<li class="list-group-item section-card" id="course-'+i+'-section-'+j+'-card"><div class="card-header bg-light text-dark" id="course-'+i+'-section-'+j+'-card-header"></div></li>');
+                    
+                    $('#course-'+i+'-section-'+j+'-card-header').html('<div class="row" id="course-'+i+'-section-'+j+'-row"></div>'); 
+                    //add columns to row
+                    
+                    //CRN
+                    $('#course-'+i+'-section-'+j+'-row').html('<div ><h4>Section / CRN: <span id="course-'+i+'-section-'+j+'-crn"></span></h4></div>');
+                    $('#course-'+i+'-section-'+j+'-crn').text(section.CRN);
+
+                    //Instructors
+                    $('#course-'+i+'-section-'+j+'-row').append('<div class="col-sm"><div>Instructor <span id="course-'+i+'-section-'+j+'-instructors"></span></div></div>');
+
+                    //Mode
+                    $('#course-'+i+'-section-'+j+'-row').append('<div class="col-sm"><div>Instructional Mode</div><div><span id="course-'+i+'-section-'+j+'-mode"></span></div></div>');
+                    const modeDesc = getinstrModeDescription(section.SSBSECT_INSM_CODE);
+                    const modeHTML = section.INSTR_MODE + ' <a tabindex="0" role="button" class="btn-link" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="'+ section.INSTR_MODE +'" data-bs-content="'+ modeDesc +'"><i class="bi bi-info-circle"></i></a>';
+                    
+                    $('#course-'+i+'-section-'+j+'-mode').html(modeHTML);
+
+                    
+                    
+    
+                    //add instructors
+                    $('#course-'+i+'-section-'+j+'-instructors').html("");
+                    //need instructors in query
+                    for(let k = 0; k < section.INSTRUCTORS.length; k++){
+                        $('#course-'+i+'-section-'+j+'-instructors').append('<div id="course-'+i+'-section-'+j+'-instructor-'+k+'-name"></div>');
+                        $('#course-'+i+'-section-'+j+'-instructor-'+k+'-name').text(section.INSTRUCTORS[k].INSTRUCTOR_NAME);
+                    }
+                    
+                    //Length
+                    $('#course-'+i+'-section-'+j+'-row').append('<div class="col-sm"><div>Length</div><div><span id="course-'+i+'-section-'+j+'-length"></span></div></div>');
+                    $('#course-'+i+'-section-'+j+'-length').text(section.PTRM_DESC);
+                    
+                    //Availability
+                    $('#course-'+i+'-section-'+j+'-row').append('<div class="col-sm"><div>Availability</div><div class="position-relative"><span id="course-'+i+'-section-'+j+'-availability-icon" ></span><span class="ps-1"><span id="course-'+i+'-section-'+j+'-availability"></span></span></div><div id="course-'+i+'-section-'+j+'-waitlist" class="position-relative d-none"><span id="course-'+i+'-section-'+j+'-waitlist-icon" ></span><span class="ps-1"><span id="course-'+i+'-section-'+j+'-waitlist-msg"></span></span></div></div>');
+
+                    let ztc = false;
+                    let ltc = false;
+                    let costDesc;
+                    section.ATTRIBUTES.forEach(attr =>{
+                        if(attr.SSRATTR_ATTR_CODE == "ZTC" || attr.SSRATTR_ATTR_CODE == "OER" || attr.SSRATTR_ATTR_CODE == "NSC" || 
+                           attr.SSRATTR_ATTR_CODE == "OERE" || attr.SSRATTR_ATTR_CODE == "OERF" || attr.SSRATTR_ATTR_CODE == "OERG"){
+                            ztc = true;
+                            costDesc = attr.STVATTR_DESC;
+                            
+                            // Set more specific descriptions based on the code
+                            if(attr.SSRATTR_ATTR_CODE == "ZTC") {
+                                costDesc = "ZTC – Section does not require instructional materials.";
+                            } else if(attr.SSRATTR_ATTR_CODE == "NSC") {
+                                costDesc = "NSC – Instructional materials are provided to students at no-cost.";
+                            } else if(attr.SSRATTR_ATTR_CODE == "OERE") {
+                                costDesc = "OERE – Section uses only no-cost open educational resources. ";
+                            } else if(attr.SSRATTR_ATTR_CODE == "OERF") {
+                                costDesc = "OERF – Section uses only no-cost digital instructional materials.";
+                            } else if(attr.SSRATTR_ATTR_CODE == "OERG") {
+                                costDesc = "OERG – Section uses a mix of instructional materials accessible at no-cost to the student.";
+                            }
+                        }
+                        if(attr.SSRATTR_ATTR_CODE == "LTC"){
+                            ltc = true;
+                            costDesc = "LTC – The total cost of required instructional materials for this section is less than $50.";
+                        }
+                    });
+                    
+                    if(section.COHORT_RESTRICTED_IND == "Y"){
+                        $('#course-'+i+'-section-'+j+'-row').append('<div class="col-sm"><div>Restricted Enrollment:</div><span class="bi bi-exclamation-triangle text-danger"></span> See Section Details</div>');
+                    }
+
+                    if(ztc == true){
+                        
+                        $('#course-'+i+'-section-'+j+'-row').append('<div class="col-sm text-end-desk"><img  src="/images/ztc-75.png" alt="'+costDesc+'" title="'+costDesc+'"></div>');
+                    }
+                    else if(ltc == true){
+                        $('#course-'+i+'-section-'+j+'-row').append('<div class="col-sm text-end-desk"><img src="/images/ltc.png" alt="Low Textbook Cost" title="Low Textbook Cost: Total cost of required materials under $50"></div>');
+                    }
+                    
+
+                    const max_enrl = parseInt(section.SSBSECT_MAX_ENRL);
+                    const seats_remain = parseInt(section.SSBSECT_SEATS_AVAIL);
+                    const waitlist_max = parseInt(section.SSBSECT_WAIT_CAPACITY);
+                    const waitlist_actual = parseInt(section.SSBSECT_WAIT_COUNT);
+                    const waitlist_remain = waitlist_max - waitlist_actual;
+                    let avail_msg;
+                    let avail_color;
+                    let waitlist_msg = "0";
+                    
+                    if(max_enrl == 0){
+                        avail_msg = "Contact Department";
+                        avail_color = "primary"; 
+                    }
+                        if(waitlist_actual > 0 || seats_remain <= 0){
+                            avail_msg = "0/"+ max_enrl+" seats remain";
+                            avail_color = "danger";
+                            if(waitlist_actual < waitlist_max){
+                                waitlist_msg = waitlist_actual + " on Waitlist";
+                            }
+                            else{
+                                waitlist_msg = "Waitlist Full";
+                            }
+                        }
+                        
+                        if(seats_remain > 0){
+                            const seatsRemain = (section.SSBSECT_SEATS_AVAIL == 1) ? " seat remains" : " seats remain";
+
+                            avail_msg = section.SSBSECT_SEATS_AVAIL + "/" + section.SSBSECT_MAX_ENRL + seatsRemain;
+                            avail_color = "success";
+                        }
+
+                    let avail_class = "bi bi-record-fill text-"+avail_color;
+                    let waitlist_class = "bi bi-record-fill text-warning";
+                    $('#course-'+i+'-section-'+j+'-availability-icon').addClass(avail_class);
+                    $('#course-'+i+'-section-'+j+'-availability').text(avail_msg);
+
+                    if(waitlist_msg != "0"){
+                        $('#course-'+i+'-section-'+j+'-waitlist-icon').addClass(waitlist_class);
+                        $('#course-'+i+'-section-'+j+'-waitlist-msg').text(waitlist_msg);
+                        $('#course-'+i+'-section-'+j+'-waitlist').removeClass('d-none');
+                    }
+
+
+
+
+
+                    //End Section Header
+
+                    
+
+                    $('#course-'+i+'-section-'+j+'-card').append('<div class="card-body card-body-meeting" id="course-'+i+'-section-'+j+'-card-body"></div>');
+                    //Meeting Schedule - table heading
+                    $('#course-'+i+'-section-'+j+'-card-body').html('<table class="table"><caption>Meeting Schedule</caption><thead><tr><th scope="col">Location</th><th scope="col">Dates</th><th scope="col">Days</th><th scope="col">Times</th></tr></thead><tbody id="course-'+i+'-section-'+j+'-meeting-table-body"></tbody></table>');
+
+                    const meetings = section.MEETINGS;
+                    $('#course-'+i+'-section-'+j+'-meeting-table-body').html('');
+                    for(let k = 0; k < meetings.length; k++){
+                        let sundayIncluded = false;
+                        let dow = meetings[k].DOW;
+                        if (dow == null) dow = '-';
+                        let mon = tues = wed = thurs = fri = sat = "bg-light text-dark border border-secondary";
+                        if(dow.indexOf("M") >= 0) mon = "bg-primary text-white border border-primary";
+                        if(dow.indexOf("T") >= 0) tues = "bg-primary text-white border border-primary";
+                        if(dow.indexOf("W") >= 0) wed = "bg-primary text-white border border-primary";
+                        if(dow.indexOf("R") >= 0) thurs = "bg-primary text-white border border-primary";
+                        if(dow.indexOf("F") >= 0) fri = "bg-primary text-white border border-primary";
+                        if(dow.indexOf("S") >= 0) sat = "bg-primary text-white border border-primary";
+                        let daysOfClass = "";
+                        if(dow.indexOf("M") >=0){
+                            daysOfClass = "Monday";
+                        }
+                        if(dow.indexOf("T") == 0){
+                            daysOfClass = "Tuesday";
+                        }
+                        else if(dow.indexOf("T") >=1){
+                            daysOfClass = daysOfClass +  ", Tuesday";
+                        }
+                        if(dow.indexOf("W") == 0){
+                            daysOfClass = "Wednesday";
+                        }
+                        else if(dow.indexOf("W") >=1){
+                            daysOfClass = daysOfClass +  ", Wednesday";
+                        }
+                        if(dow.indexOf("R") == 0){
+                            daysOfClass = "Thursday";
+                        }
+                        else if(dow.indexOf("R") >=1){
+                            daysOfClass = daysOfClass +  ", Thursday";
+                        }
+                        if(dow.indexOf("F") == 0){
+                            daysOfClass = "Friday";
+                        }
+                        else if(dow.indexOf("F") >=1){
+                            daysOfClass = daysOfClass +  ", Friday";
+                        }
+                        if(dow.indexOf("S") == 0){
+                            daysOfClass = "Saturday";
+                        }
+                        else if(dow.indexOf("S") >=1){
+                            daysOfClass = daysOfClass +  ", Saturday";
+                        }
+                        if(dow.indexOf("U") == 0){
+                            daysOfClass = "Sunday";
+                            sundayIncluded = true;
+                        }
+                        else if(dow.indexOf("U") >=1){
+                            daysOfClass = daysOfClass +  ", Sunday";
+                            sundayIncluded = true;
+                        }
+                        
+                
+                        //containers for location(ROOM), dates, days, times
+                        $('#course-'+i+'-section-'+j+'-meeting-table-body').append('<tr><td><span id="course-'+i+'-section-'+j+'-meeting-'+k+'-room"></span></td><td><span id="course-'+i+'-section-'+j+'-meeting-'+k+'-dates"></span></td><td><span aria-label="'+daysOfClass+'" id="course-'+i+'-section-'+j+'-meeting-'+k+'-days"></span></td><td><span id="course-'+i+'-section-'+j+'-meeting-'+k+'-time"></span></td></tr>');
+
+                        //days of week
+                        //exclude fancy squares if Sunday class
+                        if(sundayIncluded == true){
+                            $('#course-'+i+'-section-'+j+'-meeting-'+k+'-days').text(daysOfClass);
+                        }
+                        else{
+                            $('#course-'+i+'-section-'+j+'-meeting-'+k+'-days').append('<td><span class="badge '+mon+' badge-monday">M</span><span class="badge '+tues+' badge-tuesday">T</span><span class="badge '+wed+' badge-wednesday">W</span><span class="badge '+thurs+'  badge-thursday">R</span><span class="badge '+fri+' badge-friday">F</span><span class="badge '+sat+' badge-saturday">S</span></td>');
+                            $('#course-'+i+'-section-'+j+'-meeting-'+k+'-days').attr("title", "Classes Meet " + daysOfClass);
+                        }
+                        
+                        const bldg = meetings[k].BLDG_CODE ? meetings[k].BLDG_CODE : "";
+                        const rm = meetings[k].ROOM ? meetings[k].ROOM : "";
+                        const room = bldg.substring(1,3) == rm.substring(1,3) ? rm : "<u>" + bldg + "</u> " + rm;
+                        
+                        //const room = meetings[k].BUILDING.substring(1,3) == meetings[k].ROOM.substring(1,3) ? meetings[k].ROOM : meetings[k].BUILDING + " " +meetings[k].ROOM;
+                        $('#course-'+i+'-section-'+j+'-meeting-'+k+'-room').html(room);
+						$('#course-'+i+'-section-'+j+'-meeting-'+k+'-room').prop("title", meetings[k].BUILDING);
+                        $('#course-'+i+'-section-'+j+'-meeting-'+k+'-dates').text(meetings[k].DATE_RANGE);
+                        
+                        //$("#course-1-section-1-meeting-"+i+"-days").text(meetings[i].DOW);
+
+                        if(meetings[k].BEGIN_TIME && meetings[k].END_TIME){
+
+                            const beginTime = meetings[k].BEGIN_TIME;
+                            let beginHour = beginTime.substr(0, 2);
+                            let beginMinute = beginTime.substr(2);
+                            const endTime = meetings[k].END_TIME;
+                            let endHour = endTime.substr(0, 2);
+                            let endMinute = endTime.substr(2);
+                    
+                            const start = convertStandardTime(beginHour, beginMinute);
+                            const end = convertStandardTime(endHour, endMinute);
+                            $('#course-'+i+'-section-'+j+'-meeting-'+k+'-time').text(start + " - " + end);
+                        }
+
+                           
+                    
+                    }
+                    //section details modal button
+                    $('#course-'+i+'-section-'+j+'-card-body').append('<div class="footer"><button id="course-'+i+'-section-'+j+'-details-button"  data-bs-toggle="modal" data-bs-target="#section-details-modal" class="btn btn-primary" aria-expanded="false" aria-controls="section-details-modal">Section Details</button></div>');  
+                    $('#course-'+i+'-section-'+j+'-details-button').val('{"course":"'+i+'", "section":"'+j+'"}');
+                    
+                    //details button function
+                    $('#course-'+i+'-section-'+j+'-details-button').click(function(event){
+                        //console.log($(this).val());
+                        const jsonVal = JSON.parse($(this).val());
+                        //console.log(jsonVal);
+                        const courseIndex = parseInt(jsonVal.course);
+                        const sectionIndex = parseInt(jsonVal.section);
+                        //console.log(courseIndex);
+                        //console.log(sectionIndex);
+                        const course = courses[courseIndex];
+                        //console.log(course);
+                        const section = course.SECTIONS[sectionIndex];
+                        const college = course.COLL_CODE == "MC" ? "Mission College" : "West Valley College";
+                        $("#section-details-college").text(college);
+                        const title = course.LONG_CRSE_TITLE ? course.LONG_CRSE_TITLE : course.CRSE_TITLE;
+                        //console.log(course.SUBJ_CODE);
+                        let alias = course.COURSE_ALIAS;
+                        let number = course.CRSE_NUMB;
+                        if (alias && alias !== number) {
+                            $("#section-details-title").text(course.SUBJ_CODE + " " + alias + ": " + title);
+                        } else {
+                            $("#section-details-title").text(course.SUBJ_CODE + " " + number + ": " + title);
+                        }
+                        $("#section-details-crn").text(section.CRN);
+                        $("#section-details-instructors tbody").html("");
+                        
+                        for(let k = 0; k < section.INSTRUCTORS.length; k++){
+
+                            $("#section-details-instructors tbody").append("<tr><td>"+section.INSTRUCTORS[k].INSTRUCTOR_NAME+"</td><td><a href='mailto:"+section.INSTRUCTORS[k].INSTRUCTOR_EMAIL+"'>"+section.INSTRUCTORS[k].INSTRUCTOR_EMAIL+"</a></td></tr>");
+                        }
+                        
+                        let sectDesc;
+                        if(section.SECT_DESC){
+                            const index = section.SECT_DESC.indexOf('***');
+                            if(index > 0){
+                                sectDesc = section.SECT_DESC.substring(0, index);
+                            }
+                            else{
+                                sectDesc = section.SECT_DESC;
+                            }
+                           //sectDesc = section.SECT_DESC.replace('***', '<br/><br/>');
+                            //sectDesc = sectDesc.replaceAll('*', '');
+                        }
+                        else{
+                            sectDesc = "none"
+                        }
+                        $("#section-details-units").text(section.CREDIT_HRS);
+                        $("#section-details-length").text(section.PTRM_DESC);
+                        $("#section-details-description").html("<p>" + sectDesc+ "</p>");
+                        //$("#section-details-description").append("<p>" + course.CATALOG_DESC + "</p>");
+                        
+                        $("#section-details-attributes").html("");
+                        
+                        for(let k = 0; k < section.ATTRIBUTES.length; k++){
+
+                            if(section.ATTRIBUTES[k].SSRATTR_ATTR_CODE == "ZTC" || section.ATTRIBUTES[k].SSRATTR_ATTR_CODE == "OER" || 
+                               section.ATTRIBUTES[k].SSRATTR_ATTR_CODE == "NSC" || section.ATTRIBUTES[k].SSRATTR_ATTR_CODE == "OERE" || 
+                               section.ATTRIBUTES[k].SSRATTR_ATTR_CODE == "OERF" || section.ATTRIBUTES[k].SSRATTR_ATTR_CODE == "OERG"){
+                                
+                                let tooltipText = section.ATTRIBUTES[k].STVATTR_DESC;
+                                
+                                // Set more specific descriptions based on the code
+                                if(section.ATTRIBUTES[k].SSRATTR_ATTR_CODE == "ZTC") {
+                                    tooltipText = "Zero Textbook Cost: No instructional materials required";
+                                } else if(section.ATTRIBUTES[k].SSRATTR_ATTR_CODE == "NSC") {
+                                    tooltipText = "No Student Cost: Materials costs not passed to students";
+                                } else if(section.ATTRIBUTES[k].SSRATTR_ATTR_CODE == "OERE") {
+                                    tooltipText = "Open Educational Resources: No-cost resources in the public domain";
+                                } else if(section.ATTRIBUTES[k].SSRATTR_ATTR_CODE == "OERF") {
+                                    tooltipText = "No-cost digital course material";
+                                } else if(section.ATTRIBUTES[k].SSRATTR_ATTR_CODE == "OERG") {
+                                    tooltipText = "Mix of no-cost and other resources with no costs to students";
+                                }
+                                
+                                $("#section-details-attributes").append('<li class="list-group-item" data-bs-toggle="tooltip" title="'+tooltipText+'">'+section.ATTRIBUTES[k].STVATTR_DESC+'<span class="badge" style="max-width:70px;"><img src="/images/ztc-75.png" alt="'+tooltipText+'" class="img-fluid"></span></li>');
+                                
+                            }
+                            else if(section.ATTRIBUTES[k].SSRATTR_ATTR_CODE == "LTC"){
+                                const ltcTooltip = "Low Textbook Cost: Total cost of required materials under $50";
+                                $("#section-details-attributes").append('<li class="list-group-item" data-bs-toggle="tooltip" title="'+ltcTooltip+'">Low Textbook Cost<span class="badge" style="max-width:70px;"><img src="/images/ltc.png" alt="'+ltcTooltip+'" class="img-fluid"></span></li>');
+                            }
+                            else{
+                                $("#section-details-attributes").append('<li class="list-group-item">'  + section.ATTRIBUTES[k].STVATTR_DESC + '</li>');
+                            }
+
+                        }
+                        $("#section-details-cohorts").html("");
+                        $("#section-details-cohorts-container").hide();
+                        for(let k = 0; k < section.COHORTS.length; k ++){
+                            
+                            $("#section-details-cohorts").append('<li class="list-group-item">' + section.COHORTS[k].STVCHRT_DESC + '</li>');
+                            $("#section-details-cohorts-container").show();
+                        }
+
+                        $("#section-details-linked-courses tbody").html("");
+                        $("#section-details-linked-courses").hide();
+                        for(let k = 0; k < section.XLST.length; k++){
+                            $("#section-details-linked-courses").show();
+                            
+                            let xlstNumber = section.XLST[k].XLST_CRSE_NUMB;
+                            let displayNumber = xlstNumber;
+                            
+                            // Check if this cross-listed course number matches a course with an alias
+                            for(let i = 0; i < courses.length; i++) {
+                                if(courses[i].CRSE_NUMB === xlstNumber) {
+                                    let alias = courses[i].COURSE_ALIAS;
+                                    if(alias && alias !== xlstNumber) {
+                                        displayNumber = alias;
+                                        break;
+                                    }
+                                }
+                            }
+                            
+                            $("#section-details-linked-courses tbody").append('<tr><td>' + section.XLST[k].XLST_CRN + '</td><td>' + section.XLST[k].XLST_SUBJ_CODE + ' ' + displayNumber + '</td><td>' + section.XLST[k].XLST_COURSE_TITLE + '</td></tr>');
+                        }
+                        
+                
+                        const bookStoreLink = getBookStoreLink(termCode, course.COLL_CODE, course.SUBJ_CODE, course.CRSE_NUMB,section.CRN);
+
+                        $("#section-details-bookstore-link").html('<a href="'+ bookStoreLink +'" target="_blank" rel="noopener noreferrer">Bookstore - Textbooks and/or Materials</a>');
+
+                    })
+                
+                
+                }
+               // const popover = new bootstrap.Popover('.popover-dismiss', {
+               // trigger: 'focus'
+             //   });
+             //dynamic list
+                const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+                const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl, {trigger: "focus"}));
+                
+                // Initialize tooltips for textbook cost attributes
+                const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+                const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+
+            
+        }
+
+
+            
+
+            const hideInaSec = setTimeout(function(){
+                $("#search-results-spinner").hide();
+                        }, 300);
+           // 
+            
+        }
+         
+        
+
+          function convertStandardTime(hour, minute){
+            let ampm = "AM";  
+            let hourInt = parseInt(hour);
+            if(hourInt > 11){
+                ampm = "PM";
+                if(hourInt > 12){
+                    hourInt = hourInt - 12;
+                } 
+            }
+            return hourInt.toString() + ":" + minute + "" + ampm;
+
+            
+          }
+
+          function getBookStoreLink(term, college, subj, crse, crn){
+              let linkString = "https://www.ecampus.com/"; // default link for ecampus"
+
+            if(college == "WV"){
+                linkString = "https://westvalley.ecampus.com/";
+            }
+            if(college == "MC"){    
+                linkString ="https://missioncollege.ecampus.com/";
+            } 
+                return linkString;
+          }
+          const getArrayFromCheckboxes = function(name){
+           // console.log(name);
+            const arrayOut = new Array();
+            $("input:checkbox[name="+name+"]:checked").each(function(){
+                arrayOut.push($(this).val());
+            });
+            //console.log(arrayOut);
+            return arrayOut;
+            }
+
+        const populateSubjects = function(subjects){
+            const college = $("#college-select").val();
+            $("#subject-select").html('<option></option>');
+            
+            // Create a Set to track unique subject codes
+            const uniqueCodes = new Set();
+            
+            if(college == "ALL"){
+                subjects.forEach(subject =>{
+                    // Only add if we haven't seen this 4-character code before
+                    if (!uniqueCodes.has(subject.SUBJ_CODE)) {
+                        $("#subject-select").append('<option value="'+subject.SUBJ_CODE+'">'+subject.SUBJ_DESC+'</option>');
+                        uniqueCodes.add(subject.SUBJ_CODE);
+                    }
+                });
+            }
+            else{
+                subjects.forEach(subject =>{
+                    if(college == subject.COLL_CODE && !uniqueCodes.has(subject.SUBJ_CODE)){
+                        $("#subject-select").append('<option value="'+subject.SUBJ_CODE+'">'+subject.SUBJ_DESC+'</option>');
+                        uniqueCodes.add(subject.SUBJ_CODE);
+                    }
+                });
+            }
+        }
+        const populateInstructorsSelect = function(instructors){
+            const college = $("#college-select").val();
+            //console.log("Setting subjects ;for college " + college);
+
+            
+
+        }
+        function jump(h){
+            if(window.innerWidth < 768){
+                var top = document.getElementById(h).offsetTop;
+                window.scrollTo(0, top);
+            }
+        }
+        
+        function reset(){
+            //reset all options except Term and College
+            $("#subject-select").val("");
+            $("#search_input_main").val("");
+            $("[name='flexRadioInstrMethod']").prop("checked", false);
+            $("#instr-method-button").text("");
+            $("[name='flexRadioSessions']").prop("checked", false);
+            $("#dropdownMenuButtonSessions").text("");
+            $("#instructor-input").val("");
+            $("#instructor-input-email").val("");
+            $("[name=textbookCost]").prop("checked", false);
+            $("#textbookDropDown").text("");
+            $("[name=flexRadioMeetingDays]").prop("checked", false);
+            $("#meetingDropdown").text("");
+            $("#status-select").val("");
+            $("[name=flexRadioTransfer]").prop("checked", false);
+            $("#dropdownMenuButtonTransferability").text("");
+            $("[name=flexRadioCSUGE]").prop("checked", false);
+            $("#dropdownMenuButtonCSUGE").text("");
+            $("[name=flexRadioIGETC]").prop("checked", false);
+            $("#dropdownMenuButtonIGETC").text("");
+            $("[name=flexRadioWVM]").prop("checked", false);
+            $("#dropdownMenuButtonWVM").text("");
+            $("[name=flexRadioCALGETC]").prop("checked", false);
+            $("#dropdownMenuButtonCALGETC").text("");
+            $("#search-results-container").addClass("d-none");
+            $("#start-time").val(5);
+            $("#end-time").val(24);
+            $("#start-time-result").text(convertNumberToStandardTime(5));
+            $("#end-time-result").text(convertNumberToStandardTime(24));
+            $("#credit-select").val("CRNC");
+
+
+        }
+        $("#start-time").on("change", function(e){
+            console.log(e.target.value);
+            $("#start-time-result").text(convertNumberToStandardTime(e.target.value));
+            triggerSearch();
+        });
+        $("#end-time").on("change", function(e){
+            console.log(e.target.value);
+            $("#end-time-result").text(convertNumberToStandardTime(e.target.value));
+            triggerSearch();
+        });
+        
+        $("#credit-select").on("change", function(e){
+            triggerSearch();
+        });        
+
+        function convertNumberToStandardTime(timeNumber){
+            //this assumes the step is 30 min
+            let minutes;
+            if(timeNumber % 1 == 0){
+                minutes = "00";
+            }
+            else{
+                minutes = "30";
+            }
+            const hoursNumber = Math.floor(timeNumber);
+            let ampm = (timeNumber == 24) ? "AM" : (timeNumber >= 12) ? "PM" : "AM";
+            
+            let hours;
+            if(hoursNumber > 12){
+                hours = (hoursNumber - 12).toString();
+            }
+            else{
+                hours = hoursNumber.toString();
+            }
+            if(parseInt(hours) < 10){
+                hours = "0" + hours;
+            }
+            return hours + ":" + minutes + " " + ampm;
+        }
+        function convertNumberToMilitaryTime(timeNumber){
+            let minutes;
+            if(timeNumber % 1 == 0){
+                minutes = "00";
+            }
+            else{
+                minutes = "30";
+            }
+            const hoursNumber = Math.floor(timeNumber);
+            let hours;
+            if(hoursNumber < 10){
+                hours = "0" + hoursNumber.toString();
+            }
+            else{
+                hours = hoursNumber.toString();
+            }
+            return hours + minutes;
+ 
+        }
+
+
+      </script>
+  </body>
+</html>

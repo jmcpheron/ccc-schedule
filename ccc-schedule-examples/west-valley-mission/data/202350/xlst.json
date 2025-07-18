@@ -1,0 +1,2123 @@
+
+[
+  {
+    "ROW_NUMBER": 1,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52943",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "52944",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "065B",
+    "XLST_COURSE_TITLE": "Ceramics-Handbuilding:Beginnin"
+  },
+  {
+    "ROW_NUMBER": 2,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52943",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "52947",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "067A",
+    "XLST_COURSE_TITLE": "Ceramics-Potter's Wheel: Intro"
+  },
+  {
+    "ROW_NUMBER": 3,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52943",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "52948",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "067B",
+    "XLST_COURSE_TITLE": "Ceramics-Potter's Wheel: Begin"
+  },
+  {
+    "ROW_NUMBER": 4,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52943",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "52949",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "067C",
+    "XLST_COURSE_TITLE": "Ceramics-Potter's Wheel: Inter"
+  },
+  {
+    "ROW_NUMBER": 5,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52944",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "52943",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "065A",
+    "XLST_COURSE_TITLE": "Ceramics-Handbuilding: Introdu"
+  },
+  {
+    "ROW_NUMBER": 6,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52944",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "52947",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "067A",
+    "XLST_COURSE_TITLE": "Ceramics-Potter's Wheel: Intro"
+  },
+  {
+    "ROW_NUMBER": 7,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52944",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "52948",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "067B",
+    "XLST_COURSE_TITLE": "Ceramics-Potter's Wheel: Begin"
+  },
+  {
+    "ROW_NUMBER": 8,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52944",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "52949",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "067C",
+    "XLST_COURSE_TITLE": "Ceramics-Potter's Wheel: Inter"
+  },
+  {
+    "ROW_NUMBER": 9,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52947",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "52943",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "065A",
+    "XLST_COURSE_TITLE": "Ceramics-Handbuilding: Introdu"
+  },
+  {
+    "ROW_NUMBER": 10,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52947",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "52944",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "065B",
+    "XLST_COURSE_TITLE": "Ceramics-Handbuilding:Beginnin"
+  },
+  {
+    "ROW_NUMBER": 11,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52947",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "52948",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "067B",
+    "XLST_COURSE_TITLE": "Ceramics-Potter's Wheel: Begin"
+  },
+  {
+    "ROW_NUMBER": 12,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52947",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "52949",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "067C",
+    "XLST_COURSE_TITLE": "Ceramics-Potter's Wheel: Inter"
+  },
+  {
+    "ROW_NUMBER": 13,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52948",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "52943",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "065A",
+    "XLST_COURSE_TITLE": "Ceramics-Handbuilding: Introdu"
+  },
+  {
+    "ROW_NUMBER": 14,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52948",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "52944",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "065B",
+    "XLST_COURSE_TITLE": "Ceramics-Handbuilding:Beginnin"
+  },
+  {
+    "ROW_NUMBER": 15,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52948",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "52947",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "067A",
+    "XLST_COURSE_TITLE": "Ceramics-Potter's Wheel: Intro"
+  },
+  {
+    "ROW_NUMBER": 16,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52948",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "52949",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "067C",
+    "XLST_COURSE_TITLE": "Ceramics-Potter's Wheel: Inter"
+  },
+  {
+    "ROW_NUMBER": 17,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52949",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "52943",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "065A",
+    "XLST_COURSE_TITLE": "Ceramics-Handbuilding: Introdu"
+  },
+  {
+    "ROW_NUMBER": 18,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52949",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "52944",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "065B",
+    "XLST_COURSE_TITLE": "Ceramics-Handbuilding:Beginnin"
+  },
+  {
+    "ROW_NUMBER": 19,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52949",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "52947",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "067A",
+    "XLST_COURSE_TITLE": "Ceramics-Potter's Wheel: Intro"
+  },
+  {
+    "ROW_NUMBER": 20,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52949",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "52948",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "067B",
+    "XLST_COURSE_TITLE": "Ceramics-Potter's Wheel: Begin"
+  },
+  {
+    "ROW_NUMBER": 21,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52990",
+    "XLST_GROUP": "1C",
+    "XLST_CRN": "52991",
+    "XLST_SUBJ_CODE": "HUM",
+    "XLST_CRSE_NUMB": "007",
+    "XLST_COURSE_TITLE": "International Films"
+  },
+  {
+    "ROW_NUMBER": 22,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52991",
+    "XLST_GROUP": "1C",
+    "XLST_CRN": "52990",
+    "XLST_SUBJ_CODE": "POL",
+    "XLST_CRSE_NUMB": "007",
+    "XLST_COURSE_TITLE": "International Films"
+  },
+  {
+    "ROW_NUMBER": 23,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52808",
+    "XLST_GROUP": "4B",
+    "XLST_CRN": "52810",
+    "XLST_SUBJ_CODE": "BIO",
+    "XLST_CRSE_NUMB": "014H",
+    "XLST_COURSE_TITLE": "Introductory Neuroscience - Ho"
+  },
+  {
+    "ROW_NUMBER": 24,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52810",
+    "XLST_GROUP": "4B",
+    "XLST_CRN": "52808",
+    "XLST_SUBJ_CODE": "BIO",
+    "XLST_CRSE_NUMB": "014",
+    "XLST_COURSE_TITLE": "Introductory Neuroscience"
+  },
+  {
+    "ROW_NUMBER": 25,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52811",
+    "XLST_GROUP": "4C",
+    "XLST_CRN": "52812",
+    "XLST_SUBJ_CODE": "BIO",
+    "XLST_CRSE_NUMB": "018H",
+    "XLST_COURSE_TITLE": "The Biology of Cancer - Honors"
+  },
+  {
+    "ROW_NUMBER": 26,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52812",
+    "XLST_GROUP": "4C",
+    "XLST_CRN": "52811",
+    "XLST_SUBJ_CODE": "BIO",
+    "XLST_CRSE_NUMB": "018",
+    "XLST_COURSE_TITLE": "The Biology of Cancer"
+  },
+  {
+    "ROW_NUMBER": 27,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52934",
+    "XLST_GROUP": "4D",
+    "XLST_CRN": "52935",
+    "XLST_SUBJ_CODE": "CHM",
+    "XLST_CRSE_NUMB": "012AH",
+    "XLST_COURSE_TITLE": "Organic Chemistry I - Honors"
+  },
+  {
+    "ROW_NUMBER": 28,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52935",
+    "XLST_GROUP": "4D",
+    "XLST_CRN": "52934",
+    "XLST_SUBJ_CODE": "CHM",
+    "XLST_CRSE_NUMB": "012A",
+    "XLST_COURSE_TITLE": "Organic Chemistry I"
+  },
+  {
+    "ROW_NUMBER": 29,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53091",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "53092",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "021B",
+    "XLST_COURSE_TITLE": "Tennis - Beginning"
+  },
+  {
+    "ROW_NUMBER": 30,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53091",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "53097",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "021C",
+    "XLST_COURSE_TITLE": "Tennis - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 31,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53091",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "53098",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "021D",
+    "XLST_COURSE_TITLE": "Tennis - Advanced"
+  },
+  {
+    "ROW_NUMBER": 32,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53092",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "53091",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "021A",
+    "XLST_COURSE_TITLE": "Tennis - Introduction"
+  },
+  {
+    "ROW_NUMBER": 33,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53092",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "53097",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "021C",
+    "XLST_COURSE_TITLE": "Tennis - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 34,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53092",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "53098",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "021D",
+    "XLST_COURSE_TITLE": "Tennis - Advanced"
+  },
+  {
+    "ROW_NUMBER": 35,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53097",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "53091",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "021A",
+    "XLST_COURSE_TITLE": "Tennis - Introduction"
+  },
+  {
+    "ROW_NUMBER": 36,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53097",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "53092",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "021B",
+    "XLST_COURSE_TITLE": "Tennis - Beginning"
+  },
+  {
+    "ROW_NUMBER": 37,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53097",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "53098",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "021D",
+    "XLST_COURSE_TITLE": "Tennis - Advanced"
+  },
+  {
+    "ROW_NUMBER": 38,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53098",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "53091",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "021A",
+    "XLST_COURSE_TITLE": "Tennis - Introduction"
+  },
+  {
+    "ROW_NUMBER": 39,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53098",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "53092",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "021B",
+    "XLST_COURSE_TITLE": "Tennis - Beginning"
+  },
+  {
+    "ROW_NUMBER": 40,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53098",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "53097",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "021C",
+    "XLST_COURSE_TITLE": "Tennis - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 41,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53099",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "53100",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035B",
+    "XLST_COURSE_TITLE": "Weight Training - Beginning"
+  },
+  {
+    "ROW_NUMBER": 42,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53099",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "53101",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035C",
+    "XLST_COURSE_TITLE": "Weight Training - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 43,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53100",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "53099",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035A",
+    "XLST_COURSE_TITLE": "Weight Training - Introduction"
+  },
+  {
+    "ROW_NUMBER": 44,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53100",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "53101",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035C",
+    "XLST_COURSE_TITLE": "Weight Training - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 45,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53101",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "53099",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035A",
+    "XLST_COURSE_TITLE": "Weight Training - Introduction"
+  },
+  {
+    "ROW_NUMBER": 46,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53101",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "53100",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035B",
+    "XLST_COURSE_TITLE": "Weight Training - Beginning"
+  },
+  {
+    "ROW_NUMBER": 47,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53102",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "53103",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061B",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Beginning"
+  },
+  {
+    "ROW_NUMBER": 48,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53102",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "53104",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061C",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 49,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53102",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "53105",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061D",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Advanced"
+  },
+  {
+    "ROW_NUMBER": 50,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53103",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "53102",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061A",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Introduction"
+  },
+  {
+    "ROW_NUMBER": 51,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53103",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "53104",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061C",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 52,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53103",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "53105",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061D",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Advanced"
+  },
+  {
+    "ROW_NUMBER": 53,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53104",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "53102",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061A",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Introduction"
+  },
+  {
+    "ROW_NUMBER": 54,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53104",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "53103",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061B",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Beginning"
+  },
+  {
+    "ROW_NUMBER": 55,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53104",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "53105",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061D",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Advanced"
+  },
+  {
+    "ROW_NUMBER": 56,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53105",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "53102",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061A",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Introduction"
+  },
+  {
+    "ROW_NUMBER": 57,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53105",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "53103",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061B",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Beginning"
+  },
+  {
+    "ROW_NUMBER": 58,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53105",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "53104",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061C",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 59,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53106",
+    "XLST_GROUP": "6D",
+    "XLST_CRN": "53107",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "014B",
+    "XLST_COURSE_TITLE": "Volleyball - Beginning"
+  },
+  {
+    "ROW_NUMBER": 60,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53106",
+    "XLST_GROUP": "6D",
+    "XLST_CRN": "53108",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "014C",
+    "XLST_COURSE_TITLE": "Volleyball - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 61,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53106",
+    "XLST_GROUP": "6D",
+    "XLST_CRN": "53109",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "014D",
+    "XLST_COURSE_TITLE": "Volleyball - Advanced"
+  },
+  {
+    "ROW_NUMBER": 62,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53107",
+    "XLST_GROUP": "6D",
+    "XLST_CRN": "53106",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "014A",
+    "XLST_COURSE_TITLE": "Volleyball - Introduction"
+  },
+  {
+    "ROW_NUMBER": 63,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53107",
+    "XLST_GROUP": "6D",
+    "XLST_CRN": "53108",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "014C",
+    "XLST_COURSE_TITLE": "Volleyball - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 64,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53107",
+    "XLST_GROUP": "6D",
+    "XLST_CRN": "53109",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "014D",
+    "XLST_COURSE_TITLE": "Volleyball - Advanced"
+  },
+  {
+    "ROW_NUMBER": 65,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53108",
+    "XLST_GROUP": "6D",
+    "XLST_CRN": "53106",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "014A",
+    "XLST_COURSE_TITLE": "Volleyball - Introduction"
+  },
+  {
+    "ROW_NUMBER": 66,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53108",
+    "XLST_GROUP": "6D",
+    "XLST_CRN": "53107",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "014B",
+    "XLST_COURSE_TITLE": "Volleyball - Beginning"
+  },
+  {
+    "ROW_NUMBER": 67,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53108",
+    "XLST_GROUP": "6D",
+    "XLST_CRN": "53109",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "014D",
+    "XLST_COURSE_TITLE": "Volleyball - Advanced"
+  },
+  {
+    "ROW_NUMBER": 68,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53109",
+    "XLST_GROUP": "6D",
+    "XLST_CRN": "53106",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "014A",
+    "XLST_COURSE_TITLE": "Volleyball - Introduction"
+  },
+  {
+    "ROW_NUMBER": 69,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53109",
+    "XLST_GROUP": "6D",
+    "XLST_CRN": "53107",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "014B",
+    "XLST_COURSE_TITLE": "Volleyball - Beginning"
+  },
+  {
+    "ROW_NUMBER": 70,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53109",
+    "XLST_GROUP": "6D",
+    "XLST_CRN": "53108",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "014C",
+    "XLST_COURSE_TITLE": "Volleyball - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 71,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53111",
+    "XLST_GROUP": "6E",
+    "XLST_CRN": "53113",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061B",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Beginning"
+  },
+  {
+    "ROW_NUMBER": 72,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53111",
+    "XLST_GROUP": "6E",
+    "XLST_CRN": "53114",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061C",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 73,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53111",
+    "XLST_GROUP": "6E",
+    "XLST_CRN": "53115",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061D",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Advanced"
+  },
+  {
+    "ROW_NUMBER": 74,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53113",
+    "XLST_GROUP": "6E",
+    "XLST_CRN": "53111",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061A",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Introduction"
+  },
+  {
+    "ROW_NUMBER": 75,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53113",
+    "XLST_GROUP": "6E",
+    "XLST_CRN": "53114",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061C",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 76,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53113",
+    "XLST_GROUP": "6E",
+    "XLST_CRN": "53115",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061D",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Advanced"
+  },
+  {
+    "ROW_NUMBER": 77,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53114",
+    "XLST_GROUP": "6E",
+    "XLST_CRN": "53111",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061A",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Introduction"
+  },
+  {
+    "ROW_NUMBER": 78,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53114",
+    "XLST_GROUP": "6E",
+    "XLST_CRN": "53113",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061B",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Beginning"
+  },
+  {
+    "ROW_NUMBER": 79,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53114",
+    "XLST_GROUP": "6E",
+    "XLST_CRN": "53115",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061D",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Advanced"
+  },
+  {
+    "ROW_NUMBER": 80,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53115",
+    "XLST_GROUP": "6E",
+    "XLST_CRN": "53111",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061A",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Introduction"
+  },
+  {
+    "ROW_NUMBER": 81,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53115",
+    "XLST_GROUP": "6E",
+    "XLST_CRN": "53113",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061B",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Beginning"
+  },
+  {
+    "ROW_NUMBER": 82,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53115",
+    "XLST_GROUP": "6E",
+    "XLST_CRN": "53114",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "061C",
+    "XLST_COURSE_TITLE": "Hatha Yoga - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 83,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53121",
+    "XLST_GROUP": "6G",
+    "XLST_CRN": "53122",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050B",
+    "XLST_COURSE_TITLE": "Tai Chi - Beginning"
+  },
+  {
+    "ROW_NUMBER": 84,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53121",
+    "XLST_GROUP": "6G",
+    "XLST_CRN": "53123",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050C",
+    "XLST_COURSE_TITLE": "Tai Chi - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 85,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53121",
+    "XLST_GROUP": "6G",
+    "XLST_CRN": "53124",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050D",
+    "XLST_COURSE_TITLE": "Tai Chi - Advanced"
+  },
+  {
+    "ROW_NUMBER": 86,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53122",
+    "XLST_GROUP": "6G",
+    "XLST_CRN": "53121",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050A",
+    "XLST_COURSE_TITLE": "Tai Chi - Introduction"
+  },
+  {
+    "ROW_NUMBER": 87,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53122",
+    "XLST_GROUP": "6G",
+    "XLST_CRN": "53123",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050C",
+    "XLST_COURSE_TITLE": "Tai Chi - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 88,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53122",
+    "XLST_GROUP": "6G",
+    "XLST_CRN": "53124",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050D",
+    "XLST_COURSE_TITLE": "Tai Chi - Advanced"
+  },
+  {
+    "ROW_NUMBER": 89,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53123",
+    "XLST_GROUP": "6G",
+    "XLST_CRN": "53121",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050A",
+    "XLST_COURSE_TITLE": "Tai Chi - Introduction"
+  },
+  {
+    "ROW_NUMBER": 90,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53123",
+    "XLST_GROUP": "6G",
+    "XLST_CRN": "53122",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050B",
+    "XLST_COURSE_TITLE": "Tai Chi - Beginning"
+  },
+  {
+    "ROW_NUMBER": 91,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53123",
+    "XLST_GROUP": "6G",
+    "XLST_CRN": "53124",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050D",
+    "XLST_COURSE_TITLE": "Tai Chi - Advanced"
+  },
+  {
+    "ROW_NUMBER": 92,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53124",
+    "XLST_GROUP": "6G",
+    "XLST_CRN": "53121",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050A",
+    "XLST_COURSE_TITLE": "Tai Chi - Introduction"
+  },
+  {
+    "ROW_NUMBER": 93,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53124",
+    "XLST_GROUP": "6G",
+    "XLST_CRN": "53122",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050B",
+    "XLST_COURSE_TITLE": "Tai Chi - Beginning"
+  },
+  {
+    "ROW_NUMBER": 94,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53124",
+    "XLST_GROUP": "6G",
+    "XLST_CRN": "53123",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050C",
+    "XLST_COURSE_TITLE": "Tai Chi - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 95,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53125",
+    "XLST_GROUP": "6H",
+    "XLST_CRN": "53126",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "055B",
+    "XLST_COURSE_TITLE": "Self Defense - Beginning"
+  },
+  {
+    "ROW_NUMBER": 96,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53126",
+    "XLST_GROUP": "6H",
+    "XLST_CRN": "53125",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "055A",
+    "XLST_COURSE_TITLE": "Self-Defense - Introduction"
+  },
+  {
+    "ROW_NUMBER": 97,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53127",
+    "XLST_GROUP": "6I",
+    "XLST_CRN": "53128",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "063B",
+    "XLST_COURSE_TITLE": "Hiking - Beginning"
+  },
+  {
+    "ROW_NUMBER": 98,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53128",
+    "XLST_GROUP": "6I",
+    "XLST_CRN": "53127",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "063A",
+    "XLST_COURSE_TITLE": "Hiking - Introduction"
+  },
+  {
+    "ROW_NUMBER": 99,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52793",
+    "XLST_GROUP": "EN01",
+    "XLST_CRN": "52794",
+    "XLST_SUBJ_CODE": "ENGL",
+    "XLST_CRSE_NUMB": "018H",
+    "XLST_COURSE_TITLE": "Honors Asian American Lit."
+  },
+  {
+    "ROW_NUMBER": 100,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52793",
+    "XLST_GROUP": "EN01",
+    "XLST_CRN": "53132",
+    "XLST_SUBJ_CODE": "ETHN",
+    "XLST_CRSE_NUMB": "018",
+    "XLST_COURSE_TITLE": "Asian American Literature"
+  },
+  {
+    "ROW_NUMBER": 101,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52794",
+    "XLST_GROUP": "EN01",
+    "XLST_CRN": "52793",
+    "XLST_SUBJ_CODE": "ENGL",
+    "XLST_CRSE_NUMB": "018",
+    "XLST_COURSE_TITLE": "Asian American Literature"
+  },
+  {
+    "ROW_NUMBER": 102,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52794",
+    "XLST_GROUP": "EN01",
+    "XLST_CRN": "53132",
+    "XLST_SUBJ_CODE": "ETHN",
+    "XLST_CRSE_NUMB": "018",
+    "XLST_COURSE_TITLE": "Asian American Literature"
+  },
+  {
+    "ROW_NUMBER": 103,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53132",
+    "XLST_GROUP": "EN01",
+    "XLST_CRN": "52793",
+    "XLST_SUBJ_CODE": "ENGL",
+    "XLST_CRSE_NUMB": "018",
+    "XLST_COURSE_TITLE": "Asian American Literature"
+  },
+  {
+    "ROW_NUMBER": 104,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53132",
+    "XLST_GROUP": "EN01",
+    "XLST_CRN": "52794",
+    "XLST_SUBJ_CODE": "ENGL",
+    "XLST_CRSE_NUMB": "018H",
+    "XLST_COURSE_TITLE": "Honors Asian American Lit."
+  },
+  {
+    "ROW_NUMBER": 105,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52795",
+    "XLST_GROUP": "EN02",
+    "XLST_CRN": "52796",
+    "XLST_SUBJ_CODE": "ENGL",
+    "XLST_CRSE_NUMB": "049H",
+    "XLST_COURSE_TITLE": "Honors Modern Fiction"
+  },
+  {
+    "ROW_NUMBER": 106,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52796",
+    "XLST_GROUP": "EN02",
+    "XLST_CRN": "52795",
+    "XLST_SUBJ_CODE": "ENGL",
+    "XLST_CRSE_NUMB": "049",
+    "XLST_COURSE_TITLE": "Modern Fiction"
+  },
+  {
+    "ROW_NUMBER": 107,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53286",
+    "XLST_GROUP": "ET3",
+    "XLST_CRN": "53287",
+    "XLST_SUBJ_CODE": "ETHN",
+    "XLST_CRSE_NUMB": "001",
+    "XLST_COURSE_TITLE": "Intro - Ethnic/Social Justice"
+  },
+  {
+    "ROW_NUMBER": 108,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53287",
+    "XLST_GROUP": "ET3",
+    "XLST_CRN": "53286",
+    "XLST_SUBJ_CODE": "SJST",
+    "XLST_CRSE_NUMB": "001",
+    "XLST_COURSE_TITLE": "Intro to Ethnic/Social Justice"
+  },
+  {
+    "ROW_NUMBER": 109,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52738",
+    "XLST_GROUP": "J1",
+    "XLST_CRN": "52744",
+    "XLST_SUBJ_CODE": "NCCC",
+    "XLST_CRSE_NUMB": "002",
+    "XLST_COURSE_TITLE": "Stenographic Machine Theory 2"
+  },
+  {
+    "ROW_NUMBER": 110,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52738",
+    "XLST_GROUP": "J1",
+    "XLST_CRN": "52745",
+    "XLST_SUBJ_CODE": "NCCC",
+    "XLST_CRSE_NUMB": "003",
+    "XLST_COURSE_TITLE": "Stenographic Machine Theory 3"
+  },
+  {
+    "ROW_NUMBER": 111,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52744",
+    "XLST_GROUP": "J1",
+    "XLST_CRN": "52738",
+    "XLST_SUBJ_CODE": "NCCC",
+    "XLST_CRSE_NUMB": "001",
+    "XLST_COURSE_TITLE": "Stenographic Machine Theory 1"
+  },
+  {
+    "ROW_NUMBER": 112,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52744",
+    "XLST_GROUP": "J1",
+    "XLST_CRN": "52745",
+    "XLST_SUBJ_CODE": "NCCC",
+    "XLST_CRSE_NUMB": "003",
+    "XLST_COURSE_TITLE": "Stenographic Machine Theory 3"
+  },
+  {
+    "ROW_NUMBER": 113,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52745",
+    "XLST_GROUP": "J1",
+    "XLST_CRN": "52738",
+    "XLST_SUBJ_CODE": "NCCC",
+    "XLST_CRSE_NUMB": "001",
+    "XLST_COURSE_TITLE": "Stenographic Machine Theory 1"
+  },
+  {
+    "ROW_NUMBER": 114,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52745",
+    "XLST_GROUP": "J1",
+    "XLST_CRN": "52744",
+    "XLST_SUBJ_CODE": "NCCC",
+    "XLST_CRSE_NUMB": "002",
+    "XLST_COURSE_TITLE": "Stenographic Machine Theory 2"
+  },
+  {
+    "ROW_NUMBER": 115,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52749",
+    "XLST_GROUP": "J2",
+    "XLST_CRN": "52750",
+    "XLST_SUBJ_CODE": "NCCC",
+    "XLST_CRSE_NUMB": "012M",
+    "XLST_COURSE_TITLE": "120-140 WPM: Multi-Voice Focus"
+  },
+  {
+    "ROW_NUMBER": 116,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52750",
+    "XLST_GROUP": "J2",
+    "XLST_CRN": "52749",
+    "XLST_SUBJ_CODE": "NCCC",
+    "XLST_CRSE_NUMB": "008M",
+    "XLST_COURSE_TITLE": "80-100 WPM: Multi-Voice Focus"
+  },
+  {
+    "ROW_NUMBER": 117,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52820",
+    "XLST_GROUP": "J23",
+    "XLST_CRN": "52821",
+    "XLST_SUBJ_CODE": "THEA",
+    "XLST_CRSE_NUMB": "022B",
+    "XLST_COURSE_TITLE": "Prac. Theater(Costume/Makeup)2"
+  },
+  {
+    "ROW_NUMBER": 118,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52821",
+    "XLST_GROUP": "J23",
+    "XLST_CRN": "52820",
+    "XLST_SUBJ_CODE": "THEA",
+    "XLST_CRSE_NUMB": "021B",
+    "XLST_COURSE_TITLE": "Practical Theater (S&S) II"
+  },
+  {
+    "ROW_NUMBER": 119,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53307",
+    "XLST_GROUP": "J24",
+    "XLST_CRN": "53308",
+    "XLST_SUBJ_CODE": "NCIE",
+    "XLST_CRSE_NUMB": "106",
+    "XLST_COURSE_TITLE": "Integrated ESL: Advanced High"
+  },
+  {
+    "ROW_NUMBER": 120,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53308",
+    "XLST_GROUP": "J24",
+    "XLST_CRN": "53307",
+    "XLST_SUBJ_CODE": "NCIE",
+    "XLST_CRSE_NUMB": "105",
+    "XLST_COURSE_TITLE": "Integrated ESL: Advanced Low"
+  },
+  {
+    "ROW_NUMBER": 121,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52751",
+    "XLST_GROUP": "J3",
+    "XLST_CRN": "52752",
+    "XLST_SUBJ_CODE": "NCCC",
+    "XLST_CRSE_NUMB": "012M",
+    "XLST_COURSE_TITLE": "120-140 WPM: Multi-Voice Focus"
+  },
+  {
+    "ROW_NUMBER": 122,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52752",
+    "XLST_GROUP": "J3",
+    "XLST_CRN": "52751",
+    "XLST_SUBJ_CODE": "NCCC",
+    "XLST_CRSE_NUMB": "008M",
+    "XLST_COURSE_TITLE": "80-100 WPM: Multi-Voice Focus"
+  },
+  {
+    "ROW_NUMBER": 123,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52753",
+    "XLST_GROUP": "J4",
+    "XLST_CRN": "52754",
+    "XLST_SUBJ_CODE": "NCCC",
+    "XLST_CRSE_NUMB": "018M",
+    "XLST_COURSE_TITLE": "180 WPM: Multi-Voice Focus"
+  },
+  {
+    "ROW_NUMBER": 124,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52754",
+    "XLST_GROUP": "J4",
+    "XLST_CRN": "52753",
+    "XLST_SUBJ_CODE": "NCCC",
+    "XLST_CRSE_NUMB": "016M",
+    "XLST_COURSE_TITLE": "160 WPM: Multi-Voice Focus"
+  },
+  {
+    "ROW_NUMBER": 125,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53058",
+    "XLST_GROUP": "J5",
+    "XLST_CRN": "53060",
+    "XLST_SUBJ_CODE": "NCIE",
+    "XLST_CRSE_NUMB": "104",
+    "XLST_COURSE_TITLE": "Integrated ESL: Intermed. High"
+  },
+  {
+    "ROW_NUMBER": 126,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53060",
+    "XLST_GROUP": "J5",
+    "XLST_CRN": "53058",
+    "XLST_SUBJ_CODE": "NCIE",
+    "XLST_CRSE_NUMB": "103",
+    "XLST_COURSE_TITLE": "Integrated ESL: Intermed. Low"
+  },
+  {
+    "ROW_NUMBER": 127,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52762",
+    "XLST_GROUP": "J6",
+    "XLST_CRN": "52763",
+    "XLST_SUBJ_CODE": "NCIE",
+    "XLST_CRSE_NUMB": "104",
+    "XLST_COURSE_TITLE": "Integrated ESL: Intermed. High"
+  },
+  {
+    "ROW_NUMBER": 128,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52763",
+    "XLST_GROUP": "J6",
+    "XLST_CRN": "52762",
+    "XLST_SUBJ_CODE": "NCIE",
+    "XLST_CRSE_NUMB": "103",
+    "XLST_COURSE_TITLE": "Integrated ESL: Intermed. Low"
+  },
+  {
+    "ROW_NUMBER": 129,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52768",
+    "XLST_GROUP": "J7",
+    "XLST_CRN": "52772",
+    "XLST_SUBJ_CODE": "NCIE",
+    "XLST_CRSE_NUMB": "106",
+    "XLST_COURSE_TITLE": "Integrated ESL: Advanced High"
+  },
+  {
+    "ROW_NUMBER": 130,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52772",
+    "XLST_GROUP": "J7",
+    "XLST_CRN": "52768",
+    "XLST_SUBJ_CODE": "NCIE",
+    "XLST_CRSE_NUMB": "105",
+    "XLST_COURSE_TITLE": "Integrated ESL: Advanced Low"
+  },
+  {
+    "ROW_NUMBER": 131,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52774",
+    "XLST_GROUP": "J8",
+    "XLST_CRN": "52776",
+    "XLST_SUBJ_CODE": "NCIE",
+    "XLST_CRSE_NUMB": "204",
+    "XLST_COURSE_TITLE": "ESL: Speak/Listen Interm High"
+  },
+  {
+    "ROW_NUMBER": 132,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52776",
+    "XLST_GROUP": "J8",
+    "XLST_CRN": "52774",
+    "XLST_SUBJ_CODE": "NCIE",
+    "XLST_CRSE_NUMB": "203",
+    "XLST_COURSE_TITLE": "ESL: Speak/Listen Interm Low"
+  },
+  {
+    "ROW_NUMBER": 133,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53284",
+    "XLST_GROUP": "J9",
+    "XLST_CRN": "53285",
+    "XLST_SUBJ_CODE": "NCCC",
+    "XLST_CRSE_NUMB": "018M",
+    "XLST_COURSE_TITLE": "180 WPM: Multi-Voice Focus"
+  },
+  {
+    "ROW_NUMBER": 134,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "53285",
+    "XLST_GROUP": "J9",
+    "XLST_CRN": "53284",
+    "XLST_SUBJ_CODE": "NCCC",
+    "XLST_CRSE_NUMB": "016M",
+    "XLST_COURSE_TITLE": "160 WPM: Multi-Voice Focus"
+  },
+  {
+    "ROW_NUMBER": 135,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52713",
+    "XLST_GROUP": "MA",
+    "XLST_CRN": "52714",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "4.42",
+    "XLST_COURSE_TITLE": "Speed, Plyo, Agil & Qck lvl 2"
+  },
+  {
+    "ROW_NUMBER": 136,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52713",
+    "XLST_GROUP": "MA",
+    "XLST_CRN": "52715",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "4.43",
+    "XLST_COURSE_TITLE": "Speed, Plyo, Agil & Qkns lvl 3"
+  },
+  {
+    "ROW_NUMBER": 137,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52714",
+    "XLST_GROUP": "MA",
+    "XLST_CRN": "52713",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "4.41",
+    "XLST_COURSE_TITLE": "Speed, Plyo, Agil & Quick Lvl1"
+  },
+  {
+    "ROW_NUMBER": 138,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52714",
+    "XLST_GROUP": "MA",
+    "XLST_CRN": "52715",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "4.43",
+    "XLST_COURSE_TITLE": "Speed, Plyo, Agil & Qkns lvl 3"
+  },
+  {
+    "ROW_NUMBER": 139,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52715",
+    "XLST_GROUP": "MA",
+    "XLST_CRN": "52713",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "4.41",
+    "XLST_COURSE_TITLE": "Speed, Plyo, Agil & Quick Lvl1"
+  },
+  {
+    "ROW_NUMBER": 140,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52715",
+    "XLST_GROUP": "MA",
+    "XLST_CRN": "52714",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "4.42",
+    "XLST_COURSE_TITLE": "Speed, Plyo, Agil & Qck lvl 2"
+  },
+  {
+    "ROW_NUMBER": 141,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52716",
+    "XLST_GROUP": "MB",
+    "XLST_CRN": "52717",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.12",
+    "XLST_COURSE_TITLE": "Baseball/Softball-Begin"
+  },
+  {
+    "ROW_NUMBER": 142,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52716",
+    "XLST_GROUP": "MB",
+    "XLST_CRN": "52718",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.13",
+    "XLST_COURSE_TITLE": "Baseball/Softball-Intermediate"
+  },
+  {
+    "ROW_NUMBER": 143,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52717",
+    "XLST_GROUP": "MB",
+    "XLST_CRN": "52716",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.03",
+    "XLST_COURSE_TITLE": "Baseball/Softball-Advanced"
+  },
+  {
+    "ROW_NUMBER": 144,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52717",
+    "XLST_GROUP": "MB",
+    "XLST_CRN": "52718",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.13",
+    "XLST_COURSE_TITLE": "Baseball/Softball-Intermediate"
+  },
+  {
+    "ROW_NUMBER": 145,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52718",
+    "XLST_GROUP": "MB",
+    "XLST_CRN": "52716",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.03",
+    "XLST_COURSE_TITLE": "Baseball/Softball-Advanced"
+  },
+  {
+    "ROW_NUMBER": 146,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52718",
+    "XLST_GROUP": "MB",
+    "XLST_CRN": "52717",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.12",
+    "XLST_COURSE_TITLE": "Baseball/Softball-Begin"
+  },
+  {
+    "ROW_NUMBER": 147,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52721",
+    "XLST_GROUP": "MC",
+    "XLST_CRN": "52722",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "2.05",
+    "XLST_COURSE_TITLE": "Swimming-Intermediate"
+  },
+  {
+    "ROW_NUMBER": 148,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52721",
+    "XLST_GROUP": "MC",
+    "XLST_CRN": "52723",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "2.06",
+    "XLST_COURSE_TITLE": "Swimming-Advanced"
+  },
+  {
+    "ROW_NUMBER": 149,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52721",
+    "XLST_GROUP": "MC",
+    "XLST_CRN": "52724",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "2.07",
+    "XLST_COURSE_TITLE": "Master's Swimming"
+  },
+  {
+    "ROW_NUMBER": 150,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52722",
+    "XLST_GROUP": "MC",
+    "XLST_CRN": "52721",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "2.04",
+    "XLST_COURSE_TITLE": "Swimming-Beginning"
+  },
+  {
+    "ROW_NUMBER": 151,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52722",
+    "XLST_GROUP": "MC",
+    "XLST_CRN": "52723",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "2.06",
+    "XLST_COURSE_TITLE": "Swimming-Advanced"
+  },
+  {
+    "ROW_NUMBER": 152,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52722",
+    "XLST_GROUP": "MC",
+    "XLST_CRN": "52724",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "2.07",
+    "XLST_COURSE_TITLE": "Master's Swimming"
+  },
+  {
+    "ROW_NUMBER": 153,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52723",
+    "XLST_GROUP": "MC",
+    "XLST_CRN": "52721",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "2.04",
+    "XLST_COURSE_TITLE": "Swimming-Beginning"
+  },
+  {
+    "ROW_NUMBER": 154,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52723",
+    "XLST_GROUP": "MC",
+    "XLST_CRN": "52722",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "2.05",
+    "XLST_COURSE_TITLE": "Swimming-Intermediate"
+  },
+  {
+    "ROW_NUMBER": 155,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52723",
+    "XLST_GROUP": "MC",
+    "XLST_CRN": "52724",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "2.07",
+    "XLST_COURSE_TITLE": "Master's Swimming"
+  },
+  {
+    "ROW_NUMBER": 156,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52724",
+    "XLST_GROUP": "MC",
+    "XLST_CRN": "52721",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "2.04",
+    "XLST_COURSE_TITLE": "Swimming-Beginning"
+  },
+  {
+    "ROW_NUMBER": 157,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52724",
+    "XLST_GROUP": "MC",
+    "XLST_CRN": "52722",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "2.05",
+    "XLST_COURSE_TITLE": "Swimming-Intermediate"
+  },
+  {
+    "ROW_NUMBER": 158,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52724",
+    "XLST_GROUP": "MC",
+    "XLST_CRN": "52723",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "2.06",
+    "XLST_COURSE_TITLE": "Swimming-Advanced"
+  },
+  {
+    "ROW_NUMBER": 159,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52725",
+    "XLST_GROUP": "MD",
+    "XLST_CRN": "52726",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.21",
+    "XLST_COURSE_TITLE": "Fundamentals of Sport-Begin"
+  },
+  {
+    "ROW_NUMBER": 160,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52725",
+    "XLST_GROUP": "MD",
+    "XLST_CRN": "52727",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.22",
+    "XLST_COURSE_TITLE": "Fundamentals of Sport-Intermed"
+  },
+  {
+    "ROW_NUMBER": 161,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52725",
+    "XLST_GROUP": "MD",
+    "XLST_CRN": "52728",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.23",
+    "XLST_COURSE_TITLE": "Fundmentals of Sport-Advanced"
+  },
+  {
+    "ROW_NUMBER": 162,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52726",
+    "XLST_GROUP": "MD",
+    "XLST_CRN": "52725",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.20",
+    "XLST_COURSE_TITLE": "Intro to Sports Fundamentals"
+  },
+  {
+    "ROW_NUMBER": 163,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52726",
+    "XLST_GROUP": "MD",
+    "XLST_CRN": "52727",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.22",
+    "XLST_COURSE_TITLE": "Fundamentals of Sport-Intermed"
+  },
+  {
+    "ROW_NUMBER": 164,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52726",
+    "XLST_GROUP": "MD",
+    "XLST_CRN": "52728",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.23",
+    "XLST_COURSE_TITLE": "Fundmentals of Sport-Advanced"
+  },
+  {
+    "ROW_NUMBER": 165,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52727",
+    "XLST_GROUP": "MD",
+    "XLST_CRN": "52725",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.20",
+    "XLST_COURSE_TITLE": "Intro to Sports Fundamentals"
+  },
+  {
+    "ROW_NUMBER": 166,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52727",
+    "XLST_GROUP": "MD",
+    "XLST_CRN": "52726",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.21",
+    "XLST_COURSE_TITLE": "Fundamentals of Sport-Begin"
+  },
+  {
+    "ROW_NUMBER": 167,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52727",
+    "XLST_GROUP": "MD",
+    "XLST_CRN": "52728",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.23",
+    "XLST_COURSE_TITLE": "Fundmentals of Sport-Advanced"
+  },
+  {
+    "ROW_NUMBER": 168,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52728",
+    "XLST_GROUP": "MD",
+    "XLST_CRN": "52725",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.20",
+    "XLST_COURSE_TITLE": "Intro to Sports Fundamentals"
+  },
+  {
+    "ROW_NUMBER": 169,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52728",
+    "XLST_GROUP": "MD",
+    "XLST_CRN": "52726",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.21",
+    "XLST_COURSE_TITLE": "Fundamentals of Sport-Begin"
+  },
+  {
+    "ROW_NUMBER": 170,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52728",
+    "XLST_GROUP": "MD",
+    "XLST_CRN": "52727",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.22",
+    "XLST_COURSE_TITLE": "Fundamentals of Sport-Intermed"
+  },
+  {
+    "ROW_NUMBER": 171,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52734",
+    "XLST_GROUP": "ME",
+    "XLST_CRN": "52735",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "4.30",
+    "XLST_COURSE_TITLE": "Functional Fitness"
+  },
+  {
+    "ROW_NUMBER": 172,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52735",
+    "XLST_GROUP": "ME",
+    "XLST_CRN": "52734",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "4.07",
+    "XLST_COURSE_TITLE": "Fitness Competitive Athlete"
+  },
+  {
+    "ROW_NUMBER": 173,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52737",
+    "XLST_GROUP": "MF",
+    "XLST_CRN": "52739",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.17",
+    "XLST_COURSE_TITLE": "Volleyball-Advanced Skills"
+  },
+  {
+    "ROW_NUMBER": 174,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52739",
+    "XLST_GROUP": "MF",
+    "XLST_CRN": "52737",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.16",
+    "XLST_COURSE_TITLE": "Volleyball-Intermediate Skills"
+  },
+  {
+    "ROW_NUMBER": 175,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52740",
+    "XLST_GROUP": "MG",
+    "XLST_CRN": "52741",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "4.20",
+    "XLST_COURSE_TITLE": "Fitness, Weight Training 2"
+  },
+  {
+    "ROW_NUMBER": 176,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52740",
+    "XLST_GROUP": "MG",
+    "XLST_CRN": "52743",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "4.21",
+    "XLST_COURSE_TITLE": "Fitness Weight Training 3"
+  },
+  {
+    "ROW_NUMBER": 177,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52741",
+    "XLST_GROUP": "MG",
+    "XLST_CRN": "52740",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "4.16",
+    "XLST_COURSE_TITLE": "Fitness Weight Training"
+  },
+  {
+    "ROW_NUMBER": 178,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52741",
+    "XLST_GROUP": "MG",
+    "XLST_CRN": "52743",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "4.21",
+    "XLST_COURSE_TITLE": "Fitness Weight Training 3"
+  },
+  {
+    "ROW_NUMBER": 179,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52743",
+    "XLST_GROUP": "MG",
+    "XLST_CRN": "52740",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "4.16",
+    "XLST_COURSE_TITLE": "Fitness Weight Training"
+  },
+  {
+    "ROW_NUMBER": 180,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52743",
+    "XLST_GROUP": "MG",
+    "XLST_CRN": "52741",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "4.20",
+    "XLST_COURSE_TITLE": "Fitness, Weight Training 2"
+  },
+  {
+    "ROW_NUMBER": 181,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52767",
+    "XLST_GROUP": "MH",
+    "XLST_CRN": "52769",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.21",
+    "XLST_COURSE_TITLE": "Fundamentals of Sport-Begin"
+  },
+  {
+    "ROW_NUMBER": 182,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52767",
+    "XLST_GROUP": "MH",
+    "XLST_CRN": "52770",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.22",
+    "XLST_COURSE_TITLE": "Fundamentals of Sport-Intermed"
+  },
+  {
+    "ROW_NUMBER": 183,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52767",
+    "XLST_GROUP": "MH",
+    "XLST_CRN": "52771",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.23",
+    "XLST_COURSE_TITLE": "Fundmentals of Sport-Advanced"
+  },
+  {
+    "ROW_NUMBER": 184,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52769",
+    "XLST_GROUP": "MH",
+    "XLST_CRN": "52767",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.20",
+    "XLST_COURSE_TITLE": "Intro to Sports Fundamentals"
+  },
+  {
+    "ROW_NUMBER": 185,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52769",
+    "XLST_GROUP": "MH",
+    "XLST_CRN": "52770",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.22",
+    "XLST_COURSE_TITLE": "Fundamentals of Sport-Intermed"
+  },
+  {
+    "ROW_NUMBER": 186,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52769",
+    "XLST_GROUP": "MH",
+    "XLST_CRN": "52771",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.23",
+    "XLST_COURSE_TITLE": "Fundmentals of Sport-Advanced"
+  },
+  {
+    "ROW_NUMBER": 187,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52770",
+    "XLST_GROUP": "MH",
+    "XLST_CRN": "52767",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.20",
+    "XLST_COURSE_TITLE": "Intro to Sports Fundamentals"
+  },
+  {
+    "ROW_NUMBER": 188,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52770",
+    "XLST_GROUP": "MH",
+    "XLST_CRN": "52769",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.21",
+    "XLST_COURSE_TITLE": "Fundamentals of Sport-Begin"
+  },
+  {
+    "ROW_NUMBER": 189,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52770",
+    "XLST_GROUP": "MH",
+    "XLST_CRN": "52771",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.23",
+    "XLST_COURSE_TITLE": "Fundmentals of Sport-Advanced"
+  },
+  {
+    "ROW_NUMBER": 190,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52771",
+    "XLST_GROUP": "MH",
+    "XLST_CRN": "52767",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.20",
+    "XLST_COURSE_TITLE": "Intro to Sports Fundamentals"
+  },
+  {
+    "ROW_NUMBER": 191,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52771",
+    "XLST_GROUP": "MH",
+    "XLST_CRN": "52769",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.21",
+    "XLST_COURSE_TITLE": "Fundamentals of Sport-Begin"
+  },
+  {
+    "ROW_NUMBER": 192,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52771",
+    "XLST_GROUP": "MH",
+    "XLST_CRN": "52770",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "8.22",
+    "XLST_COURSE_TITLE": "Fundamentals of Sport-Intermed"
+  },
+  {
+    "ROW_NUMBER": 193,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52677",
+    "XLST_GROUP": "MH1",
+    "XLST_CRN": "52678",
+    "XLST_SUBJ_CODE": "MATH",
+    "XLST_CRSE_NUMB": "TMP2",
+    "XLST_COURSE_TITLE": "Transfer Math Prep 2"
+  },
+  {
+    "ROW_NUMBER": 194,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52678",
+    "XLST_GROUP": "MH1",
+    "XLST_CRN": "52677",
+    "XLST_SUBJ_CODE": "MATH",
+    "XLST_CRSE_NUMB": "TMP1",
+    "XLST_COURSE_TITLE": "Transfer Math Prep 1"
+  },
+  {
+    "ROW_NUMBER": 195,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52775",
+    "XLST_GROUP": "MI",
+    "XLST_CRN": "52777",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "11.09",
+    "XLST_COURSE_TITLE": "Intermed Pilates Mat Workout"
+  },
+  {
+    "ROW_NUMBER": 196,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52775",
+    "XLST_GROUP": "MI",
+    "XLST_CRN": "52778",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "11.10",
+    "XLST_COURSE_TITLE": "Advanced Pilates"
+  },
+  {
+    "ROW_NUMBER": 197,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52775",
+    "XLST_GROUP": "MI",
+    "XLST_CRN": "52779",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "4.37",
+    "XLST_COURSE_TITLE": "Barre Fitness"
+  },
+  {
+    "ROW_NUMBER": 198,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52777",
+    "XLST_GROUP": "MI",
+    "XLST_CRN": "52775",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "11.08",
+    "XLST_COURSE_TITLE": "Pilates Mat Workout"
+  },
+  {
+    "ROW_NUMBER": 199,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52777",
+    "XLST_GROUP": "MI",
+    "XLST_CRN": "52778",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "11.10",
+    "XLST_COURSE_TITLE": "Advanced Pilates"
+  },
+  {
+    "ROW_NUMBER": 200,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52777",
+    "XLST_GROUP": "MI",
+    "XLST_CRN": "52779",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "4.37",
+    "XLST_COURSE_TITLE": "Barre Fitness"
+  },
+  {
+    "ROW_NUMBER": 201,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52778",
+    "XLST_GROUP": "MI",
+    "XLST_CRN": "52775",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "11.08",
+    "XLST_COURSE_TITLE": "Pilates Mat Workout"
+  },
+  {
+    "ROW_NUMBER": 202,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52778",
+    "XLST_GROUP": "MI",
+    "XLST_CRN": "52777",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "11.09",
+    "XLST_COURSE_TITLE": "Intermed Pilates Mat Workout"
+  },
+  {
+    "ROW_NUMBER": 203,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52778",
+    "XLST_GROUP": "MI",
+    "XLST_CRN": "52779",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "4.37",
+    "XLST_COURSE_TITLE": "Barre Fitness"
+  },
+  {
+    "ROW_NUMBER": 204,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52779",
+    "XLST_GROUP": "MI",
+    "XLST_CRN": "52775",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "11.08",
+    "XLST_COURSE_TITLE": "Pilates Mat Workout"
+  },
+  {
+    "ROW_NUMBER": 205,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52779",
+    "XLST_GROUP": "MI",
+    "XLST_CRN": "52777",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "11.09",
+    "XLST_COURSE_TITLE": "Intermed Pilates Mat Workout"
+  },
+  {
+    "ROW_NUMBER": 206,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52779",
+    "XLST_GROUP": "MI",
+    "XLST_CRN": "52778",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "11.10",
+    "XLST_COURSE_TITLE": "Advanced Pilates"
+  },
+  {
+    "ROW_NUMBER": 207,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52831",
+    "XLST_GROUP": "SJ1",
+    "XLST_CRN": "52832",
+    "XLST_SUBJ_CODE": "ETHN",
+    "XLST_CRSE_NUMB": "001",
+    "XLST_COURSE_TITLE": "Intro - Ethnic/Social Justice"
+  },
+  {
+    "ROW_NUMBER": 208,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52832",
+    "XLST_GROUP": "SJ1",
+    "XLST_CRN": "52831",
+    "XLST_SUBJ_CODE": "SJST",
+    "XLST_CRSE_NUMB": "001",
+    "XLST_COURSE_TITLE": "Intro to Ethnic/Social Justice"
+  },
+  {
+    "ROW_NUMBER": 209,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52834",
+    "XLST_GROUP": "SJ2",
+    "XLST_CRN": "52835",
+    "XLST_SUBJ_CODE": "ETHN",
+    "XLST_CRSE_NUMB": "001",
+    "XLST_COURSE_TITLE": "Intro - Ethnic/Social Justice"
+  },
+  {
+    "ROW_NUMBER": 210,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52835",
+    "XLST_GROUP": "SJ2",
+    "XLST_CRN": "52834",
+    "XLST_SUBJ_CODE": "SJST",
+    "XLST_CRSE_NUMB": "001",
+    "XLST_COURSE_TITLE": "Intro to Ethnic/Social Justice"
+  },
+  {
+    "ROW_NUMBER": 211,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52836",
+    "XLST_GROUP": "WG1",
+    "XLST_CRN": "52837",
+    "XLST_SUBJ_CODE": "WGQS",
+    "XLST_CRSE_NUMB": "001H",
+    "XLST_COURSE_TITLE": "Honors Intro Women's Studies"
+  },
+  {
+    "ROW_NUMBER": 212,
+    "SEARCH_TERM_CODE": "202350",
+    "SEARCH_CRN": "52837",
+    "XLST_GROUP": "WG1",
+    "XLST_CRN": "52836",
+    "XLST_SUBJ_CODE": "WGQS",
+    "XLST_CRSE_NUMB": "001",
+    "XLST_COURSE_TITLE": "Intro to Women's Studies"
+  }
+]

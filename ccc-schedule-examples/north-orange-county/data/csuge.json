@@ -1,0 +1,54 @@
+[
+  {
+    "attrCode": "A1",
+    "attrDesc": "Oral Communication"
+  },
+  {
+    "attrCode": "A2",
+    "attrDesc": "Written Communication"
+  },
+  {
+    "attrCode": "A3",
+    "attrDesc": "Critical Thinking"
+  },
+  {
+    "attrCode": "B1",
+    "attrDesc": "Physical Science"
+  },
+  {
+    "attrCode": "B2",
+    "attrDesc": "Life Science"
+  },
+  {
+    "attrCode": "B3",
+    "attrDesc": "Lab Activity"
+  },
+  {
+    "attrCode": "B4",
+    "attrDesc": "Mathematics/Quantitative Reasoning"
+  },
+  {
+    "attrCode": "C1",
+    "attrDesc": "Arts"
+  },
+  {
+    "attrCode": "C2",
+    "attrDesc": "Humanities"
+  },
+  {
+    "attrCode": "C1/C2",
+    "attrDesc": "Arts or Humanities"
+  },
+  {
+    "attrCode": "D",
+    "attrDesc": "Social Sciences"
+  },
+  {
+    "attrCode": "E",
+    "attrDesc": "Lifelong Learning and Self-Development"
+  },
+  {
+    "attrCode": "F",
+    "attrDesc": "Ethnic Studies"
+  }
+]

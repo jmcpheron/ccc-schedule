@@ -1,0 +1,343 @@
+
+[
+  {
+    "ROW_NUMBER": 1,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10428",
+    "XLST_GROUP": "1A",
+    "XLST_CRN": "10431",
+    "XLST_SUBJ_CODE": "POL",
+    "XLST_CRSE_NUMB": "001H",
+    "XLST_COURSE_TITLE": "American Government - Honors"
+  },
+  {
+    "ROW_NUMBER": 2,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10431",
+    "XLST_GROUP": "1A",
+    "XLST_CRN": "10428",
+    "XLST_SUBJ_CODE": "POL",
+    "XLST_CRSE_NUMB": "001",
+    "XLST_COURSE_TITLE": "American Government"
+  },
+  {
+    "ROW_NUMBER": 3,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10441",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "10442",
+    "XLST_SUBJ_CODE": "MUS",
+    "XLST_CRSE_NUMB": "032B",
+    "XLST_COURSE_TITLE": "Beginning Voice II"
+  },
+  {
+    "ROW_NUMBER": 4,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10441",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "10443",
+    "XLST_SUBJ_CODE": "MUS",
+    "XLST_CRSE_NUMB": "033A",
+    "XLST_COURSE_TITLE": "Intermediate Voice I"
+  },
+  {
+    "ROW_NUMBER": 5,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10441",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "10444",
+    "XLST_SUBJ_CODE": "MUS",
+    "XLST_CRSE_NUMB": "033B",
+    "XLST_COURSE_TITLE": "Intermediate Voice II"
+  },
+  {
+    "ROW_NUMBER": 6,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10442",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "10441",
+    "XLST_SUBJ_CODE": "MUS",
+    "XLST_CRSE_NUMB": "032A",
+    "XLST_COURSE_TITLE": "Beginning Voice I"
+  },
+  {
+    "ROW_NUMBER": 7,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10442",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "10443",
+    "XLST_SUBJ_CODE": "MUS",
+    "XLST_CRSE_NUMB": "033A",
+    "XLST_COURSE_TITLE": "Intermediate Voice I"
+  },
+  {
+    "ROW_NUMBER": 8,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10442",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "10444",
+    "XLST_SUBJ_CODE": "MUS",
+    "XLST_CRSE_NUMB": "033B",
+    "XLST_COURSE_TITLE": "Intermediate Voice II"
+  },
+  {
+    "ROW_NUMBER": 9,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10443",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "10441",
+    "XLST_SUBJ_CODE": "MUS",
+    "XLST_CRSE_NUMB": "032A",
+    "XLST_COURSE_TITLE": "Beginning Voice I"
+  },
+  {
+    "ROW_NUMBER": 10,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10443",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "10442",
+    "XLST_SUBJ_CODE": "MUS",
+    "XLST_CRSE_NUMB": "032B",
+    "XLST_COURSE_TITLE": "Beginning Voice II"
+  },
+  {
+    "ROW_NUMBER": 11,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10443",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "10444",
+    "XLST_SUBJ_CODE": "MUS",
+    "XLST_CRSE_NUMB": "033B",
+    "XLST_COURSE_TITLE": "Intermediate Voice II"
+  },
+  {
+    "ROW_NUMBER": 12,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10444",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "10441",
+    "XLST_SUBJ_CODE": "MUS",
+    "XLST_CRSE_NUMB": "032A",
+    "XLST_COURSE_TITLE": "Beginning Voice I"
+  },
+  {
+    "ROW_NUMBER": 13,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10444",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "10442",
+    "XLST_SUBJ_CODE": "MUS",
+    "XLST_CRSE_NUMB": "032B",
+    "XLST_COURSE_TITLE": "Beginning Voice II"
+  },
+  {
+    "ROW_NUMBER": 14,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10444",
+    "XLST_GROUP": "1B",
+    "XLST_CRN": "10443",
+    "XLST_SUBJ_CODE": "MUS",
+    "XLST_CRSE_NUMB": "033A",
+    "XLST_COURSE_TITLE": "Intermediate Voice I"
+  },
+  {
+    "ROW_NUMBER": 15,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10450",
+    "XLST_GROUP": "1F",
+    "XLST_CRN": "10461",
+    "XLST_SUBJ_CODE": "HUM",
+    "XLST_CRSE_NUMB": "015",
+    "XLST_COURSE_TITLE": "Introduction to Film Analysis"
+  },
+  {
+    "ROW_NUMBER": 16,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10461",
+    "XLST_GROUP": "1F",
+    "XLST_CRN": "10450",
+    "XLST_SUBJ_CODE": "ENG",
+    "XLST_CRSE_NUMB": "015",
+    "XLST_COURSE_TITLE": "Intro Film Analysis"
+  },
+  {
+    "ROW_NUMBER": 17,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10328",
+    "XLST_GROUP": "4A",
+    "XLST_CRN": "10329",
+    "XLST_SUBJ_CODE": "BIO",
+    "XLST_CRSE_NUMB": "014H",
+    "XLST_COURSE_TITLE": "Introductory Neuroscience - Ho"
+  },
+  {
+    "ROW_NUMBER": 18,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10329",
+    "XLST_GROUP": "4A",
+    "XLST_CRN": "10328",
+    "XLST_SUBJ_CODE": "BIO",
+    "XLST_CRSE_NUMB": "014",
+    "XLST_COURSE_TITLE": "Introductory Neuroscience"
+  },
+  {
+    "ROW_NUMBER": 19,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10405",
+    "XLST_GROUP": "7N",
+    "XLST_CRN": "10406",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035B",
+    "XLST_COURSE_TITLE": "Weight Training - Beginning"
+  },
+  {
+    "ROW_NUMBER": 20,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10405",
+    "XLST_GROUP": "7N",
+    "XLST_CRN": "10407",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035C",
+    "XLST_COURSE_TITLE": "Weight Training - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 21,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10406",
+    "XLST_GROUP": "7N",
+    "XLST_CRN": "10405",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035A",
+    "XLST_COURSE_TITLE": "Weight Training - Introduction"
+  },
+  {
+    "ROW_NUMBER": 22,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10406",
+    "XLST_GROUP": "7N",
+    "XLST_CRN": "10407",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035C",
+    "XLST_COURSE_TITLE": "Weight Training - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 23,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10407",
+    "XLST_GROUP": "7N",
+    "XLST_CRN": "10405",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035A",
+    "XLST_COURSE_TITLE": "Weight Training - Introduction"
+  },
+  {
+    "ROW_NUMBER": 24,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10407",
+    "XLST_GROUP": "7N",
+    "XLST_CRN": "10406",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035B",
+    "XLST_COURSE_TITLE": "Weight Training - Beginning"
+  },
+  {
+    "ROW_NUMBER": 25,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10464",
+    "XLST_GROUP": "7O",
+    "XLST_CRN": "10465",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035B",
+    "XLST_COURSE_TITLE": "Weight Training - Beginning"
+  },
+  {
+    "ROW_NUMBER": 26,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10464",
+    "XLST_GROUP": "7O",
+    "XLST_CRN": "10466",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035C",
+    "XLST_COURSE_TITLE": "Weight Training - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 27,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10465",
+    "XLST_GROUP": "7O",
+    "XLST_CRN": "10464",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035A",
+    "XLST_COURSE_TITLE": "Weight Training - Introduction"
+  },
+  {
+    "ROW_NUMBER": 28,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10465",
+    "XLST_GROUP": "7O",
+    "XLST_CRN": "10466",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035C",
+    "XLST_COURSE_TITLE": "Weight Training - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 29,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10466",
+    "XLST_GROUP": "7O",
+    "XLST_CRN": "10464",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035A",
+    "XLST_COURSE_TITLE": "Weight Training - Introduction"
+  },
+  {
+    "ROW_NUMBER": 30,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10466",
+    "XLST_GROUP": "7O",
+    "XLST_CRN": "10465",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035B",
+    "XLST_COURSE_TITLE": "Weight Training - Beginning"
+  },
+  {
+    "ROW_NUMBER": 31,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10378",
+    "XLST_GROUP": "M1",
+    "XLST_CRN": "10379",
+    "XLST_SUBJ_CODE": "MATH",
+    "XLST_CRSE_NUMB": "903P",
+    "XLST_COURSE_TITLE": "Prep for Elementary Algebra"
+  },
+  {
+    "ROW_NUMBER": 32,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10379",
+    "XLST_GROUP": "M1",
+    "XLST_CRN": "10378",
+    "XLST_SUBJ_CODE": "MATH",
+    "XLST_CRSE_NUMB": "106P",
+    "XLST_COURSE_TITLE": "Prep for Intermediate Algebra"
+  },
+  {
+    "ROW_NUMBER": 33,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10380",
+    "XLST_GROUP": "M2",
+    "XLST_CRN": "10381",
+    "XLST_SUBJ_CODE": "MATH",
+    "XLST_CRSE_NUMB": "TMP2",
+    "XLST_COURSE_TITLE": "Transfer Math Prep 2"
+  },
+  {
+    "ROW_NUMBER": 34,
+    "SEARCH_TERM_CODE": "202210",
+    "SEARCH_CRN": "10381",
+    "XLST_GROUP": "M2",
+    "XLST_CRN": "10380",
+    "XLST_SUBJ_CODE": "MATH",
+    "XLST_CRSE_NUMB": "TMP1",
+    "XLST_COURSE_TITLE": "Transfer Math Prep 1"
+  }
+]

@@ -1,0 +1,272 @@
+:root {
+    --primary-color: #003366;
+    --secondary-color: #0066CC;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+    --info-color: #17a2b8;
+    --light-bg: #f8f9fa;
+    --border-color: #dee2e6;
+}
+
+/* General Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--light-bg);
+}
+
+/* Navigation */
+.navbar-brand img {
+    filter: brightness(0) invert(1);
+}
+
+/* Filters Card */
+.card {
+    border: 1px solid var(--border-color);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card-header {
+    background-color: white;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+/* Form Controls */
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 0.2rem rgba(0, 102, 204, 0.25);
+}
+
+/* Day Selection Buttons */
+.btn-group-vertical .btn-check:checked + .btn-outline-secondary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+/* Course Cards */
+.course-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    height: 100%;
+}
+
+.course-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.course-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+.course-number {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.course-title {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.course-units {
+    font-size: 0.875rem;
+    opacity: 0.9;
+}
+
+/* Section List */
+.section-item {
+    border-left: 3px solid transparent;
+    transition: all 0.2s;
+}
+
+.section-item:hover {
+    background-color: var(--light-bg);
+    border-left-color: var(--secondary-color);
+}
+
+.section-item.open {
+    border-left-color: var(--success-color);
+}
+
+.section-item.closed {
+    border-left-color: var(--danger-color);
+    opacity: 0.8;
+}
+
+.section-item.waitlist {
+    border-left-color: var(--warning-color);
+}
+
+/* Status Badges */
+.badge-open {
+    background-color: var(--success-color);
+}
+
+.badge-closed {
+    background-color: var(--danger-color);
+}
+
+.badge-waitlist {
+    background-color: var(--warning-color);
+    color: #212529;
+}
+
+/* Meeting Times */
+.meeting-time {
+    font-family: 'Courier New', monospace;
+    font-size: 0.875rem;
+}
+
+/* Table View */
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 51, 102, 0.05);
+}
+
+/* Pagination */
+.pagination .page-link {
+    color: var(--primary-color);
+}
+
+.pagination .page-item.active .page-link {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* Loading State */
+#loadingSpinner {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal Customization */
+.modal-header {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.modal-header .btn-close {
+    filter: brightness(0) invert(1);
+}
+
+/* Section Details Modal */
+.section-detail-row {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.section-detail-row:last-child {
+    border-bottom: none;
+}
+
+.section-detail-label {
+    font-weight: 600;
+    color: #495057;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .btn-group[role="group"] {
+        width: 100%;
+    }
+    
+    .btn-group[role="group"] .btn {
+        width: 50%;
+    }
+    
+    .course-card {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .navbar,
+    .col-lg-3,
+    .btn-group,
+    #pagination,
+    .modal {
+        display: none !important;
+    }
+    
+    .col-lg-9 {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+    .course-card {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+}
+
+/* Accessibility Improvements */
+.visually-hidden-focusable:focus {
+    position: static !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+/* Custom Scrollbar for Filters */
+.card-body {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+.card-body::-webkit-scrollbar {
+    width: 6px;
+}
+
+.card-body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.card-body::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+}
+
+.card-body::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Attribute Badges */
+.attribute-badge {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+    display: inline-block;
+}
+
+.attribute-badge.csu {
+    background-color: #e3f2fd;
+    color: #1565c0;
+    border: 1px solid #90caf9;
+}
+
+.attribute-badge.uc {
+    background-color: #fff3e0;
+    color: #e65100;
+    border: 1px solid #ffcc80;
+}
+
+.attribute-badge.igetc {
+    background-color: #f3e5f5;
+    color: #6a1b9a;
+    border: 1px solid #ce93d8;
+}
+
+/* Zero Textbook Cost Badge */
+.ztc-badge {
+    background-color: #c8e6c9;
+    color: #1b5e20;
+    border: 1px solid #81c784;
+    font-weight: bold;
+}

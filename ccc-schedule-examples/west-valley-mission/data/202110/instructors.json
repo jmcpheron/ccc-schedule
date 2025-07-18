@@ -1,0 +1,1243 @@
+
+[
+  {
+    "ROW_NUMBER": 1,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Abdeljabbar, Wael",
+    "FIRST_NAME": "Wael",
+    "LAST_NAME": "Abdeljabbar",
+    "INSTRUCTOR_EMAIL": "wael.abdeljabbar@missioncollege.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 2,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Abrams, Jeremy",
+    "FIRST_NAME": "Jeremy",
+    "LAST_NAME": "Abrams",
+    "INSTRUCTOR_EMAIL": "jeremy.abrams@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 3,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Allen, Jerry",
+    "FIRST_NAME": "Jerry",
+    "LAST_NAME": "Allen",
+    "INSTRUCTOR_EMAIL": "jerry.allen@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 4,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Angles, Michael",
+    "FIRST_NAME": "Michael",
+    "LAST_NAME": "Angles",
+    "INSTRUCTOR_EMAIL": "michael.angles@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 5,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Ansari, Unbareen",
+    "FIRST_NAME": "Unbareen",
+    "LAST_NAME": "Ansari",
+    "INSTRUCTOR_EMAIL": "unbareen.ansari@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 6,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Arnold, Kathy",
+    "FIRST_NAME": "Kathy",
+    "LAST_NAME": "Arnold",
+    "INSTRUCTOR_EMAIL": "kathy.arnold@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 7,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Bangle, Angelica",
+    "FIRST_NAME": "Angelica",
+    "LAST_NAME": "Bangle",
+    "INSTRUCTOR_EMAIL": "angelica.bangle@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 8,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Barrilleaux, Ann",
+    "FIRST_NAME": "Ann",
+    "LAST_NAME": "Barrilleaux",
+    "INSTRUCTOR_EMAIL": "ann.barrilleaux@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 9,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Barron, Nicholas",
+    "FIRST_NAME": "Nicholas",
+    "LAST_NAME": "Barron",
+    "INSTRUCTOR_EMAIL": "nicholas.barron@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 10,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Bautista, Jose",
+    "FIRST_NAME": "Jose",
+    "LAST_NAME": "Bautista",
+    "INSTRUCTOR_EMAIL": "jose.bautista@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 11,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Beck, John",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Beck",
+    "INSTRUCTOR_EMAIL": "john.beck@missioncollege.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 12,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Beckum, Calvin",
+    "FIRST_NAME": "Calvin",
+    "LAST_NAME": "Beckum",
+    "INSTRUCTOR_EMAIL": "calvin.beckum@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 13,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Blassingame, Brian",
+    "FIRST_NAME": "Brian",
+    "LAST_NAME": "Blassingame",
+    "INSTRUCTOR_EMAIL": "brian.blassingame@missioncollege.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 14,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Borchard, Jill",
+    "FIRST_NAME": "Jill",
+    "LAST_NAME": "Borchard",
+    "INSTRUCTOR_EMAIL": "jill.borchard@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 15,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Burrill, Leigh",
+    "FIRST_NAME": "Leigh",
+    "LAST_NAME": "Burrill",
+    "INSTRUCTOR_EMAIL": "leigh.burrill@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 16,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Byers, Michael",
+    "FIRST_NAME": "Michael",
+    "LAST_NAME": "Byers",
+    "INSTRUCTOR_EMAIL": "michael.byers@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 17,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Cafferata, Corey",
+    "FIRST_NAME": "Corey",
+    "LAST_NAME": "Cafferata",
+    "INSTRUCTOR_EMAIL": null,
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 18,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Cameron, Melodie",
+    "FIRST_NAME": "Melodie",
+    "LAST_NAME": "Cameron",
+    "INSTRUCTOR_EMAIL": "melodie.cameron@missioncollege.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 19,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Castello-Heath, Randy",
+    "FIRST_NAME": "Randy",
+    "LAST_NAME": "Castello-Heath",
+    "INSTRUCTOR_EMAIL": "randy.castello-heath@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 20,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Castillo, Victor",
+    "FIRST_NAME": "Victor",
+    "LAST_NAME": "Castillo",
+    "INSTRUCTOR_EMAIL": "victor.castillo@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 21,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Chin, Brad",
+    "FIRST_NAME": "Brad",
+    "LAST_NAME": "Chin",
+    "INSTRUCTOR_EMAIL": "brad.chin@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 22,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Constantin, Jennifer",
+    "FIRST_NAME": "Jennifer",
+    "LAST_NAME": "Constantin",
+    "INSTRUCTOR_EMAIL": "jennifer.constantin@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 23,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Cormier, Jeff",
+    "FIRST_NAME": "Jeff",
+    "LAST_NAME": "Cormier",
+    "INSTRUCTOR_EMAIL": "jeff.cormier@missioncollege.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 24,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Davis, Troy",
+    "FIRST_NAME": "Troy",
+    "LAST_NAME": "Davis",
+    "INSTRUCTOR_EMAIL": "troy.davis@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 25,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "De La Rosa, Lou",
+    "FIRST_NAME": "Lou",
+    "LAST_NAME": "De La Rosa",
+    "INSTRUCTOR_EMAIL": "lou.delarosa@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 26,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "De Les Dernier, Bruce",
+    "FIRST_NAME": "Bruce",
+    "LAST_NAME": "De Les Dernier",
+    "INSTRUCTOR_EMAIL": "bruce.delesdernier@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 27,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "DeHaan, Tracy",
+    "FIRST_NAME": "Tracy",
+    "LAST_NAME": "DeHaan",
+    "INSTRUCTOR_EMAIL": "tracy.dehaan@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 28,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Demiray, Deniz",
+    "FIRST_NAME": "Deniz",
+    "LAST_NAME": "Demiray",
+    "INSTRUCTOR_EMAIL": "deniz.demiray@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 29,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Dotson, Ron",
+    "FIRST_NAME": "Ron",
+    "LAST_NAME": "Dotson",
+    "INSTRUCTOR_EMAIL": "ron.dotson@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 30,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Dundurs, Karina",
+    "FIRST_NAME": "Karina",
+    "LAST_NAME": "Dundurs",
+    "INSTRUCTOR_EMAIL": null,
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 31,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Eastman, Elizabeth",
+    "FIRST_NAME": "Elizabeth",
+    "LAST_NAME": "Eastman",
+    "INSTRUCTOR_EMAIL": "elizabeth.eastman@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 32,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Ector, John",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ector",
+    "INSTRUCTOR_EMAIL": "john.ector@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 33,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Engel, Mark",
+    "FIRST_NAME": "Mark",
+    "LAST_NAME": "Engel",
+    "INSTRUCTOR_EMAIL": "mark.engel@missioncollege.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 34,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Ferguson, Kaitlin",
+    "FIRST_NAME": "Kaitlin",
+    "LAST_NAME": "Ferguson",
+    "INSTRUCTOR_EMAIL": "kaitlin.ferguson@missioncollege.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 35,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Firenzi, Gina",
+    "FIRST_NAME": "Gina",
+    "LAST_NAME": "Firenzi",
+    "INSTRUCTOR_EMAIL": "gina.firenzi@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 36,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Forehan, Jeff",
+    "FIRST_NAME": "Jeff",
+    "LAST_NAME": "Forehan",
+    "INSTRUCTOR_EMAIL": "jeff.forehan@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 37,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Gaiero, Kris",
+    "FIRST_NAME": "Kris",
+    "LAST_NAME": "Gaiero",
+    "INSTRUCTOR_EMAIL": "kris.gaiero@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 38,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Ghodrat, Nancy",
+    "FIRST_NAME": "Nancy",
+    "LAST_NAME": "Ghodrat",
+    "INSTRUCTOR_EMAIL": "nancy.ghodrat@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 39,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Grewal, Aman",
+    "FIRST_NAME": "Aman",
+    "LAST_NAME": "Grewal",
+    "INSTRUCTOR_EMAIL": "aman.grewal@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 40,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Guich, Daniel",
+    "FIRST_NAME": "Daniel",
+    "LAST_NAME": "Guich",
+    "INSTRUCTOR_EMAIL": "daniel.guich@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 41,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Hackworth, Cheryl",
+    "FIRST_NAME": "Cheryl",
+    "LAST_NAME": "Hackworth",
+    "INSTRUCTOR_EMAIL": "cheryl.hackworth@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 42,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Hammond, Laurie",
+    "FIRST_NAME": "Laurie",
+    "LAST_NAME": "Hammond",
+    "INSTRUCTOR_EMAIL": "laurie.hammond@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 43,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Hanle, Greg",
+    "FIRST_NAME": "Greg",
+    "LAST_NAME": "Hanle",
+    "INSTRUCTOR_EMAIL": "greg.hanle@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 44,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Hasty, Joseph",
+    "FIRST_NAME": "Joseph",
+    "LAST_NAME": "Hasty",
+    "INSTRUCTOR_EMAIL": "joseph.hasty@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 45,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Hatter, Amber",
+    "FIRST_NAME": "Amber",
+    "LAST_NAME": "Hatter",
+    "INSTRUCTOR_EMAIL": "amber.hatter@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 46,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Henderson, Jim",
+    "FIRST_NAME": "Jim",
+    "LAST_NAME": "Henderson",
+    "INSTRUCTOR_EMAIL": "jim.henderson@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 47,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Hernandez, Leticia",
+    "FIRST_NAME": "Leticia",
+    "LAST_NAME": "Hernandez",
+    "INSTRUCTOR_EMAIL": null,
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 48,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Hickey, Lauren",
+    "FIRST_NAME": "Lauren",
+    "LAST_NAME": "Hickey",
+    "INSTRUCTOR_EMAIL": "lauren.hickey@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 49,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Hill, Bobby",
+    "FIRST_NAME": "Bobby",
+    "LAST_NAME": "Hill",
+    "INSTRUCTOR_EMAIL": "bobby.hill@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 50,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Ho, Jennifer",
+    "FIRST_NAME": "Jennifer",
+    "LAST_NAME": "Ho",
+    "INSTRUCTOR_EMAIL": "jennifer.ho@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 51,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Holland, Kristy",
+    "FIRST_NAME": "Kristy",
+    "LAST_NAME": "Holland",
+    "INSTRUCTOR_EMAIL": "kristy.holland@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 52,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Houston, Qiana",
+    "FIRST_NAME": "Qiana",
+    "LAST_NAME": "Houston",
+    "INSTRUCTOR_EMAIL": null,
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 53,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Howard, Scott",
+    "FIRST_NAME": "Scott",
+    "LAST_NAME": "Howard",
+    "INSTRUCTOR_EMAIL": "scott.howard@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 54,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Hsu, Shih",
+    "FIRST_NAME": "Shih",
+    "LAST_NAME": "Hsu",
+    "INSTRUCTOR_EMAIL": "shih.hsu@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 55,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Johnson, Keith",
+    "FIRST_NAME": "Keith",
+    "LAST_NAME": "Johnson",
+    "INSTRUCTOR_EMAIL": "keith.johnson@missioncollege.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 56,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Juarez, Steve",
+    "FIRST_NAME": "Steve",
+    "LAST_NAME": "Juarez",
+    "INSTRUCTOR_EMAIL": null,
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 57,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Kelly, Tim",
+    "FIRST_NAME": "Tim",
+    "LAST_NAME": "Kelly",
+    "INSTRUCTOR_EMAIL": "tim.kelly@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 58,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Kerwin, Jennifer",
+    "FIRST_NAME": "Jennifer",
+    "LAST_NAME": "Kerwin",
+    "INSTRUCTOR_EMAIL": "jennifer.kerwin@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 59,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Kirk, Gail",
+    "FIRST_NAME": "Gail",
+    "LAST_NAME": "Kirk",
+    "INSTRUCTOR_EMAIL": "gail.kirk@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 60,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Latta, Mary",
+    "FIRST_NAME": "Mary",
+    "LAST_NAME": "Latta",
+    "INSTRUCTOR_EMAIL": null,
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 61,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Lawson, Linda",
+    "FIRST_NAME": "Linda",
+    "LAST_NAME": "Lawson",
+    "INSTRUCTOR_EMAIL": "linda.lawson@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 62,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Leman, Alex",
+    "FIRST_NAME": "Alex",
+    "LAST_NAME": "Leman",
+    "INSTRUCTOR_EMAIL": "alex.leman@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 63,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Leung, Christine",
+    "FIRST_NAME": "Christine",
+    "LAST_NAME": "Leung",
+    "INSTRUCTOR_EMAIL": "christine.leung@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 64,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Ligocki, Christel",
+    "FIRST_NAME": "Christel",
+    "LAST_NAME": "Ligocki",
+    "INSTRUCTOR_EMAIL": "christel.ligocki@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 65,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Lindseth, Kristin",
+    "FIRST_NAME": "Kristin",
+    "LAST_NAME": "Lindseth",
+    "INSTRUCTOR_EMAIL": "kristin.lindseth@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 66,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Liu, Sam",
+    "FIRST_NAME": "Sam",
+    "LAST_NAME": "Liu",
+    "INSTRUCTOR_EMAIL": "sam.liu@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 67,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Lopez, Robert",
+    "FIRST_NAME": "Robert",
+    "LAST_NAME": "Lopez",
+    "INSTRUCTOR_EMAIL": "robert.lopez@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 68,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Louden, Lesley",
+    "FIRST_NAME": "Lesley",
+    "LAST_NAME": "Louden",
+    "INSTRUCTOR_EMAIL": "lesley.louden@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 69,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Louderback, Patricia",
+    "FIRST_NAME": "Patricia",
+    "LAST_NAME": "Louderback",
+    "INSTRUCTOR_EMAIL": "patricia.louderback@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 70,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "McGee, Donnelle",
+    "FIRST_NAME": "Donnelle",
+    "LAST_NAME": "McGee",
+    "INSTRUCTOR_EMAIL": "donnelle.mcgee@missioncollege.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 71,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "McNamara, Megan",
+    "FIRST_NAME": "Megan",
+    "LAST_NAME": "McNamara",
+    "INSTRUCTOR_EMAIL": "megan.mcnamara@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 72,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Morgan, Tim",
+    "FIRST_NAME": "Tim",
+    "LAST_NAME": "Morgan",
+    "INSTRUCTOR_EMAIL": "tim.morgan@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 73,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Mortezaie, Faramarz",
+    "FIRST_NAME": "Faramarz",
+    "LAST_NAME": "Mortezaie",
+    "INSTRUCTOR_EMAIL": "faramarz.mortezaie@missioncollege.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 74,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Musat, Carmen",
+    "FIRST_NAME": "Carmen",
+    "LAST_NAME": "Musat",
+    "INSTRUCTOR_EMAIL": "carmen.musat@missioncollege.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 75,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Napoli Abella Reiss, Cindi",
+    "FIRST_NAME": "Cindi",
+    "LAST_NAME": "Napoli Abella Reiss",
+    "INSTRUCTOR_EMAIL": "cindi.napoliabellareiss@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 76,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Neary, Kelly",
+    "FIRST_NAME": "Kelly",
+    "LAST_NAME": "Neary",
+    "INSTRUCTOR_EMAIL": "kelly.neary@missioncollege.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 77,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Nolan, Paul",
+    "FIRST_NAME": "Paul",
+    "LAST_NAME": "Nolan",
+    "INSTRUCTOR_EMAIL": "paul.nolan@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 78,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Ordaz, Joseph",
+    "FIRST_NAME": "Joseph",
+    "LAST_NAME": "Ordaz",
+    "INSTRUCTOR_EMAIL": "joseph.ordaz@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 79,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Ortiz, Maggie",
+    "FIRST_NAME": "Maggie",
+    "LAST_NAME": "Ortiz",
+    "INSTRUCTOR_EMAIL": "maggie.ortiz@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 80,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Otte, John",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Otte",
+    "INSTRUCTOR_EMAIL": "john.otte@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 81,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Park, Gaozong",
+    "FIRST_NAME": "Gaozong",
+    "LAST_NAME": "Park",
+    "INSTRUCTOR_EMAIL": "gaozong.park@missioncollege.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 82,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Pasion, Mark",
+    "FIRST_NAME": "Mark",
+    "LAST_NAME": "Pasion",
+    "INSTRUCTOR_EMAIL": "mark.pasion@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 83,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Pham, Kim",
+    "FIRST_NAME": "Kim",
+    "LAST_NAME": "Pham",
+    "INSTRUCTOR_EMAIL": "kim.pham@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 84,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Piatt, Vicky",
+    "FIRST_NAME": "Vicky",
+    "LAST_NAME": "Piatt",
+    "INSTRUCTOR_EMAIL": "vicky.piatt@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 85,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Ramsey, RaeAnn",
+    "FIRST_NAME": "RaeAnn",
+    "LAST_NAME": "Ramsey",
+    "INSTRUCTOR_EMAIL": "raeann.ramsey@missioncollege.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 86,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Rascov, Jeff",
+    "FIRST_NAME": "Jeff",
+    "LAST_NAME": "Rascov",
+    "INSTRUCTOR_EMAIL": "jeff.rascov@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 87,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Rettus, Sara",
+    "FIRST_NAME": "Sara",
+    "LAST_NAME": "Rettus",
+    "INSTRUCTOR_EMAIL": "sara.rettus@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 88,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Ricar, Sondra",
+    "FIRST_NAME": "Sondra",
+    "LAST_NAME": "Ricar",
+    "INSTRUCTOR_EMAIL": "sondra.ricar@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 89,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Rivas, Rick",
+    "FIRST_NAME": "Rick",
+    "LAST_NAME": "Rivas",
+    "INSTRUCTOR_EMAIL": "rick.rivas@missioncollege.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 90,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Rodriguez, Willo",
+    "FIRST_NAME": "Willo",
+    "LAST_NAME": "Rodriguez",
+    "INSTRUCTOR_EMAIL": "willo.rodriguez@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 91,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Roloff, Michael",
+    "FIRST_NAME": "Michael",
+    "LAST_NAME": "Roloff",
+    "INSTRUCTOR_EMAIL": "michael.roloff@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 92,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Russo, Denise",
+    "FIRST_NAME": "Denise",
+    "LAST_NAME": "Russo",
+    "INSTRUCTOR_EMAIL": "denise.russo@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 93,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Sadasivan, Lathika",
+    "FIRST_NAME": "Lathika",
+    "LAST_NAME": "Sadasivan",
+    "INSTRUCTOR_EMAIL": "lathika.sadasivan@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 94,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Sandhu, Malkiat",
+    "FIRST_NAME": "Malkiat",
+    "LAST_NAME": "Sandhu",
+    "INSTRUCTOR_EMAIL": "malkiat.sandhu@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 95,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Santos, John",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Santos",
+    "INSTRUCTOR_EMAIL": "john.santos@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 96,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Scheper, Maria",
+    "FIRST_NAME": "Maria",
+    "LAST_NAME": "Scheper",
+    "INSTRUCTOR_EMAIL": null,
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 97,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Sequeira, Shannon",
+    "FIRST_NAME": "Shannon",
+    "LAST_NAME": "Sequeira",
+    "INSTRUCTOR_EMAIL": null,
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 98,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Shan, Wenlei",
+    "FIRST_NAME": "Wenlei",
+    "LAST_NAME": "Shan",
+    "INSTRUCTOR_EMAIL": "wenlei.shan@missioncollege.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 99,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Silveira, Gaspar",
+    "FIRST_NAME": "Gaspar",
+    "LAST_NAME": "Silveira",
+    "INSTRUCTOR_EMAIL": "gaspar.silveira@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 100,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Sinclair, Robert",
+    "FIRST_NAME": "Robert",
+    "LAST_NAME": "Sinclair",
+    "INSTRUCTOR_EMAIL": "robert.sinclair@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 101,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Smith, Jamie",
+    "FIRST_NAME": "Jamie",
+    "LAST_NAME": "Smith",
+    "INSTRUCTOR_EMAIL": "jamie.smith@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 102,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Sturgess, Anan",
+    "FIRST_NAME": "Anan",
+    "LAST_NAME": "Sturgess",
+    "INSTRUCTOR_EMAIL": "anan.sturgess@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 103,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Sun, Helen",
+    "FIRST_NAME": "Helen",
+    "LAST_NAME": "Sun",
+    "INSTRUCTOR_EMAIL": "helen.sun@missioncollege.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 104,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Svensson, Peter",
+    "FIRST_NAME": "Peter",
+    "LAST_NAME": "Svensson",
+    "INSTRUCTOR_EMAIL": "peter.svensson@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 105,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Swanson, Anthony",
+    "FIRST_NAME": "Anthony",
+    "LAST_NAME": "Swanson",
+    "INSTRUCTOR_EMAIL": "anthony.swanson@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 106,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Ukudeeva, Jamilya",
+    "FIRST_NAME": "Jamilya",
+    "LAST_NAME": "Ukudeeva",
+    "INSTRUCTOR_EMAIL": "jamilya.ukudeeva@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 107,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Ulloa, John",
+    "FIRST_NAME": "John",
+    "LAST_NAME": "Ulloa",
+    "INSTRUCTOR_EMAIL": "john.ulloa@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 108,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Upton, Barbara",
+    "FIRST_NAME": "Barbara",
+    "LAST_NAME": "Upton",
+    "INSTRUCTOR_EMAIL": "barbara.upton@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 109,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Uy-Barreta, Don",
+    "FIRST_NAME": "Don",
+    "LAST_NAME": "Uy-Barreta",
+    "INSTRUCTOR_EMAIL": "don.uy-barreta@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 110,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Van Dorn, Eric",
+    "FIRST_NAME": "Eric",
+    "LAST_NAME": "Van Dorn",
+    "INSTRUCTOR_EMAIL": "eric.van.dorn@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 111,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Vargas, Erika",
+    "FIRST_NAME": "Erika",
+    "LAST_NAME": "Vargas",
+    "INSTRUCTOR_EMAIL": "erika.vargas@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 112,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Vu, Tracy",
+    "FIRST_NAME": "Tracy",
+    "LAST_NAME": "Vu",
+    "INSTRUCTOR_EMAIL": "tracy.vu@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 113,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Wagner, Jennifer",
+    "FIRST_NAME": "Jennifer",
+    "LAST_NAME": "Wagner",
+    "INSTRUCTOR_EMAIL": "jennifer.wagner@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 114,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Wagner, Naomi",
+    "FIRST_NAME": "Naomi",
+    "LAST_NAME": "Wagner",
+    "INSTRUCTOR_EMAIL": "naomi.wagner@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 115,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Weber, Heidi",
+    "FIRST_NAME": "Heidi",
+    "LAST_NAME": "Weber",
+    "INSTRUCTOR_EMAIL": "heidi.weber@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 116,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Wiens, Rick",
+    "FIRST_NAME": "Rick",
+    "LAST_NAME": "Wiens",
+    "INSTRUCTOR_EMAIL": "rick.wiens@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 117,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Wise, Adriano",
+    "FIRST_NAME": "Adriano",
+    "LAST_NAME": "Wise",
+    "INSTRUCTOR_EMAIL": "adriano.wise@westvalley.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 118,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Wood, Kathryn",
+    "FIRST_NAME": "Kathryn",
+    "LAST_NAME": "Wood",
+    "INSTRUCTOR_EMAIL": "kathryn.wood@missioncollege.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 119,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Ybarra, Carolyn",
+    "FIRST_NAME": "Carolyn",
+    "LAST_NAME": "Ybarra",
+    "INSTRUCTOR_EMAIL": "carolyn.ybarra@wvm.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  },
+  {
+    "ROW_NUMBER": 120,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Yoshikawa, Danny",
+    "FIRST_NAME": "Danny",
+    "LAST_NAME": "Yoshikawa",
+    "INSTRUCTOR_EMAIL": "danny.yoshikawa@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 121,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Yu Costa, Ellen",
+    "FIRST_NAME": "Ellen",
+    "LAST_NAME": "Yu Costa",
+    "INSTRUCTOR_EMAIL": null,
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 122,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Yurtseven, Lale",
+    "FIRST_NAME": "Lale",
+    "LAST_NAME": "Yurtseven",
+    "INSTRUCTOR_EMAIL": "lale.yurtseven@wvm.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 123,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Zakarian, Armen",
+    "FIRST_NAME": "Armen",
+    "LAST_NAME": "Zakarian",
+    "INSTRUCTOR_EMAIL": "armen.zakarian@westvalley.edu",
+    "MC_INSTRUCTOR_IND": null,
+    "WV_INSTRUCTOR_IND": "Y"
+  },
+  {
+    "ROW_NUMBER": 124,
+    "SSBSECT_TERM_CODE": "202110",
+    "INSTRUCTOR_NAME": "Zilg, Christopher",
+    "FIRST_NAME": "Christopher",
+    "LAST_NAME": "Zilg",
+    "INSTRUCTOR_EMAIL": "christopher.zilg@missioncollege.edu",
+    "MC_INSTRUCTOR_IND": "Y",
+    "WV_INSTRUCTOR_IND": null
+  }
+]

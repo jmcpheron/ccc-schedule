@@ -1,0 +1,114 @@
+{
+  "schedule": {
+    "metadata": {
+      "version": "1.0.0",
+      "last_updated": "2025-01-01T00:00:00Z",
+      "terms": [
+        {
+          "code": "202530",
+          "name": "Spring 2025",
+          "start_date": "2025-01-20",
+          "end_date": "2025-05-25"
+        }
+      ],
+      "colleges": [
+        {
+          "id": "example",
+          "name": "Example Community College",
+          "abbreviation": "ECC",
+          "logo_url": "/assets/logo.png",
+          "theme": {
+            "primary_color": "#003366",
+            "secondary_color": "#0066CC"
+          }
+        }
+      ]
+    },
+    "subjects": [
+      {
+        "code": "CS",
+        "name": "Computer Science",
+        "department": "Science & Technology"
+      }
+    ],
+    "instructors": [
+      {
+        "id": "1",
+        "name": "Smith, John",
+        "email": "jsmith@example.edu",
+        "departments": ["Computer Science"]
+      }
+    ],
+    "courses": [
+      {
+        "course_key": "CS-101",
+        "subject": "CS",
+        "course_number": "101",
+        "title": "Introduction to Computer Science",
+        "description": "An introduction to computer science concepts including programming fundamentals.",
+        "units": 3.0,
+        "unit_type": "semester",
+        "prerequisites": "",
+        "corequisites": "",
+        "advisory": "",
+        "attributes": {
+          "transferable": {
+            "csu": true,
+            "uc": true,
+            "private": false
+          },
+          "general_education": {
+            "csu_area": ["B4"],
+            "igetc_area": ["2A"],
+            "local": ["Area D"]
+          },
+          "c_id": "COMP 112",
+          "degree_applicable": true,
+          "basic_skills": false
+        },
+        "sections": [
+          {
+            "crn": "12345",
+            "section_number": "001",
+            "term": "202530",
+            "college": "example",
+            "instruction_mode": "In Person",
+            "status": "Open",
+            "enrollment": {
+              "enrolled": 24,
+              "capacity": 30,
+              "waitlist": 0,
+              "waitlist_capacity": 5
+            },
+            "meetings": [
+              {
+                "type": "Lecture",
+                "days": ["M", "W"],
+                "start_time": "09:00",
+                "end_time": "10:30",
+                "location": {
+                  "building": "Science",
+                  "room": "101",
+                  "campus": "Main"
+                }
+              }
+            ],
+            "instructors": ["1"],
+            "dates": {
+              "start": "2025-01-20",
+              "end": "2025-05-25",
+              "duration_weeks": 16
+            },
+            "textbook": {
+              "required": true,
+              "cost_category": "Low",
+              "details": "Open Educational Resources"
+            },
+            "notes": "",
+            "fees": 0.00
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,219 @@
+
+[
+  {
+    "ROW_NUMBER": 1,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "1C",
+    "STVATTR_DESC": "IGETC Oral Communication"
+  },
+  {
+    "ROW_NUMBER": 2,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "2A",
+    "STVATTR_DESC": "IGETC Quantitative Reasoning"
+  },
+  {
+    "ROW_NUMBER": 3,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "3A",
+    "STVATTR_DESC": "IGETC Arts"
+  },
+  {
+    "ROW_NUMBER": 4,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "3B",
+    "STVATTR_DESC": "IGETC Humanities"
+  },
+  {
+    "ROW_NUMBER": 5,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 6,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "5A",
+    "STVATTR_DESC": "IGETC Physical Sciences"
+  },
+  {
+    "ROW_NUMBER": 7,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "5B",
+    "STVATTR_DESC": "IGETC Biological Sciences"
+  },
+  {
+    "ROW_NUMBER": 8,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "A1",
+    "STVATTR_DESC": "CSU Oral Communication"
+  },
+  {
+    "ROW_NUMBER": 9,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "A3",
+    "STVATTR_DESC": "CSU Critical Thinking"
+  },
+  {
+    "ROW_NUMBER": 10,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "AA2",
+    "STVATTR_DESC": "AA-AS Lan & Rat - Com & Ana Th"
+  },
+  {
+    "ROW_NUMBER": 11,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "AAF",
+    "STVATTR_DESC": "Cultural Diversity"
+  },
+  {
+    "ROW_NUMBER": 12,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "AAG",
+    "STVATTR_DESC": "Kinesiology Activity"
+  },
+  {
+    "ROW_NUMBER": 13,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "AB",
+    "STVATTR_DESC": "AA-AS Natural Sciences"
+  },
+  {
+    "ROW_NUMBER": 14,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 15,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "ACOM",
+    "STVATTR_DESC": "Oral Communication Competency"
+  },
+  {
+    "ROW_NUMBER": 16,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 17,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "AD2",
+    "STVATTR_DESC": "AA-AS American History & Ins"
+  },
+  {
+    "ROW_NUMBER": 18,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 19,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "AMAT",
+    "STVATTR_DESC": "Mathematics Competency"
+  },
+  {
+    "ROW_NUMBER": 20,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "B1",
+    "STVATTR_DESC": "CSU Physical Sciences"
+  },
+  {
+    "ROW_NUMBER": 21,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "B2",
+    "STVATTR_DESC": "CSU Life Sciences"
+  },
+  {
+    "ROW_NUMBER": 22,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "B4",
+    "STVATTR_DESC": "CSU Quantitative Reasoning"
+  },
+  {
+    "ROW_NUMBER": 23,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "C1",
+    "STVATTR_DESC": "CSU Arts"
+  },
+  {
+    "ROW_NUMBER": 24,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "C2",
+    "STVATTR_DESC": "CSU Humanities"
+  },
+  {
+    "ROW_NUMBER": 25,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 26,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 27,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 28,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "LTC",
+    "STVATTR_DESC": "Low Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 29,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "NSC",
+    "STVATTR_DESC": "No Student Cost"
+  },
+  {
+    "ROW_NUMBER": 30,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "OER",
+    "STVATTR_DESC": "DNU Open Educational Resources"
+  },
+  {
+    "ROW_NUMBER": 31,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "R",
+    "STVATTR_DESC": "Approved for Disabled stu XB08"
+  },
+  {
+    "ROW_NUMBER": 32,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 33,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "US1",
+    "STVATTR_DESC": "CSU American Instittn & Ideals"
+  },
+  {
+    "ROW_NUMBER": 34,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "US2",
+    "STVATTR_DESC": "CSU US Constitution/Government"
+  },
+  {
+    "ROW_NUMBER": 35,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "US3",
+    "STVATTR_DESC": "CSU Calif State/Local Govrnmnt"
+  },
+  {
+    "ROW_NUMBER": 36,
+    "SSRATTR_TERM_CODE": "202310",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  }
+]

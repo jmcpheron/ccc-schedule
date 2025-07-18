@@ -1,0 +1,34 @@
+{
+  "courses": [
+    {
+      "course_id": "CS101",
+      "title": "Introduction to Computer Science",
+      "units": 3,
+      "description": "An introduction to computer science concepts and programming"
+    },
+    {
+      "course_id": "MATH201",
+      "title": "Calculus I",
+      "units": 4,
+      "description": "Differential calculus with applications"
+    },
+    {
+      "course_id": "ENG100",
+      "title": "English Composition",
+      "units": 3,
+      "description": "College-level writing and critical thinking"
+    },
+    {
+      "course_id": "CHEM301",
+      "title": "Organic Chemistry",
+      "units": 5,
+      "description": "Structure and reactivity of organic compounds"
+    },
+    {
+      "course_id": "PE110",
+      "title": "Physical Fitness",
+      "units": 1,
+      "description": "Personal fitness and wellness"
+    }
+  ]
+}

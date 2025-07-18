@@ -1,0 +1,693 @@
+
+[
+  {
+    "ROW_NUMBER": 1,
+    "SUBJ_CODE": "ACC",
+    "SUBJ_DESC": "Accounting - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 2,
+    "SUBJ_CODE": "ACCT",
+    "SUBJ_DESC": "Accounting - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 3,
+    "SUBJ_CODE": "ADMJ",
+    "SUBJ_DESC": "Admin of Justice - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 4,
+    "SUBJ_CODE": "ASLA",
+    "SUBJ_DESC": "American Sign Language - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 5,
+    "SUBJ_CODE": "ANT",
+    "SUBJ_DESC": "Anthropology - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 6,
+    "SUBJ_CODE": "ANTH",
+    "SUBJ_DESC": "Anthropology - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 7,
+    "SUBJ_CODE": "ARB",
+    "SUBJ_DESC": "Arabic - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 8,
+    "SUBJ_CODE": "ARCH",
+    "SUBJ_DESC": "Architecture - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 9,
+    "SUBJ_CODE": "ART",
+    "SUBJ_DESC": "Art - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 10,
+    "SUBJ_CODE": "ARTS",
+    "SUBJ_DESC": "Art - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 11,
+    "SUBJ_CODE": "AST",
+    "SUBJ_DESC": "Astronomy - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 12,
+    "SUBJ_CODE": "ASTR",
+    "SUBJ_DESC": "Astronomy - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 13,
+    "SUBJ_CODE": "AVIA",
+    "SUBJ_DESC": "Aviation - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 14,
+    "SUBJ_CODE": "BIO",
+    "SUBJ_DESC": "Biological Sciences - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 15,
+    "SUBJ_CODE": "BIOL",
+    "SUBJ_DESC": "Biology- WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 16,
+    "SUBJ_CODE": "BUS",
+    "SUBJ_DESC": "Business - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 17,
+    "SUBJ_CODE": "BUSN",
+    "SUBJ_DESC": "Business - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 18,
+    "SUBJ_CODE": "CHM",
+    "SUBJ_DESC": "Chemistry - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 19,
+    "SUBJ_CODE": "CHEM",
+    "SUBJ_DESC": "Chemistry - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 20,
+    "SUBJ_CODE": "CHD",
+    "SUBJ_DESC": "Child Development - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 21,
+    "SUBJ_CODE": "CHST",
+    "SUBJ_DESC": "Child Studies - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 22,
+    "SUBJ_CODE": "DIGM",
+    "SUBJ_DESC": "Communication Design - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 23,
+    "SUBJ_CODE": "COM",
+    "SUBJ_DESC": "Communication Studies - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 24,
+    "SUBJ_CODE": "COMM",
+    "SUBJ_DESC": "Communication Studies - WVC/MC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 25,
+    "SUBJ_CODE": "CAP",
+    "SUBJ_DESC": "Computer Applications - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 26,
+    "SUBJ_CODE": "CIS",
+    "SUBJ_DESC": "Computer Info Systems - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 27,
+    "SUBJ_CODE": "CIT",
+    "SUBJ_DESC": "Computer Info Technology - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 28,
+    "SUBJ_CODE": "CIST",
+    "SUBJ_DESC": "Computer Science - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 29,
+    "SUBJ_CODE": "COU",
+    "SUBJ_DESC": "Counseling - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 30,
+    "SUBJ_CODE": "COUN",
+    "SUBJ_DESC": "Counseling - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 31,
+    "SUBJ_CODE": "CTRP",
+    "SUBJ_DESC": "Court Reporting Internship-WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 32,
+    "SUBJ_CODE": "DANC",
+    "SUBJ_DESC": "Dance - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 33,
+    "SUBJ_CODE": "NCE",
+    "SUBJ_DESC": "ESL Noncredit - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 34,
+    "SUBJ_CODE": "ECN",
+    "SUBJ_DESC": "Economics - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 35,
+    "SUBJ_CODE": "ECON",
+    "SUBJ_DESC": "Economics - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 36,
+    "SUBJ_CODE": "EGR",
+    "SUBJ_DESC": "Engineering - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 37,
+    "SUBJ_CODE": "ENGR",
+    "SUBJ_DESC": "Engineering - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 38,
+    "SUBJ_CODE": "ENG",
+    "SUBJ_DESC": "English - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 39,
+    "SUBJ_CODE": "ENGL",
+    "SUBJ_DESC": "English - WVC/MC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 40,
+    "SUBJ_CODE": "ESL",
+    "SUBJ_DESC": "English Second Language - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 41,
+    "SUBJ_CODE": "ESLW",
+    "SUBJ_DESC": "English Second Language - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 42,
+    "SUBJ_CODE": "FDAT",
+    "SUBJ_DESC": "Fashion Design - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 43,
+    "SUBJ_CODE": "FPT",
+    "SUBJ_DESC": "Fire Protection Technology- MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 44,
+    "SUBJ_CODE": "FDR",
+    "SUBJ_DESC": "Food Service & Restaurant - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 45,
+    "SUBJ_CODE": "FRNC",
+    "SUBJ_DESC": "French - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 46,
+    "SUBJ_CODE": "GEO",
+    "SUBJ_DESC": "Geography - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 47,
+    "SUBJ_CODE": "GEOG",
+    "SUBJ_DESC": "Geography - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 48,
+    "SUBJ_CODE": "GEOL",
+    "SUBJ_DESC": "Geology - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 49,
+    "SUBJ_CODE": "GIST",
+    "SUBJ_DESC": "Geospatial Technology - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 50,
+    "SUBJ_CODE": "GERM",
+    "SUBJ_DESC": "German - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 51,
+    "SUBJ_CODE": "GDS",
+    "SUBJ_DESC": "Graphic Design - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 52,
+    "SUBJ_CODE": "INF",
+    "SUBJ_DESC": "HM - Institutional Foods - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 53,
+    "SUBJ_CODE": "HTCH",
+    "SUBJ_DESC": "Health Care Technologies - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 54,
+    "SUBJ_CODE": "HOC",
+    "SUBJ_DESC": "Health Occupations - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 55,
+    "SUBJ_CODE": "HIS",
+    "SUBJ_DESC": "History - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 56,
+    "SUBJ_CODE": "HIST",
+    "SUBJ_DESC": "History - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 57,
+    "SUBJ_CODE": "HUM",
+    "SUBJ_DESC": "Humanities - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 58,
+    "SUBJ_CODE": "HUMN",
+    "SUBJ_DESC": "Humanities - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 59,
+    "SUBJ_CODE": "INS",
+    "SUBJ_DESC": "Instructional Support - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 60,
+    "SUBJ_CODE": "ISTU",
+    "SUBJ_DESC": "Interdisciplinary Study - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 61,
+    "SUBJ_CODE": "INTD",
+    "SUBJ_DESC": "Interior Design - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 62,
+    "SUBJ_CODE": "ITAL",
+    "SUBJ_DESC": "Italian - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 63,
+    "SUBJ_CODE": "JPN",
+    "SUBJ_DESC": "Japanese - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 64,
+    "SUBJ_CODE": "JPNS",
+    "SUBJ_DESC": "Japanese - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 65,
+    "SUBJ_CODE": "KIN",
+    "SUBJ_DESC": "Kinesiology - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 66,
+    "SUBJ_CODE": "KINS",
+    "SUBJ_DESC": "Kinesiology - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 67,
+    "SUBJ_CODE": "KINA",
+    "SUBJ_DESC": "Kinesiology Athletics - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 68,
+    "SUBJ_CODE": "KINT",
+    "SUBJ_DESC": "Kinesiology Theory - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 69,
+    "SUBJ_CODE": "LSR",
+    "SUBJ_DESC": "Learning Services - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 70,
+    "SUBJ_CODE": "LRSV",
+    "SUBJ_DESC": "Learning Services - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 71,
+    "SUBJ_CODE": "LIBR",
+    "SUBJ_DESC": "Library - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 72,
+    "SUBJ_CODE": "MAT",
+    "SUBJ_DESC": "Math - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 73,
+    "SUBJ_CODE": "MATH",
+    "SUBJ_DESC": "Math - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 74,
+    "SUBJ_CODE": "NCMA",
+    "SUBJ_DESC": "Math Skills Noncredit - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 75,
+    "SUBJ_CODE": "MTT",
+    "SUBJ_DESC": "Mechatronic Technology - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 76,
+    "SUBJ_CODE": "MUS",
+    "SUBJ_DESC": "Music - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 77,
+    "SUBJ_CODE": "MUSC",
+    "SUBJ_DESC": "Music - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 78,
+    "SUBJ_CODE": "NCBU",
+    "SUBJ_DESC": "Noncredit Business - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 79,
+    "SUBJ_CODE": "NCWP",
+    "SUBJ_DESC": "Noncredit Computer/Job - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 80,
+    "SUBJ_CODE": "NCCC",
+    "SUBJ_DESC": "Noncredit Court Reporting- WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 81,
+    "SUBJ_CODE": "NCIE",
+    "SUBJ_DESC": "Noncredit ESL Citizenship- WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 82,
+    "SUBJ_CODE": "NCH",
+    "SUBJ_DESC": "Noncredit Health - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 83,
+    "SUBJ_CODE": "NCMU",
+    "SUBJ_DESC": "Noncredit Music - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 84,
+    "SUBJ_CODE": "NCO",
+    "SUBJ_DESC": "Noncredit Older Adult - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 85,
+    "SUBJ_CODE": "NCAD",
+    "SUBJ_DESC": "Noncredit Older Adult - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 86,
+    "SUBJ_CODE": "NCPE",
+    "SUBJ_DESC": "Noncredit PE - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 87,
+    "SUBJ_CODE": "NTR",
+    "SUBJ_DESC": "Nutritional Science - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 88,
+    "SUBJ_CODE": "NUTR",
+    "SUBJ_DESC": "Nutritional Science - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 89,
+    "SUBJ_CODE": "OCEA",
+    "SUBJ_DESC": "Oceanography - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 90,
+    "SUBJ_CODE": "PARA",
+    "SUBJ_DESC": "Paralegal - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 91,
+    "SUBJ_CODE": "PMGT",
+    "SUBJ_DESC": "Park Management - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 92,
+    "SUBJ_CODE": "PHI",
+    "SUBJ_DESC": "Philosophy - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 93,
+    "SUBJ_CODE": "PHIL",
+    "SUBJ_DESC": "Philosophy - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 94,
+    "SUBJ_CODE": "PSCI",
+    "SUBJ_DESC": "Physical Science - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 95,
+    "SUBJ_CODE": "PHY",
+    "SUBJ_DESC": "Physics - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 96,
+    "SUBJ_CODE": "PHYS",
+    "SUBJ_DESC": "Physics - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 97,
+    "SUBJ_CODE": "POL",
+    "SUBJ_DESC": "Political Science - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 98,
+    "SUBJ_CODE": "POLI",
+    "SUBJ_DESC": "Political Science - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 99,
+    "SUBJ_CODE": "PSY",
+    "SUBJ_DESC": "Psychology - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 100,
+    "SUBJ_CODE": "PSYC",
+    "SUBJ_DESC": "Psychology - WVC/MC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 101,
+    "SUBJ_CODE": "HSCI",
+    "SUBJ_DESC": "Public Health - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 102,
+    "SUBJ_CODE": "REA",
+    "SUBJ_DESC": "Reading - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 103,
+    "SUBJ_CODE": "RLST",
+    "SUBJ_DESC": "Real Estate - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 104,
+    "SUBJ_CODE": "SJS",
+    "SUBJ_DESC": "Social Justice - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 105,
+    "SUBJ_CODE": "SJST",
+    "SUBJ_DESC": "Social Justice - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 106,
+    "SUBJ_CODE": "SOC",
+    "SUBJ_DESC": "Sociology - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 107,
+    "SUBJ_CODE": "SOCI",
+    "SUBJ_DESC": "Sociology - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 108,
+    "SUBJ_CODE": "SPA",
+    "SUBJ_DESC": "Spanish - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 109,
+    "SUBJ_CODE": "SPAN",
+    "SUBJ_DESC": "Spanish - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 110,
+    "SUBJ_CODE": "THEA",
+    "SUBJ_DESC": "Theater Arts - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 111,
+    "SUBJ_CODE": "TRN",
+    "SUBJ_DESC": "Transportation - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 112,
+    "SUBJ_CODE": "VIE",
+    "SUBJ_DESC": "Vietnamese - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 113,
+    "SUBJ_CODE": "WGQS",
+    "SUBJ_DESC": "Women, Gender & Queer - WVC",
+    "COLL_CODE": "WV"
+  },
+  {
+    "ROW_NUMBER": 114,
+    "SUBJ_CODE": "WRK",
+    "SUBJ_DESC": "Work Experience - MC",
+    "COLL_CODE": "MC"
+  },
+  {
+    "ROW_NUMBER": 115,
+    "SUBJ_CODE": "WRKX",
+    "SUBJ_DESC": "Work Experience - WVC",
+    "COLL_CODE": "WV"
+  }
+]

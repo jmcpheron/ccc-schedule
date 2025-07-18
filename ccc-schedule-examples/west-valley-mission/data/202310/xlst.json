@@ -1,0 +1,343 @@
+
+[
+  {
+    "ROW_NUMBER": 1,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10064",
+    "XLST_GROUP": "1A",
+    "XLST_CRN": "10065",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "034B",
+    "XLST_COURSE_TITLE": "Advanced Digit Art"
+  },
+  {
+    "ROW_NUMBER": 2,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10065",
+    "XLST_GROUP": "1A",
+    "XLST_CRN": "10064",
+    "XLST_SUBJ_CODE": "ART",
+    "XLST_CRSE_NUMB": "034A",
+    "XLST_COURSE_TITLE": "Intro Digital Art"
+  },
+  {
+    "ROW_NUMBER": 3,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10099",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10100",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020B",
+    "XLST_COURSE_TITLE": "Badminton: Beginning"
+  },
+  {
+    "ROW_NUMBER": 4,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10099",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10101",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020C",
+    "XLST_COURSE_TITLE": "Badminton - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 5,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10099",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10102",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020D",
+    "XLST_COURSE_TITLE": "Badminton - Advanced"
+  },
+  {
+    "ROW_NUMBER": 6,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10099",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10103",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "099",
+    "XLST_COURSE_TITLE": "Athletic Training"
+  },
+  {
+    "ROW_NUMBER": 7,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10100",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10099",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020A",
+    "XLST_COURSE_TITLE": "Badminton- Introduction"
+  },
+  {
+    "ROW_NUMBER": 8,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10100",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10101",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020C",
+    "XLST_COURSE_TITLE": "Badminton - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 9,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10100",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10102",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020D",
+    "XLST_COURSE_TITLE": "Badminton - Advanced"
+  },
+  {
+    "ROW_NUMBER": 10,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10100",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10103",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "099",
+    "XLST_COURSE_TITLE": "Athletic Training"
+  },
+  {
+    "ROW_NUMBER": 11,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10101",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10099",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020A",
+    "XLST_COURSE_TITLE": "Badminton- Introduction"
+  },
+  {
+    "ROW_NUMBER": 12,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10101",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10100",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020B",
+    "XLST_COURSE_TITLE": "Badminton: Beginning"
+  },
+  {
+    "ROW_NUMBER": 13,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10101",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10102",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020D",
+    "XLST_COURSE_TITLE": "Badminton - Advanced"
+  },
+  {
+    "ROW_NUMBER": 14,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10101",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10103",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "099",
+    "XLST_COURSE_TITLE": "Athletic Training"
+  },
+  {
+    "ROW_NUMBER": 15,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10102",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10099",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020A",
+    "XLST_COURSE_TITLE": "Badminton- Introduction"
+  },
+  {
+    "ROW_NUMBER": 16,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10102",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10100",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020B",
+    "XLST_COURSE_TITLE": "Badminton: Beginning"
+  },
+  {
+    "ROW_NUMBER": 17,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10102",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10101",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020C",
+    "XLST_COURSE_TITLE": "Badminton - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 18,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10102",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10103",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "099",
+    "XLST_COURSE_TITLE": "Athletic Training"
+  },
+  {
+    "ROW_NUMBER": 19,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10103",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10099",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020A",
+    "XLST_COURSE_TITLE": "Badminton- Introduction"
+  },
+  {
+    "ROW_NUMBER": 20,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10103",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10100",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020B",
+    "XLST_COURSE_TITLE": "Badminton: Beginning"
+  },
+  {
+    "ROW_NUMBER": 21,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10103",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10101",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020C",
+    "XLST_COURSE_TITLE": "Badminton - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 22,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10103",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10102",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020D",
+    "XLST_COURSE_TITLE": "Badminton - Advanced"
+  },
+  {
+    "ROW_NUMBER": 23,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10108",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "10109",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "055B",
+    "XLST_COURSE_TITLE": "Self Defense - Beginning"
+  },
+  {
+    "ROW_NUMBER": 24,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10109",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "10108",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "055A",
+    "XLST_COURSE_TITLE": "Self-Defense - Introduction"
+  },
+  {
+    "ROW_NUMBER": 25,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10111",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10112",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035B",
+    "XLST_COURSE_TITLE": "Weight Training - Beginning"
+  },
+  {
+    "ROW_NUMBER": 26,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10111",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10113",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035C",
+    "XLST_COURSE_TITLE": "Weight Training - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 27,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10112",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10111",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035A",
+    "XLST_COURSE_TITLE": "Weight Training - Introduction"
+  },
+  {
+    "ROW_NUMBER": 28,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10112",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10113",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035C",
+    "XLST_COURSE_TITLE": "Weight Training - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 29,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10113",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10111",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035A",
+    "XLST_COURSE_TITLE": "Weight Training - Introduction"
+  },
+  {
+    "ROW_NUMBER": 30,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10113",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10112",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035B",
+    "XLST_COURSE_TITLE": "Weight Training - Beginning"
+  },
+  {
+    "ROW_NUMBER": 31,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10051",
+    "XLST_GROUP": "A1",
+    "XLST_CRN": "10052",
+    "XLST_SUBJ_CODE": "MATH",
+    "XLST_CRSE_NUMB": "TMP2",
+    "XLST_COURSE_TITLE": "Transfer Math Prep 2"
+  },
+  {
+    "ROW_NUMBER": 32,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10052",
+    "XLST_GROUP": "A1",
+    "XLST_CRN": "10051",
+    "XLST_SUBJ_CODE": "MATH",
+    "XLST_CRSE_NUMB": "TMP1",
+    "XLST_COURSE_TITLE": "Transfer Math Prep 1"
+  },
+  {
+    "ROW_NUMBER": 33,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10049",
+    "XLST_GROUP": "A2",
+    "XLST_CRN": "10050",
+    "XLST_SUBJ_CODE": "MATH",
+    "XLST_CRSE_NUMB": "903P",
+    "XLST_COURSE_TITLE": "Prep for Elementary Algebra"
+  },
+  {
+    "ROW_NUMBER": 34,
+    "SEARCH_TERM_CODE": "202310",
+    "SEARCH_CRN": "10050",
+    "XLST_GROUP": "A2",
+    "XLST_CRN": "10049",
+    "XLST_SUBJ_CODE": "MATH",
+    "XLST_CRSE_NUMB": "106P",
+    "XLST_COURSE_TITLE": "Prep for Intermediate Algebra"
+  }
+]

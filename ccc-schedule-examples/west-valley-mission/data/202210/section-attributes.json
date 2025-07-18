@@ -1,0 +1,5127 @@
+
+[
+  {
+    "ROW_NUMBER": 1,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10294",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 2,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10295",
+    "SSRATTR_ATTR_CODE": "3A",
+    "STVATTR_DESC": "IGETC Arts"
+  },
+  {
+    "ROW_NUMBER": 3,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10295",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 4,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10295",
+    "SSRATTR_ATTR_CODE": "C1",
+    "STVATTR_DESC": "CSU Arts"
+  },
+  {
+    "ROW_NUMBER": 5,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10295",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 6,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10295",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 7,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10296",
+    "SSRATTR_ATTR_CODE": "3A",
+    "STVATTR_DESC": "IGETC Arts"
+  },
+  {
+    "ROW_NUMBER": 8,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10296",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 9,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10296",
+    "SSRATTR_ATTR_CODE": "C1",
+    "STVATTR_DESC": "CSU Arts"
+  },
+  {
+    "ROW_NUMBER": 10,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10296",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 11,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10296",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 12,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10297",
+    "SSRATTR_ATTR_CODE": "3A",
+    "STVATTR_DESC": "IGETC Arts"
+  },
+  {
+    "ROW_NUMBER": 13,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10297",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 14,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10297",
+    "SSRATTR_ATTR_CODE": "C1",
+    "STVATTR_DESC": "CSU Arts"
+  },
+  {
+    "ROW_NUMBER": 15,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10297",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 16,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10297",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 17,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10298",
+    "SSRATTR_ATTR_CODE": "3A",
+    "STVATTR_DESC": "IGETC Arts"
+  },
+  {
+    "ROW_NUMBER": 18,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10298",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 19,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10298",
+    "SSRATTR_ATTR_CODE": "C1",
+    "STVATTR_DESC": "CSU Arts"
+  },
+  {
+    "ROW_NUMBER": 20,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10298",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 21,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10298",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 22,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10299",
+    "SSRATTR_ATTR_CODE": "AAF",
+    "STVATTR_DESC": "Cultural Diversity"
+  },
+  {
+    "ROW_NUMBER": 23,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10299",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 24,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10299",
+    "SSRATTR_ATTR_CODE": "C2",
+    "STVATTR_DESC": "CSU Humanities"
+  },
+  {
+    "ROW_NUMBER": 25,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10299",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 26,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10299",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 27,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10300",
+    "SSRATTR_ATTR_CODE": "3B",
+    "STVATTR_DESC": "IGETC Humanities"
+  },
+  {
+    "ROW_NUMBER": 28,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10300",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 29,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10300",
+    "SSRATTR_ATTR_CODE": "C2",
+    "STVATTR_DESC": "CSU Humanities"
+  },
+  {
+    "ROW_NUMBER": 30,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10300",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 31,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10300",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 32,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10300",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 33,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10301",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 34,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10301",
+    "SSRATTR_ATTR_CODE": "AD2",
+    "STVATTR_DESC": "AA-AS American History & Ins"
+  },
+  {
+    "ROW_NUMBER": 35,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10301",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 36,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10301",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 37,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10301",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 38,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10301",
+    "SSRATTR_ATTR_CODE": "US2",
+    "STVATTR_DESC": "CSU US Constitution/Government"
+  },
+  {
+    "ROW_NUMBER": 39,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10301",
+    "SSRATTR_ATTR_CODE": "US3",
+    "STVATTR_DESC": "CSU Calif State/Local Govrnmnt"
+  },
+  {
+    "ROW_NUMBER": 40,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10302",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 41,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10302",
+    "SSRATTR_ATTR_CODE": "AD2",
+    "STVATTR_DESC": "AA-AS American History & Ins"
+  },
+  {
+    "ROW_NUMBER": 42,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10302",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 43,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10302",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 44,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10302",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 45,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10302",
+    "SSRATTR_ATTR_CODE": "US2",
+    "STVATTR_DESC": "CSU US Constitution/Government"
+  },
+  {
+    "ROW_NUMBER": 46,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10302",
+    "SSRATTR_ATTR_CODE": "US3",
+    "STVATTR_DESC": "CSU Calif State/Local Govrnmnt"
+  },
+  {
+    "ROW_NUMBER": 47,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10303",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 48,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10303",
+    "SSRATTR_ATTR_CODE": "AD2",
+    "STVATTR_DESC": "AA-AS American History & Ins"
+  },
+  {
+    "ROW_NUMBER": 49,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10303",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 50,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10303",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 51,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10303",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 52,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10303",
+    "SSRATTR_ATTR_CODE": "US2",
+    "STVATTR_DESC": "CSU US Constitution/Government"
+  },
+  {
+    "ROW_NUMBER": 53,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10303",
+    "SSRATTR_ATTR_CODE": "US3",
+    "STVATTR_DESC": "CSU Calif State/Local Govrnmnt"
+  },
+  {
+    "ROW_NUMBER": 54,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10304",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 55,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10304",
+    "SSRATTR_ATTR_CODE": "AD2",
+    "STVATTR_DESC": "AA-AS American History & Ins"
+  },
+  {
+    "ROW_NUMBER": 56,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10304",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 57,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10304",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 58,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10304",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 59,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10304",
+    "SSRATTR_ATTR_CODE": "US2",
+    "STVATTR_DESC": "CSU US Constitution/Government"
+  },
+  {
+    "ROW_NUMBER": 60,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10304",
+    "SSRATTR_ATTR_CODE": "US3",
+    "STVATTR_DESC": "CSU Calif State/Local Govrnmnt"
+  },
+  {
+    "ROW_NUMBER": 61,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10305",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 62,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10305",
+    "SSRATTR_ATTR_CODE": "AD2",
+    "STVATTR_DESC": "AA-AS American History & Ins"
+  },
+  {
+    "ROW_NUMBER": 63,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10305",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 64,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10305",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 65,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10305",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 66,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10305",
+    "SSRATTR_ATTR_CODE": "US2",
+    "STVATTR_DESC": "CSU US Constitution/Government"
+  },
+  {
+    "ROW_NUMBER": 67,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10305",
+    "SSRATTR_ATTR_CODE": "US3",
+    "STVATTR_DESC": "CSU Calif State/Local Govrnmnt"
+  },
+  {
+    "ROW_NUMBER": 68,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10306",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 69,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10306",
+    "SSRATTR_ATTR_CODE": "AAF",
+    "STVATTR_DESC": "Cultural Diversity"
+  },
+  {
+    "ROW_NUMBER": 70,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10306",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 71,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10306",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 72,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10306",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 73,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10306",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 74,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10306",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 75,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10306",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 76,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10307",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 77,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10307",
+    "SSRATTR_ATTR_CODE": "AAF",
+    "STVATTR_DESC": "Cultural Diversity"
+  },
+  {
+    "ROW_NUMBER": 78,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10307",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 79,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10307",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 80,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10307",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 81,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10307",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 82,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10307",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 83,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10307",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 84,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10308",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 85,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10308",
+    "SSRATTR_ATTR_CODE": "AAF",
+    "STVATTR_DESC": "Cultural Diversity"
+  },
+  {
+    "ROW_NUMBER": 86,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10308",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 87,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10308",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 88,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10308",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 89,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10308",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 90,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10308",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 91,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10308",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 92,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10309",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 93,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10309",
+    "SSRATTR_ATTR_CODE": "AAF",
+    "STVATTR_DESC": "Cultural Diversity"
+  },
+  {
+    "ROW_NUMBER": 94,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10309",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 95,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10309",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 96,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10309",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 97,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10309",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 98,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10309",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 99,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10309",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 100,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10310",
+    "SSRATTR_ATTR_CODE": "3B",
+    "STVATTR_DESC": "IGETC Humanities"
+  },
+  {
+    "ROW_NUMBER": 101,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10310",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 102,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10310",
+    "SSRATTR_ATTR_CODE": "C2",
+    "STVATTR_DESC": "CSU Humanities"
+  },
+  {
+    "ROW_NUMBER": 103,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10310",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 104,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10310",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 105,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10311",
+    "SSRATTR_ATTR_CODE": "3B",
+    "STVATTR_DESC": "IGETC Humanities"
+  },
+  {
+    "ROW_NUMBER": 106,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10311",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 107,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10311",
+    "SSRATTR_ATTR_CODE": "C2",
+    "STVATTR_DESC": "CSU Humanities"
+  },
+  {
+    "ROW_NUMBER": 108,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10311",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 109,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10311",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 110,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10312",
+    "SSRATTR_ATTR_CODE": "5B",
+    "STVATTR_DESC": "IGETC Biological Sciences"
+  },
+  {
+    "ROW_NUMBER": 111,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10312",
+    "SSRATTR_ATTR_CODE": "AB",
+    "STVATTR_DESC": "AA-AS Natural Sciences"
+  },
+  {
+    "ROW_NUMBER": 112,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10312",
+    "SSRATTR_ATTR_CODE": "B2",
+    "STVATTR_DESC": "CSU Life Sciences"
+  },
+  {
+    "ROW_NUMBER": 113,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10312",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 114,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10312",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 115,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10313",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 116,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10313",
+    "SSRATTR_ATTR_CODE": "AAF",
+    "STVATTR_DESC": "Cultural Diversity"
+  },
+  {
+    "ROW_NUMBER": 117,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10313",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 118,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10313",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 119,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10313",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 120,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10313",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 121,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10314",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 122,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10314",
+    "SSRATTR_ATTR_CODE": "AAF",
+    "STVATTR_DESC": "Cultural Diversity"
+  },
+  {
+    "ROW_NUMBER": 123,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10314",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 124,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10314",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 125,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10314",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 126,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10314",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 127,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10315",
+    "SSRATTR_ATTR_CODE": "5A",
+    "STVATTR_DESC": "IGETC Physical Sciences"
+  },
+  {
+    "ROW_NUMBER": 128,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10315",
+    "SSRATTR_ATTR_CODE": "AB",
+    "STVATTR_DESC": "AA-AS Natural Sciences"
+  },
+  {
+    "ROW_NUMBER": 129,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10315",
+    "SSRATTR_ATTR_CODE": "B1",
+    "STVATTR_DESC": "CSU Physical Sciences"
+  },
+  {
+    "ROW_NUMBER": 130,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10315",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 131,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10315",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 132,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10316",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 133,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10316",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 134,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10316",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 135,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10316",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 136,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10316",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 137,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10317",
+    "SSRATTR_ATTR_CODE": "3A",
+    "STVATTR_DESC": "IGETC Arts"
+  },
+  {
+    "ROW_NUMBER": 138,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10317",
+    "SSRATTR_ATTR_CODE": "3B",
+    "STVATTR_DESC": "IGETC Humanities"
+  },
+  {
+    "ROW_NUMBER": 139,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10317",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 140,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10317",
+    "SSRATTR_ATTR_CODE": "AAF",
+    "STVATTR_DESC": "Cultural Diversity"
+  },
+  {
+    "ROW_NUMBER": 141,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10317",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 142,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10317",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 143,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10317",
+    "SSRATTR_ATTR_CODE": "C1",
+    "STVATTR_DESC": "CSU Arts"
+  },
+  {
+    "ROW_NUMBER": 144,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10317",
+    "SSRATTR_ATTR_CODE": "C2",
+    "STVATTR_DESC": "CSU Humanities"
+  },
+  {
+    "ROW_NUMBER": 145,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10317",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 146,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10317",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 147,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10317",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 148,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10318",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 149,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10318",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 150,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10319",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 151,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10319",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 152,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10320",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 153,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10320",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 154,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10321",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 155,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10321",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 156,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10323",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 157,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10324",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 158,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10324",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 159,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10324",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 160,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10324",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 161,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10324",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 162,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10325",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 163,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10325",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 164,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10325",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 165,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10325",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 166,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10325",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 167,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10326",
+    "SSRATTR_ATTR_CODE": "5B",
+    "STVATTR_DESC": "IGETC Biological Sciences"
+  },
+  {
+    "ROW_NUMBER": 168,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10326",
+    "SSRATTR_ATTR_CODE": "AB",
+    "STVATTR_DESC": "AA-AS Natural Sciences"
+  },
+  {
+    "ROW_NUMBER": 169,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10326",
+    "SSRATTR_ATTR_CODE": "B2",
+    "STVATTR_DESC": "CSU Life Sciences"
+  },
+  {
+    "ROW_NUMBER": 170,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10326",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 171,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10326",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 172,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10326",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 173,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10327",
+    "SSRATTR_ATTR_CODE": "5B",
+    "STVATTR_DESC": "IGETC Biological Sciences"
+  },
+  {
+    "ROW_NUMBER": 174,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10327",
+    "SSRATTR_ATTR_CODE": "AB",
+    "STVATTR_DESC": "AA-AS Natural Sciences"
+  },
+  {
+    "ROW_NUMBER": 175,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10327",
+    "SSRATTR_ATTR_CODE": "B2",
+    "STVATTR_DESC": "CSU Life Sciences"
+  },
+  {
+    "ROW_NUMBER": 176,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10327",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 177,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10327",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 178,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10327",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 179,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10328",
+    "SSRATTR_ATTR_CODE": "5B",
+    "STVATTR_DESC": "IGETC Biological Sciences"
+  },
+  {
+    "ROW_NUMBER": 180,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10328",
+    "SSRATTR_ATTR_CODE": "AB",
+    "STVATTR_DESC": "AA-AS Natural Sciences"
+  },
+  {
+    "ROW_NUMBER": 181,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10328",
+    "SSRATTR_ATTR_CODE": "B2",
+    "STVATTR_DESC": "CSU Life Sciences"
+  },
+  {
+    "ROW_NUMBER": 182,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10328",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 183,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10328",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 184,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10328",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 185,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10329",
+    "SSRATTR_ATTR_CODE": "5B",
+    "STVATTR_DESC": "IGETC Biological Sciences"
+  },
+  {
+    "ROW_NUMBER": 186,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10329",
+    "SSRATTR_ATTR_CODE": "AB",
+    "STVATTR_DESC": "AA-AS Natural Sciences"
+  },
+  {
+    "ROW_NUMBER": 187,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10329",
+    "SSRATTR_ATTR_CODE": "B2",
+    "STVATTR_DESC": "CSU Life Sciences"
+  },
+  {
+    "ROW_NUMBER": 188,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10329",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 189,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10329",
+    "SSRATTR_ATTR_CODE": "HONR",
+    "STVATTR_DESC": "Honors"
+  },
+  {
+    "ROW_NUMBER": 190,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10329",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 191,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10329",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 192,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10330",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 193,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10330",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 194,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10330",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 195,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10330",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 196,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10332",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 197,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10333",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 198,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10334",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 199,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10335",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 200,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10335",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 201,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10335",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 202,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10335",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 203,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10336",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 204,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10336",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 205,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10336",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 206,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10337",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 207,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10337",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 208,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10337",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 209,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10338",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 210,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10338",
+    "SSRATTR_ATTR_CODE": "AAF",
+    "STVATTR_DESC": "Cultural Diversity"
+  },
+  {
+    "ROW_NUMBER": 211,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10338",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 212,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10338",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 213,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10338",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 214,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10338",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 215,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10338",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 216,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10338",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 217,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10338",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 218,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10339",
+    "SSRATTR_ATTR_CODE": "1C",
+    "STVATTR_DESC": "IGETC Oral Communication"
+  },
+  {
+    "ROW_NUMBER": 219,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10339",
+    "SSRATTR_ATTR_CODE": "A1",
+    "STVATTR_DESC": "CSU Oral Communication"
+  },
+  {
+    "ROW_NUMBER": 220,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10339",
+    "SSRATTR_ATTR_CODE": "AA2",
+    "STVATTR_DESC": "AA-AS Lan & Rat - Com & Ana Th"
+  },
+  {
+    "ROW_NUMBER": 221,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10339",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 222,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10339",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 223,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10341",
+    "SSRATTR_ATTR_CODE": "1C",
+    "STVATTR_DESC": "IGETC Oral Communication"
+  },
+  {
+    "ROW_NUMBER": 224,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10341",
+    "SSRATTR_ATTR_CODE": "A1",
+    "STVATTR_DESC": "CSU Oral Communication"
+  },
+  {
+    "ROW_NUMBER": 225,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10341",
+    "SSRATTR_ATTR_CODE": "AA2",
+    "STVATTR_DESC": "AA-AS Lan & Rat - Com & Ana Th"
+  },
+  {
+    "ROW_NUMBER": 226,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10341",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 227,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10341",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 228,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10341",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 229,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10342",
+    "SSRATTR_ATTR_CODE": "1C",
+    "STVATTR_DESC": "IGETC Oral Communication"
+  },
+  {
+    "ROW_NUMBER": 230,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10342",
+    "SSRATTR_ATTR_CODE": "A1",
+    "STVATTR_DESC": "CSU Oral Communication"
+  },
+  {
+    "ROW_NUMBER": 231,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10342",
+    "SSRATTR_ATTR_CODE": "AA2",
+    "STVATTR_DESC": "AA-AS Lan & Rat - Com & Ana Th"
+  },
+  {
+    "ROW_NUMBER": 232,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10342",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 233,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10342",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 234,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10342",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 235,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10343",
+    "SSRATTR_ATTR_CODE": "1C",
+    "STVATTR_DESC": "IGETC Oral Communication"
+  },
+  {
+    "ROW_NUMBER": 236,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10343",
+    "SSRATTR_ATTR_CODE": "A1",
+    "STVATTR_DESC": "CSU Oral Communication"
+  },
+  {
+    "ROW_NUMBER": 237,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10343",
+    "SSRATTR_ATTR_CODE": "AA2",
+    "STVATTR_DESC": "AA-AS Lan & Rat - Com & Ana Th"
+  },
+  {
+    "ROW_NUMBER": 238,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10343",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 239,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10343",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 240,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10344",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 241,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10344",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 242,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10344",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 243,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10344",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 244,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10344",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 245,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10345",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 246,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10345",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 247,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10345",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 248,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10345",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 249,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10345",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 250,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10348",
+    "SSRATTR_ATTR_CODE": "AAG",
+    "STVATTR_DESC": "Kinesiology Activity"
+  },
+  {
+    "ROW_NUMBER": 251,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10348",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 252,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10348",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 253,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10348",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 254,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10348",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 255,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10349",
+    "SSRATTR_ATTR_CODE": "3A",
+    "STVATTR_DESC": "IGETC Arts"
+  },
+  {
+    "ROW_NUMBER": 256,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10349",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 257,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10349",
+    "SSRATTR_ATTR_CODE": "C1",
+    "STVATTR_DESC": "CSU Arts"
+  },
+  {
+    "ROW_NUMBER": 258,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10349",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 259,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10349",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 260,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10349",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 261,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10350",
+    "SSRATTR_ATTR_CODE": "3A",
+    "STVATTR_DESC": "IGETC Arts"
+  },
+  {
+    "ROW_NUMBER": 262,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10350",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 263,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10350",
+    "SSRATTR_ATTR_CODE": "C1",
+    "STVATTR_DESC": "CSU Arts"
+  },
+  {
+    "ROW_NUMBER": 264,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10350",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 265,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10350",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 266,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10350",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 267,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10351",
+    "SSRATTR_ATTR_CODE": "3A",
+    "STVATTR_DESC": "IGETC Arts"
+  },
+  {
+    "ROW_NUMBER": 268,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10351",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 269,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10351",
+    "SSRATTR_ATTR_CODE": "C1",
+    "STVATTR_DESC": "CSU Arts"
+  },
+  {
+    "ROW_NUMBER": 270,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10351",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 271,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10351",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 272,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10351",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 273,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10353",
+    "SSRATTR_ATTR_CODE": "3A",
+    "STVATTR_DESC": "IGETC Arts"
+  },
+  {
+    "ROW_NUMBER": 274,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10353",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 275,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10353",
+    "SSRATTR_ATTR_CODE": "C1",
+    "STVATTR_DESC": "CSU Arts"
+  },
+  {
+    "ROW_NUMBER": 276,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10353",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 277,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10353",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 278,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10354",
+    "SSRATTR_ATTR_CODE": "AAG",
+    "STVATTR_DESC": "Kinesiology Activity"
+  },
+  {
+    "ROW_NUMBER": 279,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10354",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 280,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10354",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 281,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10354",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 282,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10354",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 283,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10355",
+    "SSRATTR_ATTR_CODE": "3B",
+    "STVATTR_DESC": "IGETC Humanities"
+  },
+  {
+    "ROW_NUMBER": 284,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10355",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 285,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10355",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 286,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10355",
+    "SSRATTR_ATTR_CODE": "AD2",
+    "STVATTR_DESC": "AA-AS American History & Ins"
+  },
+  {
+    "ROW_NUMBER": 287,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10355",
+    "SSRATTR_ATTR_CODE": "C2",
+    "STVATTR_DESC": "CSU Humanities"
+  },
+  {
+    "ROW_NUMBER": 288,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10355",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 289,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10355",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 290,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10355",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 291,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10355",
+    "SSRATTR_ATTR_CODE": "US1",
+    "STVATTR_DESC": "CSU American Instittn & Ideals"
+  },
+  {
+    "ROW_NUMBER": 292,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10355",
+    "SSRATTR_ATTR_CODE": "US2",
+    "STVATTR_DESC": "CSU US Constitution/Government"
+  },
+  {
+    "ROW_NUMBER": 293,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10356",
+    "SSRATTR_ATTR_CODE": "3B",
+    "STVATTR_DESC": "IGETC Humanities"
+  },
+  {
+    "ROW_NUMBER": 294,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10356",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 295,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10356",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 296,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10356",
+    "SSRATTR_ATTR_CODE": "AD2",
+    "STVATTR_DESC": "AA-AS American History & Ins"
+  },
+  {
+    "ROW_NUMBER": 297,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10356",
+    "SSRATTR_ATTR_CODE": "C2",
+    "STVATTR_DESC": "CSU Humanities"
+  },
+  {
+    "ROW_NUMBER": 298,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10356",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 299,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10356",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 300,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10356",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 301,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10356",
+    "SSRATTR_ATTR_CODE": "US1",
+    "STVATTR_DESC": "CSU American Instittn & Ideals"
+  },
+  {
+    "ROW_NUMBER": 302,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10356",
+    "SSRATTR_ATTR_CODE": "US2",
+    "STVATTR_DESC": "CSU US Constitution/Government"
+  },
+  {
+    "ROW_NUMBER": 303,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10357",
+    "SSRATTR_ATTR_CODE": "3B",
+    "STVATTR_DESC": "IGETC Humanities"
+  },
+  {
+    "ROW_NUMBER": 304,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10357",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 305,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10357",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 306,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10357",
+    "SSRATTR_ATTR_CODE": "AD2",
+    "STVATTR_DESC": "AA-AS American History & Ins"
+  },
+  {
+    "ROW_NUMBER": 307,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10357",
+    "SSRATTR_ATTR_CODE": "C2",
+    "STVATTR_DESC": "CSU Humanities"
+  },
+  {
+    "ROW_NUMBER": 308,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10357",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 309,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10357",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 310,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10357",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 311,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10357",
+    "SSRATTR_ATTR_CODE": "US1",
+    "STVATTR_DESC": "CSU American Instittn & Ideals"
+  },
+  {
+    "ROW_NUMBER": 312,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10358",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 313,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10359",
+    "SSRATTR_ATTR_CODE": "AAG",
+    "STVATTR_DESC": "Kinesiology Activity"
+  },
+  {
+    "ROW_NUMBER": 314,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10359",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 315,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10359",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 316,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10359",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 317,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10359",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 318,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10360",
+    "SSRATTR_ATTR_CODE": "AAG",
+    "STVATTR_DESC": "Kinesiology Activity"
+  },
+  {
+    "ROW_NUMBER": 319,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10360",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 320,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10360",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 321,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10360",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 322,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10360",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 323,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10361",
+    "SSRATTR_ATTR_CODE": "AAG",
+    "STVATTR_DESC": "Kinesiology Activity"
+  },
+  {
+    "ROW_NUMBER": 324,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10361",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 325,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10361",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 326,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10361",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 327,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10361",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 328,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10362",
+    "SSRATTR_ATTR_CODE": "AAG",
+    "STVATTR_DESC": "Kinesiology Activity"
+  },
+  {
+    "ROW_NUMBER": 329,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10362",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 330,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10362",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 331,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10362",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 332,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10363",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 333,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10363",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 334,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10364",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 335,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10364",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 336,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10364",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 337,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10364",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 338,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10364",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 339,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10365",
+    "SSRATTR_ATTR_CODE": "2A",
+    "STVATTR_DESC": "IGETC Quantitative Reasoning"
+  },
+  {
+    "ROW_NUMBER": 340,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10365",
+    "SSRATTR_ATTR_CODE": "AA2",
+    "STVATTR_DESC": "AA-AS Lan & Rat - Com & Ana Th"
+  },
+  {
+    "ROW_NUMBER": 341,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10365",
+    "SSRATTR_ATTR_CODE": "AMAT",
+    "STVATTR_DESC": "Mathematics Competency"
+  },
+  {
+    "ROW_NUMBER": 342,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10365",
+    "SSRATTR_ATTR_CODE": "B4",
+    "STVATTR_DESC": "CSU Quantitative Reasoning"
+  },
+  {
+    "ROW_NUMBER": 343,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10365",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 344,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10365",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 345,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10366",
+    "SSRATTR_ATTR_CODE": "5A",
+    "STVATTR_DESC": "IGETC Physical Sciences"
+  },
+  {
+    "ROW_NUMBER": 346,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10366",
+    "SSRATTR_ATTR_CODE": "AB",
+    "STVATTR_DESC": "AA-AS Natural Sciences"
+  },
+  {
+    "ROW_NUMBER": 347,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10366",
+    "SSRATTR_ATTR_CODE": "B1",
+    "STVATTR_DESC": "CSU Physical Sciences"
+  },
+  {
+    "ROW_NUMBER": 348,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10366",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 349,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10366",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 350,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10366",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 351,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10367",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 352,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10368",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 353,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10369",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 354,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10370",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 355,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10375",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 356,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10375",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 357,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10375",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 358,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10375",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 359,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10382",
+    "SSRATTR_ATTR_CODE": "AAG",
+    "STVATTR_DESC": "Kinesiology Activity"
+  },
+  {
+    "ROW_NUMBER": 360,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10382",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 361,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10382",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 362,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10382",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 363,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10383",
+    "SSRATTR_ATTR_CODE": "AB",
+    "STVATTR_DESC": "AA-AS Natural Sciences"
+  },
+  {
+    "ROW_NUMBER": 364,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10383",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 365,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10383",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 366,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10383",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 367,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10383",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 368,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10384",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 369,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10385",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 370,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10385",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 371,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10385",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 372,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10386",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 373,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10386",
+    "SSRATTR_ATTR_CODE": "C1",
+    "STVATTR_DESC": "CSU Arts"
+  },
+  {
+    "ROW_NUMBER": 374,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10386",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 375,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10386",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 376,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10386",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 377,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10388",
+    "SSRATTR_ATTR_CODE": "5B",
+    "STVATTR_DESC": "IGETC Biological Sciences"
+  },
+  {
+    "ROW_NUMBER": 378,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10388",
+    "SSRATTR_ATTR_CODE": "AB",
+    "STVATTR_DESC": "AA-AS Natural Sciences"
+  },
+  {
+    "ROW_NUMBER": 379,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10388",
+    "SSRATTR_ATTR_CODE": "B2",
+    "STVATTR_DESC": "CSU Life Sciences"
+  },
+  {
+    "ROW_NUMBER": 380,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10388",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 381,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10388",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 382,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10389",
+    "SSRATTR_ATTR_CODE": "5B",
+    "STVATTR_DESC": "IGETC Biological Sciences"
+  },
+  {
+    "ROW_NUMBER": 383,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10389",
+    "SSRATTR_ATTR_CODE": "AB",
+    "STVATTR_DESC": "AA-AS Natural Sciences"
+  },
+  {
+    "ROW_NUMBER": 384,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10389",
+    "SSRATTR_ATTR_CODE": "B2",
+    "STVATTR_DESC": "CSU Life Sciences"
+  },
+  {
+    "ROW_NUMBER": 385,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10389",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 386,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10389",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 387,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10390",
+    "SSRATTR_ATTR_CODE": "5B",
+    "STVATTR_DESC": "IGETC Biological Sciences"
+  },
+  {
+    "ROW_NUMBER": 388,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10390",
+    "SSRATTR_ATTR_CODE": "AB",
+    "STVATTR_DESC": "AA-AS Natural Sciences"
+  },
+  {
+    "ROW_NUMBER": 389,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10390",
+    "SSRATTR_ATTR_CODE": "B2",
+    "STVATTR_DESC": "CSU Life Sciences"
+  },
+  {
+    "ROW_NUMBER": 390,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10390",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 391,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10390",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 392,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10390",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 393,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10391",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 394,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10391",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 395,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10392",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 396,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10393",
+    "SSRATTR_ATTR_CODE": "3B",
+    "STVATTR_DESC": "IGETC Humanities"
+  },
+  {
+    "ROW_NUMBER": 397,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10393",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 398,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10393",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 399,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10393",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 400,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10393",
+    "SSRATTR_ATTR_CODE": "AD2",
+    "STVATTR_DESC": "AA-AS American History & Ins"
+  },
+  {
+    "ROW_NUMBER": 401,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10393",
+    "SSRATTR_ATTR_CODE": "C2",
+    "STVATTR_DESC": "CSU Humanities"
+  },
+  {
+    "ROW_NUMBER": 402,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10393",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 403,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10393",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 404,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10393",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 405,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10393",
+    "SSRATTR_ATTR_CODE": "US1",
+    "STVATTR_DESC": "CSU American Instittn & Ideals"
+  },
+  {
+    "ROW_NUMBER": 406,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10393",
+    "SSRATTR_ATTR_CODE": "US2",
+    "STVATTR_DESC": "CSU US Constitution/Government"
+  },
+  {
+    "ROW_NUMBER": 407,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10394",
+    "SSRATTR_ATTR_CODE": "3B",
+    "STVATTR_DESC": "IGETC Humanities"
+  },
+  {
+    "ROW_NUMBER": 408,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10394",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 409,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10394",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 410,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10394",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 411,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10394",
+    "SSRATTR_ATTR_CODE": "AD2",
+    "STVATTR_DESC": "AA-AS American History & Ins"
+  },
+  {
+    "ROW_NUMBER": 412,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10394",
+    "SSRATTR_ATTR_CODE": "C2",
+    "STVATTR_DESC": "CSU Humanities"
+  },
+  {
+    "ROW_NUMBER": 413,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10394",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 414,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10394",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 415,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10394",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 416,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10394",
+    "SSRATTR_ATTR_CODE": "US1",
+    "STVATTR_DESC": "CSU American Instittn & Ideals"
+  },
+  {
+    "ROW_NUMBER": 417,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10394",
+    "SSRATTR_ATTR_CODE": "US2",
+    "STVATTR_DESC": "CSU US Constitution/Government"
+  },
+  {
+    "ROW_NUMBER": 418,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10395",
+    "SSRATTR_ATTR_CODE": "3B",
+    "STVATTR_DESC": "IGETC Humanities"
+  },
+  {
+    "ROW_NUMBER": 419,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10395",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 420,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10395",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 421,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10395",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 422,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10395",
+    "SSRATTR_ATTR_CODE": "AD2",
+    "STVATTR_DESC": "AA-AS American History & Ins"
+  },
+  {
+    "ROW_NUMBER": 423,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10395",
+    "SSRATTR_ATTR_CODE": "C2",
+    "STVATTR_DESC": "CSU Humanities"
+  },
+  {
+    "ROW_NUMBER": 424,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10395",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 425,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10395",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 426,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10395",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 427,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10395",
+    "SSRATTR_ATTR_CODE": "US1",
+    "STVATTR_DESC": "CSU American Instittn & Ideals"
+  },
+  {
+    "ROW_NUMBER": 428,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10396",
+    "SSRATTR_ATTR_CODE": "3B",
+    "STVATTR_DESC": "IGETC Humanities"
+  },
+  {
+    "ROW_NUMBER": 429,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10396",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 430,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10396",
+    "SSRATTR_ATTR_CODE": "AAF",
+    "STVATTR_DESC": "Cultural Diversity"
+  },
+  {
+    "ROW_NUMBER": 431,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10396",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 432,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10396",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 433,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10396",
+    "SSRATTR_ATTR_CODE": "C2",
+    "STVATTR_DESC": "CSU Humanities"
+  },
+  {
+    "ROW_NUMBER": 434,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10396",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 435,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10396",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 436,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10396",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 437,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10397",
+    "SSRATTR_ATTR_CODE": "A3",
+    "STVATTR_DESC": "CSU Critical Thinking"
+  },
+  {
+    "ROW_NUMBER": 438,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10397",
+    "SSRATTR_ATTR_CODE": "AA2",
+    "STVATTR_DESC": "AA-AS Lan & Rat - Com & Ana Th"
+  },
+  {
+    "ROW_NUMBER": 439,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10397",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 440,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10397",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 441,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10397",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 442,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10398",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 443,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10399",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 444,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10400",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 445,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10400",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 446,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10400",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 447,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10400",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 448,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10400",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 449,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10401",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 450,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10401",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 451,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10401",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 452,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10401",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 453,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10401",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 454,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10402",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 455,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10402",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 456,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10402",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 457,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10402",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 458,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10402",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 459,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10403",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 460,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10403",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 461,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10403",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 462,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10403",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 463,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10403",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 464,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10404",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 465,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10404",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 466,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10404",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 467,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10404",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 468,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10405",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 469,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10405",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 470,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10405",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 471,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10405",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 472,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10406",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 473,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10406",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 474,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10406",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 475,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10406",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 476,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10407",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 477,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10407",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 478,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10407",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 479,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10407",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 480,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10408",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 481,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10408",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 482,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10409",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 483,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10409",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 484,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10410",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 485,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10410",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 486,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10411",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 487,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10411",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 488,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10412",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 489,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10413",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 490,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10413",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 491,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10414",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 492,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10414",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 493,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10415",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 494,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10415",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 495,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10416",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 496,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10416",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 497,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10416",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 498,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10416",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 499,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10416",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 500,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10417",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 501,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10417",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 502,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10417",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 503,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10418",
+    "SSRATTR_ATTR_CODE": "3A",
+    "STVATTR_DESC": "IGETC Arts"
+  },
+  {
+    "ROW_NUMBER": 504,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10418",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 505,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10418",
+    "SSRATTR_ATTR_CODE": "C1",
+    "STVATTR_DESC": "CSU Arts"
+  },
+  {
+    "ROW_NUMBER": 506,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10418",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 507,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10418",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 508,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10419",
+    "SSRATTR_ATTR_CODE": "3A",
+    "STVATTR_DESC": "IGETC Arts"
+  },
+  {
+    "ROW_NUMBER": 509,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10419",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 510,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10419",
+    "SSRATTR_ATTR_CODE": "C1",
+    "STVATTR_DESC": "CSU Arts"
+  },
+  {
+    "ROW_NUMBER": 511,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10419",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 512,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10419",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 513,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10420",
+    "SSRATTR_ATTR_CODE": "3A",
+    "STVATTR_DESC": "IGETC Arts"
+  },
+  {
+    "ROW_NUMBER": 514,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10420",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 515,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10420",
+    "SSRATTR_ATTR_CODE": "C1",
+    "STVATTR_DESC": "CSU Arts"
+  },
+  {
+    "ROW_NUMBER": 516,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10420",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 517,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10420",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 518,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10421",
+    "SSRATTR_ATTR_CODE": "3A",
+    "STVATTR_DESC": "IGETC Arts"
+  },
+  {
+    "ROW_NUMBER": 519,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10421",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 520,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10421",
+    "SSRATTR_ATTR_CODE": "C1",
+    "STVATTR_DESC": "CSU Arts"
+  },
+  {
+    "ROW_NUMBER": 521,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10421",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 522,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10421",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 523,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10422",
+    "SSRATTR_ATTR_CODE": "5B",
+    "STVATTR_DESC": "IGETC Biological Sciences"
+  },
+  {
+    "ROW_NUMBER": 524,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10422",
+    "SSRATTR_ATTR_CODE": "AB",
+    "STVATTR_DESC": "AA-AS Natural Sciences"
+  },
+  {
+    "ROW_NUMBER": 525,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10422",
+    "SSRATTR_ATTR_CODE": "B2",
+    "STVATTR_DESC": "CSU Life Sciences"
+  },
+  {
+    "ROW_NUMBER": 526,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10422",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 527,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10422",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 528,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10422",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 529,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10423",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 530,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10423",
+    "SSRATTR_ATTR_CODE": "AAF",
+    "STVATTR_DESC": "Cultural Diversity"
+  },
+  {
+    "ROW_NUMBER": 531,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10423",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 532,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10423",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 533,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10423",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 534,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10423",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 535,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10424",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 536,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10424",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 537,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10424",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 538,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10424",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 539,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10424",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 540,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10425",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 541,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10425",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 542,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10425",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 543,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10425",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 544,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10425",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 545,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10426",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 546,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10426",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 547,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10426",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 548,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10426",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 549,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10426",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 550,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10427",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 551,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10427",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 552,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10427",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 553,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10427",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 554,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10427",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 555,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10427",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 556,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10428",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 557,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10428",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 558,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10428",
+    "SSRATTR_ATTR_CODE": "AD2",
+    "STVATTR_DESC": "AA-AS American History & Ins"
+  },
+  {
+    "ROW_NUMBER": 559,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10428",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 560,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10428",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 561,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10428",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 562,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10428",
+    "SSRATTR_ATTR_CODE": "US2",
+    "STVATTR_DESC": "CSU US Constitution/Government"
+  },
+  {
+    "ROW_NUMBER": 563,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10428",
+    "SSRATTR_ATTR_CODE": "US3",
+    "STVATTR_DESC": "CSU Calif State/Local Govrnmnt"
+  },
+  {
+    "ROW_NUMBER": 564,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10428",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 565,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10429",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 566,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10429",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 567,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10429",
+    "SSRATTR_ATTR_CODE": "AD2",
+    "STVATTR_DESC": "AA-AS American History & Ins"
+  },
+  {
+    "ROW_NUMBER": 568,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10429",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 569,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10429",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 570,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10429",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 571,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10429",
+    "SSRATTR_ATTR_CODE": "US2",
+    "STVATTR_DESC": "CSU US Constitution/Government"
+  },
+  {
+    "ROW_NUMBER": 572,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10429",
+    "SSRATTR_ATTR_CODE": "US3",
+    "STVATTR_DESC": "CSU Calif State/Local Govrnmnt"
+  },
+  {
+    "ROW_NUMBER": 573,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10430",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 574,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10430",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 575,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10430",
+    "SSRATTR_ATTR_CODE": "AD2",
+    "STVATTR_DESC": "AA-AS American History & Ins"
+  },
+  {
+    "ROW_NUMBER": 576,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10430",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 577,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10430",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 578,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10430",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 579,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10430",
+    "SSRATTR_ATTR_CODE": "US2",
+    "STVATTR_DESC": "CSU US Constitution/Government"
+  },
+  {
+    "ROW_NUMBER": 580,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10430",
+    "SSRATTR_ATTR_CODE": "US3",
+    "STVATTR_DESC": "CSU Calif State/Local Govrnmnt"
+  },
+  {
+    "ROW_NUMBER": 581,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10431",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 582,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10431",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 583,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10431",
+    "SSRATTR_ATTR_CODE": "AD2",
+    "STVATTR_DESC": "AA-AS American History & Ins"
+  },
+  {
+    "ROW_NUMBER": 584,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10431",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 585,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10431",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 586,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10431",
+    "SSRATTR_ATTR_CODE": "HONR",
+    "STVATTR_DESC": "Honors"
+  },
+  {
+    "ROW_NUMBER": 587,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10431",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 588,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10431",
+    "SSRATTR_ATTR_CODE": "US2",
+    "STVATTR_DESC": "CSU US Constitution/Government"
+  },
+  {
+    "ROW_NUMBER": 589,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10431",
+    "SSRATTR_ATTR_CODE": "US3",
+    "STVATTR_DESC": "CSU Calif State/Local Govrnmnt"
+  },
+  {
+    "ROW_NUMBER": 590,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10432",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 591,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10432",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 592,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10432",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 593,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10432",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 594,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10432",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 595,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10433",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 596,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10433",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 597,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10433",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 598,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10433",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 599,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10433",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 600,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10434",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 601,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10434",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 602,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10434",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 603,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10434",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 604,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10434",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 605,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10435",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 606,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10435",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 607,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10435",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 608,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10435",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 609,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10435",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 610,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10436",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 611,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10436",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 612,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10436",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 613,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10436",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 614,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10436",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 615,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10436",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 616,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10436",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 617,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10437",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 618,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10437",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 619,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10437",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 620,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10437",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 621,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10437",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 622,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10438",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 623,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10438",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 624,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10438",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 625,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10438",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 626,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10438",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 627,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10439",
+    "SSRATTR_ATTR_CODE": "4",
+    "STVATTR_DESC": "IGETC Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 628,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10439",
+    "SSRATTR_ATTR_CODE": "AD1",
+    "STVATTR_DESC": "AA-AS Social & Behavioral Sci"
+  },
+  {
+    "ROW_NUMBER": 629,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10439",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 630,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10439",
+    "SSRATTR_ATTR_CODE": "D",
+    "STVATTR_DESC": "CSU Social & Behavior Sci"
+  },
+  {
+    "ROW_NUMBER": 631,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10439",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 632,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10440",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 633,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10440",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 634,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10441",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 635,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10441",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 636,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10441",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 637,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10441",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 638,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10442",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 639,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10442",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 640,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10442",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 641,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10442",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 642,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10443",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 643,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10444",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 644,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10445",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 645,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10446",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 646,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10447",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 647,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10448",
+    "SSRATTR_ATTR_CODE": "1C",
+    "STVATTR_DESC": "IGETC Oral Communication"
+  },
+  {
+    "ROW_NUMBER": 648,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10448",
+    "SSRATTR_ATTR_CODE": "A1",
+    "STVATTR_DESC": "CSU Oral Communication"
+  },
+  {
+    "ROW_NUMBER": 649,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10448",
+    "SSRATTR_ATTR_CODE": "AA2",
+    "STVATTR_DESC": "AA-AS Lan & Rat - Com & Ana Th"
+  },
+  {
+    "ROW_NUMBER": 650,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10448",
+    "SSRATTR_ATTR_CODE": "ACOM",
+    "STVATTR_DESC": "Oral Communication Competency"
+  },
+  {
+    "ROW_NUMBER": 651,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10448",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 652,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10448",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 653,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10448",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 654,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10449",
+    "SSRATTR_ATTR_CODE": "1C",
+    "STVATTR_DESC": "IGETC Oral Communication"
+  },
+  {
+    "ROW_NUMBER": 655,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10449",
+    "SSRATTR_ATTR_CODE": "A1",
+    "STVATTR_DESC": "CSU Oral Communication"
+  },
+  {
+    "ROW_NUMBER": 656,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10449",
+    "SSRATTR_ATTR_CODE": "AA2",
+    "STVATTR_DESC": "AA-AS Lan & Rat - Com & Ana Th"
+  },
+  {
+    "ROW_NUMBER": 657,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10449",
+    "SSRATTR_ATTR_CODE": "ACOM",
+    "STVATTR_DESC": "Oral Communication Competency"
+  },
+  {
+    "ROW_NUMBER": 658,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10449",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 659,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10449",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 660,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10449",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 661,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10450",
+    "SSRATTR_ATTR_CODE": "3B",
+    "STVATTR_DESC": "IGETC Humanities"
+  },
+  {
+    "ROW_NUMBER": 662,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10450",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 663,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10450",
+    "SSRATTR_ATTR_CODE": "C2",
+    "STVATTR_DESC": "CSU Humanities"
+  },
+  {
+    "ROW_NUMBER": 664,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10450",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 665,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10450",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 666,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10453",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 667,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10455",
+    "SSRATTR_ATTR_CODE": "3A",
+    "STVATTR_DESC": "IGETC Arts"
+  },
+  {
+    "ROW_NUMBER": 668,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10455",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 669,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10455",
+    "SSRATTR_ATTR_CODE": "C1",
+    "STVATTR_DESC": "CSU Arts"
+  },
+  {
+    "ROW_NUMBER": 670,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10455",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 671,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10455",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 672,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10455",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 673,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10456",
+    "SSRATTR_ATTR_CODE": "3A",
+    "STVATTR_DESC": "IGETC Arts"
+  },
+  {
+    "ROW_NUMBER": 674,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10456",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 675,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10456",
+    "SSRATTR_ATTR_CODE": "C1",
+    "STVATTR_DESC": "CSU Arts"
+  },
+  {
+    "ROW_NUMBER": 676,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10456",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 677,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10456",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 678,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10456",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 679,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10458",
+    "SSRATTR_ATTR_CODE": "1C",
+    "STVATTR_DESC": "IGETC Oral Communication"
+  },
+  {
+    "ROW_NUMBER": 680,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10458",
+    "SSRATTR_ATTR_CODE": "A1",
+    "STVATTR_DESC": "CSU Oral Communication"
+  },
+  {
+    "ROW_NUMBER": 681,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10458",
+    "SSRATTR_ATTR_CODE": "AA2",
+    "STVATTR_DESC": "AA-AS Lan & Rat - Com & Ana Th"
+  },
+  {
+    "ROW_NUMBER": 682,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10458",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 683,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10458",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 684,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10459",
+    "SSRATTR_ATTR_CODE": "3A",
+    "STVATTR_DESC": "IGETC Arts"
+  },
+  {
+    "ROW_NUMBER": 685,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10459",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 686,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10459",
+    "SSRATTR_ATTR_CODE": "C1",
+    "STVATTR_DESC": "CSU Arts"
+  },
+  {
+    "ROW_NUMBER": 687,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10459",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 688,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10459",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 689,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10461",
+    "SSRATTR_ATTR_CODE": "3B",
+    "STVATTR_DESC": "IGETC Humanities"
+  },
+  {
+    "ROW_NUMBER": 690,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10461",
+    "SSRATTR_ATTR_CODE": "AC",
+    "STVATTR_DESC": "AA-AS Arts & Humanities"
+  },
+  {
+    "ROW_NUMBER": 691,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10461",
+    "SSRATTR_ATTR_CODE": "C2",
+    "STVATTR_DESC": "CSU Humanities"
+  },
+  {
+    "ROW_NUMBER": 692,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10461",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 693,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10461",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 694,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10462",
+    "SSRATTR_ATTR_CODE": "1C",
+    "STVATTR_DESC": "IGETC Oral Communication"
+  },
+  {
+    "ROW_NUMBER": 695,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10462",
+    "SSRATTR_ATTR_CODE": "A1",
+    "STVATTR_DESC": "CSU Oral Communication"
+  },
+  {
+    "ROW_NUMBER": 696,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10462",
+    "SSRATTR_ATTR_CODE": "AA2",
+    "STVATTR_DESC": "AA-AS Lan & Rat - Com & Ana Th"
+  },
+  {
+    "ROW_NUMBER": 697,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10462",
+    "SSRATTR_ATTR_CODE": "ACOM",
+    "STVATTR_DESC": "Oral Communication Competency"
+  },
+  {
+    "ROW_NUMBER": 698,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10462",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 699,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10462",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 700,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10462",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 701,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10463",
+    "SSRATTR_ATTR_CODE": "1C",
+    "STVATTR_DESC": "IGETC Oral Communication"
+  },
+  {
+    "ROW_NUMBER": 702,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10463",
+    "SSRATTR_ATTR_CODE": "A1",
+    "STVATTR_DESC": "CSU Oral Communication"
+  },
+  {
+    "ROW_NUMBER": 703,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10463",
+    "SSRATTR_ATTR_CODE": "AA2",
+    "STVATTR_DESC": "AA-AS Lan & Rat - Com & Ana Th"
+  },
+  {
+    "ROW_NUMBER": 704,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10463",
+    "SSRATTR_ATTR_CODE": "ACOM",
+    "STVATTR_DESC": "Oral Communication Competency"
+  },
+  {
+    "ROW_NUMBER": 705,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10463",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 706,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10463",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 707,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10463",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 708,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10464",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 709,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10464",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 710,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10464",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 711,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10464",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 712,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10464",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 713,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10465",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 714,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10465",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 715,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10465",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 716,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10465",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 717,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10465",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 718,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10466",
+    "SSRATTR_ATTR_CODE": "AE",
+    "STVATTR_DESC": "AA-AS Lifelong Learning"
+  },
+  {
+    "ROW_NUMBER": 719,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10466",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 720,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10466",
+    "SSRATTR_ATTR_CODE": "E",
+    "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+  },
+  {
+    "ROW_NUMBER": 721,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10466",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 722,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10466",
+    "SSRATTR_ATTR_CODE": "ZTC",
+    "STVATTR_DESC": "A Zero Textbook Cost"
+  },
+  {
+    "ROW_NUMBER": 723,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10471",
+    "SSRATTR_ATTR_CODE": "2A",
+    "STVATTR_DESC": "IGETC Quantitative Reasoning"
+  },
+  {
+    "ROW_NUMBER": 724,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10471",
+    "SSRATTR_ATTR_CODE": "AA2",
+    "STVATTR_DESC": "AA-AS Lan & Rat - Com & Ana Th"
+  },
+  {
+    "ROW_NUMBER": 725,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10471",
+    "SSRATTR_ATTR_CODE": "AMAT",
+    "STVATTR_DESC": "Mathematics Competency"
+  },
+  {
+    "ROW_NUMBER": 726,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10471",
+    "SSRATTR_ATTR_CODE": "B4",
+    "STVATTR_DESC": "CSU Quantitative Reasoning"
+  },
+  {
+    "ROW_NUMBER": 727,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10471",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 728,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10471",
+    "SSRATTR_ATTR_CODE": "UC",
+    "STVATTR_DESC": "University of California"
+  },
+  {
+    "ROW_NUMBER": 729,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10472",
+    "SSRATTR_ATTR_CODE": "R",
+    "STVATTR_DESC": "Approved for Disabled stu XB08"
+  },
+  {
+    "ROW_NUMBER": 730,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10473",
+    "SSRATTR_ATTR_CODE": "R",
+    "STVATTR_DESC": "Approved for Disabled stu XB08"
+  },
+  {
+    "ROW_NUMBER": 731,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10474",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  },
+  {
+    "ROW_NUMBER": 732,
+    "SSRATTR_TERM_CODE": "202210",
+    "SSRATTR_CRN": "10475",
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "California State University"
+  }
+]

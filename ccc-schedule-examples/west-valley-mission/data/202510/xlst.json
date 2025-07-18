@@ -1,0 +1,203 @@
+
+[
+  {
+    "ROW_NUMBER": 1,
+    "SEARCH_TERM_CODE": "202510",
+    "SEARCH_CRN": "10281",
+    "XLST_GROUP": "1L",
+    "XLST_CRN": "10282",
+    "XLST_SUBJ_CODE": "ETH",
+    "XLST_CRSE_NUMB": "044",
+    "XLST_COURSE_TITLE": "African American History"
+  },
+  {
+    "ROW_NUMBER": 2,
+    "SEARCH_TERM_CODE": "202510",
+    "SEARCH_CRN": "10282",
+    "XLST_GROUP": "1L",
+    "XLST_CRN": "10281",
+    "XLST_SUBJ_CODE": "HIS",
+    "XLST_CRSE_NUMB": "044",
+    "XLST_COURSE_TITLE": "African American History"
+  },
+  {
+    "ROW_NUMBER": 3,
+    "SEARCH_TERM_CODE": "202510",
+    "SEARCH_CRN": "10302",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "10303",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035B",
+    "XLST_COURSE_TITLE": "Weight Training - Beginning"
+  },
+  {
+    "ROW_NUMBER": 4,
+    "SEARCH_TERM_CODE": "202510",
+    "SEARCH_CRN": "10302",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "10304",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035C",
+    "XLST_COURSE_TITLE": "Weight Training - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 5,
+    "SEARCH_TERM_CODE": "202510",
+    "SEARCH_CRN": "10303",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "10302",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035A",
+    "XLST_COURSE_TITLE": "Weight Training - Introduction"
+  },
+  {
+    "ROW_NUMBER": 6,
+    "SEARCH_TERM_CODE": "202510",
+    "SEARCH_CRN": "10303",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "10304",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035C",
+    "XLST_COURSE_TITLE": "Weight Training - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 7,
+    "SEARCH_TERM_CODE": "202510",
+    "SEARCH_CRN": "10304",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "10302",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035A",
+    "XLST_COURSE_TITLE": "Weight Training - Introduction"
+  },
+  {
+    "ROW_NUMBER": 8,
+    "SEARCH_TERM_CODE": "202510",
+    "SEARCH_CRN": "10304",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "10303",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035B",
+    "XLST_COURSE_TITLE": "Weight Training - Beginning"
+  },
+  {
+    "ROW_NUMBER": 9,
+    "SEARCH_TERM_CODE": "202510",
+    "SEARCH_CRN": "10305",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10306",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020B",
+    "XLST_COURSE_TITLE": "Badminton: Beginning"
+  },
+  {
+    "ROW_NUMBER": 10,
+    "SEARCH_TERM_CODE": "202510",
+    "SEARCH_CRN": "10305",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10307",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020C",
+    "XLST_COURSE_TITLE": "Badminton - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 11,
+    "SEARCH_TERM_CODE": "202510",
+    "SEARCH_CRN": "10305",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10308",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020D",
+    "XLST_COURSE_TITLE": "Badminton - Advanced"
+  },
+  {
+    "ROW_NUMBER": 12,
+    "SEARCH_TERM_CODE": "202510",
+    "SEARCH_CRN": "10306",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10305",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020A",
+    "XLST_COURSE_TITLE": "Badminton- Introduction"
+  },
+  {
+    "ROW_NUMBER": 13,
+    "SEARCH_TERM_CODE": "202510",
+    "SEARCH_CRN": "10306",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10307",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020C",
+    "XLST_COURSE_TITLE": "Badminton - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 14,
+    "SEARCH_TERM_CODE": "202510",
+    "SEARCH_CRN": "10306",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10308",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020D",
+    "XLST_COURSE_TITLE": "Badminton - Advanced"
+  },
+  {
+    "ROW_NUMBER": 15,
+    "SEARCH_TERM_CODE": "202510",
+    "SEARCH_CRN": "10307",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10305",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020A",
+    "XLST_COURSE_TITLE": "Badminton- Introduction"
+  },
+  {
+    "ROW_NUMBER": 16,
+    "SEARCH_TERM_CODE": "202510",
+    "SEARCH_CRN": "10307",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10306",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020B",
+    "XLST_COURSE_TITLE": "Badminton: Beginning"
+  },
+  {
+    "ROW_NUMBER": 17,
+    "SEARCH_TERM_CODE": "202510",
+    "SEARCH_CRN": "10307",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10308",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020D",
+    "XLST_COURSE_TITLE": "Badminton - Advanced"
+  },
+  {
+    "ROW_NUMBER": 18,
+    "SEARCH_TERM_CODE": "202510",
+    "SEARCH_CRN": "10308",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10305",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020A",
+    "XLST_COURSE_TITLE": "Badminton- Introduction"
+  },
+  {
+    "ROW_NUMBER": 19,
+    "SEARCH_TERM_CODE": "202510",
+    "SEARCH_CRN": "10308",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10306",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020B",
+    "XLST_COURSE_TITLE": "Badminton: Beginning"
+  },
+  {
+    "ROW_NUMBER": 20,
+    "SEARCH_TERM_CODE": "202510",
+    "SEARCH_CRN": "10308",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10307",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "020C",
+    "XLST_COURSE_TITLE": "Badminton - Intermediate"
+  }
+]

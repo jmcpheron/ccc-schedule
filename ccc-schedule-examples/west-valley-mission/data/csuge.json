@@ -1,0 +1,56 @@
+
+[
+  {
+    "SSRATTR_ATTR_CODE": "CSU",
+    "STVATTR_DESC": "CSU Transfer Only"
+  },
+    {
+      "SSRATTR_ATTR_CODE": "A1",
+      "STVATTR_DESC": "CSU Oral Communication"
+    },
+    {
+      "SSRATTR_ATTR_CODE": "A2",
+      "STVATTR_DESC": "CSU English Composition"
+    },
+    {
+      "SSRATTR_ATTR_CODE": "A3",
+      "STVATTR_DESC": "CSU Critical Thinking"
+    },
+    {
+      "SSRATTR_ATTR_CODE": "B1",
+      "STVATTR_DESC": "CSU Physical Sciences"
+    },
+    {
+      "SSRATTR_ATTR_CODE": "B2",
+      "STVATTR_DESC": "CSU Life Sciences"
+    },
+    {
+      "SSRATTR_ATTR_CODE": "B3",
+      "STVATTR_DESC": "CSU Laboratory Activity"
+    },
+    {
+      "SSRATTR_ATTR_CODE": "B4",
+      "STVATTR_DESC": "CSU Quantitative Reasoning"
+    },
+    {
+      "SSRATTR_ATTR_CODE": "C1",
+      "STVATTR_DESC": "CSU Arts"
+    },
+    {
+      "SSRATTR_ATTR_CODE": "C2",
+      "STVATTR_DESC": "CSU Humanities"
+    },
+    {
+      "SSRATTR_ATTR_CODE": "D",
+      "STVATTR_DESC": "CSU Social & Behavior Sci"
+    },
+    {
+      "SSRATTR_ATTR_CODE": "E",
+      "STVATTR_DESC": "CSU Life Long Learning/SelfDev"
+    },
+    {
+        "SSRATTR_ATTR_CODE": "F",
+        "STVATTR_DESC": "CSU Ethnic Studies"
+      }
+
+  ]

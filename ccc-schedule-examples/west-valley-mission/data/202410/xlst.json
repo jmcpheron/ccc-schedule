@@ -1,0 +1,323 @@
+
+[
+  {
+    "ROW_NUMBER": 1,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10130",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10131",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035B",
+    "XLST_COURSE_TITLE": "Weight Training - Beginning"
+  },
+  {
+    "ROW_NUMBER": 2,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10130",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10132",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035C",
+    "XLST_COURSE_TITLE": "Weight Training - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 3,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10131",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10130",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035A",
+    "XLST_COURSE_TITLE": "Weight Training - Introduction"
+  },
+  {
+    "ROW_NUMBER": 4,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10131",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10132",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035C",
+    "XLST_COURSE_TITLE": "Weight Training - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 5,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10132",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10130",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035A",
+    "XLST_COURSE_TITLE": "Weight Training - Introduction"
+  },
+  {
+    "ROW_NUMBER": 6,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10132",
+    "XLST_GROUP": "6A",
+    "XLST_CRN": "10131",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "035B",
+    "XLST_COURSE_TITLE": "Weight Training - Beginning"
+  },
+  {
+    "ROW_NUMBER": 7,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10133",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "10134",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050B",
+    "XLST_COURSE_TITLE": "Tai Chi - Beginning"
+  },
+  {
+    "ROW_NUMBER": 8,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10133",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "10135",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050C",
+    "XLST_COURSE_TITLE": "Tai Chi - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 9,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10133",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "10136",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050D",
+    "XLST_COURSE_TITLE": "Tai Chi - Advanced"
+  },
+  {
+    "ROW_NUMBER": 10,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10134",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "10133",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050A",
+    "XLST_COURSE_TITLE": "Tai Chi - Introduction"
+  },
+  {
+    "ROW_NUMBER": 11,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10134",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "10135",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050C",
+    "XLST_COURSE_TITLE": "Tai Chi - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 12,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10134",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "10136",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050D",
+    "XLST_COURSE_TITLE": "Tai Chi - Advanced"
+  },
+  {
+    "ROW_NUMBER": 13,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10135",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "10133",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050A",
+    "XLST_COURSE_TITLE": "Tai Chi - Introduction"
+  },
+  {
+    "ROW_NUMBER": 14,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10135",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "10134",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050B",
+    "XLST_COURSE_TITLE": "Tai Chi - Beginning"
+  },
+  {
+    "ROW_NUMBER": 15,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10135",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "10136",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050D",
+    "XLST_COURSE_TITLE": "Tai Chi - Advanced"
+  },
+  {
+    "ROW_NUMBER": 16,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10136",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "10133",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050A",
+    "XLST_COURSE_TITLE": "Tai Chi - Introduction"
+  },
+  {
+    "ROW_NUMBER": 17,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10136",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "10134",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050B",
+    "XLST_COURSE_TITLE": "Tai Chi - Beginning"
+  },
+  {
+    "ROW_NUMBER": 18,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10136",
+    "XLST_GROUP": "6B",
+    "XLST_CRN": "10135",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "050C",
+    "XLST_COURSE_TITLE": "Tai Chi - Intermediate"
+  },
+  {
+    "ROW_NUMBER": 19,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10115",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10127",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "032B",
+    "XLST_COURSE_TITLE": "Cardio and Core Fitness - Begi"
+  },
+  {
+    "ROW_NUMBER": 20,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10115",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10128",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "032C",
+    "XLST_COURSE_TITLE": "Cardio and Core Fitness - Inte"
+  },
+  {
+    "ROW_NUMBER": 21,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10115",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10129",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "032D",
+    "XLST_COURSE_TITLE": "Core and Cardio Fitness - Adva"
+  },
+  {
+    "ROW_NUMBER": 22,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10127",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10115",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "032A",
+    "XLST_COURSE_TITLE": "Cardio and Core Fitness - Intr"
+  },
+  {
+    "ROW_NUMBER": 23,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10127",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10128",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "032C",
+    "XLST_COURSE_TITLE": "Cardio and Core Fitness - Inte"
+  },
+  {
+    "ROW_NUMBER": 24,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10127",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10129",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "032D",
+    "XLST_COURSE_TITLE": "Core and Cardio Fitness - Adva"
+  },
+  {
+    "ROW_NUMBER": 25,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10128",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10115",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "032A",
+    "XLST_COURSE_TITLE": "Cardio and Core Fitness - Intr"
+  },
+  {
+    "ROW_NUMBER": 26,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10128",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10127",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "032B",
+    "XLST_COURSE_TITLE": "Cardio and Core Fitness - Begi"
+  },
+  {
+    "ROW_NUMBER": 27,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10128",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10129",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "032D",
+    "XLST_COURSE_TITLE": "Core and Cardio Fitness - Adva"
+  },
+  {
+    "ROW_NUMBER": 28,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10129",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10115",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "032A",
+    "XLST_COURSE_TITLE": "Cardio and Core Fitness - Intr"
+  },
+  {
+    "ROW_NUMBER": 29,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10129",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10127",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "032B",
+    "XLST_COURSE_TITLE": "Cardio and Core Fitness - Begi"
+  },
+  {
+    "ROW_NUMBER": 30,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10129",
+    "XLST_GROUP": "6C",
+    "XLST_CRN": "10128",
+    "XLST_SUBJ_CODE": "KIN",
+    "XLST_CRSE_NUMB": "032C",
+    "XLST_COURSE_TITLE": "Cardio and Core Fitness - Inte"
+  },
+  {
+    "ROW_NUMBER": 31,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10145",
+    "XLST_GROUP": "PE1",
+    "XLST_CRN": "10146",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "4.30",
+    "XLST_COURSE_TITLE": "Functional Fitness"
+  },
+  {
+    "ROW_NUMBER": 32,
+    "SEARCH_TERM_CODE": "202410",
+    "SEARCH_CRN": "10146",
+    "XLST_GROUP": "PE1",
+    "XLST_CRN": "10145",
+    "XLST_SUBJ_CODE": "KINS",
+    "XLST_CRSE_NUMB": "4.07",
+    "XLST_COURSE_TITLE": "Fitness Competitive Athlete"
+  }
+]
