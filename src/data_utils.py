@@ -89,9 +89,7 @@ def filter_courses_by_units(
         Filtered list of courses
     """
     return [
-        course
-        for course in courses
-        if min_units <= course.get("units", 0) <= max_units
+        course for course in courses if min_units <= course.get("units", 0) <= max_units
     ]
 
 
@@ -126,10 +124,10 @@ def load_schedule_data(file_path: Union[str, Path]) -> Schedule:
                 name=college["name"],
                 abbreviation=college["abbreviation"],
                 logo_url=college["logo_url"],
-                theme=CollegeTheme(**college["theme"])
+                theme=CollegeTheme(**college["theme"]),
             )
             for college in meta_data.get("colleges", [])
-        ]
+        ],
     )
 
     # Parse subjects
@@ -150,7 +148,7 @@ def load_schedule_data(file_path: Union[str, Path]) -> Schedule:
                     days=meeting_data["days"],
                     start_time=meeting_data["start_time"],
                     end_time=meeting_data["end_time"],
-                    location=Location(**meeting_data["location"])
+                    location=Location(**meeting_data["location"]),
                 )
                 meetings.append(meeting)
 
@@ -167,7 +165,7 @@ def load_schedule_data(file_path: Union[str, Path]) -> Schedule:
                 dates=SectionDates(**section_data["dates"]),
                 textbook=Textbook(**section_data["textbook"]),
                 notes=section_data.get("notes", ""),
-                fees=section_data.get("fees", 0.0)
+                fees=section_data.get("fees", 0.0),
             )
             sections.append(section)
 
@@ -180,11 +178,11 @@ def load_schedule_data(file_path: Union[str, Path]) -> Schedule:
                 general_education=GeneralEducation(
                     csu_area=attr_data["general_education"].get("csu_area", []),
                     igetc_area=attr_data["general_education"].get("igetc_area", []),
-                    local=attr_data["general_education"].get("local", [])
+                    local=attr_data["general_education"].get("local", []),
                 ),
                 c_id=attr_data.get("c_id"),
                 degree_applicable=attr_data.get("degree_applicable", True),
-                basic_skills=attr_data.get("basic_skills", False)
+                basic_skills=attr_data.get("basic_skills", False),
             )
 
         course = Course(
@@ -199,15 +197,12 @@ def load_schedule_data(file_path: Union[str, Path]) -> Schedule:
             corequisites=course_data.get("corequisites", ""),
             advisory=course_data.get("advisory", ""),
             attributes=attributes,
-            sections=sections
+            sections=sections,
         )
         courses.append(course)
 
     return Schedule(
-        metadata=metadata,
-        subjects=subjects,
-        instructors=instructors,
-        courses=courses
+        metadata=metadata, subjects=subjects, instructors=instructors, courses=courses
     )
 
 
@@ -251,27 +246,46 @@ def filter_courses(courses: list[Course], filters: FilterOptions) -> list[Course
             continue
 
         # Check transferable filter
-        if filters.transferable and course.attributes and \
-           ((filters.transferable == "CSU" and not course.attributes.transferable.csu) or
-            (filters.transferable == "UC" and not course.attributes.transferable.uc)):
+        if (
+            filters.transferable
+            and course.attributes
+            and (
+                (
+                    filters.transferable == "CSU"
+                    and not course.attributes.transferable.csu
+                )
+                or (
+                    filters.transferable == "UC"
+                    and not course.attributes.transferable.uc
+                )
+            )
+        ):
             continue
 
         # Check GE area filter
-        if filters.ge_area and course.attributes and course.attributes.general_education:
+        if (
+            filters.ge_area
+            and course.attributes
+            and course.attributes.general_education
+        ):
             ge = course.attributes.general_education
-            if not any([
-                filters.ge_area in ge.csu_area,
-                filters.ge_area in ge.igetc_area,
-                filters.ge_area in ge.local
-            ]):
+            if not any(
+                [
+                    filters.ge_area in ge.csu_area,
+                    filters.ge_area in ge.igetc_area,
+                    filters.ge_area in ge.local,
+                ]
+            ):
                 continue
 
         # Check keyword in title or description
         if filters.keyword:
             keyword_lower = filters.keyword.lower()
-            if not (keyword_lower in course.title.lower() or
-                    keyword_lower in course.description.lower() or
-                    keyword_lower in course.course_key.lower()):
+            if not (
+                keyword_lower in course.title.lower()
+                or keyword_lower in course.description.lower()
+                or keyword_lower in course.course_key.lower()
+            ):
                 continue
 
         # Now check section-level filters
@@ -286,7 +300,10 @@ def filter_courses(courses: list[Course], filters: FilterOptions) -> list[Course
                 continue
 
             # Instruction mode filter
-            if filters.instruction_mode and section.instruction_mode != filters.instruction_mode:
+            if (
+                filters.instruction_mode
+                and section.instruction_mode != filters.instruction_mode
+            ):
                 continue
 
             # Open only filter
@@ -294,7 +311,10 @@ def filter_courses(courses: list[Course], filters: FilterOptions) -> list[Course
                 continue
 
             # Textbook cost filter
-            if filters.textbook_cost and section.textbook.cost_category != filters.textbook_cost:
+            if (
+                filters.textbook_cost
+                and section.textbook.cost_category != filters.textbook_cost
+            ):
                 continue
 
             # Days filter
@@ -335,7 +355,7 @@ def filter_courses(courses: list[Course], filters: FilterOptions) -> list[Course
                 corequisites=course.corequisites,
                 advisory=course.advisory,
                 attributes=course.attributes,
-                sections=filtered_sections
+                sections=filtered_sections,
             )
             filtered_courses.append(course_copy)
 
@@ -357,7 +377,7 @@ def get_unique_values(schedule: Schedule) -> dict[str, list[str]]:
         "subjects": [],
         "instruction_modes": set(),
         "textbook_costs": set(),
-        "ge_areas": set()
+        "ge_areas": set(),
     }
 
     # Get terms and colleges from metadata
@@ -385,4 +405,3 @@ def get_unique_values(schedule: Schedule) -> dict[str, list[str]]:
     unique_values["ge_areas"] = sorted(unique_values["ge_areas"])
 
     return unique_values
-
