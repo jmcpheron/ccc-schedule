@@ -9,7 +9,7 @@ This guide provides detailed instructions for setting up a test branch, loading 
 3. [Setting Up Local Development](#setting-up-local-development)
 4. [Loading College-Specific Data](#loading-college-specific-data)
 5. [Running the Application Locally](#running-the-application-locally)
-6. [Complete Example: Mountain View College](#complete-example-mountain-view-college)
+6. [Complete Example: Sample Community College](#complete-example-mountain-view-college)
 7. [Troubleshooting](#troubleshooting)
 8. [Contributing Your Changes](#contributing-your-changes)
 
@@ -18,11 +18,11 @@ This guide provides detailed instructions for setting up a test branch, loading 
 For the fastest setup, use our automated script:
 
 ```bash
-# Set up for "Mountain View College"
-python scripts/setup-local-college.py "Mountain View College"
+# Set up for "Example College"
+python scripts/setup-local-college.py "Example College"
 
 # With custom options
-python scripts/setup-local-college.py "West Valley College" --college-id wvc --port 8080
+python scripts/setup-local-college.py "Sample Community College" --college-id scc --port 8080
 ```
 
 This script will:
@@ -77,9 +77,9 @@ Use a naming convention that identifies your college:
 git checkout -b test/college-name
 
 # Examples:
-# git checkout -b test/west-valley
-# git checkout -b test/mission-college
-# git checkout -b test/de-anza
+# git checkout -b test/example-college
+# git checkout -b test/sample-cc
+# git checkout -b test/demo-college
 ```
 
 ### 4. Keep Your Branch Updated
@@ -269,19 +269,19 @@ $.getJSON('data/courses.json')
 $.getJSON('data/my-college.json')
 ```
 
-## Complete Example: Mountain View College
+## Complete Example: Sample Community College
 
-Let's walk through setting up a complete test environment for a fictional "Mountain View College":
+Let's walk through setting up a complete test environment for a fictional college:
 
 ### 1. Create the Branch
 
 ```bash
-git checkout -b test/mountain-view-college
+git checkout -b test/sample-college
 ```
 
 ### 2. Create College Data
 
-Create `data/mountain-view.json`:
+Create `data/sample-college.json`:
 
 ```json
 {
@@ -293,7 +293,7 @@ Create `data/mountain-view.json`:
       "title": "Introduction to Programming",
       "units": 3,
       "description": "Learn the fundamentals of programming using Python",
-      "college": "Mountain View College",
+      "college": "Sample Community College",
       "term": "Spring 2025",
       "creditType": "CR",
       "transferable": true,
@@ -301,7 +301,7 @@ Create `data/mountain-view.json`:
         {
           "crn": "20001",
           "instructorName": "Dr. Emily Chen",
-          "instructorEmail": "echen@mvc.edu",
+          "instructorEmail": "echen@samplecc.edu",
           "instrMethod": "INP",
           "days": "MW",
           "startTime": "10:00",
@@ -318,7 +318,7 @@ Create `data/mountain-view.json`:
         {
           "crn": "20002",
           "instructorName": "Prof. James Wilson",
-          "instructorEmail": "jwilson@mvc.edu",
+          "instructorEmail": "jwilson@samplecc.edu",
           "instrMethod": "ONL",
           "days": "Asynchronous",
           "startTime": "",
@@ -341,7 +341,7 @@ Create `data/mountain-view.json`:
       "title": "College Algebra",
       "units": 4,
       "description": "Functions, equations, and graphs; polynomial and rational functions",
-      "college": "Mountain View College",
+      "college": "Sample Community College",
       "term": "Spring 2025",
       "creditType": "CR",
       "transferable": true,
@@ -349,7 +349,7 @@ Create `data/mountain-view.json`:
         {
           "crn": "20101",
           "instructorName": "Dr. Sarah Martinez",
-          "instructorEmail": "smartinez@mvc.edu",
+          "instructorEmail": "smartinez@samplecc.edu",
           "instrMethod": "HYB",
           "days": "TR",
           "startTime": "14:00",
@@ -376,7 +376,7 @@ Edit `js/schedule-enhanced.js`:
 
 ```javascript
 // Line ~131
-$.getJSON('data/mountain-view.json')
+$.getJSON('data/sample-college.json')
 ```
 
 ### 4. Customize Branding (Optional)
@@ -385,13 +385,13 @@ Update `index.html`:
 
 ```html
 <!-- Update the title -->
-<title>Mountain View College - Class Schedule</title>
+<title>Sample Community College - Class Schedule</title>
 
 <!-- Update the navbar brand -->
-<a class="navbar-brand" href="#">Mountain View College Schedule</a>
+<a class="navbar-brand" href="#">Sample Community College Schedule</a>
 
 <!-- Update the demo alert -->
-<strong>Mountain View College Schedule Demo</strong>
+<strong>Sample Community College Schedule Demo</strong>
 ```
 
 ### 5. Start Local Server
@@ -463,7 +463,7 @@ git add data/my-college.json
 git add any-other-modified-files
 
 # Commit with a descriptive message
-git commit -m "Add Mountain View College course data and configuration"
+git commit -m "Add Sample Community College course data and configuration"
 ```
 
 ### 2. Push to Your Fork

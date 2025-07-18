@@ -146,11 +146,11 @@ def main():
     )
     parser.add_argument(
         "college_name",
-        help="Full name of the college (e.g., 'Mountain View College')"
+        help="Full name of the college (e.g., 'Sample Community College')"
     )
     parser.add_argument(
         "--college-id",
-        help="Short identifier for files (e.g., 'mvc'). Defaults to college name.",
+        help="Short identifier for files (e.g., 'scc'). Defaults to college name.",
         default=None
     )
     parser.add_argument(
