@@ -402,6 +402,21 @@ caption {
     font-weight: bold;
 }
 
+/* Demo Alert Styles */
+.alert-info {
+    background-color: #e3f2fd;
+    border-color: #90caf9;
+    color: #0d47a1;
+}
+
+.alert-info .bi-info-circle-fill {
+    color: #1976d2;
+}
+
+.alert-info strong {
+    color: #0d47a1;
+}
+
 /* Footer Styles */
 html {
     position: relative;
