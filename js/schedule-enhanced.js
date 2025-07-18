@@ -27,6 +27,14 @@ function initializeEventHandlers() {
         performSearch();
     });
     
+    // Keyup search functionality - match production behavior
+    $('#search_input_main').on('keyup', function() {
+        // Only trigger search if length is not 1 (to avoid searching on single character)
+        if ($(this).val().length !== 1) {
+            performSearch();
+        }
+    });
+    
     // Search buttons
     $('#button-search').on('click', function(e) {
         e.preventDefault();
@@ -107,15 +115,25 @@ function initializeEventHandlers() {
  * Load initial data
  */
 function loadInitialData() {
+    // Get spinner modal instance using Bootstrap 5 API
+    const spinnerModalElement = document.getElementById('spinner-modal');
+    const spinnerModal = new bootstrap.Modal(spinnerModalElement);
+    
     // Show loading spinner
-    $('#spinner-modal').modal('show');
+    spinnerModal.show();
+    
+    // Set a timeout to hide spinner after 500ms (matching production behavior)
+    setTimeout(function() {
+        spinnerModal.hide();
+    }, 500);
     
     // Load course data
     $.getJSON('data/courses.json')
         .done(function(data) {
             allCourses = data.courses || [];
             populateDropdowns();
-            $('#spinner-modal').modal('hide');
+            // Ensure spinner is hidden
+            spinnerModal.hide();
         })
         .fail(function() {
             // Try loading example data
@@ -123,10 +141,10 @@ function loadInitialData() {
                 .done(function(data) {
                     allCourses = data.courses || [];
                     populateDropdowns();
-                    $('#spinner-modal').modal('hide');
+                    spinnerModal.hide();
                 })
                 .fail(function() {
-                    $('#spinner-modal').modal('hide');
+                    spinnerModal.hide();
                     alert('Failed to load course data');
                 });
         });
