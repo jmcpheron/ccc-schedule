@@ -1,6 +1,5 @@
 """Tests for search and filter functionality."""
 
-
 import pytest
 
 
