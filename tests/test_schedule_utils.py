@@ -43,8 +43,18 @@ class TestScheduleUtils:
             version="1.0.0",
             last_updated=datetime.now().isoformat(),
             terms=[
-                Term(code="202530", name="Spring 2025", start_date="2025-01-20", end_date="2025-05-25"),
-                Term(code="202540", name="Summer 2025", start_date="2025-06-01", end_date="2025-08-15")
+                Term(
+                    code="202530",
+                    name="Spring 2025",
+                    start_date="2025-01-20",
+                    end_date="2025-05-25",
+                ),
+                Term(
+                    code="202540",
+                    name="Summer 2025",
+                    start_date="2025-06-01",
+                    end_date="2025-08-15",
+                ),
             ],
             colleges=[
                 College(
@@ -52,27 +62,38 @@ class TestScheduleUtils:
                     name="Main Campus",
                     abbreviation="MC",
                     logo_url="/logo.png",
-                    theme=CollegeTheme(primary_color="#003366", secondary_color="#0066CC")
+                    theme=CollegeTheme(
+                        primary_color="#003366", secondary_color="#0066CC"
+                    ),
                 ),
                 College(
                     id="west",
                     name="West Campus",
                     abbreviation="WC",
                     logo_url="/logo-west.png",
-                    theme=CollegeTheme(primary_color="#660033", secondary_color="#CC0066")
-                )
-            ]
+                    theme=CollegeTheme(
+                        primary_color="#660033", secondary_color="#CC0066"
+                    ),
+                ),
+            ],
         )
 
         subjects = [
             Subject(code="CS", name="Computer Science", department="STEM"),
             Subject(code="MATH", name="Mathematics", department="STEM"),
-            Subject(code="ENG", name="English", department="Liberal Arts")
+            Subject(code="ENG", name="English", department="Liberal Arts"),
         ]
 
         instructors = [
-            Instructor(id="1", name="Smith, John", email="jsmith@example.edu", departments=["CS"]),
-            Instructor(id="2", name="Doe, Jane", email="jdoe@example.edu", departments=["MATH"])
+            Instructor(
+                id="1",
+                name="Smith, John",
+                email="jsmith@example.edu",
+                departments=["CS"],
+            ),
+            Instructor(
+                id="2", name="Doe, Jane", email="jdoe@example.edu", departments=["MATH"]
+            ),
         ]
 
         # Create courses with different attributes for testing
@@ -87,8 +108,10 @@ class TestScheduleUtils:
                 unit_type="semester",
                 attributes=CourseAttributes(
                     transferable=Transferable(csu=True, uc=True, private=False),
-                    general_education=GeneralEducation(csu_area=["B4"], igetc_area=["2A"]),
-                    degree_applicable=True
+                    general_education=GeneralEducation(
+                        csu_area=["B4"], igetc_area=["2A"]
+                    ),
+                    degree_applicable=True,
                 ),
                 sections=[
                     Section(
@@ -98,17 +121,27 @@ class TestScheduleUtils:
                         college="main",
                         instruction_mode="In Person",
                         status="Open",
-                        enrollment=Enrollment(enrolled=24, capacity=30, waitlist=0, waitlist_capacity=5),
-                        meetings=[Meeting(
-                            type="Lecture",
-                            days=["M", "W"],
-                            start_time="09:00",
-                            end_time="10:30",
-                            location=Location(building="Science", room="101", campus="Main")
-                        )],
+                        enrollment=Enrollment(
+                            enrolled=24, capacity=30, waitlist=0, waitlist_capacity=5
+                        ),
+                        meetings=[
+                            Meeting(
+                                type="Lecture",
+                                days=["M", "W"],
+                                start_time="09:00",
+                                end_time="10:30",
+                                location=Location(
+                                    building="Science", room="101", campus="Main"
+                                ),
+                            )
+                        ],
                         instructors=["1"],
-                        dates=SectionDates(start="2025-01-20", end="2025-05-25", duration_weeks=16),
-                        textbook=Textbook(required=True, cost_category="Low", details="OER")
+                        dates=SectionDates(
+                            start="2025-01-20", end="2025-05-25", duration_weeks=16
+                        ),
+                        textbook=Textbook(
+                            required=True, cost_category="Low", details="OER"
+                        ),
                     ),
                     Section(
                         crn="12346",
@@ -117,13 +150,19 @@ class TestScheduleUtils:
                         college="main",
                         instruction_mode="Online",
                         status="Closed",
-                        enrollment=Enrollment(enrolled=30, capacity=30, waitlist=5, waitlist_capacity=10),
+                        enrollment=Enrollment(
+                            enrolled=30, capacity=30, waitlist=5, waitlist_capacity=10
+                        ),
                         meetings=[],
                         instructors=["1"],
-                        dates=SectionDates(start="2025-01-20", end="2025-05-25", duration_weeks=16),
-                        textbook=Textbook(required=False, cost_category="Zero", details="No textbook")
-                    )
-                ]
+                        dates=SectionDates(
+                            start="2025-01-20", end="2025-05-25", duration_weeks=16
+                        ),
+                        textbook=Textbook(
+                            required=False, cost_category="Zero", details="No textbook"
+                        ),
+                    ),
+                ],
             ),
             Course(
                 course_key="MATH-120",
@@ -135,8 +174,10 @@ class TestScheduleUtils:
                 unit_type="semester",
                 attributes=CourseAttributes(
                     transferable=Transferable(csu=True, uc=True, private=True),
-                    general_education=GeneralEducation(csu_area=["B4"], igetc_area=["2"]),
-                    degree_applicable=True
+                    general_education=GeneralEducation(
+                        csu_area=["B4"], igetc_area=["2"]
+                    ),
+                    degree_applicable=True,
                 ),
                 sections=[
                     Section(
@@ -146,27 +187,39 @@ class TestScheduleUtils:
                         college="west",
                         instruction_mode="Hybrid",
                         status="Open",
-                        enrollment=Enrollment(enrolled=18, capacity=25, waitlist=0, waitlist_capacity=5),
-                        meetings=[Meeting(
-                            type="Lecture",
-                            days=["T", "R"],
-                            start_time="14:00",
-                            end_time="15:30",
-                            location=Location(building="Math", room="200", campus="West")
-                        )],
+                        enrollment=Enrollment(
+                            enrolled=18, capacity=25, waitlist=0, waitlist_capacity=5
+                        ),
+                        meetings=[
+                            Meeting(
+                                type="Lecture",
+                                days=["T", "R"],
+                                start_time="14:00",
+                                end_time="15:30",
+                                location=Location(
+                                    building="Math", room="200", campus="West"
+                                ),
+                            )
+                        ],
                         instructors=["2"],
-                        dates=SectionDates(start="2025-01-20", end="2025-05-25", duration_weeks=16),
-                        textbook=Textbook(required=True, cost_category="High", details="Required textbook")
+                        dates=SectionDates(
+                            start="2025-01-20", end="2025-05-25", duration_weeks=16
+                        ),
+                        textbook=Textbook(
+                            required=True,
+                            cost_category="High",
+                            details="Required textbook",
+                        ),
                     )
-                ]
-            )
+                ],
+            ),
         ]
 
         return Schedule(
             metadata=metadata,
             subjects=subjects,
             instructors=instructors,
-            courses=courses
+            courses=courses,
         )
 
     def test_save_and_load_schedule(self, tmp_path, sample_schedule):
@@ -297,7 +350,7 @@ class TestScheduleUtils:
             instruction_mode="In Person",
             open_only=True,
             units_min=3.0,
-            units_max=3.0
+            units_max=3.0,
         )
         filtered = filter_courses(sample_schedule.courses, filters)
 
@@ -333,11 +386,11 @@ class TestScheduleUtils:
                     "version": "1.0.0",
                     "last_updated": datetime.now().isoformat(),
                     "terms": [],
-                    "colleges": []
+                    "colleges": [],
                 },
                 "subjects": [],
                 "instructors": [],
-                "courses": []
+                "courses": [],
             }
         }
 
@@ -347,4 +400,3 @@ class TestScheduleUtils:
 
         schedule = load_schedule_data(file_path)
         assert schedule.metadata.version == "1.0.0"
-

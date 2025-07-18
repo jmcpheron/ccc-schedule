@@ -155,4 +155,3 @@ class TestFilterCoursesByUnits:
             sample_courses, min_units=min_units, max_units=max_units
         )
         assert len(result) == expected_count
-

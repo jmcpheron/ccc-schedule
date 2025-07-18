@@ -31,11 +31,29 @@ from .models import (
 )
 
 __all__ = [
-    'Term', 'CollegeTheme', 'College', 'Metadata', 'Subject', 'Instructor',
-    'Transferable', 'GeneralEducation', 'CourseAttributes', 'Enrollment',
-    'Location', 'Meeting', 'SectionDates', 'Textbook', 'Section', 'Course',
-    'Schedule', 'FilterOptions',
-    'load_json_data', 'validate_course_data', 'filter_courses_by_units',
-    'load_schedule_data', 'save_schedule_data', 'filter_courses', 'get_unique_values'
+    "Term",
+    "CollegeTheme",
+    "College",
+    "Metadata",
+    "Subject",
+    "Instructor",
+    "Transferable",
+    "GeneralEducation",
+    "CourseAttributes",
+    "Enrollment",
+    "Location",
+    "Meeting",
+    "SectionDates",
+    "Textbook",
+    "Section",
+    "Course",
+    "Schedule",
+    "FilterOptions",
+    "load_json_data",
+    "validate_course_data",
+    "filter_courses_by_units",
+    "load_schedule_data",
+    "save_schedule_data",
+    "filter_courses",
+    "get_unique_values",
 ]
-
