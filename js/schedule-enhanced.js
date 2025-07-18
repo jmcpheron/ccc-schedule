@@ -11,6 +11,7 @@ const resultsPerPage = 20;
 
 // Initialize on document ready
 $(document).ready(function() {
+    initializeTheme();
     initializeEventHandlers();
     loadInitialData();
     setupTimeSliders();
@@ -18,9 +19,58 @@ $(document).ready(function() {
 });
 
 /**
+ * Initialize theme based on user preference or system
+ */
+function initializeTheme() {
+    // Check localStorage for saved theme preference
+    const savedTheme = localStorage.getItem('theme');
+    
+    if (savedTheme) {
+        setTheme(savedTheme);
+    } else {
+        // Check system preference
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        setTheme(prefersDark ? 'dark' : 'light');
+    }
+}
+
+/**
+ * Set the theme and update UI
+ */
+function setTheme(theme) {
+    if (theme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        $('#theme-toggle .bi-moon-fill').addClass('d-none');
+        $('#theme-toggle .bi-sun-fill').removeClass('d-none');
+        
+        // Update Bootstrap classes
+        $('.navbar').removeClass('navbar-light').addClass('navbar-dark');
+        $('.btn-outline-secondary').removeClass('btn-outline-secondary').addClass('btn-outline-light');
+    } else {
+        document.documentElement.removeAttribute('data-theme');
+        $('#theme-toggle .bi-sun-fill').addClass('d-none');
+        $('#theme-toggle .bi-moon-fill').removeClass('d-none');
+        
+        // Update Bootstrap classes
+        $('.navbar').removeClass('navbar-dark').addClass('navbar-light');
+        $('.btn-outline-light').removeClass('btn-outline-light').addClass('btn-outline-secondary');
+    }
+    
+    // Save preference
+    localStorage.setItem('theme', theme);
+}
+
+/**
  * Initialize all event handlers
  */
 function initializeEventHandlers() {
+    // Theme toggle
+    $('#theme-toggle').on('click', function() {
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        setTheme(newTheme);
+    });
+    
     // Search form submission
     $('#search-form').on('submit', function(e) {
         e.preventDefault();
