@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Santa Monica College - Course Schedule Demo</title>
+    
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../../css/schedule.css">
+    
+    <style>
+        /* Demo-specific styling */
+        .demo-banner {
+            background-color: #004080;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .navbar {
+            background-color: #f8f9fa !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- Demo Banner -->
+    <div class="demo-banner">
+        <div class="container">
+            <h5 class="mb-0">🎓 CCC Schedule Integration Demo - Santa Monica College</h5>
+            <small>This demonstrates how your college schedule could look with minimal setup</small>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-light bg-light" id="top-navbar" aria-label="navigation">
+        <div class="container">
+            <div class="mx-auto">
+                <h2 class="text-primary mb-0">Santa Monica College</h2>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Search Container -->
+    <div class="container">
+        <div class="mt-4">
+            <!-- Demo Notice -->
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <div class="d-flex align-items-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-info-circle-fill me-3 flex-shrink-0" viewBox="0 0 16 16">
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                    </svg>
+                    <div>
+                        <strong>Demo Integration Example</strong><br>
+                        This page shows sample course data scraped from a public website. 
+                        The scraper (see <code>scraper.py</code>) runs periodically to keep data current.
+                        No API access or internal changes required!
+                    </div>
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+
+            <form id="search-form" action=".">
+                <div class="row align-items-end">
+                    <div class="col-12">
+                        <label for="q" class="form-label">Search Courses</label>
+                        <input type="text" class="form-control" id="q" name="q" 
+                               placeholder="Search by course name, number, or description...">
+                    </div>
+                </div>
+                
+                <div class="row mt-3">
+                    <div class="col-md-4">
+                        <label for="subject" class="form-label">Subject</label>
+                        <select class="form-select" id="subject" name="subject">
+                            <option value="">All Subjects</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="units" class="form-label">Units</label>
+                        <select class="form-select" id="units" name="units">
+                            <option value="">Any Units</option>
+                            <option value="1">1 Unit</option>
+                            <option value="2">2 Units</option>
+                            <option value="3">3 Units</option>
+                            <option value="4">4 Units</option>
+                            <option value="5">5 Units</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="status" class="form-label">Status</label>
+                        <select class="form-select" id="status" name="status">
+                            <option value="">All Sections</option>
+                            <option value="open">Open Only</option>
+                            <option value="closed">Closed Only</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Search</button>
+                        <button type="button" class="btn btn-secondary" id="reset-filters">Reset</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Results Container -->
+        <div id="results-container" class="mt-4">
+            <div id="results-info" class="mb-3"></div>
+            <div id="results" class="row"></div>
+            <nav id="pagination" aria-label="Search results pagination"></nav>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <p class="mb-0">CCC Schedule Demo - Data scraped from public sources</p>
+            <small>This is a demonstration. For official enrollment, visit your college's registration system.</small>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script>
+        // Load and display the course data
+        let allCourses = [];
+        let currentPage = 1;
+        const coursesPerPage = 10;
+
+        // Load course data on page load
+        $(document).ready(function() {
+            loadCourseData();
+            setupEventHandlers();
+        });
+
+        function loadCourseData() {
+            $.getJSON('data/courses.json', function(data) {
+                allCourses = data.courses || [];
+                populateFilters(data);
+                displayCourses();
+            }).fail(function() {
+                $('#results').html('<div class="alert alert-danger">Failed to load course data. Please try again later.</div>');
+            });
+        }
+
+        function populateFilters(data) {
+            // Populate subject filter
+            const subjects = data.subjects || [];
+            const subjectSelect = $('#subject');
+            subjects.forEach(subject => {
+                subjectSelect.append(`<option value="${subject.code}">${subject.name} (${subject.code})</option>`);
+            });
+        }
+
+        function setupEventHandlers() {
+            $('#search-form').on('submit', function(e) {
+                e.preventDefault();
+                currentPage = 1;
+                displayCourses();
+            });
+
+            $('#reset-filters').on('click', function() {
+                $('#search-form')[0].reset();
+                currentPage = 1;
+                displayCourses();
+            });
+        }
+
+        function filterCourses() {
+            const searchTerm = $('#q').val().toLowerCase();
+            const selectedSubject = $('#subject').val();
+            const selectedUnits = $('#units').val();
+            const selectedStatus = $('#status').val();
+
+            return allCourses.filter(course => {
+                // Search filter
+                if (searchTerm && !courseMatchesSearch(course, searchTerm)) {
+                    return false;
+                }
+
+                // Subject filter
+                if (selectedSubject && course.subject !== selectedSubject) {
+                    return false;
+                }
+
+                // Units filter
+                if (selectedUnits && course.units !== selectedUnits + '.0') {
+                    return false;
+                }
+
+                // Status filter
+                if (selectedStatus) {
+                    const hasMatchingSection = course.sections.some(section => {
+                        if (selectedStatus === 'open') {
+                            return section.enrollment.status === 'Open';
+                        } else if (selectedStatus === 'closed') {
+                            return section.enrollment.status === 'Closed';
+                        }
+                        return true;
+                    });
+                    if (!hasMatchingSection) {
+                        return false;
+                    }
+                }
+
+                return true;
+            });
+        }
+
+        function courseMatchesSearch(course, searchTerm) {
+            return course.title.toLowerCase().includes(searchTerm) ||
+                   course.courseNumber.toLowerCase().includes(searchTerm) ||
+                   course.courseKey.toLowerCase().includes(searchTerm) ||
+                   course.description.toLowerCase().includes(searchTerm);
+        }
+
+        function displayCourses() {
+            const filteredCourses = filterCourses();
+            const totalCourses = filteredCourses.length;
+            const totalPages = Math.ceil(totalCourses / coursesPerPage);
+            
+            // Calculate pagination
+            const startIndex = (currentPage - 1) * coursesPerPage;
+            const endIndex = startIndex + coursesPerPage;
+            const coursesToDisplay = filteredCourses.slice(startIndex, endIndex);
+
+            // Update results info
+            $('#results-info').html(`<strong>${totalCourses}</strong> courses found`);
+
+            // Display courses
+            const resultsContainer = $('#results');
+            resultsContainer.empty();
+
+            if (coursesToDisplay.length === 0) {
+                resultsContainer.html('<div class="col-12"><div class="alert alert-info">No courses found matching your criteria.</div></div>');
+                $('#pagination').empty();
+                return;
+            }
+
+            coursesToDisplay.forEach(course => {
+                resultsContainer.append(createCourseCard(course));
+            });
+
+            // Update pagination
+            updatePagination(totalPages);
+        }
+
+        function createCourseCard(course) {
+            const sectionsHtml = course.sections.map(section => {
+                const statusClass = section.enrollment.status === 'Open' ? 'text-success' : 'text-danger';
+                return `
+                    <div class="section-info mb-2 p-2 border-start border-3">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <strong>Section ${section.sectionNumber}</strong> (CRN: ${section.crn})<br>
+                                ${section.instructor}<br>
+                                ${section.schedule.days} ${section.schedule.time}<br>
+                                ${section.schedule.location}
+                            </div>
+                            <div class="text-end">
+                                <span class="${statusClass}">${section.enrollment.status}</span><br>
+                                ${section.enrollment.enrolled}/${section.enrollment.seats} enrolled<br>
+                                ${section.enrollment.waitlist > 0 ? `Waitlist: ${section.enrollment.waitlist}` : ''}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            return `
+                <div class="col-12 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">${course.courseKey}: ${course.title}</h5>
+                            <p class="card-text">
+                                <strong>Units:</strong> ${course.units}<br>
+                                <strong>Description:</strong> ${course.description}
+                            </p>
+                            <h6>Sections:</h6>
+                            ${sectionsHtml}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function updatePagination(totalPages) {
+            const pagination = $('#pagination');
+            pagination.empty();
+
+            if (totalPages <= 1) return;
+
+            const ul = $('<ul class="pagination justify-content-center"></ul>');
+
+            // Previous button
+            ul.append(`
+                <li class="page-item ${currentPage === 1 ? 'disabled' : ''}">
+                    <a class="page-link" href="#" data-page="${currentPage - 1}">Previous</a>
+                </li>
+            `);
+
+            // Page numbers
+            for (let i = 1; i <= totalPages; i++) {
+                if (i === 1 || i === totalPages || (i >= currentPage - 2 && i <= currentPage + 2)) {
+                    ul.append(`
+                        <li class="page-item ${i === currentPage ? 'active' : ''}">
+                            <a class="page-link" href="#" data-page="${i}">${i}</a>
+                        </li>
+                    `);
+                } else if (i === currentPage - 3 || i === currentPage + 3) {
+                    ul.append('<li class="page-item disabled"><span class="page-link">...</span></li>');
+                }
+            }
+
+            // Next button
+            ul.append(`
+                <li class="page-item ${currentPage === totalPages ? 'disabled' : ''}">
+                    <a class="page-link" href="#" data-page="${currentPage + 1}">Next</a>
+                </li>
+            `);
+
+            pagination.append(ul);
+
+            // Add click handlers
+            pagination.find('a.page-link').on('click', function(e) {
+                e.preventDefault();
+                const page = parseInt($(this).data('page'));
+                if (page && page !== currentPage) {
+                    currentPage = page;
+                    displayCourses();
+                    window.scrollTo(0, 0);
+                }
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "college": "Santa Monica College",
+    "term": "Spring 2025",
+    "lastUpdated": "2025-07-18T17:52:41.678401",
+    "source": "Web Scraper Demo"
+  },
+  "subjects": [
+    {
+      "code": "CS",
+      "name": "Computer Science"
+    },
+    {
+      "code": "MATH",
+      "name": "Mathematics"
+    },
+    {
+      "code": "ENGL",
+      "name": "English"
+    },
+    {
+      "code": "BIO",
+      "name": "Biology"
+    }
+  ],
+  "instructors": [
+    {
+      "name": "Dr. Smith, Jane",
+      "email": "dr..smith.jane@smc.edu"
+    },
+    {
+      "name": "Prof. Johnson, Mike",
+      "email": "prof..johnson.mike@smc.edu"
+    },
+    {
+      "name": "Dr. Chen, Li",
+      "email": "dr..chen.li@smc.edu"
+    },
+    {
+      "name": "Prof. Williams, Sarah",
+      "email": "prof..williams.sarah@smc.edu"
+    },
+    {
+      "name": "Dr. Davis, Robert",
+      "email": "dr..davis.robert@smc.edu"
+    },
+    {
+      "name": "Dr. Martinez, Ana",
+      "email": "dr..martinez.ana@smc.edu"
+    }
+  ],
+  "courses": [
+    {
+      "courseKey": "CS-101",
+      "subject": "CS",
+      "courseNumber": "101",
+      "title": "Introduction to Computer Science",
+      "units": "3.0",
+      "description": "An introduction to computer science and programming fundamentals.",
+      "sections": [
+        {
+          "sectionNumber": "1001",
+          "crn": "12345",
+          "instructor": "Dr. Smith, Jane",
+          "schedule": {
+            "days": "MW",
+            "time": "10:00 AM - 11:50 AM",
+            "location": "TECH 205"
+          },
+          "enrollment": {
+            "seats": 30,
+            "enrolled": 25,
+            "waitlist": 2,
+            "status": "Open"
+          }
+        },
+        {
+          "sectionNumber": "1002",
+          "crn": "12346",
+          "instructor": "Prof. Johnson, Mike",
+          "schedule": {
+            "days": "TTh",
+            "time": "2:00 PM - 3:50 PM",
+            "location": "Online"
+          },
+          "enrollment": {
+            "seats": 35,
+            "enrolled": 35,
+            "waitlist": 5,
+            "status": "Closed"
+          }
+        }
+      ]
+    },
+    {
+      "courseKey": "MATH-31",
+      "subject": "MATH",
+      "courseNumber": "31",
+      "title": "Elementary Algebra",
+      "units": "5.0",
+      "description": "Basic algebraic operations and problem solving.",
+      "sections": [
+        {
+          "sectionNumber": "2001",
+          "crn": "23456",
+          "instructor": "Dr. Chen, Li",
+          "schedule": {
+            "days": "MTWTh",
+            "time": "8:00 AM - 9:15 AM",
+            "location": "MATH 101"
+          },
+          "enrollment": {
+            "seats": 40,
+            "enrolled": 38,
+            "waitlist": 0,
+            "status": "Open"
+          }
+        }
+      ]
+    },
+    {
+      "courseKey": "ENGL-1",
+      "subject": "ENGL",
+      "courseNumber": "1",
+      "title": "English Composition",
+      "units": "3.0",
+      "description": "Principles of composition, critical thinking, and research.",
+      "sections": [
+        {
+          "sectionNumber": "3001",
+          "crn": "34567",
+          "instructor": "Prof. Williams, Sarah",
+          "schedule": {
+            "days": "MW",
+            "time": "12:00 PM - 1:50 PM",
+            "location": "HSS 202"
+          },
+          "enrollment": {
+            "seats": 25,
+            "enrolled": 23,
+            "waitlist": 0,
+            "status": "Open"
+          }
+        },
+        {
+          "sectionNumber": "3002",
+          "crn": "34568",
+          "instructor": "Dr. Davis, Robert",
+          "schedule": {
+            "days": "TTh",
+            "time": "6:00 PM - 7:50 PM",
+            "location": "HSS 203"
+          },
+          "enrollment": {
+            "seats": 25,
+            "enrolled": 20,
+            "waitlist": 0,
+            "status": "Open"
+          }
+        }
+      ]
+    },
+    {
+      "courseKey": "BIO-3",
+      "subject": "BIO",
+      "courseNumber": "3",
+      "title": "Fundamentals of Biology",
+      "units": "4.0",
+      "description": "Introduction to biological principles, cell structure, and ecology.",
+      "sections": [
+        {
+          "sectionNumber": "4001",
+          "crn": "45678",
+          "instructor": "Dr. Martinez, Ana",
+          "schedule": {
+            "days": "MW",
+            "time": "3:00 PM - 4:50 PM",
+            "location": "SCI 121"
+          },
+          "enrollment": {
+            "seats": 30,
+            "enrolled": 30,
+            "waitlist": 8,
+            "status": "Closed"
+          }
+        }
+      ]
+    }
+  ]
+}
