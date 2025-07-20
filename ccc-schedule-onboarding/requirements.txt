@@ -1,0 +1,17 @@
+# Requirements for CCC Schedule Onboarding
+
+# Core dependencies
+click>=8.1.0       # Interactive CLI
+rich>=13.0.0       # Beautiful terminal output
+pydantic>=2.0.0    # Data validation
+requests>=2.31.0   # HTTP requests
+beautifulsoup4>=4.12.0  # HTML parsing (fallback)
+
+# LLM providers (optional - choose one)
+# openai>=1.0.0    # For OpenAI API
+# anthropic>=0.3.0 # For Claude API
+
+# Development dependencies
+pytest>=7.0.0
+black>=23.0.0
+mypy>=1.0.0
