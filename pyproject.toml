@@ -4,7 +4,12 @@ version = "0.1.0"
 description = "CCC Schedule Project"
 readme = "README.md"
 requires-python = ">=3.9"
-dependencies = []
+dependencies = [
+    "click>=8.1.0",
+    "rich>=13.0.0",
+    "beautifulsoup4>=4.12.0",
+    "requests>=2.31.0",
+]
 
 [project.optional-dependencies]
 dev = [
