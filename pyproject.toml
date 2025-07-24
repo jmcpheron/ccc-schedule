@@ -4,7 +4,9 @@ version = "0.1.0"
 description = "CCC Schedule Project"
 readme = "README.md"
 requires-python = ">=3.9"
-dependencies = []
+dependencies = [
+    "jsonschema>=4.25.0",
+]
 
 [project.optional-dependencies]
 dev = [

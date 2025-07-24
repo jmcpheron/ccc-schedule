@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rio Hondo College - Schedule Demo</title>
+    
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../../css/schedule.css">
+    
+    <style>
+        .rio-hondo-header {
+            background-color: #004B87;
+            color: white;
+            padding: 1rem 0;
+        }
+        .rio-hondo-accent {
+            color: #FDB515;
+        }
+        .demo-notice {
+            background-color: #e8f4f8;
+            border-left: 4px solid #004B87;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-dark rio-hondo-header" id="top-navbar" aria-label="navigation">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center w-100">
+                <a href="../../index.html" class="btn btn-outline-light btn-sm">
+                    <i class="bi bi-arrow-left"></i> Back to Main
+                </a>
+                <div class="text-center">
+                    <h3 class="mb-0">Rio Hondo College</h3>
+                    <small class="rio-hondo-accent">Schedule Demo - Fall 2025</small>
+                </div>
+                <div style="width: 120px;"></div> <!-- Spacer for centering -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Search Container -->
+    <div class="container">
+        <div class="mt-4">
+            <!-- Demo Notice -->
+            <div class="alert demo-notice alert-dismissible fade show" role="alert">
+                <div class="d-flex align-items-start">
+                    <i class="bi bi-info-circle-fill me-3 flex-shrink-0" style="font-size: 1.5rem; color: #004B87;"></i>
+                    <div>
+                        <strong>Rio Hondo College Demo</strong><br>
+                        This is a demonstration using data collected from Rio Hondo College's public schedule. 
+                        The data was gathered using the <a href="https://github.com/jmcpheron/ccc-schedule-collector" target="_blank">CCC Schedule Collector</a>.
+                        <br>
+                        <small class="text-muted">Data collected on: July 23, 2025 | 611 courses available</small>
+                    </div>
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+
+            <form id="search-form" action=".">
+                <div class="row align-items-end">
+                    <div class="col-12">
+                        <h1 class="text-center mb-4">Search Rio Hondo Classes</h1>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <input id="search_input_main" class="form-control form-control-lg" type="search" placeholder="Subject, Course Number, CRN, or Keyword" aria-label="#search_input_main">
+                        <button class="btn btn-primary" type="submit" id="button-search" value="ALL" title="Search all sections"><span class="bi bi-search"></span> All</button>
+                        <button class="btn btn-success" type="submit" id="button-search-open" value="OPEN" title="Search open sections only"><span class="bi bi-search"></span> Open Classes</button>
+                    </div>
+                </div>
+                <div class="row g-3 mb-3">
+                    <div class="col-md-3">
+                        <label for="term-select" class="form-label">Term</label>
+                        <select class="form-select" id="term-select" aria-label="term select">
+                            <option value="202570" selected>Fall 2025</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="subject-select" class="form-label">Subject</label>
+                        <select class="form-select" aria-label="Select Subject" id="subject-select">
+                            <option value="">All Subjects</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="units-min" class="form-label">Min Units</label>
+                        <input type="number" class="form-control" id="units-min" min="0" max="6" step="0.5" placeholder="0">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="units-max" class="form-label">Max Units</label>
+                        <input type="number" class="form-control" id="units-max" min="0" max="6" step="0.5" placeholder="6">
+                    </div>
+                </div>
+                <div class="row g-3 mb-3">
+                    <div class="col-md-3">
+                        <div id="instr-method-label">Instructional Mode</div>
+                        <div class="dropdown" id="instr-method-drop-down">
+                            <button class="form-select button-select dropdown-toggle" type="button" id="instr-method-button" data-bs-toggle="dropdown" aria-expanded="false">
+                                All Modes
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="instr-method-label">
+                                <li class="dropdown-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod1" value="In Person">
+                                        <label class="form-check-label" for="flexRadioInstrMethod1">
+                                            In-Person
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod2" value="Hybrid">
+                                        <label class="form-check-label" for="flexRadioInstrMethod2">
+                                            Hybrid
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod3" value="Online">
+                                        <label class="form-check-label" for="flexRadioInstrMethod3">
+                                            Online
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod4" value="Arranged">
+                                        <label class="form-check-label" for="flexRadioInstrMethod4">
+                                            Arranged
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label class="form-label">Open Classes Only</label>
+                        <div>
+                            <input type="checkbox" class="btn-check" id="open-only" autocomplete="off">
+                            <label class="btn btn-outline-success w-100" for="open-only">Show Open Only</label>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label class="form-label">Zero Textbook Cost</label>
+                        <div>
+                            <input type="checkbox" class="btn-check" id="ztc-only" autocomplete="off">
+                            <label class="btn btn-outline-primary w-100" for="ztc-only">ZTC Courses</label>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label class="form-label">&nbsp;</label>
+                        <button type="button" class="btn btn-secondary w-100" id="reset-filters">
+                            <i class="bi bi-arrow-clockwise"></i> Reset Filters
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        <!-- Results Container -->
+        <div id="loading-spinner" class="text-center my-5">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p class="mt-2">Loading schedule data...</p>
+        </div>
+
+        <div id="results-container" style="display: none;">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5 id="result-count">0 courses found</h5>
+                <div class="btn-group" role="group">
+                    <input type="radio" class="btn-check" name="view-mode" id="card-view" checked>
+                    <label class="btn btn-outline-primary" for="card-view">
+                        <i class="bi bi-grid-3x2-gap"></i> Card View
+                    </label>
+                    <input type="radio" class="btn-check" name="view-mode" id="table-view">
+                    <label class="btn btn-outline-primary" for="table-view">
+                        <i class="bi bi-table"></i> Table View
+                    </label>
+                </div>
+            </div>
+
+            <div id="no-results" class="alert alert-info" style="display: none;">
+                <i class="bi bi-info-circle"></i> No courses found matching your criteria. Try adjusting your filters.
+            </div>
+
+            <div id="card-view-container" class="row g-3"></div>
+            <div id="table-view-container" style="display: none;">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>CRN</th>
+                                <th>Course</th>
+                                <th>Title</th>
+                                <th>Instructor</th>
+                                <th>Days/Times</th>
+                                <th>Location</th>
+                                <th>Units</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-body"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <nav aria-label="Search results pagination">
+                <ul class="pagination justify-content-center" id="pagination"></ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <p class="text-muted mb-0">
+                Rio Hondo College Schedule Demo | 
+                <a href="https://github.com/jmcpheron/ccc-schedule" target="_blank">CCC Schedule Project</a> | 
+                <a href="https://github.com/jmcpheron/ccc-schedule-collector" target="_blank">Data Collector</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Rio Hondo specific JavaScript -->
+    <script>
+    (function() {
+        'use strict';
+
+        // Override the data URL to use Rio Hondo data
+        const originalAjax = $.ajax;
+        $.ajax = function(options) {
+            if (options.url === 'data/schema.json') {
+                options.url = 'data/schema.json';
+            }
+            return originalAjax.call(this, options);
+        };
+    })();
+    </script>
+
+    <!-- Include the enhanced schedule JavaScript -->
+    <script src="../../js/schedule-enhanced.js"></script>
+</body>
+</html>

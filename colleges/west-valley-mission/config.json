@@ -1,0 +1,229 @@
+{
+  "college": {
+    "id": "west-valley-mission",
+    "name": "West Valley Mission Community College District",
+    "district": "West Valley Mission CCD",
+    "campuses": [
+      {
+        "code": "WV",
+        "name": "West Valley College"
+      },
+      {
+        "code": "MC",
+        "name": "Mission College"
+      }
+    ]
+  },
+  "features": {
+    "textbook_cost": {
+      "enabled": true,
+      "priority": "high",
+      "categories": [
+        {
+          "code": "ZTC",
+          "name": "Zero Textbook Cost",
+          "description": "A Zero Textbook Cost"
+        },
+        {
+          "code": "LTC",
+          "name": "Low Textbook Cost",
+          "description": "Low Textbook Cost"
+        },
+        {
+          "code": "OER",
+          "name": "Open Educational Resources",
+          "description": "No-cost OER course material"
+        },
+        {
+          "code": "NSC",
+          "name": "No Student Cost",
+          "description": "No Student Cost"
+        },
+        {
+          "code": "NCD",
+          "name": "No-cost Digital",
+          "description": "No-cost digital not meet OER"
+        },
+        {
+          "code": "MIX",
+          "name": "Mixed Materials",
+          "description": "Mix of no-cost OER & others"
+        }
+      ]
+    },
+    "instruction_modes": {
+      "enabled": true,
+      "extended": true,
+      "modes": {
+        "INP": {
+          "code": "INP",
+          "name": "In Person",
+          "description": "Traditional face-to-face instruction"
+        },
+        "SON": {
+          "code": "SON",
+          "name": "Online Synchronous",
+          "description": "Online with scheduled meeting times"
+        },
+        "AON": {
+          "code": "AON",
+          "name": "Online Asynchronous",
+          "description": "Online without scheduled meeting times"
+        },
+        "HYB": {
+          "code": "HYB",
+          "name": "Hybrid",
+          "description": "Combination of in-person and online"
+        },
+        "ARR": {
+          "code": "ARR",
+          "name": "Arranged",
+          "description": "To be arranged"
+        }
+      }
+    },
+    "enrollment_tracking": {
+      "enabled": true,
+      "census_dates": true,
+      "multiple_cutoffs": true,
+      "fields": [
+        "census_date",
+        "census_2_date",
+        "enrollment_cutoff_date",
+        "academic_cutoff_date",
+        "drop_cutoff_date"
+      ]
+    },
+    "non_credit_courses": {
+      "enabled": true,
+      "credit_types": ["CR", "NCR", "CEU"]
+    },
+    "cohort_restrictions": {
+      "enabled": true,
+      "field": "cohort_restricted_ind"
+    },
+    "general_education": {
+      "enabled": true,
+      "systems": [
+        {
+          "code": "CSU",
+          "name": "CSU General Education",
+          "areas": ["A", "B1", "B2", "B3", "B4", "C1", "C2", "D", "E"]
+        },
+        {
+          "code": "IGETC",
+          "name": "IGETC",
+          "areas": ["1A", "1B", "1C", "2A", "3A", "3B", "4", "5A", "5B", "5C", "6A", "7"]
+        },
+        {
+          "code": "CALGETC",
+          "name": "Cal-GETC",
+          "areas": ["1A", "1B", "1C", "2", "3A", "3B", "4", "5A", "5B", "6"]
+        },
+        {
+          "code": "LOCAL",
+          "name": "Local GE",
+          "areas": ["A-1", "A-2", "A-3", "A-4", "B-1", "B-2", "C-1", "C-2", "D-1", "D-2", "E"]
+        }
+      ]
+    },
+    "waitlist": {
+      "enabled": true,
+      "separate_capacity": true,
+      "fields": ["wait_capacity", "wait_count", "wait_avail"]
+    },
+    "part_of_term": {
+      "enabled": true,
+      "field": "ptrm_code",
+      "values": {
+        "1": "Full Term",
+        "A": "First 8 Weeks",
+        "B": "Second 8 Weeks",
+        "S": "Summer Session"
+      }
+    }
+  },
+  "data_mappings": {
+    "course": {
+      "course_id": "{{SUBJ_CODE}}-{{CRSE_NUMB}}",
+      "subject": "SUBJ_CODE",
+      "course_number": "CRSE_NUMB",
+      "title": "CRSE_TITLE",
+      "units": "SCBCRSE_CREDIT_HR_LOW",
+      "description": "CATALOG_DESC"
+    },
+    "section": {
+      "crn": "CRN",
+      "status": {
+        "field": "SSBSECT_SSTS_CODE",
+        "mapping": {
+          "A": "Open",
+          "C": "Closed",
+          "W": "Waitlist",
+          "X": "Cancelled"
+        }
+      },
+      "instruction_mode": "SSBSECT_INSM_CODE",
+      "enrollment": {
+        "enrolled": "SSBSECT_ENRL",
+        "capacity": "SSBSECT_MAX_ENRL",
+        "available": "SSBSECT_SEATS_AVAIL"
+      },
+      "attributes": {
+        "campus": "SSBSECT_CAMP_CODE",
+        "part_of_term": "SSBSECT_PTRM_CODE",
+        "census_enrollment": "SSBSECT_CENSUS_ENRL",
+        "census_date": "SSBSECT_CENSUS_ENRL_DATE",
+        "enrollment_cutoff": "SSBSECT_ENRL_CUT_OFF_DATE",
+        "academic_cutoff": "SSBSECT_ACAD_CUT_OFF_DATE",
+        "drop_cutoff": "SSBSECT_DROP_CUT_OFF_DATE",
+        "waitlist_capacity": "SSBSECT_WAIT_CAPACITY",
+        "waitlist_count": "SSBSECT_WAIT_COUNT",
+        "waitlist_available": "SSBSECT_WAIT_AVAIL",
+        "cohort_restricted": "COHORT_RESTRICTED_IND"
+      }
+    }
+  },
+  "ui_components": {
+    "filters": {
+      "textbook_cost": {
+        "enabled": true,
+        "label": "Textbook Cost",
+        "type": "multiselect"
+      },
+      "instruction_mode": {
+        "enabled": true,
+        "label": "Instruction Mode",
+        "type": "multiselect",
+        "show_extended": true
+      },
+      "general_education": {
+        "enabled": true,
+        "label": "General Education",
+        "type": "hierarchical"
+      },
+      "campus": {
+        "enabled": true,
+        "label": "Campus",
+        "type": "radio"
+      },
+      "part_of_term": {
+        "enabled": true,
+        "label": "Session",
+        "type": "dropdown"
+      },
+      "non_credit": {
+        "enabled": true,
+        "label": "Include Non-Credit",
+        "type": "checkbox"
+      }
+    },
+    "display": {
+      "show_waitlist_info": true,
+      "show_census_dates": true,
+      "show_textbook_badges": true,
+      "show_ge_badges": true,
+      "show_campus_code": true
+    }
+  }
+}
