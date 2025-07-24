@@ -70,13 +70,7 @@ function initializeEventHandlers() {
     
     // View mode toggle
     $('input[name="view-mode"]').on('change', function() {
-        if ($('#card-view').is(':checked')) {
-            $('#card-view-container').show();
-            $('#table-view-container').hide();
-        } else {
-            $('#card-view-container').hide();
-            $('#table-view-container').show();
-        }
+        displayResults();
     });
 }
 
