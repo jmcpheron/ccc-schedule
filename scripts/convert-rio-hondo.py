@@ -14,36 +14,40 @@ from src.schema_validator import validate_schedule_file
 
 def convert_rio_hondo_to_schema(input_file: Path, output_file: Path) -> None:
     """Convert Rio Hondo collector JSON to CCC Schedule standardized format."""
-    
+
     # Load Rio Hondo data
-    with open(input_file, 'r') as f:
+    with open(input_file, "r") as f:
         rio_data = json.load(f)
-    
+
     # Get college config path
-    config_path = Path(__file__).parent.parent / "colleges" / "rio-hondo" / "config.json"
-    
+    config_path = (
+        Path(__file__).parent.parent / "colleges" / "rio-hondo" / "config.json"
+    )
+
     # Initialize transformer
     transformer = RioHondoTransformer(config_path)
-    
+
     # Transform data
     standardized_data = transformer.transform(rio_data)
-    
+
     # Save output
     output_file.parent.mkdir(parents=True, exist_ok=True)
-    with open(output_file, 'w') as f:
+    with open(output_file, "w") as f:
         json.dump(standardized_data, f, indent=2)
-    
+
     # Validate the output
     base_schema_path = Path(__file__).parent.parent / "data" / "schemas" / "base.json"
-    is_valid, errors = validate_schedule_file(output_file, base_schema_path, config_path, strict=True)
-    
+    is_valid, errors = validate_schedule_file(
+        output_file, base_schema_path, config_path, strict=True
+    )
+
     if is_valid:
         print(f"✓ Successfully converted and validated data")
     else:
         print(f"✗ Validation errors:")
         for error in errors:
             print(f"  - {error}")
-    
+
     # Print summary
     courses = standardized_data["schedule"]["courses"]
     total_sections = sum(len(course["sections"]) for course in courses)
@@ -55,9 +59,22 @@ def main():
     """Main entry point."""
     # Define paths
     base_dir = Path(__file__).parent.parent
-    input_file = base_dir / "ccc-schedule-examples" / "rio-hondo" / "data" / "202570" / "schedule_202570_latest.json"
-    output_file = base_dir / "ccc-schedule-examples" / "rio-hondo" / "data" / "standardized_schedule.json"
-    
+    input_file = (
+        base_dir
+        / "ccc-schedule-examples"
+        / "rio-hondo"
+        / "data"
+        / "202570"
+        / "schedule_202570_latest.json"
+    )
+    output_file = (
+        base_dir
+        / "ccc-schedule-examples"
+        / "rio-hondo"
+        / "data"
+        / "standardized_schedule.json"
+    )
+
     # Run conversion
     convert_rio_hondo_to_schema(input_file, output_file)
 
