@@ -19,6 +19,10 @@ $(document).ready(function() {
 
 // Make loadCosmicCactusDemo available globally
 window.loadCosmicCactusDemo = function() {
+    // Show the search form and hide the hero content
+    $('#search-form').removeClass('d-none');
+    $('#more-options').parent().parent().removeClass('d-none');
+    
     // Load the demo data
     $('#term-select').val('Spring 2025').trigger('change');
     $('#college-select').val('Cosmic Cactus').trigger('change');

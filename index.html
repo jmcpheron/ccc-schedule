@@ -26,10 +26,15 @@
         }
         .btn:hover {
             transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         }
         .card {
             border: none;
             border-radius: 12px;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
         }
         .card-header {
             border-radius: 12px 12px 0 0 !important;
@@ -46,6 +51,17 @@
             border-color: #667eea;
             box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
         }
+        .hero-section {
+            padding: 4rem 0;
+        }
+        .display-5 {
+            font-size: 2.5rem;
+        }
+        @media (max-width: 768px) {
+            .display-5 {
+                font-size: 2rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -53,61 +69,73 @@
     <nav class="navbar navbar-light shadow-sm" id="top-navbar" aria-label="navigation" style="background: linear-gradient(to right, #f8f9fa, #e9ecef);">
         <div class="container">
             <div class="mx-auto d-flex align-items-center">
-                <img src="assets/placeholder-logo.svg" alt="Logo" class="logo-size me-3">
-                <h4 class="mb-0 text-dark" style="font-weight: 300;">CCC Schedule Viewer</h4>
+                <img src="assets/cosmic-cactus-cc-logo.png" 
+                     alt="Cosmic Cactus Community College logo - A stylized cactus with stars" 
+                     class="logo-size me-3"
+                     style="max-width: 60px; height: auto;">
+                <div class="text-center">
+                    <h3 class="mb-0 text-dark" style="font-weight: 600;">Cosmic Cactus Community College</h3>
+                    <small class="text-muted">Schedule Viewer Demo</small>
+                </div>
             </div>
         </div>
     </nav>
 
-    <!-- Main Search Container -->
+    <!-- Main Container -->
     <div class="container">
-        <div class="mt-4">
+        <div class="mt-5">
+            <!-- Hero Section -->
+            <div class="text-center mb-5">
+                <h1 class="display-5 mb-3" style="color: #2c3e50; font-weight: 600;">Welcome to the CCC Schedule Viewer Demo</h1>
+                <p class="lead text-muted mb-4">Experience our innovative course schedule viewer with Cosmic Cactus Community College's whimsical catalog</p>
+                <button class="btn btn-primary btn-lg shadow px-5 py-3" onclick="loadCosmicCactusDemo()">
+                    <i class="bi bi-rocket-takeoff me-2"></i> Launch Demo
+                </button>
+            </div>
+
+            <!-- Info Cards -->
+            <div class="row g-4 mb-5">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-search display-4 text-primary mb-3"></i>
+                            <h5 class="card-title">Smart Search</h5>
+                            <p class="card-text text-muted">Search by subject, course number, instructor, or keywords</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-funnel display-4 text-success mb-3"></i>
+                            <h5 class="card-title">Advanced Filters</h5>
+                            <p class="card-text text-muted">Filter by time, days, instructional mode, and more</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-stars display-4 text-warning mb-3"></i>
+                            <h5 class="card-title">Demo Courses</h5>
+                            <p class="card-text text-muted">Explore fun classes like UFO Engineering and Desert Survival</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!-- Demo Notice -->
-            <div class="alert alert-info alert-dismissible fade show" role="alert">
-                <div class="d-flex align-items-start">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-info-circle-fill me-3 flex-shrink-0" viewBox="0 0 16 16">
-                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
-                    </svg>
+            <div class="alert alert-light border-start border-primary border-5" role="alert">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-info-circle-fill text-primary me-3 fs-4"></i>
                     <div>
-                        <strong>Welcome to the CCC Schedule Demo!</strong> This is a demonstration version showcasing the schedule viewer functionality. 
-                        <br class="d-none d-sm-block">
-                        <span class="d-block d-sm-inline mt-1">For actual course enrollment, please visit your college's official registration system. Happy exploring! 🎓</span>
-                    </div>
-                </div>
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-
-            <!-- College Demos -->
-            <div class="card shadow-sm mb-4">
-                <div class="card-header bg-gradient text-white" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
-                    <h5 class="mb-0"><i class="bi bi-stars"></i> Featured Demo: Cosmic Cactus Community College</h5>
-                </div>
-                <div class="card-body">
-                    <div class="row align-items-center">
-                        <div class="col-md-2 text-center mb-3 mb-md-0">
-                            <img src="assets/cosmic-cactus-cc-logo.png" 
-                                 alt="Cosmic Cactus Community College logo - A stylized cactus with stars" 
-                                 class="img-fluid" 
-                                 style="max-width: 100px; height: auto;">
-                        </div>
-                        <div class="col-md-7">
-                            <h6 class="fw-bold text-primary">🌵 Explore Fun Classes at CCCC!</h6>
-                            <p class="mb-2">Discover unique courses like UFO Engineering, Desert Survival, and Intergalactic Communication at our whimsical demo college.</p>
-                            <small class="text-muted d-block">
-                                <i class="bi bi-info-circle"></i> Note: Real college data integration coming soon. 
-                                <a href="https://github.com/jmcpheron/ccc-schedule-collector" target="_blank" class="text-decoration-none">Learn more</a>
-                            </small>
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <button class="btn btn-primary btn-lg shadow" onclick="loadCosmicCactusDemo()">
-                                <i class="bi bi-rocket-takeoff"></i> Launch Demo
-                            </button>
-                        </div>
+                        <strong>This is a demonstration</strong><br>
+                        <small>For actual course enrollment, please visit your college's official registration system. Real college data integration coming soon.</small>
                     </div>
                 </div>
             </div>
 
-            <form id="search-form" action=".">
+            <form id="search-form" action="." class="d-none">
                 <div class="row align-items-end">
                     <div class="col-12">
                         <h1 class="text-center mb-4" style="color: #2c3e50; font-weight: 600;">Search for Classes</h1>
@@ -547,29 +575,35 @@
     
     <!-- Custom JS -->
     <script src="js/schedule-enhanced.js"></script>
+    <script>
+        // Auto-hide search form on demo page load
+        document.addEventListener('DOMContentLoaded', function() {
+            // Show hero content initially
+            const searchForm = document.getElementById('search-form');
+            const moreOptions = document.getElementById('more-options').parentElement.parentElement;
+            const searchResults = document.getElementById('search-results-container');
+            
+            if (searchForm) searchForm.classList.add('d-none');
+            if (moreOptions) moreOptions.classList.add('d-none');
+            if (searchResults) searchResults.classList.add('d-none');
+        });
+    </script>
 
     <!-- Footer -->
-    <footer class="mt-5 py-4 bg-light">
+    <footer class="mt-auto py-4 bg-light">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-0 text-muted">
-                        Made with 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill text-danger" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-                        </svg>
-                        for California Community Colleges | 
-                        Found a bug? Got ideas? Let's make it better together! 🚀
-                    </p>
-                </div>
-                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
-                    <a href="https://github.com/jmcpheron/ccc-schedule" class="text-decoration-none link-secondary" target="_blank" rel="noopener noreferrer">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github me-1" viewBox="0 0 16 16">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                        </svg>
-                        Join us on GitHub
-                    </a>
-                </div>
+            <div class="text-center">
+                <p class="mb-2 text-muted">
+                    <strong>CCC Schedule Viewer Demo</strong> | 
+                    Made with <i class="bi bi-heart-fill text-danger"></i> for California Community Colleges
+                </p>
+                <a href="https://github.com/jmcpheron/ccc-schedule" class="text-decoration-none link-secondary" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github me-1"></i> View on GitHub
+                </a>
+                <span class="mx-2 text-muted">|</span>
+                <a href="https://github.com/jmcpheron/ccc-schedule-collector" class="text-decoration-none link-secondary" target="_blank" rel="noopener noreferrer">
+                    Learn More
+                </a>
             </div>
         </div>
     </footer>
