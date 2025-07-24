@@ -1,0 +1,101 @@
+{
+  "college": {
+    "id": "rio-hondo",
+    "name": "Rio Hondo College",
+    "district": "Rio Hondo Community College District"
+  },
+  "features": {
+    "textbook_cost": {
+      "enabled": true,
+      "priority": "low",
+      "categories": [
+        {
+          "code": "ZTC",
+          "name": "Zero Textbook Cost",
+          "description": "Zero Textbook Cost"
+        }
+      ]
+    },
+    "instruction_modes": {
+      "enabled": true,
+      "extended": false,
+      "modes": {
+        "In Person": {
+          "code": "INP",
+          "name": "In Person"
+        },
+        "Online": {
+          "code": "ONL",
+          "name": "Online"
+        },
+        "Online SYNC": {
+          "code": "SYNC",
+          "name": "Online Synchronous"
+        },
+        "Hybrid": {
+          "code": "HYB",
+          "name": "Hybrid"
+        },
+        "Arranged": {
+          "code": "ARR",
+          "name": "Arranged"
+        }
+      }
+    },
+    "enrollment_tracking": {
+      "enabled": true,
+      "census_dates": false,
+      "multiple_cutoffs": false
+    },
+    "waitlist": {
+      "enabled": false
+    }
+  },
+  "data_mappings": {
+    "course": {
+      "course_id": "{{subject}}-{{course_number}}",
+      "subject": "subject",
+      "course_number": "course_number",
+      "title": "title",
+      "units": "units"
+    },
+    "section": {
+      "crn": "crn",
+      "status": "status",
+      "instruction_mode": "delivery_method",
+      "enrollment": {
+        "enrolled": "enrollment.actual",
+        "capacity": "enrollment.capacity",
+        "available": "enrollment.remaining"
+      },
+      "attributes": {
+        "zero_textbook_cost": "zero_textbook_cost",
+        "section_type": "section_type",
+        "weeks": "weeks"
+      }
+    }
+  },
+  "collector": {
+    "enabled": true,
+    "source": "https://github.com/jmcpheron/ccc-schedule-collector",
+    "format": "rio-hondo-v1",
+    "update_frequency": "3x weekly"
+  },
+  "ui_components": {
+    "filters": {
+      "textbook_cost": {
+        "enabled": true,
+        "label": "Zero Cost Textbooks",
+        "type": "checkbox"
+      },
+      "instruction_mode": {
+        "enabled": true,
+        "label": "Delivery Method",
+        "type": "dropdown"
+      }
+    },
+    "display": {
+      "show_textbook_badges": true
+    }
+  }
+}

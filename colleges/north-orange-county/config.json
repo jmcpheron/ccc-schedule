@@ -1,0 +1,141 @@
+{
+  "college": {
+    "id": "north-orange-county",
+    "name": "North Orange County Community College District",
+    "district": "NOCCCD",
+    "campuses": [
+      {
+        "code": "FC",
+        "name": "Fullerton College"
+      },
+      {
+        "code": "CYP",
+        "name": "Cypress College"
+      }
+    ]
+  },
+  "features": {
+    "textbook_cost": {
+      "enabled": true,
+      "priority": "medium",
+      "categories": [
+        {
+          "code": "OER",
+          "name": "Open Educational Resources",
+          "description": "Open Educational Resources"
+        }
+      ]
+    },
+    "instruction_modes": {
+      "enabled": true,
+      "extended": false,
+      "modes": {
+        "02": {
+          "code": "02",
+          "name": "In Person",
+          "description": "Lecture"
+        },
+        "72": {
+          "code": "72",
+          "name": "Online",
+          "description": "Online"
+        },
+        "71": {
+          "code": "71",
+          "name": "Hybrid",
+          "description": "Hybrid"
+        }
+      }
+    },
+    "enrollment_tracking": {
+      "enabled": true,
+      "census_dates": false,
+      "multiple_cutoffs": false,
+      "fields": ["enrollment_cutoff_date"]
+    },
+    "general_education": {
+      "enabled": true,
+      "systems": [
+        {
+          "code": "CSU",
+          "name": "CSU General Education",
+          "prefix": "F-CSU"
+        },
+        {
+          "code": "IGETC",
+          "name": "IGETC",
+          "prefix": "F-IGETC"
+        },
+        {
+          "code": "LOCAL",
+          "name": "AA GE",
+          "prefix": "AAGE"
+        }
+      ]
+    },
+    "waitlist": {
+      "enabled": true,
+      "separate_capacity": false
+    }
+  },
+  "data_mappings": {
+    "course": {
+      "course_id": "{{crseSubjCode}}-{{crseCrseNumb}}",
+      "subject": "crseSubjCode",
+      "course_number": "crseCrseNumb",
+      "title": "crseTitle",
+      "units": "crseCredHrLow",
+      "description": "crseLongText"
+    },
+    "section": {
+      "crn": "sectCrn",
+      "status": {
+        "field": "sectSstsCode",
+        "mapping": {
+          "A": "Open",
+          "C": "Closed"
+        }
+      },
+      "instruction_mode": "sectSchdCode",
+      "enrollment": {
+        "enrolled": "sectEnrl",
+        "capacity": "sectMaxEnrl",
+        "available": "sectSeatsAvail",
+        "waitlist": "sectWaitCount"
+      },
+      "attributes": {
+        "campus": "sectCampCode",
+        "part_of_term": "sectPtrmCode"
+      }
+    }
+  },
+  "ui_components": {
+    "filters": {
+      "textbook_cost": {
+        "enabled": true,
+        "label": "OER Courses",
+        "type": "checkbox"
+      },
+      "instruction_mode": {
+        "enabled": true,
+        "label": "Instruction Mode",
+        "type": "dropdown"
+      },
+      "general_education": {
+        "enabled": true,
+        "label": "General Education",
+        "type": "dropdown"
+      },
+      "campus": {
+        "enabled": true,
+        "label": "Campus",
+        "type": "radio"
+      }
+    },
+    "display": {
+      "show_waitlist_info": true,
+      "show_textbook_badges": true,
+      "show_ge_badges": true
+    }
+  }
+}

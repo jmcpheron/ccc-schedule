@@ -1,0 +1,266 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CCC Schedule Base Schema",
+  "description": "Base schema for California Community College schedule data",
+  "type": "object",
+  "required": ["schedule"],
+  "properties": {
+    "schedule": {
+      "type": "object",
+      "required": ["metadata", "courses"],
+      "properties": {
+        "metadata": {
+          "type": "object",
+          "required": ["version", "last_updated", "college", "term"],
+          "properties": {
+            "version": {
+              "type": "string",
+              "pattern": "^\\d+\\.\\d+\\.\\d+$",
+              "description": "Schema version (semver)"
+            },
+            "last_updated": {
+              "type": "string",
+              "format": "date-time",
+              "description": "ISO 8601 timestamp of last update"
+            },
+            "college": {
+              "type": "object",
+              "required": ["id", "name"],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "description": "Unique college identifier"
+                },
+                "name": {
+                  "type": "string",
+                  "description": "Full college name"
+                },
+                "district": {
+                  "type": "string",
+                  "description": "District name if applicable"
+                }
+              }
+            },
+            "term": {
+              "type": "object",
+              "required": ["code", "name"],
+              "properties": {
+                "code": {
+                  "type": "string",
+                  "description": "Term code (e.g., 202570)"
+                },
+                "name": {
+                  "type": "string",
+                  "description": "Term name (e.g., Fall 2025)"
+                },
+                "start_date": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "end_date": {
+                  "type": "string",
+                  "format": "date"
+                }
+              }
+            }
+          }
+        },
+        "courses": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["course_id", "subject", "course_number", "title", "units", "sections"],
+            "properties": {
+              "course_id": {
+                "type": "string",
+                "description": "Unique course identifier"
+              },
+              "subject": {
+                "type": "string",
+                "description": "Subject code (e.g., MATH, ENGL)"
+              },
+              "course_number": {
+                "type": "string",
+                "description": "Course number (e.g., 101, 200A)"
+              },
+              "title": {
+                "type": "string",
+                "description": "Course title"
+              },
+              "units": {
+                "type": "number",
+                "minimum": 0,
+                "description": "Credit units"
+              },
+              "description": {
+                "type": "string",
+                "description": "Course description"
+              },
+              "prerequisites": {
+                "type": "string",
+                "description": "Prerequisite requirements"
+              },
+              "corequisites": {
+                "type": "string",
+                "description": "Corequisite requirements"
+              },
+              "transferable": {
+                "type": "object",
+                "properties": {
+                  "csu": {
+                    "type": "boolean",
+                    "description": "CSU transferable"
+                  },
+                  "uc": {
+                    "type": "boolean",
+                    "description": "UC transferable"
+                  }
+                }
+              },
+              "sections": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["crn", "status", "enrollment", "meetings"],
+                  "properties": {
+                    "crn": {
+                      "type": "string",
+                      "description": "Course Reference Number"
+                    },
+                    "section_number": {
+                      "type": "string",
+                      "description": "Section identifier"
+                    },
+                    "status": {
+                      "type": "string",
+                      "enum": ["Open", "Closed", "Waitlist", "Cancelled"],
+                      "description": "Enrollment status"
+                    },
+                    "instruction_mode": {
+                      "type": "string",
+                      "description": "Mode of instruction"
+                    },
+                    "enrollment": {
+                      "type": "object",
+                      "required": ["enrolled", "capacity"],
+                      "properties": {
+                        "enrolled": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "capacity": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "waitlist": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "available": {
+                          "type": "integer",
+                          "description": "Calculated field: capacity - enrolled"
+                        }
+                      }
+                    },
+                    "meetings": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string",
+                            "enum": ["Lecture", "Lab", "Discussion", "Other"],
+                            "description": "Meeting type"
+                          },
+                          "days": {
+                            "type": "array",
+                            "items": {
+                              "type": "string",
+                              "enum": ["M", "T", "W", "R", "F", "S", "U"]
+                            }
+                          },
+                          "start_time": {
+                            "type": ["string", "null"],
+                            "pattern": "^([0-1]?[0-9]|2[0-3]):[0-5][0-9]$",
+                            "description": "24-hour format HH:MM"
+                          },
+                          "end_time": {
+                            "type": ["string", "null"],
+                            "pattern": "^([0-1]?[0-9]|2[0-3]):[0-5][0-9]$",
+                            "description": "24-hour format HH:MM"
+                          },
+                          "location": {
+                            "type": "object",
+                            "properties": {
+                              "building": {
+                                "type": "string"
+                              },
+                              "room": {
+                                "type": "string"
+                              },
+                              "campus": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "instructor": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "email": {
+                          "type": "string",
+                          "format": "email"
+                        }
+                      }
+                    },
+                    "dates": {
+                      "type": "object",
+                      "properties": {
+                        "start": {
+                          "type": "string",
+                          "format": "date"
+                        },
+                        "end": {
+                          "type": "string",
+                          "format": "date"
+                        },
+                        "duration_weeks": {
+                          "type": "integer",
+                          "minimum": 1
+                        }
+                      }
+                    },
+                    "notes": {
+                      "type": "string",
+                      "description": "Additional section notes"
+                    },
+                    "attributes": {
+                      "type": "object",
+                      "description": "College-specific attributes",
+                      "additionalProperties": true
+                    }
+                  }
+                }
+              },
+              "attributes": {
+                "type": "object",
+                "description": "College-specific course attributes",
+                "additionalProperties": true
+              }
+            }
+          }
+        },
+        "extensions": {
+          "type": "object",
+          "description": "College-specific extensions",
+          "additionalProperties": true
+        }
+      }
+    }
+  }
+}
