@@ -234,22 +234,6 @@
     </footer>
 
     <!-- Rio Hondo specific JavaScript -->
-    <script>
-    (function() {
-        'use strict';
-
-        // Override the data URL to use Rio Hondo data
-        const originalAjax = $.ajax;
-        $.ajax = function(options) {
-            if (options.url === 'data/schema.json') {
-                options.url = 'data/schema.json';
-            }
-            return originalAjax.call(this, options);
-        };
-    })();
-    </script>
-
-    <!-- Include the enhanced schedule JavaScript -->
-    <script src="../../js/schedule-enhanced.js"></script>
+    <script src="js/rio-hondo-schedule.js"></script>
 </body>
 </html>
