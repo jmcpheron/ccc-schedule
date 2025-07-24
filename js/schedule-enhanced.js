@@ -17,6 +17,21 @@ $(document).ready(function() {
     setupInstructorSearch();
 });
 
+// Make loadCosmicCactusDemo available globally
+window.loadCosmicCactusDemo = function() {
+    // Load the demo data
+    $('#term-select').val('Spring 2025').trigger('change');
+    $('#college-select').val('Cosmic Cactus').trigger('change');
+    
+    // Scroll to search area smoothly
+    $('html, body').animate({
+        scrollTop: $('#search-form').offset().top - 100
+    }, 500);
+    
+    // Trigger a search to show all Cosmic Cactus courses
+    performSearch();
+};
+
 /**
  * Initialize all event handlers
  */

@@ -17,13 +17,44 @@
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/schedule.css">
+    <style>
+        .bg-gradient {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .btn {
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+        .card {
+            border: none;
+            border-radius: 12px;
+        }
+        .card-header {
+            border-radius: 12px 12px 0 0 !important;
+            border: none;
+        }
+        body {
+            background-color: #f8f9fa;
+        }
+        .form-control, .form-select {
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+        }
+        .form-control:focus, .form-select:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-light bg-light" id="top-navbar" aria-label="navigation">
+    <nav class="navbar navbar-light shadow-sm" id="top-navbar" aria-label="navigation" style="background: linear-gradient(to right, #f8f9fa, #e9ecef);">
         <div class="container">
-            <div class="mx-auto">
-                <img src="assets/placeholder-logo.svg" alt="Logo" class="logo-size">
+            <div class="mx-auto d-flex align-items-center">
+                <img src="assets/placeholder-logo.svg" alt="Logo" class="logo-size me-3">
+                <h4 class="mb-0 text-dark" style="font-weight: 300;">CCC Schedule Viewer</h4>
             </div>
         </div>
     </nav>
@@ -47,18 +78,25 @@
             </div>
 
             <!-- College Demos -->
-            <div class="card mb-4">
-                <div class="card-header bg-primary text-white">
-                    <h5 class="mb-0"><i class="bi bi-mortarboard-fill"></i> Available College Demos</h5>
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-gradient text-white" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                    <h5 class="mb-0"><i class="bi bi-stars"></i> Featured Demo: Cosmic Cactus Community College</h5>
                 </div>
                 <div class="card-body">
-                    <div class="text-center py-3">
-                        <i class="bi bi-plus-circle-dotted text-secondary fs-1 mb-3"></i>
-                        <h5 class="mb-2">College Demos Coming Soon</h5>
-                        <p class="text-muted mb-3">We're working on adding real college schedule data for demonstration purposes.</p>
-                        <a href="https://github.com/jmcpheron/ccc-schedule-collector" target="_blank" class="btn btn-sm btn-outline-primary">
-                            Learn More About Data Collection <i class="bi bi-box-arrow-up-right"></i>
-                        </a>
+                    <div class="row align-items-center">
+                        <div class="col-md-8">
+                            <h6 class="fw-bold text-primary">🌵 Explore Fun Classes at CCCC!</h6>
+                            <p class="mb-2">Discover unique courses like UFO Engineering, Desert Survival, and Intergalactic Communication at our whimsical demo college.</p>
+                            <small class="text-muted d-block">
+                                <i class="bi bi-info-circle"></i> Note: Real college data integration coming soon. 
+                                <a href="https://github.com/jmcpheron/ccc-schedule-collector" target="_blank" class="text-decoration-none">Learn more</a>
+                            </small>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <button class="btn btn-primary btn-lg shadow" onclick="loadCosmicCactusDemo()">
+                                <i class="bi bi-rocket-takeoff"></i> Launch Demo
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -66,12 +104,12 @@
             <form id="search-form" action=".">
                 <div class="row align-items-end">
                     <div class="col-12">
-                        <h1 class="text-center mb-4">Search for Classes</h1>
+                        <h1 class="text-center mb-4" style="color: #2c3e50; font-weight: 600;">Search for Classes</h1>
                     </div>
                     <div class="col-12 mb-3">
                         <input id="search_input_main" class="form-control form-control-lg" type="search" placeholder="Subject, Course Number, CRN, or Keyword" aria-label="#search_input_main">
-                        <button class="btn btn-primary" type="submit" id="button-search" value="ALL" title="Search all sections"><span class="bi bi-search"></span> All</button>
-                        <button class="btn btn-success" type="submit" id="button-search-open" value="OPEN" title="Search open sections only"><span class="bi bi-search"></span> Open Classes</button>
+                        <button class="btn btn-primary btn-lg shadow-sm" type="submit" id="button-search" value="ALL" title="Search all sections"><span class="bi bi-search"></span> Search All</button>
+                        <button class="btn btn-success btn-lg shadow-sm" type="submit" id="button-search-open" value="OPEN" title="Search open sections only"><span class="bi bi-search"></span> Open Only</button>
                     </div>
                 </div>
                 <div class="row g-3 mb-3">
@@ -174,8 +212,8 @@
         </div>
 
         <div class="text-center mb-3">
-            <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#more-options" aria-expanded="false" aria-controls="more-options">
-                <i class="bi bi-chevron-down"></i> More Options
+            <button class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#more-options" aria-expanded="false" aria-controls="more-options">
+                <i class="bi bi-sliders"></i> Advanced Filters
             </button>
         </div>
     </div>

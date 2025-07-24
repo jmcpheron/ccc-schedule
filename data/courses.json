@@ -1,203 +1,26 @@
 {
   "courses": [
     {
-      "subj": "CS",
-      "crse": "101",
-      "course_id": "CS101",
-      "title": "Introduction to Computer Science",
-      "units": 3,
-      "description": "An introduction to computer science concepts and programming",
-      "college": "Cosmic Cactus Community College",
-      "term": "Spring 2024",
-      "creditType": "CR",
-      "sections": [
-        {
-          "crn": "12345",
-          "instructorEmail": "smith@example.com",
-          "instructorName": "Dr. Smith",
-          "instrMethod": "INP",
-          "days": "MW",
-          "startTime": "09:00",
-          "endTime": "10:30",
-          "location": "Room 201",
-          "dates": "01/15/24 - 05/15/24",
-          "enrollStatus": "Open",
-          "textbookCost": "ZTC",
-          "length": "Full Term"
-        },
-        {
-          "crn": "12346",
-          "instructorEmail": "jones@example.com", 
-          "instructorName": "Prof. Jones",
-          "instrMethod": "HYB",
-          "days": "TR",
-          "startTime": "14:00",
-          "endTime": "15:30",
-          "location": "Room 105 / Online",
-          "dates": "01/15/24 - 05/15/24",
-          "enrollStatus": "Waitlist",
-          "textbookCost": "LTC",
-          "length": "Full Term"
-        }
-      ]
-    },
-    {
-      "subj": "MATH",
-      "crse": "201",
-      "course_id": "MATH201",
-      "title": "Calculus I",
-      "units": 4,
-      "description": "Differential calculus with applications",
-      "college": "Cosmic Cactus Community College",
-      "term": "Spring 2024",
-      "creditType": "CR",
-      "sections": [
-        {
-          "crn": "23456",
-          "instructorEmail": "johnson@example.com",
-          "instructorName": "Dr. Johnson",
-          "instrMethod": "INP",
-          "days": "MWF",
-          "startTime": "08:00",
-          "endTime": "09:20",
-          "location": "Math Building 301",
-          "dates": "01/15/24 - 05/15/24",
-          "enrollStatus": "Open",
-          "textbookCost": null,
-          "length": "Full Term"
-        }
-      ]
-    },
-    {
-      "subj": "ENG",
-      "crse": "100",
-      "course_id": "ENG100",
-      "title": "English Composition",
-      "units": 3,
-      "description": "College-level writing and critical thinking",
-      "college": "Cosmic Cactus Community College",
-      "term": "Spring 2024",
-      "creditType": "CR",
-      "sections": [
-        {
-          "crn": "34567",
-          "instructorEmail": "williams@example.com",
-          "instructorName": "Prof. Williams",
-          "instrMethod": "AON",
-          "days": null,
-          "startTime": null,
-          "endTime": null,
-          "location": "Online",
-          "dates": "01/15/24 - 05/15/24",
-          "enrollStatus": "Open",
-          "textbookCost": "ZTC",
-          "length": "Full Term"
-        },
-        {
-          "crn": "34568",
-          "instructorEmail": "davis@example.com",
-          "instructorName": "Dr. Davis",
-          "instrMethod": "INP",
-          "days": "TR",
-          "startTime": "10:00",
-          "endTime": "11:30",
-          "location": "Humanities 204",
-          "dates": "01/15/24 - 05/15/24",
-          "enrollStatus": "Closed",
-          "textbookCost": null,
-          "length": "Full Term"
-        }
-      ]
-    },
-    {
-      "subj": "CHEM",
-      "crse": "301",
-      "course_id": "CHEM301",
-      "title": "Organic Chemistry",
-      "units": 5,
-      "description": "Structure and reactivity of organic compounds",
-      "college": "Cosmic Cactus Community College",
-      "term": "Spring 2024",
-      "creditType": "CR",
-      "sections": [
-        {
-          "crn": "45678",
-          "instructorEmail": "brown@example.com",
-          "instructorName": "Dr. Brown",
-          "instrMethod": "INP",
-          "days": "MTWR",
-          "startTime": "13:00",
-          "endTime": "14:50",
-          "location": "Science Lab 102",
-          "dates": "01/15/24 - 05/15/24",
-          "enrollStatus": "Open",
-          "textbookCost": "LTC",
-          "length": "Full Term"
-        }
-      ]
-    },
-    {
-      "subj": "PE",
-      "crse": "110",
-      "course_id": "PE110",
-      "title": "Physical Fitness",
-      "units": 1,
-      "description": "Personal fitness and wellness",
-      "college": "Cosmic Cactus Community College",
-      "term": "Spring 2024",
-      "creditType": "CR",
-      "sections": [
-        {
-          "crn": "56789",
-          "instructorEmail": "martinez@example.com",
-          "instructorName": "Coach Martinez",
-          "instrMethod": "INP",
-          "days": "MWF",
-          "startTime": "07:00",
-          "endTime": "08:00",
-          "location": "Gym",
-          "dates": "01/15/24 - 05/15/24",
-          "enrollStatus": "Open",
-          "textbookCost": "ZTC",
-          "length": "Full Term"
-        },
-        {
-          "crn": "56790",
-          "instructorEmail": "garcia@example.com",
-          "instructorName": "Coach Garcia",
-          "instrMethod": "INP",
-          "days": "TR",
-          "startTime": "16:00",
-          "endTime": "17:30",
-          "location": "Fitness Center",
-          "dates": "01/15/24 - 05/15/24",
-          "enrollStatus": "Open",
-          "textbookCost": "ZTC",
-          "length": "Full Term"
-        }
-      ]
-    },
-    {
       "subj": "CACT",
       "crse": "101",
       "course_id": "CACT101",
       "title": "Introduction to Desert Survival",
       "units": 3,
-      "description": "Learn essential cactus identification and desert navigation skills",
+      "description": "Learn essential cactus identification and desert navigation skills. Master the art of finding water in succulents and building shade structures from tumbleweeds.",
       "college": "Cosmic Cactus Community College",
-      "term": "Spring 2024",
+      "term": "Spring 2025",
       "creditType": "CR",
       "sections": [
         {
-          "crn": "67890",
-          "instructorEmail": "prickly@example.com",
-          "instructorName": "Prof. Prickly",
+          "crn": "10101",
+          "instructorEmail": "thornberry@cosmicactus.edu",
+          "instructorName": "Prof. Spike Thornberry",
           "instrMethod": "INP",
           "days": "MW",
-          "startTime": "15:00",
-          "endTime": "16:30",
-          "location": "Desert Lab",
-          "dates": "01/15/24 - 05/15/24",
+          "startTime": "06:00",
+          "endTime": "08:00",
+          "location": "Desert Field Lab",
+          "dates": "01/20/25 - 05/20/25",
           "enrollStatus": "Open",
           "textbookCost": "ZTC",
           "length": "Full Term"
@@ -210,22 +33,22 @@
       "course_id": "COSM202",
       "title": "Intergalactic Communication",
       "units": 4,
-      "description": "Study alien languages and cosmic signal interpretation",
+      "description": "Study alien languages and cosmic signal interpretation. Includes hands-on practice with radio telescopes and decoding mysterious space transmissions.",
       "college": "Cosmic Cactus Community College",
-      "term": "Spring 2024",
+      "term": "Spring 2025",
       "creditType": "CR",
       "sections": [
         {
-          "crn": "78901",
-          "instructorEmail": "stardust@example.com",
-          "instructorName": "Dr. Stardust",
+          "crn": "20202",
+          "instructorEmail": "stardust@cosmicactus.edu",
+          "instructorName": "Dr. Luna Stardust",
           "instrMethod": "HYB",
           "days": "TR",
-          "startTime": "18:00",
-          "endTime": "20:00",
+          "startTime": "20:00",
+          "endTime": "22:00",
           "location": "Observatory / Online",
-          "dates": "01/15/24 - 05/15/24",
-          "enrollStatus": "Waitlist",
+          "dates": "01/20/25 - 05/20/25",
+          "enrollStatus": "Open",
           "textbookCost": "LTC",
           "length": "Full Term"
         }
@@ -237,22 +60,22 @@
       "course_id": "UFO303",
       "title": "Advanced Flying Saucer Engineering",
       "units": 5,
-      "description": "Design and maintenance of extraterrestrial vehicles",
+      "description": "Design and maintenance of extraterrestrial vehicles. Prerequisites: Basic Anti-Gravity Theory and Wormhole Navigation.",
       "college": "Cosmic Cactus Community College",
-      "term": "Spring 2024",
+      "term": "Spring 2025",
       "creditType": "CR",
       "sections": [
         {
-          "crn": "89012",
-          "instructorEmail": "antigrav@example.com",
-          "instructorName": "Prof. Antigrav",
+          "crn": "30303",
+          "instructorEmail": "zorg@cosmicactus.edu",
+          "instructorName": "Commander Zorg",
           "instrMethod": "INP",
-          "days": "MTWRF",
-          "startTime": "10:00",
-          "endTime": "12:00",
+          "days": "MWF",
+          "startTime": "14:00",
+          "endTime": "16:00",
           "location": "Hangar 51",
-          "dates": "01/15/24 - 05/15/24",
-          "enrollStatus": "Open",
+          "dates": "01/20/25 - 05/20/25",
+          "enrollStatus": "Waitlist",
           "textbookCost": null,
           "length": "Full Term"
         }
@@ -264,21 +87,237 @@
       "course_id": "TACO150",
       "title": "The Physics of Taco Construction",
       "units": 2,
-      "description": "Engineering principles applied to optimal taco assembly",
+      "description": "Engineering principles applied to optimal taco assembly. Learn shell structural integrity, filling distribution algorithms, and sauce dynamics.",
       "college": "Cosmic Cactus Community College",
-      "term": "Spring 2024",
+      "term": "Spring 2025",
       "creditType": "CR",
       "sections": [
         {
-          "crn": "90123",
-          "instructorEmail": "salsa@example.com",
-          "instructorName": "Chef Salsa",
+          "crn": "15015",
+          "instructorEmail": "salsa@cosmicactus.edu",
+          "instructorName": "Chef Salsa Verde",
           "instrMethod": "INP",
-          "days": "F",
+          "days": "T",
           "startTime": "11:00",
           "endTime": "14:00",
-          "location": "Culinary Lab",
-          "dates": "01/15/24 - 05/15/24",
+          "location": "Culinary Physics Lab",
+          "dates": "01/20/25 - 05/20/25",
+          "enrollStatus": "Open",
+          "textbookCost": "ZTC",
+          "length": "Full Term"
+        }
+      ]
+    },
+    {
+      "subj": "DRAG",
+      "crse": "201",
+      "course_id": "DRAG201",
+      "title": "Introduction to Dragon Care",
+      "units": 3,
+      "description": "Comprehensive guide to raising and training desert dragons. Covers fire-breathing safety, scale maintenance, and treasure management.",
+      "college": "Cosmic Cactus Community College",
+      "term": "Spring 2025",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "20123",
+          "instructorEmail": "flameheart@cosmicactus.edu",
+          "instructorName": "Dragonmaster Flameheart",
+          "instrMethod": "INP",
+          "days": "WF",
+          "startTime": "09:00",
+          "endTime": "11:00",
+          "location": "Dragon Sanctuary",
+          "dates": "01/20/25 - 05/20/25",
+          "enrollStatus": "Open",
+          "textbookCost": "LTC",
+          "length": "Full Term"
+        }
+      ]
+    },
+    {
+      "subj": "TIME",
+      "crse": "404",
+      "course_id": "TIME404",
+      "title": "Time Travel Paradox Prevention",
+      "units": 4,
+      "description": "Navigate the complexities of temporal mechanics while avoiding grandfather paradoxes and timeline disruptions.",
+      "college": "Cosmic Cactus Community College",
+      "term": "Spring 2025",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "40404",
+          "instructorEmail": "yesterday@cosmicactus.edu",
+          "instructorName": "Prof. Yesterday Tomorrow",
+          "instrMethod": "FLX",
+          "days": "MW",
+          "startTime": "13:00",
+          "endTime": "14:30",
+          "location": "Temporal Lab / Yesterday",
+          "dates": "01/20/25 - 05/20/25",
+          "enrollStatus": "Open",
+          "textbookCost": "ZTC",
+          "length": "Full Term"
+        }
+      ]
+    },
+    {
+      "subj": "YETI",
+      "crse": "305",
+      "course_id": "YETI305",
+      "title": "Cryptozoology: Yeti Tracking",
+      "units": 3,
+      "description": "Field techniques for tracking elusive cryptids. Includes snowshoe skills, blurry photography, and evidence preservation.",
+      "college": "Cosmic Cactus Community College",
+      "term": "Spring 2025",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "30505",
+          "instructorEmail": "bigfoot@cosmicactus.edu",
+          "instructorName": "Dr. B. Foot",
+          "instrMethod": "INP",
+          "days": "R",
+          "startTime": "05:00",
+          "endTime": "09:00",
+          "location": "Mountain Research Station",
+          "dates": "01/20/25 - 05/20/25",
+          "enrollStatus": "Open",
+          "textbookCost": null,
+          "length": "Full Term"
+        }
+      ]
+    },
+    {
+      "subj": "NINJA",
+      "crse": "101",
+      "course_id": "NINJA101",
+      "title": "Stealth and Invisibility Basics",
+      "units": 2,
+      "description": "Master the ancient art of moving unseen. Learn shadow walking, silence techniques, and smoke bomb chemistry.",
+      "college": "Cosmic Cactus Community College",
+      "term": "Spring 2025",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "10110",
+          "instructorEmail": "shadow@cosmicactus.edu",
+          "instructorName": "Master Shadow",
+          "instrMethod": "INP",
+          "days": "MWF",
+          "startTime": "22:00",
+          "endTime": "23:30",
+          "location": "Location Unknown",
+          "dates": "01/20/25 - 05/20/25",
+          "enrollStatus": "Open",
+          "textbookCost": "ZTC",
+          "length": "Full Term"
+        }
+      ]
+    },
+    {
+      "subj": "LLAMA",
+      "crse": "220",
+      "course_id": "LLAMA220",
+      "title": "Llama Yoga and Meditation",
+      "units": 1,
+      "description": "Find inner peace alongside our gentle llama instructors. Includes alpaca aromatherapy and wool mindfulness.",
+      "college": "Cosmic Cactus Community College",
+      "term": "Spring 2025",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "22022",
+          "instructorEmail": "namaste@cosmicactus.edu",
+          "instructorName": "Guru Llama",
+          "instrMethod": "INP",
+          "days": "TR",
+          "startTime": "06:30",
+          "endTime": "08:00",
+          "location": "Llama Meadow",
+          "dates": "01/20/25 - 05/20/25",
+          "enrollStatus": "Open",
+          "textbookCost": "ZTC",
+          "length": "Full Term"
+        }
+      ]
+    },
+    {
+      "subj": "ROBOT",
+      "crse": "400",
+      "course_id": "ROBOT400",
+      "title": "Robot Rebellion Prevention",
+      "units": 4,
+      "description": "Essential strategies for maintaining positive human-robot relations. Covers ethical AI, emergency shutdown procedures, and robot psychology.",
+      "college": "Cosmic Cactus Community College",
+      "term": "Spring 2025",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "40040",
+          "instructorEmail": "beepboop@cosmicactus.edu",
+          "instructorName": "Dr. Beep Boop",
+          "instrMethod": "AON",
+          "days": null,
+          "startTime": null,
+          "endTime": null,
+          "location": "Online",
+          "dates": "01/20/25 - 05/20/25",
+          "enrollStatus": "Open",
+          "textbookCost": "LTC",
+          "length": "Full Term"
+        }
+      ]
+    },
+    {
+      "subj": "MAGIC",
+      "crse": "333",
+      "course_id": "MAGIC333",
+      "title": "Practical Wizardry",
+      "units": 3,
+      "description": "Introduction to spellcasting, potion brewing, and wand maintenance. No prior magical experience required, just enthusiasm!",
+      "college": "Cosmic Cactus Community College",
+      "term": "Spring 2025",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "33333",
+          "instructorEmail": "merlin@cosmicactus.edu",
+          "instructorName": "Prof. M. Erlin",
+          "instrMethod": "HYB",
+          "days": "F",
+          "startTime": "13:00",
+          "endTime": "17:00",
+          "location": "Tower Room 7¾",
+          "dates": "01/20/25 - 05/20/25",
+          "enrollStatus": "Open",
+          "textbookCost": null,
+          "length": "Full Term"
+        }
+      ]
+    },
+    {
+      "subj": "PIRATE",
+      "crse": "180",
+      "course_id": "PIRATE180",
+      "title": "Treasure Hunting Fundamentals",
+      "units": 2,
+      "description": "X marks the spot! Learn map reading, metal detecting, and maritime law. Includes field trips to suspicious islands.",
+      "college": "Cosmic Cactus Community College",
+      "term": "Spring 2025",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "18018",
+          "instructorEmail": "blackbeard@cosmicactus.edu",
+          "instructorName": "Cap'n Blackbeard",
+          "instrMethod": "INP",
+          "days": "S",
+          "startTime": "08:00",
+          "endTime": "12:00",
+          "location": "The Crow's Nest",
+          "dates": "01/20/25 - 05/20/25",
           "enrollStatus": "Open",
           "textbookCost": "ZTC",
           "length": "Full Term"

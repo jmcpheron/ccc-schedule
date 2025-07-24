@@ -16,7 +16,7 @@ The CCC Schedule ecosystem consists of two complementary repositories:
 │                         │         │                          │
 │  College Websites       │         │  Transformers            │
 │       ↓                 │         │       ↓                  │
-│  Collectors             │ ──JSON──▶  Standardized Format    │
+│  Collectors             │ ──JSON──▶  Standardized Format     │
 │       ↓                 │         │       ↓                  │
 │  Raw JSON Output        │         │  Web Viewer              │
 │                         │         │                          │
