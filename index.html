@@ -65,6 +65,13 @@
     </style>
 </head>
 <body>
+    <script>
+        // Immediately ensure body is visible to prevent white screen
+        document.body.classList.remove('d-none');
+        document.body.style.display = 'block';
+        document.body.style.visibility = 'visible';
+        document.body.style.opacity = '1';
+    </script>
     <!-- Navigation -->
     <nav class="navbar navbar-light shadow-sm" id="top-navbar" aria-label="navigation" style="background: linear-gradient(to right, #f8f9fa, #e9ecef);">
         <div class="container">
@@ -578,6 +585,9 @@
     <script>
         // Auto-hide search form on demo page load
         document.addEventListener('DOMContentLoaded', function() {
+            // Ensure body is visible
+            document.body.classList.remove('d-none');
+            
             // Show hero content initially
             const searchForm = document.getElementById('search-form');
             const moreOptionsElement = document.getElementById('more-options');
