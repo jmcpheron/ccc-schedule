@@ -18,6 +18,19 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/schedule.css">
     <style>
+        /* CRITICAL: Ensure body is always visible */
+        body {
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            background-color: #f8f9fa;
+        }
+        
+        /* Override Bootstrap's d-none when applied to body */
+        body.d-none {
+            display: block !important;
+        }
+        
         .bg-gradient {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }
@@ -39,9 +52,6 @@
         .card-header {
             border-radius: 12px 12px 0 0 !important;
             border: none;
-        }
-        body {
-            background-color: #f8f9fa;
         }
         .form-control, .form-select {
             border-radius: 8px;
@@ -66,11 +76,52 @@
 </head>
 <body>
     <script>
-        // Immediately ensure body is visible to prevent white screen
-        document.body.classList.remove('d-none');
-        document.body.style.display = 'block';
-        document.body.style.visibility = 'visible';
-        document.body.style.opacity = '1';
+        // Robust fix to ensure body is always visible
+        (function() {
+            // Immediately ensure body is visible
+            function ensureBodyVisible() {
+                document.body.classList.remove('d-none');
+                document.body.style.display = 'block';
+                document.body.style.visibility = 'visible';
+                document.body.style.opacity = '1';
+            }
+            
+            // Run immediately
+            ensureBodyVisible();
+            
+            // Set up MutationObserver to watch for class changes on body
+            const observer = new MutationObserver(function(mutations) {
+                mutations.forEach(function(mutation) {
+                    if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                        if (document.body.classList.contains('d-none')) {
+                            console.warn('Body had d-none class added - removing it');
+                            ensureBodyVisible();
+                        }
+                    }
+                });
+            });
+            
+            // Start observing the body for class attribute changes
+            observer.observe(document.body, {
+                attributes: true,
+                attributeFilter: ['class']
+            });
+            
+            // Also run on various page load events to be extra sure
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', ensureBodyVisible);
+            }
+            window.addEventListener('load', ensureBodyVisible);
+            
+            // Debug: Log if body gets hidden
+            setInterval(function() {
+                if (document.body.classList.contains('d-none') || 
+                    window.getComputedStyle(document.body).display === 'none') {
+                    console.error('Body is hidden! Fixing...');
+                    ensureBodyVisible();
+                }
+            }, 1000);
+        })();
     </script>
     <!-- Navigation -->
     <nav class="navbar navbar-light shadow-sm" id="top-navbar" aria-label="navigation" style="background: linear-gradient(to right, #f8f9fa, #e9ecef);">
@@ -252,16 +303,14 @@
             </form>
         </div>
 
-        <div class="text-center mb-3">
+        <div class="text-center mb-3 d-none">
             <button class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#more-options" aria-expanded="false" aria-controls="more-options">
                 <i class="bi bi-sliders"></i> Advanced Filters
             </button>
         </div>
-    </div>
 
-    <!-- More Options Collapsible Section -->
-    <div class="container">
-        <div class="collapse p-3" id="more-options">
+        <!-- More Options Collapsible Section -->
+        <div class="collapse p-3 d-none" id="more-options">
             <div class="row g-3">
                 <div class="col-md-3">
                     <div id="sessions-label">Class Length</div>
