@@ -140,17 +140,18 @@ function initializeEventHandlers() {
  */
 function loadInitialData() {
     // Get spinner modal instance using Bootstrap 5 API
+    let spinnerModal = null;
     const spinnerModalElement = document.getElementById('spinner-modal');
     if (spinnerModalElement && typeof bootstrap !== 'undefined' && bootstrap.Modal) {
         try {
-            const spinnerModal = new bootstrap.Modal(spinnerModalElement);
+            spinnerModal = new bootstrap.Modal(spinnerModalElement);
             
             // Show loading spinner
             spinnerModal.show();
             
             // Set a timeout to hide spinner after 500ms (matching production behavior)
             setTimeout(function() {
-                spinnerModal.hide();
+                if (spinnerModal) spinnerModal.hide();
             }, 500);
         } catch (e) {
             console.error('Error with spinner modal:', e);
@@ -163,7 +164,7 @@ function loadInitialData() {
             allCourses = data.courses || [];
             populateDropdowns();
             // Ensure spinner is hidden
-            spinnerModal.hide();
+            if (spinnerModal) spinnerModal.hide();
         })
         .fail(function() {
             // Try loading example data
@@ -171,10 +172,10 @@ function loadInitialData() {
                 .done(function(data) {
                     allCourses = data.courses || [];
                     populateDropdowns();
-                    spinnerModal.hide();
+                    if (spinnerModal) spinnerModal.hide();
                 })
                 .fail(function() {
-                    spinnerModal.hide();
+                    if (spinnerModal) spinnerModal.hide();
                     alert('Failed to load course data');
                 });
         });
