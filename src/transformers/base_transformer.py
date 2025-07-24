@@ -24,7 +24,7 @@ class BaseTransformer(ABC):
     @staticmethod
     def _load_config(path: Union[str, Path]) -> dict[str, Any]:
         """Load college configuration."""
-        with open(path, "r") as f:
+        with open(path) as f:
             return json.load(f)
 
     def transform(self, input_data: dict[str, Any]) -> dict[str, Any]:
@@ -89,7 +89,7 @@ class BaseTransformer(ABC):
         """
         pass
 
-    def _create_extensions(self, input_data: dict[str, Any]) -> dict[str, Any]:
+    def _create_extensions(self, _input_data: dict[str, Any]) -> dict[str, Any]:
         """Create college-specific extensions.
 
         Can be overridden by subclasses.
@@ -170,7 +170,7 @@ class BaseTransformer(ABC):
         return result
 
     def _transform_section(
-        self, section_data: dict[str, Any], course_data: dict[str, Any] = None
+        self, section_data: dict[str, Any], _course_data: dict[str, Any] = None
     ) -> dict[str, Any]:
         """Transform a section using mappings.
 

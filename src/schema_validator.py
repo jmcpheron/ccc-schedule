@@ -4,7 +4,6 @@ import json
 from pathlib import Path
 from typing import Any, Union
 
-import jsonschema
 from jsonschema import Draft7Validator
 
 
@@ -31,7 +30,7 @@ class ExtensibleSchemaValidator:
     @staticmethod
     def _load_json(path: Union[str, Path]) -> dict[str, Any]:
         """Load JSON file."""
-        with open(path, "r") as f:
+        with open(path) as f:
             return json.load(f)
 
     def validate(
@@ -163,7 +162,7 @@ def validate_schedule_file(
     """
     validator = ExtensibleSchemaValidator(base_schema_path, college_config_path)
 
-    with open(schedule_path, "r") as f:
+    with open(schedule_path) as f:
         data = json.load(f)
 
     return validator.validate(data, strict)
@@ -181,7 +180,7 @@ def merge_with_base_schema(
     Returns:
         Merged schema dictionary
     """
-    with open(base_schema_path, "r") as f:
+    with open(base_schema_path) as f:
         base_schema = json.load(f)
 
     # Deep merge extensions into base schema

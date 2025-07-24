@@ -46,7 +46,7 @@ class RioHondoTransformer(BaseTransformer):
         return list(courses_map.values())
 
     def _transform_section(
-        self, section_data: dict[str, Any], course_data: dict[str, Any] = None
+        self, section_data: dict[str, Any], _course_data: dict[str, Any] = None
     ) -> dict[str, Any]:
         """Transform a Rio Hondo section."""
         # Map status values
@@ -222,7 +222,7 @@ class RioHondoTransformer(BaseTransformer):
             # Parse time like "06:00pm"
             time_obj = datetime.strptime(time_str, "%I:%M%p")
             return time_obj.strftime("%H:%M")
-        except:
+        except ValueError:
             # Try other formats or return as-is
             return time_str
 
@@ -267,7 +267,7 @@ class RioHondoTransformer(BaseTransformer):
             try:
                 month, day = start_date.split("/")
                 dates["start"] = f"2025-{month.zfill(2)}-{day.zfill(2)}"
-            except:
+            except ValueError:
                 dates["start"] = start_date
         else:
             dates["start"] = "2025-08-25"  # Default Fall 2025 start
@@ -276,7 +276,7 @@ class RioHondoTransformer(BaseTransformer):
             try:
                 month, day = end_date.split("/")
                 dates["end"] = f"2025-{month.zfill(2)}-{day.zfill(2)}"
-            except:
+            except ValueError:
                 dates["end"] = end_date
         else:
             dates["end"] = "2025-12-20"  # Default Fall 2025 end

@@ -8,15 +8,15 @@ from pathlib import Path
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from src.transformers.rio_hondo_transformer import RioHondoTransformer
 from src.schema_validator import validate_schedule_file
+from src.transformers.rio_hondo_transformer import RioHondoTransformer
 
 
 def convert_rio_hondo_to_schema(input_file: Path, output_file: Path) -> None:
     """Convert Rio Hondo collector JSON to CCC Schedule standardized format."""
 
     # Load Rio Hondo data
-    with open(input_file, "r") as f:
+    with open(input_file) as f:
         rio_data = json.load(f)
 
     # Get college config path
@@ -42,9 +42,9 @@ def convert_rio_hondo_to_schema(input_file: Path, output_file: Path) -> None:
     )
 
     if is_valid:
-        print(f"✓ Successfully converted and validated data")
+        print("✓ Successfully converted and validated data")
     else:
-        print(f"✗ Validation errors:")
+        print("✗ Validation errors:")
         for error in errors:
             print(f"  - {error}")
 
