@@ -21,7 +21,12 @@ $(document).ready(function() {
 window.loadCosmicCactusDemo = function() {
     // Show the search form and hide the hero content
     $('#search-form').removeClass('d-none');
-    $('#more-options').parent().parent().removeClass('d-none');
+    
+    // Show the more options section
+    const moreOptionsElement = document.getElementById('more-options');
+    if (moreOptionsElement && moreOptionsElement.parentElement && moreOptionsElement.parentElement.parentElement) {
+        moreOptionsElement.parentElement.parentElement.classList.remove('d-none');
+    }
     
     // Load the demo data
     $('#term-select').val('Spring 2025').trigger('change');
@@ -136,15 +141,21 @@ function initializeEventHandlers() {
 function loadInitialData() {
     // Get spinner modal instance using Bootstrap 5 API
     const spinnerModalElement = document.getElementById('spinner-modal');
-    const spinnerModal = new bootstrap.Modal(spinnerModalElement);
-    
-    // Show loading spinner
-    spinnerModal.show();
-    
-    // Set a timeout to hide spinner after 500ms (matching production behavior)
-    setTimeout(function() {
-        spinnerModal.hide();
-    }, 500);
+    if (spinnerModalElement && typeof bootstrap !== 'undefined' && bootstrap.Modal) {
+        try {
+            const spinnerModal = new bootstrap.Modal(spinnerModalElement);
+            
+            // Show loading spinner
+            spinnerModal.show();
+            
+            // Set a timeout to hide spinner after 500ms (matching production behavior)
+            setTimeout(function() {
+                spinnerModal.hide();
+            }, 500);
+        } catch (e) {
+            console.error('Error with spinner modal:', e);
+        }
+    }
     
     // Load course data
     $.getJSON('data/courses.json')

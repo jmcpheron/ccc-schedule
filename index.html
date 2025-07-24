@@ -580,11 +580,13 @@
         document.addEventListener('DOMContentLoaded', function() {
             // Show hero content initially
             const searchForm = document.getElementById('search-form');
-            const moreOptions = document.getElementById('more-options').parentElement.parentElement;
+            const moreOptionsElement = document.getElementById('more-options');
             const searchResults = document.getElementById('search-results-container');
             
             if (searchForm) searchForm.classList.add('d-none');
-            if (moreOptions) moreOptions.classList.add('d-none');
+            if (moreOptionsElement && moreOptionsElement.parentElement && moreOptionsElement.parentElement.parentElement) {
+                moreOptionsElement.parentElement.parentElement.classList.add('d-none');
+            }
             if (searchResults) searchResults.classList.add('d-none');
         });
     </script>
