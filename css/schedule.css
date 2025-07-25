@@ -15,6 +15,21 @@ body {
     background-color: white;
 }
 
+/* Instructor dropdown styling */
+#instructor-drop-down {
+    max-height: 300px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+#instructor-drop-down .dropdown-item {
+    cursor: pointer;
+}
+
+#instructor-drop-down .dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
 .list-style-none {
     list-style-type: none;
     margin-left: 0;

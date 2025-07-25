@@ -62,13 +62,15 @@ function initializeEventHandlers() {
     // Search buttons
     $('#button-search').on('click', function(e) {
         e.preventDefault();
-        $(this).val('ALL');
+        $('#button-search-open').removeClass('active');
+        $(this).addClass('active');
         performSearch();
     });
     
     $('#button-search-open').on('click', function(e) {
         e.preventDefault();
-        $(this).val('OPEN');
+        $('#button-search').removeClass('active');
+        $(this).addClass('active');
         performSearch();
     });
     
@@ -96,6 +98,13 @@ function initializeEventHandlers() {
     // Time sliders
     $('#start-time, #end-time').on('input', function() {
         updateTimeDisplay($(this));
+        performSearch();
+    });
+    
+    // Session length radio buttons
+    $('input[name="flexRadioSessions"]').on('change', function() {
+        const selected = $(this).next('label').text().trim();
+        $('#dropdownMenuButtonSessions').text(selected);
         performSearch();
     });
     
@@ -261,6 +270,14 @@ function setupInstructorSearch() {
     
     $('#instructor-input').on('input', function() {
         const query = $(this).val().toLowerCase();
+        
+        if (query.length === 0) {
+            $('#instructor-input-email').val('');
+            $('#instructor-drop-down').hide();
+            performSearch();
+            return;
+        }
+        
         const matches = instructors.filter(i => 
             i.name.toLowerCase().includes(query) || 
             i.email.toLowerCase().includes(query)
@@ -276,10 +293,22 @@ function setupInstructorSearch() {
         });
         
         if (matches.length > 0) {
-            $('#instructor-drop-down').show();
+            $('#instructor-drop-down').addClass('show');
         } else {
-            $('#instructor-drop-down').hide();
+            $('#instructor-drop-down').removeClass('show');
         }
+        
+        // Clear email if no exact match
+        const exactMatch = instructors.find(i => 
+            i.name.toLowerCase() === query || 
+            i.email.toLowerCase() === query
+        );
+        if (!exactMatch) {
+            $('#instructor-input-email').val('');
+        }
+        
+        // Trigger search on typing
+        performSearch();
     });
     
     $(document).on('click', '#instructor-drop-down li', function() {
@@ -398,13 +427,23 @@ function performSearch() {
                 
                 // Instructor filter
                 const instructorEmail = $('#instructor-input-email').val();
+                const instructorQuery = $('#instructor-input').val().toLowerCase();
+                
+                // If email is set, use exact match
                 if (instructorEmail && section.instructorEmail !== instructorEmail) {
                     return false;
                 }
                 
+                // If no email but there's a query, do partial match on name
+                if (!instructorEmail && instructorQuery && section.instructorName) {
+                    if (!section.instructorName.toLowerCase().includes(instructorQuery)) {
+                        return false;
+                    }
+                }
+                
                 // Enrollment status filter (for "Open Only" button)
-                const searchMode = $('#button-search-open').val();
-                if (searchMode === 'OPEN' && section.enrollStatus !== 'Open') {
+                const openOnlyActive = $('#button-search-open').hasClass('active');
+                if (openOnlyActive && section.enrollStatus !== 'Open') {
                     return false;
                 }
                 
