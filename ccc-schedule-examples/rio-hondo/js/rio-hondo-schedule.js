@@ -95,6 +95,7 @@ function loadInitialData() {
                         status: section.status,
                         instructionMode: section.instruction_mode,
                         instructor: section.instructor ? section.instructor.name : 'TBA',
+                        instructorEmail: section.instructor ? section.instructor.email : null,
                         enrolled: section.enrollment.enrolled,
                         capacity: section.enrollment.capacity,
                         available: section.enrollment.available,
@@ -295,6 +296,7 @@ function displayCourseCard(course) {
                     <th>CRN</th>
                     <th>Instructor</th>
                     <th>Days/Times</th>
+                    <th>Location</th>
                     <th>Mode</th>
                     <th>Status</th>
                 </tr>
@@ -306,11 +308,18 @@ function displayCourseCard(course) {
     
     course.sections.forEach(section => {
         const meetingInfo = formatMeetingInfo(section.meetings);
+        const location = formatLocation(section.meetings);
+        const instructorDisplay = section.instructor + 
+            (section.instructorEmail && section.instructorEmail !== 'to.be..assigned@riohondo.edu' ? 
+                ` <a href="mailto:${section.instructorEmail}" title="Email instructor"><i class="bi bi-envelope-fill"></i></a>` : 
+                '');
+        
         const row = $(`
             <tr>
                 <td>${section.crn}</td>
-                <td>${section.instructor}</td>
+                <td>${instructorDisplay}</td>
                 <td>${meetingInfo}</td>
+                <td>${location}</td>
                 <td>${formatInstructionMode(section.instructionMode)}</td>
                 <td>
                     <span class="badge ${section.status === 'Open' ? 'bg-success' : 'bg-danger'}">
@@ -335,14 +344,20 @@ function displayCourseCard(course) {
 function displayCourseTableRows(course) {
     course.sections.forEach(section => {
         const meetingInfo = formatMeetingInfo(section.meetings);
+        const location = formatLocation(section.meetings);
+        const instructorDisplay = section.instructor + 
+            (section.instructorEmail && section.instructorEmail !== 'to.be..assigned@riohondo.edu' ? 
+                ` <a href="mailto:${section.instructorEmail}" title="Email instructor"><i class="bi bi-envelope-fill"></i></a>` : 
+                '');
+        
         const row = $(`
             <tr>
                 <td>${section.crn}</td>
                 <td>${course.subject} ${course.courseNumber}</td>
                 <td>${course.title}</td>
-                <td>${section.instructor}</td>
+                <td>${instructorDisplay}</td>
                 <td>${meetingInfo}</td>
-                <td>${formatInstructionMode(section.instructionMode)}</td>
+                <td>${location}</td>
                 <td>${course.units}</td>
                 <td>
                     <span class="badge ${section.status === 'Open' ? 'bg-success' : 'bg-danger'}">
@@ -402,6 +417,25 @@ function formatInstructionMode(mode) {
         'ARR': 'Arranged'
     };
     return modeMap[mode] || mode;
+}
+
+/**
+ * Format location information
+ */
+function formatLocation(meetings) {
+    if (!meetings || meetings.length === 0) return 'TBA';
+    
+    const meeting = meetings[0];
+    if (!meeting.location) return 'TBA';
+    
+    const building = meeting.location.building || 'TBA';
+    const room = meeting.location.room || '';
+    
+    if (building === 'Online' || building === 'TBD') {
+        return building;
+    }
+    
+    return room ? `${building} ${room}` : building;
 }
 
 /**
