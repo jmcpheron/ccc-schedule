@@ -74,6 +74,11 @@ body {
     font-weight: 500;
     transition: all 0.2s ease;
     border-width: 2px;
+    line-height: 1.5;
+    min-height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Search buttons state */
@@ -109,6 +114,9 @@ body {
 /* Reset button styling */
 #reset-filters {
     transition: all 0.2s ease;
+    /* Ensure consistent height */
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
 }
 
 #reset-filters:hover {
@@ -125,6 +133,22 @@ body {
 #reset-filters.btn-warning:hover {
     background-color: #e0a800;
     border-color: #d39e00;
+}
+
+/* Ensure all action buttons have exact same height */
+#button-search,
+#button-search-open,
+#reset-filters {
+    height: 48px !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    line-height: 1.5 !important;
+}
+
+/* Ensure icons don't affect button height */
+.btn-lg i {
+    font-size: 1.25rem;
+    vertical-align: middle;
 }
 
 /* Gap utility for older browsers */
