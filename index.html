@@ -155,12 +155,7 @@
             <form id="search-form" action=".">
                 <div class="row align-items-end">
                     <div class="col-12">
-                        <h1 class="text-center mb-4" style="color: #2c3e50; font-weight: 600;">Search for Classes</h1>
-                        <div class="text-center mb-4">
-                            <button class="btn btn-primary btn-lg shadow px-5 py-3" onclick="loadCosmicCactusDemo()">
-                                <i class="bi bi-rocket-takeoff me-2"></i> Load Sample Schedule
-                            </button>
-                        </div>
+                        <h3 class="text-center mb-3" style="color: #2c3e50; font-weight: 600;">Course Search</h3>
                     </div>
                     <div class="col-12 mb-3">
                         <input id="search_input_main" class="form-control form-control-lg" type="search" placeholder="Subject, Course Number, CRN, or Keyword" aria-label="#search_input_main">
@@ -596,7 +591,7 @@
     <!-- Custom JS -->
     <script src="js/schedule-enhanced.js"></script>
     <script>
-        // Ensure body is visible on page load
+        // Ensure body is visible on page load and load sample data
         document.addEventListener('DOMContentLoaded', function() {
             // Ensure body is visible
             document.body.classList.remove('d-none');
@@ -604,6 +599,13 @@
             // Keep search results hidden initially
             const searchResults = document.getElementById('search-results-container');
             if (searchResults) searchResults.classList.add('d-none');
+            
+            // Auto-load the sample schedule after a brief delay
+            setTimeout(function() {
+                if (typeof loadCosmicCactusDemo === 'function') {
+                    loadCosmicCactusDemo();
+                }
+            }, 500);
         });
     </script>
 
