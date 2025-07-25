@@ -323,7 +323,11 @@ function performSearch() {
                 (course.subj && course.subj.toLowerCase().includes(searchTerm)) ||
                 (course.crse && course.crse.toLowerCase().includes(searchTerm)) ||
                 (course.title && course.title.toLowerCase().includes(searchTerm)) ||
-                (course.description && course.description.toLowerCase().includes(searchTerm));
+                (course.description && course.description.toLowerCase().includes(searchTerm)) ||
+                (course.sections && course.sections.some(section => 
+                    (section.instructorName && section.instructorName.toLowerCase().includes(searchTerm)) ||
+                    (section.crn && section.crn.toLowerCase().includes(searchTerm))
+                ));
             
             if (!matchesSearch) return false;
         }
@@ -344,7 +348,71 @@ function performSearch() {
         const selectedCredit = $('#credit-select').val();
         if (selectedCredit && course.creditType !== selectedCredit) return false;
         
-        // Additional filters would be applied here based on section data
+        // Section-level filters - course must have at least one section that matches all filters
+        if (course.sections && course.sections.length > 0) {
+            const hasMatchingSection = course.sections.some(section => {
+                // Instructional method filter
+                const selectedMethods = $('input[name="flexRadioInstrMethod"]:checked').map(function() {
+                    return $(this).val();
+                }).get();
+                if (selectedMethods.length > 0 && !selectedMethods.includes(section.instrMethod)) {
+                    return false;
+                }
+                
+                // Meeting days filter
+                const selectedDays = $('input[name="flexRadioMeetingDays"]:checked').map(function() {
+                    return $(this).val();
+                }).get();
+                if (selectedDays.length > 0 && section.days) {
+                    const sectionDays = section.days.split('');
+                    const hasAllDays = selectedDays.every(day => sectionDays.includes(day));
+                    if (!hasAllDays) return false;
+                }
+                
+                // Time filter
+                const startTimeValue = parseFloat($('#start-time').val());
+                const endTimeValue = parseFloat($('#end-time').val());
+                if (section.startTime && section.endTime) {
+                    const sectionStart = parseFloat(section.startTime.replace(':', '.'));
+                    const sectionEnd = parseFloat(section.endTime.replace(':', '.'));
+                    if (sectionStart < startTimeValue || sectionEnd > endTimeValue) {
+                        return false;
+                    }
+                }
+                
+                // Textbook cost filter
+                const selectedTextbookCosts = $('input[name="textbookCost"]:checked').map(function() {
+                    return $(this).val();
+                }).get();
+                if (selectedTextbookCosts.length > 0 && section.textbookCost && 
+                    !selectedTextbookCosts.includes(section.textbookCost)) {
+                    return false;
+                }
+                
+                // Class length filter
+                const selectedSession = $('input[name="flexRadioSessions"]:checked').val();
+                if (selectedSession && selectedSession !== 'x') {
+                    if (selectedSession === '1' && section.length !== 'Full Term') return false;
+                    if (selectedSession === 'S' && section.length === 'Full Term') return false;
+                }
+                
+                // Instructor filter
+                const instructorEmail = $('#instructor-input-email').val();
+                if (instructorEmail && section.instructorEmail !== instructorEmail) {
+                    return false;
+                }
+                
+                // Enrollment status filter (for "Open Only" button)
+                const searchMode = $('#button-search-open').val();
+                if (searchMode === 'OPEN' && section.enrollStatus !== 'Open') {
+                    return false;
+                }
+                
+                return true;
+            });
+            
+            if (!hasMatchingSection) return false;
+        }
         
         return true;
     });
