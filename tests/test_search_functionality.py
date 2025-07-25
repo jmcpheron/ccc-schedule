@@ -329,29 +329,33 @@ class TestSearchFunctionality:
         # Add credit type to existing courses
         for course in mock_course_data["courses"]:
             course["creditType"] = "CR"
-        
+
         # Add non-credit course to test data
-        mock_course_data["courses"].append({
-            "subj": "PE",
-            "crse": "099",
-            "title": "Fitness Lab",
-            "units": 0,
-            "creditType": "NC",
-            "college": "West Valley College",
-            "term": "Spring 2024",
-            "sections": [{
-                "crn": "34567",
-                "instrMethod": "INP",
-                "enrollStatus": "Open",
-            }],
-        })
-        
+        mock_course_data["courses"].append(
+            {
+                "subj": "PE",
+                "crse": "099",
+                "title": "Fitness Lab",
+                "units": 0,
+                "creditType": "NC",
+                "college": "West Valley College",
+                "term": "Spring 2024",
+                "sections": [
+                    {
+                        "crn": "34567",
+                        "instrMethod": "INP",
+                        "enrollStatus": "Open",
+                    }
+                ],
+            }
+        )
+
         courses = mock_course_data["courses"]
-        
+
         # Test credit filter
         matches = [c for c in courses if c.get("creditType") == "CR"]
         assert len(matches) == 2  # CS and MATH
-        
+
         # Test non-credit filter
         matches = [c for c in courses if c.get("creditType") == "NC"]
         assert len(matches) == 1
@@ -363,25 +367,29 @@ class TestSearchFunctionality:
         for course in mock_course_data["courses"]:
             for section in course["sections"]:
                 section["length"] = "Full Term"
-        
+
         # Add short term course
-        mock_course_data["courses"].append({
-            "subj": "BUS",
-            "crse": "100",
-            "title": "Quick Start Business",
-            "units": 1,
-            "college": "West Valley College",
-            "term": "Spring 2024",
-            "sections": [{
-                "crn": "45678",
-                "length": "Short Term",
-                "instrMethod": "INP",
-                "enrollStatus": "Open",
-            }],
-        })
-        
+        mock_course_data["courses"].append(
+            {
+                "subj": "BUS",
+                "crse": "100",
+                "title": "Quick Start Business",
+                "units": 1,
+                "college": "West Valley College",
+                "term": "Spring 2024",
+                "sections": [
+                    {
+                        "crn": "45678",
+                        "length": "Short Term",
+                        "instrMethod": "INP",
+                        "enrollStatus": "Open",
+                    }
+                ],
+            }
+        )
+
         courses = mock_course_data["courses"]
-        
+
         # Test full term filter
         matches = []
         for course in courses:
@@ -390,7 +398,7 @@ class TestSearchFunctionality:
                     matches.append(course)
                     break
         assert len(matches) == 2  # CS and MATH
-        
+
         # Test short term filter
         matches = []
         for course in courses:
@@ -404,23 +412,27 @@ class TestSearchFunctionality:
     def test_sunday_classes_filter(self, mock_course_data):
         """Test filtering for Sunday classes."""
         # Add Sunday course
-        mock_course_data["courses"].append({
-            "subj": "YOGA",
-            "crse": "150",
-            "title": "Sunday Yoga",
-            "units": 1,
-            "college": "West Valley College",
-            "term": "Spring 2024",
-            "sections": [{
-                "crn": "56789",
-                "days": "U",
-                "instrMethod": "INP",
-                "enrollStatus": "Open",
-            }],
-        })
-        
+        mock_course_data["courses"].append(
+            {
+                "subj": "YOGA",
+                "crse": "150",
+                "title": "Sunday Yoga",
+                "units": 1,
+                "college": "West Valley College",
+                "term": "Spring 2024",
+                "sections": [
+                    {
+                        "crn": "56789",
+                        "days": "U",
+                        "instrMethod": "INP",
+                        "enrollStatus": "Open",
+                    }
+                ],
+            }
+        )
+
         courses = mock_course_data["courses"]
-        
+
         # Test Sunday filter
         selected_days = ["U"]
         matches = []
@@ -444,11 +456,13 @@ class TestSearchFunctionality:
                 "units": 3,
                 "college": "West Valley College",
                 "term": "Spring 2024",
-                "sections": [{
-                    "crn": "67890",
-                    "instrMethod": "SON",
-                    "enrollStatus": "Open",
-                }],
+                "sections": [
+                    {
+                        "crn": "67890",
+                        "instrMethod": "SON",
+                        "enrollStatus": "Open",
+                    }
+                ],
             },
             {
                 "subj": "TUTR",
@@ -457,11 +471,13 @@ class TestSearchFunctionality:
                 "units": 1,
                 "college": "West Valley College",
                 "term": "Spring 2024",
-                "sections": [{
-                    "crn": "78901",
-                    "instrMethod": "TUT",
-                    "enrollStatus": "Open",
-                }],
+                "sections": [
+                    {
+                        "crn": "78901",
+                        "instrMethod": "TUT",
+                        "enrollStatus": "Open",
+                    }
+                ],
             },
             {
                 "subj": "WORK",
@@ -470,17 +486,19 @@ class TestSearchFunctionality:
                 "units": 3,
                 "college": "West Valley College",
                 "term": "Spring 2024",
-                "sections": [{
-                    "crn": "89012",
-                    "instrMethod": "WRK",
-                    "enrollStatus": "Open",
-                }],
+                "sections": [
+                    {
+                        "crn": "89012",
+                        "instrMethod": "WRK",
+                        "enrollStatus": "Open",
+                    }
+                ],
             },
         ]
-        
+
         mock_course_data["courses"].extend(new_courses)
         courses = mock_course_data["courses"]
-        
+
         # Test each mode
         for mode, expected_subj in [("SON", "COMP"), ("TUT", "TUTR"), ("WRK", "WORK")]:
             matches = []
@@ -503,13 +521,15 @@ class TestSearchFunctionality:
                 "units": 2,
                 "college": "West Valley College",
                 "term": "Spring 2024",
-                "sections": [{
-                    "crn": "90123",
-                    "startTime": "05:00",
-                    "endTime": "07:00",
-                    "instrMethod": "INP",
-                    "enrollStatus": "Open",
-                }],
+                "sections": [
+                    {
+                        "crn": "90123",
+                        "startTime": "05:00",
+                        "endTime": "07:00",
+                        "instrMethod": "INP",
+                        "enrollStatus": "Open",
+                    }
+                ],
             },
             {
                 "subj": "LATE",
@@ -518,19 +538,21 @@ class TestSearchFunctionality:
                 "units": 2,
                 "college": "West Valley College",
                 "term": "Spring 2024",
-                "sections": [{
-                    "crn": "01234",
-                    "startTime": "22:00",
-                    "endTime": "23:30",
-                    "instrMethod": "INP",
-                    "enrollStatus": "Open",
-                }],
+                "sections": [
+                    {
+                        "crn": "01234",
+                        "startTime": "22:00",
+                        "endTime": "23:30",
+                        "instrMethod": "INP",
+                        "enrollStatus": "Open",
+                    }
+                ],
             },
         ]
-        
+
         mock_course_data["courses"].extend(new_courses)
         courses = mock_course_data["courses"]
-        
+
         # Test early morning filter (5:00 AM - 7:00 AM)
         matches = []
         for course in courses:
@@ -541,7 +563,7 @@ class TestSearchFunctionality:
                     break
         assert len(matches) == 1
         assert matches[0]["subj"] == "EARLY"
-        
+
         # Test late evening filter (after 9:00 PM)
         matches = []
         for course in courses:
@@ -560,9 +582,9 @@ class TestSearchFunctionality:
             course["creditType"] = "CR"
             for section in course["sections"]:
                 section["length"] = "Full Term"
-        
+
         courses = mock_course_data["courses"]
-        
+
         # Test: Credit courses + ZTC + Morning classes
         matches = []
         for course in courses:
@@ -573,6 +595,6 @@ class TestSearchFunctionality:
                     if textbook == "ZTC" and "08:00" <= start_time <= "12:00":
                         matches.append(course)
                         break
-        
+
         assert len(matches) == 1
         assert matches[0]["subj"] == "CS"
