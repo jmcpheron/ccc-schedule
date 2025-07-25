@@ -30,40 +30,71 @@ body {
     background-color: #f8f9fa;
 }
 
-/* Active filter indicators */
+/* Active filter indicators - subtle */
 .form-select.has-value {
     border-color: #0066CC;
-    background-color: #f0f8ff;
+    background-color: #f8faff;
 }
 
 .dropdown-toggle.has-selection {
     border-color: #0066CC;
-    background-color: #f0f8ff;
+    background-color: #f8faff;
 }
 
-/* Search buttons state */
+/* Search buttons state - subtle effect */
 #button-search.active {
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
+    background-color: #0056b3;
+    border-color: #0056b3;
 }
 
 #button-search-open.active {
-    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, .25);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
+    background-color: #218838;
+    border-color: #1e7e34;
 }
 
 /* Make reset button more visible when filters are active */
 #reset-filters {
-    transition: all 0.3s ease;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+/* Ensure all buttons in input group have same height */
+.input-group-lg > .btn {
+    height: calc(1.5em + 1rem + 2px);
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
 }
 
 /* Responsive adjustments for button group */
 @media (max-width: 768px) {
     .input-group-lg > .btn {
-        font-size: 1rem;
+        font-size: 0.875rem;
         padding: 0.5rem 0.75rem;
+        height: auto;
     }
     
+    /* Hide text on mobile, show only icons */
+    #button-search span,
+    #button-search-open span,
     #reset-filters span {
         display: none;
+    }
+    
+    #button-search::after {
+        content: "All";
+        margin-left: 0.25rem;
+    }
+    
+    #button-search-open::after {
+        content: "Open";
+        margin-left: 0.25rem;
+    }
+    
+    #reset-filters::after {
+        content: "Reset";
+        margin-left: 0.25rem;
     }
 }
 
