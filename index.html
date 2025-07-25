@@ -153,14 +153,30 @@
     <div class="container">
         <div class="mt-4">
             <form id="search-form" action=".">
-                <div class="row align-items-end">
+                <div class="row">
                     <div class="col-12">
-                        <h3 class="text-center mb-3" style="color: #2c3e50; font-weight: 600;">Course Search</h3>
+                        <h3 class="text-center mb-4" style="color: #2c3e50; font-weight: 600;">Course Search</h3>
                     </div>
                     <div class="col-12 mb-3">
-                        <input id="search_input_main" class="form-control form-control-lg" type="search" placeholder="Subject, Course Number, CRN, or Keyword" aria-label="#search_input_main">
-                        <button class="btn btn-primary btn-lg shadow-sm" type="submit" id="button-search" value="ALL" title="Search all sections"><span class="bi bi-search"></span> Search All</button>
-                        <button class="btn btn-success btn-lg shadow-sm" type="submit" id="button-search-open" value="OPEN" title="Search open sections only"><span class="bi bi-search"></span> Open Only</button>
+                        <!-- Search Input -->
+                        <div class="mb-3">
+                            <input id="search_input_main" class="form-control form-control-lg shadow-sm" type="search" 
+                                   placeholder="Search by subject, course number, CRN, instructor, or keyword..." 
+                                   aria-label="Course search">
+                        </div>
+                        
+                        <!-- Action Buttons -->
+                        <div class="d-flex justify-content-center gap-2 flex-wrap">
+                            <button class="btn btn-primary btn-lg px-4" type="submit" id="button-search" value="ALL" title="Search all sections">
+                                <i class="bi bi-search me-2"></i>Search All Courses
+                            </button>
+                            <button class="btn btn-success btn-lg px-4" type="submit" id="button-search-open" value="OPEN" title="Search open sections only">
+                                <i class="bi bi-check-circle me-2"></i>Open Sections Only
+                            </button>
+                            <button class="btn btn-outline-secondary btn-lg px-4" type="button" id="reset-filters" title="Reset all filters">
+                                <i class="bi bi-arrow-clockwise me-2"></i>Reset Filters
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <div class="row g-3 mb-3">
@@ -207,8 +223,8 @@
                                 </li>
                                 <li class="dropdown-item">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod6" value="FLX">
-                                        <label class="form-check-label" for="flexRadioInstrMethod6">
+                                        <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod3" value="FLX">
+                                        <label class="form-check-label" for="flexRadioInstrMethod3">
                                             Flexible
                                         </label>
                                     </div>
@@ -266,6 +282,9 @@
             <button class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#more-options" aria-expanded="false" aria-controls="more-options">
                 <i class="bi bi-sliders"></i> Advanced Filters
             </button>
+            <div id="active-filters-summary" class="mt-2 text-muted small" style="display: none;">
+                <i class="bi bi-funnel-fill"></i> Active filters: <span id="active-filters-text"></span>
+            </div>
         </div>
 
         <!-- More Options Collapsible Section -->

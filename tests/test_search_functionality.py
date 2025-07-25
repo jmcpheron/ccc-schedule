@@ -323,3 +323,278 @@ class TestSearchFunctionality:
         end_idx = min(start_idx + results_per_page, total_results)
         assert start_idx == 40
         assert end_idx == 45
+
+    def test_credit_type_filter(self, mock_course_data):
+        """Test credit type filtering (CR/NC)."""
+        # Add credit type to existing courses
+        for course in mock_course_data["courses"]:
+            course["creditType"] = "CR"
+
+        # Add non-credit course to test data
+        mock_course_data["courses"].append(
+            {
+                "subj": "PE",
+                "crse": "099",
+                "title": "Fitness Lab",
+                "units": 0,
+                "creditType": "NC",
+                "college": "West Valley College",
+                "term": "Spring 2024",
+                "sections": [
+                    {
+                        "crn": "34567",
+                        "instrMethod": "INP",
+                        "enrollStatus": "Open",
+                    }
+                ],
+            }
+        )
+
+        courses = mock_course_data["courses"]
+
+        # Test credit filter
+        matches = [c for c in courses if c.get("creditType") == "CR"]
+        assert len(matches) == 2  # CS and MATH
+
+        # Test non-credit filter
+        matches = [c for c in courses if c.get("creditType") == "NC"]
+        assert len(matches) == 1
+        assert matches[0]["subj"] == "PE"
+
+    def test_class_length_filter(self, mock_course_data):
+        """Test class length filtering (Full Term/Short Term)."""
+        # Update sections with length data
+        for course in mock_course_data["courses"]:
+            for section in course["sections"]:
+                section["length"] = "Full Term"
+
+        # Add short term course
+        mock_course_data["courses"].append(
+            {
+                "subj": "BUS",
+                "crse": "100",
+                "title": "Quick Start Business",
+                "units": 1,
+                "college": "West Valley College",
+                "term": "Spring 2024",
+                "sections": [
+                    {
+                        "crn": "45678",
+                        "length": "Short Term",
+                        "instrMethod": "INP",
+                        "enrollStatus": "Open",
+                    }
+                ],
+            }
+        )
+
+        courses = mock_course_data["courses"]
+
+        # Test full term filter
+        matches = []
+        for course in courses:
+            for section in course.get("sections", []):
+                if section.get("length") == "Full Term":
+                    matches.append(course)
+                    break
+        assert len(matches) == 2  # CS and MATH
+
+        # Test short term filter
+        matches = []
+        for course in courses:
+            for section in course.get("sections", []):
+                if section.get("length") == "Short Term":
+                    matches.append(course)
+                    break
+        assert len(matches) == 1
+        assert matches[0]["subj"] == "BUS"
+
+    def test_sunday_classes_filter(self, mock_course_data):
+        """Test filtering for Sunday classes."""
+        # Add Sunday course
+        mock_course_data["courses"].append(
+            {
+                "subj": "YOGA",
+                "crse": "150",
+                "title": "Sunday Yoga",
+                "units": 1,
+                "college": "West Valley College",
+                "term": "Spring 2024",
+                "sections": [
+                    {
+                        "crn": "56789",
+                        "days": "U",
+                        "instrMethod": "INP",
+                        "enrollStatus": "Open",
+                    }
+                ],
+            }
+        )
+
+        courses = mock_course_data["courses"]
+
+        # Test Sunday filter
+        selected_days = ["U"]
+        matches = []
+        for course in courses:
+            for section in course.get("sections", []):
+                days = section.get("days", "")
+                if any(day in days for day in selected_days):
+                    matches.append(course)
+                    break
+        assert len(matches) == 1
+        assert matches[0]["subj"] == "YOGA"
+
+    def test_advanced_instructional_modes(self, mock_course_data):
+        """Test filtering for advanced instructional modes (SON, TUT, WRK, FLX)."""
+        # Add courses with different modes
+        new_courses = [
+            {
+                "subj": "COMP",
+                "crse": "200",
+                "title": "Synchronous Online",
+                "units": 3,
+                "college": "West Valley College",
+                "term": "Spring 2024",
+                "sections": [
+                    {
+                        "crn": "67890",
+                        "instrMethod": "SON",
+                        "enrollStatus": "Open",
+                    }
+                ],
+            },
+            {
+                "subj": "TUTR",
+                "crse": "100",
+                "title": "Tutorial",
+                "units": 1,
+                "college": "West Valley College",
+                "term": "Spring 2024",
+                "sections": [
+                    {
+                        "crn": "78901",
+                        "instrMethod": "TUT",
+                        "enrollStatus": "Open",
+                    }
+                ],
+            },
+            {
+                "subj": "WORK",
+                "crse": "499",
+                "title": "Work Experience",
+                "units": 3,
+                "college": "West Valley College",
+                "term": "Spring 2024",
+                "sections": [
+                    {
+                        "crn": "89012",
+                        "instrMethod": "WRK",
+                        "enrollStatus": "Open",
+                    }
+                ],
+            },
+        ]
+
+        mock_course_data["courses"].extend(new_courses)
+        courses = mock_course_data["courses"]
+
+        # Test each mode
+        for mode, expected_subj in [("SON", "COMP"), ("TUT", "TUTR"), ("WRK", "WORK")]:
+            matches = []
+            for course in courses:
+                for section in course.get("sections", []):
+                    if section.get("instrMethod") == mode:
+                        matches.append(course)
+                        break
+            assert len(matches) == 1
+            assert matches[0]["subj"] == expected_subj
+
+    def test_extreme_time_filters(self, mock_course_data):
+        """Test filtering for very early morning and late evening classes."""
+        # Add early and late classes
+        new_courses = [
+            {
+                "subj": "EARLY",
+                "crse": "500",
+                "title": "Dawn Patrol",
+                "units": 2,
+                "college": "West Valley College",
+                "term": "Spring 2024",
+                "sections": [
+                    {
+                        "crn": "90123",
+                        "startTime": "05:00",
+                        "endTime": "07:00",
+                        "instrMethod": "INP",
+                        "enrollStatus": "Open",
+                    }
+                ],
+            },
+            {
+                "subj": "LATE",
+                "crse": "600",
+                "title": "Night Owls",
+                "units": 2,
+                "college": "West Valley College",
+                "term": "Spring 2024",
+                "sections": [
+                    {
+                        "crn": "01234",
+                        "startTime": "22:00",
+                        "endTime": "23:30",
+                        "instrMethod": "INP",
+                        "enrollStatus": "Open",
+                    }
+                ],
+            },
+        ]
+
+        mock_course_data["courses"].extend(new_courses)
+        courses = mock_course_data["courses"]
+
+        # Test early morning filter (5:00 AM - 7:00 AM)
+        matches = []
+        for course in courses:
+            for section in course.get("sections", []):
+                start = section.get("startTime", "")
+                if "05:00" <= start <= "07:00":
+                    matches.append(course)
+                    break
+        assert len(matches) == 1
+        assert matches[0]["subj"] == "EARLY"
+
+        # Test late evening filter (after 9:00 PM)
+        matches = []
+        for course in courses:
+            for section in course.get("sections", []):
+                start = section.get("startTime", "")
+                if start >= "21:00":
+                    matches.append(course)
+                    break
+        assert len(matches) == 1
+        assert matches[0]["subj"] == "LATE"
+
+    def test_complex_combined_filters(self, mock_course_data):
+        """Test complex combinations of multiple filters."""
+        # Set up test data with specific characteristics
+        for course in mock_course_data["courses"]:
+            course["creditType"] = "CR"
+            for section in course["sections"]:
+                section["length"] = "Full Term"
+
+        courses = mock_course_data["courses"]
+
+        # Test: Credit courses + ZTC + Morning classes
+        matches = []
+        for course in courses:
+            if course.get("creditType") == "CR":
+                for section in course.get("sections", []):
+                    start_time = section.get("startTime", "")
+                    textbook = section.get("textbookCost", "")
+                    if textbook == "ZTC" and "08:00" <= start_time <= "12:00":
+                        matches.append(course)
+                        break
+
+        assert len(matches) == 1
+        assert matches[0]["subj"] == "CS"

@@ -62,18 +62,28 @@ function initializeEventHandlers() {
     // Search buttons
     $('#button-search').on('click', function(e) {
         e.preventDefault();
-        $(this).val('ALL');
+        $('#button-search-open').removeClass('active');
+        $(this).addClass('active');
         performSearch();
     });
     
     $('#button-search-open').on('click', function(e) {
         e.preventDefault();
-        $(this).val('OPEN');
+        $('#button-search').removeClass('active');
+        $(this).addClass('active');
         performSearch();
     });
     
     // Dropdown changes
-    $('#term-select, #college-select, #subject-select, #credit-select').on('change', performSearch);
+    $('#term-select, #college-select, #subject-select, #credit-select').on('change', function() {
+        // Add visual indicator for active filters
+        if ($(this).val()) {
+            $(this).addClass('has-value');
+        } else {
+            $(this).removeClass('has-value');
+        }
+        performSearch();
+    });
     
     // Instructional mode checkboxes
     $('input[name="flexRadioInstrMethod"]').on('change', function() {
@@ -97,6 +107,18 @@ function initializeEventHandlers() {
     $('#start-time, #end-time').on('input', function() {
         updateTimeDisplay($(this));
         performSearch();
+    });
+    
+    // Session length radio buttons
+    $('input[name="flexRadioSessions"]').on('change', function() {
+        const selected = $(this).next('label').text().trim();
+        $('#dropdownMenuButtonSessions').text(selected);
+        performSearch();
+    });
+    
+    // Reset filters button
+    $('#reset-filters').on('click', function() {
+        resetAllFilters();
     });
     
     // Pagination
@@ -261,6 +283,14 @@ function setupInstructorSearch() {
     
     $('#instructor-input').on('input', function() {
         const query = $(this).val().toLowerCase();
+        
+        if (query.length === 0) {
+            $('#instructor-input-email').val('');
+            $('#instructor-drop-down').hide();
+            performSearch();
+            return;
+        }
+        
         const matches = instructors.filter(i => 
             i.name.toLowerCase().includes(query) || 
             i.email.toLowerCase().includes(query)
@@ -276,10 +306,22 @@ function setupInstructorSearch() {
         });
         
         if (matches.length > 0) {
-            $('#instructor-drop-down').show();
+            $('#instructor-drop-down').addClass('show');
         } else {
-            $('#instructor-drop-down').hide();
+            $('#instructor-drop-down').removeClass('show');
         }
+        
+        // Clear email if no exact match
+        const exactMatch = instructors.find(i => 
+            i.name.toLowerCase() === query || 
+            i.email.toLowerCase() === query
+        );
+        if (!exactMatch) {
+            $('#instructor-input-email').val('');
+        }
+        
+        // Trigger search on typing
+        performSearch();
     });
     
     $(document).on('click', '#instructor-drop-down li', function() {
@@ -297,12 +339,156 @@ function setupInstructorSearch() {
  */
 function updateDropdownButtonText(buttonId, checkboxName, defaultText) {
     const checked = $(`input[name="${checkboxName}"]:checked`);
+    const $button = $(`#${buttonId}`);
+    
     if (checked.length === 0) {
-        $(`#${buttonId}`).text(defaultText);
+        $button.text(defaultText).removeClass('has-selection');
     } else if (checked.length === 1) {
-        $(`#${buttonId}`).text(checked.first().next('label').text().trim());
+        $button.text(checked.first().next('label').text().trim()).addClass('has-selection');
     } else {
-        $(`#${buttonId}`).text(`${checked.length} selected`);
+        $button.text(`${checked.length} selected`).addClass('has-selection');
+    }
+}
+
+/**
+ * Reset all filters to default state
+ */
+function resetAllFilters() {
+    // Clear search input
+    $('#search_input_main').val('');
+    
+    // Reset dropdowns
+    $('#term-select').val('');
+    $('#college-select').val('');
+    $('#subject-select').val('');
+    $('#credit-select').val('');
+    
+    // Uncheck all instructional methods
+    $('input[name="flexRadioInstrMethod"]').prop('checked', false);
+    $('#instr-method-button').text('All Modes');
+    
+    // Uncheck all meeting days
+    $('input[name="flexRadioMeetingDays"]').prop('checked', false);
+    $('#meetingDropdown').text('Any Days');
+    
+    // Reset time sliders
+    $('#start-time').val('5');
+    $('#end-time').val('24');
+    updateTimeDisplay($('#start-time'));
+    updateTimeDisplay($('#end-time'));
+    
+    // Uncheck all textbook costs
+    $('input[name="textbookCost"]').prop('checked', false);
+    $('#textbookDropDown').text('Any Cost');
+    
+    // Reset session length
+    $('input[name="flexRadioSessions"]').prop('checked', false);
+    $('#dropdownMenuButtonSessions').text('Any Length');
+    
+    // Clear instructor
+    $('#instructor-input').val('');
+    $('#instructor-input-email').val('');
+    $('#instructor-drop-down').removeClass('show');
+    
+    // Reset buttons
+    $('#button-search').addClass('active');
+    $('#button-search-open').removeClass('active');
+    
+    // Reset GE requirement dropdowns (if any are selected)
+    $('#dropdownMenuButtonCSUGE').text('Any');
+    $('#dropdownMenuButtonIGETC').text('Any');
+    $('#dropdownMenuButtonWVM').text('Any');
+    $('#dropdownMenuButtonCALGETC').text('Any');
+    
+    // Clear any selected GE requirements
+    $('input[name="csuge"]').prop('checked', false);
+    $('input[name="igetc"]').prop('checked', false);
+    $('input[name="wvm"]').prop('checked', false);
+    $('input[name="calgetc"]').prop('checked', false);
+    
+    // Reset visual indicators
+    $('.form-select').removeClass('has-value');
+    $('.dropdown-toggle').removeClass('has-selection');
+    
+    // Trigger search to show all results
+    performSearch();
+    
+    // Provide subtle visual feedback
+    const $resetBtn = $('#reset-filters');
+    $resetBtn.html('<i class="bi bi-check me-2"></i>Done!');
+    setTimeout(() => {
+        updateResetButton(); // This will set the correct state
+    }, 400);
+}
+
+/**
+ * Count active filters
+ */
+function countActiveFilters() {
+    let count = 0;
+    
+    // Count search input
+    if ($('#search_input_main').val()) count++;
+    
+    // Count dropdowns
+    if ($('#term-select').val()) count++;
+    if ($('#college-select').val()) count++;
+    if ($('#subject-select').val()) count++;
+    if ($('#credit-select').val()) count++;
+    
+    // Count checkboxes
+    if ($('input[name="flexRadioInstrMethod"]:checked').length > 0) count++;
+    if ($('input[name="flexRadioMeetingDays"]:checked').length > 0) count++;
+    if ($('input[name="textbookCost"]:checked').length > 0) count++;
+    if ($('input[name="flexRadioSessions"]:checked').length > 0) count++;
+    
+    // Count instructor
+    if ($('#instructor-input').val()) count++;
+    
+    // Count time range (if not default)
+    if ($('#start-time').val() !== '5' || $('#end-time').val() !== '24') count++;
+    
+    // Count if Open Only is active
+    if ($('#button-search-open').hasClass('active')) count++;
+    
+    return count;
+}
+
+/**
+ * Update reset button to show filter count
+ */
+function updateResetButton() {
+    const count = countActiveFilters();
+    const $resetBtn = $('#reset-filters');
+    const activeFilters = [];
+    
+    // Collect active filter names
+    if ($('#search_input_main').val()) activeFilters.push('Search');
+    if ($('#term-select').val()) activeFilters.push('Term');
+    if ($('#college-select').val()) activeFilters.push('College');
+    if ($('#subject-select').val()) activeFilters.push('Subject');
+    if ($('#credit-select').val()) activeFilters.push('Credit Type');
+    if ($('input[name="flexRadioInstrMethod"]:checked').length > 0) activeFilters.push('Mode');
+    if ($('input[name="flexRadioMeetingDays"]:checked').length > 0) activeFilters.push('Days');
+    if ($('input[name="textbookCost"]:checked').length > 0) activeFilters.push('Textbook');
+    if ($('input[name="flexRadioSessions"]:checked').length > 0) activeFilters.push('Length');
+    if ($('#instructor-input').val()) activeFilters.push('Instructor');
+    if ($('#start-time').val() !== '5' || $('#end-time').val() !== '24') activeFilters.push('Time');
+    if ($('#button-search-open').hasClass('active')) activeFilters.push('Open Only');
+    
+    if (count > 0) {
+        $resetBtn.html(`<i class="bi bi-arrow-clockwise me-2"></i>Reset Filters (${count})`);
+        $resetBtn.removeClass('btn-outline-secondary').addClass('btn-warning');
+        
+        // Show filter summary
+        $('#active-filters-text').text(activeFilters.join(', '));
+        $('#active-filters-summary').show();
+    } else {
+        $resetBtn.html('<i class="bi bi-arrow-clockwise me-2"></i>Reset Filters');
+        $resetBtn.removeClass('btn-warning').addClass('btn-outline-secondary');
+        
+        // Hide filter summary
+        $('#active-filters-summary').hide();
     }
 }
 
@@ -310,6 +496,9 @@ function updateDropdownButtonText(buttonId, checkboxName, defaultText) {
  * Perform search with all filters
  */
 function performSearch() {
+    // Update reset button
+    updateResetButton();
+    
     // Show search results container
     $('#search-results-container').removeClass('d-none');
     $('#search-results-spinner').show();
@@ -323,7 +512,11 @@ function performSearch() {
                 (course.subj && course.subj.toLowerCase().includes(searchTerm)) ||
                 (course.crse && course.crse.toLowerCase().includes(searchTerm)) ||
                 (course.title && course.title.toLowerCase().includes(searchTerm)) ||
-                (course.description && course.description.toLowerCase().includes(searchTerm));
+                (course.description && course.description.toLowerCase().includes(searchTerm)) ||
+                (course.sections && course.sections.some(section => 
+                    (section.instructorName && section.instructorName.toLowerCase().includes(searchTerm)) ||
+                    (section.crn && section.crn.toLowerCase().includes(searchTerm))
+                ));
             
             if (!matchesSearch) return false;
         }
@@ -344,7 +537,81 @@ function performSearch() {
         const selectedCredit = $('#credit-select').val();
         if (selectedCredit && course.creditType !== selectedCredit) return false;
         
-        // Additional filters would be applied here based on section data
+        // Section-level filters - course must have at least one section that matches all filters
+        if (course.sections && course.sections.length > 0) {
+            const hasMatchingSection = course.sections.some(section => {
+                // Instructional method filter
+                const selectedMethods = $('input[name="flexRadioInstrMethod"]:checked').map(function() {
+                    return $(this).val();
+                }).get();
+                if (selectedMethods.length > 0 && !selectedMethods.includes(section.instrMethod)) {
+                    return false;
+                }
+                
+                // Meeting days filter
+                const selectedDays = $('input[name="flexRadioMeetingDays"]:checked').map(function() {
+                    return $(this).val();
+                }).get();
+                if (selectedDays.length > 0 && section.days) {
+                    const sectionDays = section.days.split('');
+                    const hasAllDays = selectedDays.every(day => sectionDays.includes(day));
+                    if (!hasAllDays) return false;
+                }
+                
+                // Time filter
+                const startTimeValue = parseFloat($('#start-time').val());
+                const endTimeValue = parseFloat($('#end-time').val());
+                if (section.startTime && section.endTime) {
+                    const sectionStart = parseFloat(section.startTime.replace(':', '.'));
+                    const sectionEnd = parseFloat(section.endTime.replace(':', '.'));
+                    if (sectionStart < startTimeValue || sectionEnd > endTimeValue) {
+                        return false;
+                    }
+                }
+                
+                // Textbook cost filter
+                const selectedTextbookCosts = $('input[name="textbookCost"]:checked').map(function() {
+                    return $(this).val();
+                }).get();
+                if (selectedTextbookCosts.length > 0 && section.textbookCost && 
+                    !selectedTextbookCosts.includes(section.textbookCost)) {
+                    return false;
+                }
+                
+                // Class length filter
+                const selectedSession = $('input[name="flexRadioSessions"]:checked').val();
+                if (selectedSession && selectedSession !== 'x') {
+                    if (selectedSession === '1' && section.length !== 'Full Term') return false;
+                    if (selectedSession === 'S' && section.length === 'Full Term') return false;
+                }
+                
+                // Instructor filter
+                const instructorEmail = $('#instructor-input-email').val();
+                const instructorQuery = $('#instructor-input').val().toLowerCase();
+                
+                // If email is set, use exact match
+                if (instructorEmail && section.instructorEmail !== instructorEmail) {
+                    return false;
+                }
+                
+                // If no email but there's a query, do partial match on name
+                if (!instructorEmail && instructorQuery && section.instructorName) {
+                    if (!section.instructorName.toLowerCase().includes(instructorQuery)) {
+                        return false;
+                    }
+                }
+                
+                // Enrollment status filter (for "Open Only" button)
+                const openOnlyActive = $('#button-search-open').hasClass('active');
+                if (openOnlyActive && section.enrollStatus !== 'Open') {
+                    return false;
+                }
+                
+                return true;
+            });
+            
+            if (!hasMatchingSection) return false;
+        }
         
         return true;
     });

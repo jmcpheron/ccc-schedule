@@ -15,6 +15,173 @@ body {
     background-color: white;
 }
 
+/* Instructor dropdown styling */
+#instructor-drop-down {
+    max-height: 300px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+#instructor-drop-down .dropdown-item {
+    cursor: pointer;
+}
+
+#instructor-drop-down .dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Form controls styling */
+.form-select, .form-control {
+    border-radius: 8px;
+    border: 2px solid #e9ecef;
+    transition: all 0.2s ease;
+}
+
+.form-select:focus, .form-control:focus {
+    border-color: #0066CC;
+    box-shadow: 0 0 0 0.2rem rgba(0, 102, 204, 0.1);
+}
+
+/* Active filter indicators - subtle */
+.form-select.has-value {
+    border-color: #0066CC;
+    background-color: #f8faff;
+    box-shadow: 0 2px 4px rgba(0, 102, 204, 0.1);
+}
+
+.dropdown-toggle.has-selection {
+    border-color: #0066CC;
+    background-color: #f8faff;
+    box-shadow: 0 2px 4px rgba(0, 102, 204, 0.1);
+}
+
+/* Modern search input styling */
+#search_input_main {
+    border-radius: 50px;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #e9ecef;
+    transition: all 0.2s ease;
+}
+
+#search_input_main:focus {
+    border-color: #0066CC;
+    box-shadow: 0 0 0 0.2rem rgba(0, 102, 204, 0.1);
+}
+
+/* Button styling for modern look */
+.btn-lg {
+    border-radius: 50px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border-width: 2px;
+    line-height: 1.5;
+    min-height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Search buttons state */
+#button-search {
+    background-color: #0066CC;
+    border-color: #0066CC;
+}
+
+#button-search:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 102, 204, 0.2);
+}
+
+#button-search.active {
+    background-color: #004494;
+    border-color: #004494;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#button-search-open:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(40, 167, 69, 0.2);
+}
+
+#button-search-open.active {
+    background-color: #1e7e34;
+    border-color: #1e7e34;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Reset button styling */
+#reset-filters {
+    transition: all 0.2s ease;
+    /* Ensure consistent height */
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+#reset-filters:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#reset-filters.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #212529;
+}
+
+#reset-filters.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+/* Ensure all action buttons have exact same height */
+#button-search,
+#button-search-open,
+#reset-filters {
+    height: 48px !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    line-height: 1.5 !important;
+}
+
+/* Ensure icons don't affect button height */
+.btn-lg i {
+    font-size: 1.25rem;
+    vertical-align: middle;
+}
+
+/* Gap utility for older browsers */
+.gap-2 {
+    gap: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .btn-lg {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+    
+    #search_input_main {
+        font-size: 1rem;
+        padding: 0.625rem 1.25rem;
+    }
+    
+    /* Stack buttons on very small screens */
+    @media (max-width: 576px) {
+        .d-flex.gap-2 {
+            flex-direction: column;
+            align-items: stretch;
+        }
+        
+        .btn-lg {
+            width: 100%;
+            margin-bottom: 0.5rem;
+        }
+    }
+}
+
 .list-style-none {
     list-style-type: none;
     margin-left: 0;

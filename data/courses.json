@@ -323,6 +323,168 @@
           "length": "Full Term"
         }
       ]
+    },
+    {
+      "subj": "CHILL",
+      "crse": "099",
+      "course_id": "CHILL099",
+      "title": "Non-Credit Hammock Science",
+      "units": 0,
+      "description": "The art and science of professional relaxation. Master various hammock configurations and optimal napping positions.",
+      "college": "Cosmic Cactus Community College",
+      "term": "Spring 2025",
+      "creditType": "NC",
+      "sections": [
+        {
+          "crn": "09909",
+          "instructorEmail": "snooze@cosmicactus.edu",
+          "instructorName": "Dr. Snooze",
+          "instrMethod": "INP",
+          "days": "U",
+          "startTime": "14:00",
+          "endTime": "16:00",
+          "location": "Palm Tree Grove",
+          "dates": "01/20/25 - 03/20/25",
+          "enrollStatus": "Open",
+          "textbookCost": "ZTC",
+          "length": "Short Term"
+        }
+      ]
+    },
+    {
+      "subj": "ZOOM",
+      "crse": "250",
+      "course_id": "ZOOM250",
+      "title": "Virtual Background Mastery",
+      "units": 2,
+      "description": "Learn to create professional and creative virtual backgrounds. Hide your messy room like a pro!",
+      "college": "Cosmic Cactus Community College",
+      "term": "Spring 2025",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "25025",
+          "instructorEmail": "pixel@cosmicactus.edu",
+          "instructorName": "Prof. Pixel",
+          "instrMethod": "SON",
+          "days": "MW",
+          "startTime": "18:00",
+          "endTime": "19:30",
+          "location": "Online - Zoom",
+          "dates": "02/01/25 - 03/15/25",
+          "enrollStatus": "Open",
+          "textbookCost": "LTC",
+          "length": "Short Term"
+        }
+      ]
+    },
+    {
+      "subj": "INTERN",
+      "crse": "499",
+      "course_id": "INTERN499",
+      "title": "Dragon Wrangling Internship",
+      "units": 3,
+      "description": "Hands-on experience in dragon care facility. Learn feeding, grooming, and fire safety protocols.",
+      "college": "Cosmic Cactus Community College",
+      "term": "Spring 2025",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "49949",
+          "instructorEmail": "dragonkeeper@cosmicactus.edu",
+          "instructorName": "Dragonkeeper Smith",
+          "instrMethod": "WRK",
+          "days": "MTWRF",
+          "startTime": "08:00",
+          "endTime": "17:00",
+          "location": "Dragon Ranch",
+          "dates": "01/20/25 - 05/20/25",
+          "enrollStatus": "Waitlist",
+          "textbookCost": null,
+          "length": "Full Term"
+        }
+      ]
+    },
+    {
+      "subj": "TUTOR",
+      "crse": "100",
+      "course_id": "TUTOR100",
+      "title": "Telepathic Tutoring Techniques",
+      "units": 1,
+      "description": "One-on-one mentoring in mind-reading basics. Prerequisite: Strong coffee.",
+      "college": "Cosmic Cactus Community College",
+      "term": "Spring 2025",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "10001",
+          "instructorEmail": "mindreader@cosmicactus.edu",
+          "instructorName": "Prof. Mind Reader",
+          "instrMethod": "TUT",
+          "days": null,
+          "startTime": null,
+          "endTime": null,
+          "location": "By Appointment",
+          "dates": "01/20/25 - 05/20/25",
+          "enrollStatus": "Open",
+          "textbookCost": "ZTC",
+          "length": "Full Term"
+        }
+      ]
+    },
+    {
+      "subj": "EARLY",
+      "crse": "500",
+      "course_id": "EARLY500",
+      "title": "Sunrise Photography",
+      "units": 3,
+      "description": "Capture the desert's golden hour. Coffee provided.",
+      "college": "Cosmic Cactus Community College",
+      "term": "Spring 2025",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "50050",
+          "instructorEmail": "dawn@cosmicactus.edu",
+          "instructorName": "Dawn Shooter",
+          "instrMethod": "INP",
+          "days": "MWF",
+          "startTime": "05:00",
+          "endTime": "07:00",
+          "location": "Desert Vista Point",
+          "dates": "01/20/25 - 05/20/25",
+          "enrollStatus": "Open",
+          "textbookCost": "LTC",
+          "length": "Full Term"
+        }
+      ]
+    },
+    {
+      "subj": "LATE",
+      "crse": "600",
+      "course_id": "LATE600",
+      "title": "Midnight Oil Studies",
+      "units": 2,
+      "description": "Advanced procrastination and all-nighter techniques.",
+      "college": "Cosmic Cactus Community College",
+      "term": "Spring 2025",
+      "creditType": "CR",
+      "sections": [
+        {
+          "crn": "60060",
+          "instructorEmail": "nightowl@cosmicactus.edu",
+          "instructorName": "Prof. N. Owl",
+          "instrMethod": "INP",
+          "days": "TR",
+          "startTime": "22:00",
+          "endTime": "23:59",
+          "location": "24-Hour Study Hall",
+          "dates": "01/20/25 - 05/20/25",
+          "enrollStatus": "Open",
+          "textbookCost": "ZTC",
+          "length": "Full Term"
+        }
+      ]
     }
   ]
 }
