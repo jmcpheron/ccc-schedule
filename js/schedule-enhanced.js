@@ -75,7 +75,15 @@ function initializeEventHandlers() {
     });
     
     // Dropdown changes
-    $('#term-select, #college-select, #subject-select, #credit-select').on('change', performSearch);
+    $('#term-select, #college-select, #subject-select, #credit-select').on('change', function() {
+        // Add visual indicator for active filters
+        if ($(this).val()) {
+            $(this).addClass('has-value');
+        } else {
+            $(this).removeClass('has-value');
+        }
+        performSearch();
+    });
     
     // Instructional mode checkboxes
     $('input[name="flexRadioInstrMethod"]').on('change', function() {
@@ -106,6 +114,11 @@ function initializeEventHandlers() {
         const selected = $(this).next('label').text().trim();
         $('#dropdownMenuButtonSessions').text(selected);
         performSearch();
+    });
+    
+    // Reset filters button
+    $('#reset-filters').on('click', function() {
+        resetAllFilters();
     });
     
     // Pagination
@@ -326,12 +339,157 @@ function setupInstructorSearch() {
  */
 function updateDropdownButtonText(buttonId, checkboxName, defaultText) {
     const checked = $(`input[name="${checkboxName}"]:checked`);
+    const $button = $(`#${buttonId}`);
+    
     if (checked.length === 0) {
-        $(`#${buttonId}`).text(defaultText);
+        $button.text(defaultText).removeClass('has-selection');
     } else if (checked.length === 1) {
-        $(`#${buttonId}`).text(checked.first().next('label').text().trim());
+        $button.text(checked.first().next('label').text().trim()).addClass('has-selection');
     } else {
-        $(`#${buttonId}`).text(`${checked.length} selected`);
+        $button.text(`${checked.length} selected`).addClass('has-selection');
+    }
+}
+
+/**
+ * Reset all filters to default state
+ */
+function resetAllFilters() {
+    // Clear search input
+    $('#search_input_main').val('');
+    
+    // Reset dropdowns
+    $('#term-select').val('');
+    $('#college-select').val('');
+    $('#subject-select').val('');
+    $('#credit-select').val('');
+    
+    // Uncheck all instructional methods
+    $('input[name="flexRadioInstrMethod"]').prop('checked', false);
+    $('#instr-method-button').text('All Modes');
+    
+    // Uncheck all meeting days
+    $('input[name="flexRadioMeetingDays"]').prop('checked', false);
+    $('#meetingDropdown').text('Any Days');
+    
+    // Reset time sliders
+    $('#start-time').val('5');
+    $('#end-time').val('24');
+    updateTimeDisplay($('#start-time'));
+    updateTimeDisplay($('#end-time'));
+    
+    // Uncheck all textbook costs
+    $('input[name="textbookCost"]').prop('checked', false);
+    $('#textbookDropDown').text('Any Cost');
+    
+    // Reset session length
+    $('input[name="flexRadioSessions"]').prop('checked', false);
+    $('#dropdownMenuButtonSessions').text('Any Length');
+    
+    // Clear instructor
+    $('#instructor-input').val('');
+    $('#instructor-input-email').val('');
+    $('#instructor-drop-down').removeClass('show');
+    
+    // Reset buttons
+    $('#button-search').addClass('active');
+    $('#button-search-open').removeClass('active');
+    
+    // Reset GE requirement dropdowns (if any are selected)
+    $('#dropdownMenuButtonCSUGE').text('Any');
+    $('#dropdownMenuButtonIGETC').text('Any');
+    $('#dropdownMenuButtonWVM').text('Any');
+    $('#dropdownMenuButtonCALGETC').text('Any');
+    
+    // Clear any selected GE requirements
+    $('input[name="csuge"]').prop('checked', false);
+    $('input[name="igetc"]').prop('checked', false);
+    $('input[name="wvm"]').prop('checked', false);
+    $('input[name="calgetc"]').prop('checked', false);
+    
+    // Reset visual indicators
+    $('.form-select').removeClass('has-value');
+    $('.dropdown-toggle').removeClass('has-selection');
+    
+    // Trigger search to show all results
+    performSearch();
+    
+    // Provide visual feedback
+    const $resetBtn = $('#reset-filters');
+    const originalHtml = $resetBtn.html();
+    $resetBtn.html('<i class="bi bi-check"></i> Reset!').addClass('btn-success').removeClass('btn-outline-secondary');
+    setTimeout(() => {
+        $resetBtn.html(originalHtml).removeClass('btn-success').addClass('btn-outline-secondary');
+    }, 1000);
+}
+
+/**
+ * Count active filters
+ */
+function countActiveFilters() {
+    let count = 0;
+    
+    // Count search input
+    if ($('#search_input_main').val()) count++;
+    
+    // Count dropdowns
+    if ($('#term-select').val()) count++;
+    if ($('#college-select').val()) count++;
+    if ($('#subject-select').val()) count++;
+    if ($('#credit-select').val()) count++;
+    
+    // Count checkboxes
+    if ($('input[name="flexRadioInstrMethod"]:checked').length > 0) count++;
+    if ($('input[name="flexRadioMeetingDays"]:checked').length > 0) count++;
+    if ($('input[name="textbookCost"]:checked').length > 0) count++;
+    if ($('input[name="flexRadioSessions"]:checked').length > 0) count++;
+    
+    // Count instructor
+    if ($('#instructor-input').val()) count++;
+    
+    // Count time range (if not default)
+    if ($('#start-time').val() !== '5' || $('#end-time').val() !== '24') count++;
+    
+    // Count if Open Only is active
+    if ($('#button-search-open').hasClass('active')) count++;
+    
+    return count;
+}
+
+/**
+ * Update reset button to show filter count
+ */
+function updateResetButton() {
+    const count = countActiveFilters();
+    const $resetBtn = $('#reset-filters');
+    const activeFilters = [];
+    
+    // Collect active filter names
+    if ($('#search_input_main').val()) activeFilters.push('Search');
+    if ($('#term-select').val()) activeFilters.push('Term');
+    if ($('#college-select').val()) activeFilters.push('College');
+    if ($('#subject-select').val()) activeFilters.push('Subject');
+    if ($('#credit-select').val()) activeFilters.push('Credit Type');
+    if ($('input[name="flexRadioInstrMethod"]:checked').length > 0) activeFilters.push('Mode');
+    if ($('input[name="flexRadioMeetingDays"]:checked').length > 0) activeFilters.push('Days');
+    if ($('input[name="textbookCost"]:checked').length > 0) activeFilters.push('Textbook');
+    if ($('input[name="flexRadioSessions"]:checked').length > 0) activeFilters.push('Length');
+    if ($('#instructor-input').val()) activeFilters.push('Instructor');
+    if ($('#start-time').val() !== '5' || $('#end-time').val() !== '24') activeFilters.push('Time');
+    if ($('#button-search-open').hasClass('active')) activeFilters.push('Open Only');
+    
+    if (count > 0) {
+        $resetBtn.html(`<i class="bi bi-arrow-clockwise"></i> Reset (${count})`);
+        $resetBtn.removeClass('btn-outline-secondary').addClass('btn-warning');
+        
+        // Show filter summary
+        $('#active-filters-text').text(activeFilters.join(', '));
+        $('#active-filters-summary').show();
+    } else {
+        $resetBtn.html('<i class="bi bi-arrow-clockwise"></i> Reset');
+        $resetBtn.removeClass('btn-warning').addClass('btn-outline-secondary');
+        
+        // Hide filter summary
+        $('#active-filters-summary').hide();
     }
 }
 
@@ -339,6 +497,9 @@ function updateDropdownButtonText(buttonId, checkboxName, defaultText) {
  * Perform search with all filters
  */
 function performSearch() {
+    // Update reset button
+    updateResetButton();
+    
     // Show search results container
     $('#search-results-container').removeClass('d-none');
     $('#search-results-spinner').show();

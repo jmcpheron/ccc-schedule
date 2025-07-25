@@ -30,6 +30,43 @@ body {
     background-color: #f8f9fa;
 }
 
+/* Active filter indicators */
+.form-select.has-value {
+    border-color: #0066CC;
+    background-color: #f0f8ff;
+}
+
+.dropdown-toggle.has-selection {
+    border-color: #0066CC;
+    background-color: #f0f8ff;
+}
+
+/* Search buttons state */
+#button-search.active {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
+
+#button-search-open.active {
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, .25);
+}
+
+/* Make reset button more visible when filters are active */
+#reset-filters {
+    transition: all 0.3s ease;
+}
+
+/* Responsive adjustments for button group */
+@media (max-width: 768px) {
+    .input-group-lg > .btn {
+        font-size: 1rem;
+        padding: 0.5rem 0.75rem;
+    }
+    
+    #reset-filters span {
+        display: none;
+    }
+}
+
 .list-style-none {
     list-style-type: none;
     margin-left: 0;
