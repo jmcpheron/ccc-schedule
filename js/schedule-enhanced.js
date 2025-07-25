@@ -415,7 +415,7 @@ function resetAllFilters() {
     
     // Provide subtle visual feedback
     const $resetBtn = $('#reset-filters');
-    $resetBtn.html('<i class="bi bi-check"></i><span> Done</span>');
+    $resetBtn.html('<i class="bi bi-check me-2"></i>Done!');
     setTimeout(() => {
         updateResetButton(); // This will set the correct state
     }, 400);
@@ -477,14 +477,14 @@ function updateResetButton() {
     if ($('#button-search-open').hasClass('active')) activeFilters.push('Open Only');
     
     if (count > 0) {
-        $resetBtn.html(`<i class="bi bi-arrow-clockwise"></i><span> Reset (${count})</span>`);
+        $resetBtn.html(`<i class="bi bi-arrow-clockwise me-2"></i>Reset Filters (${count})`);
         $resetBtn.removeClass('btn-outline-secondary').addClass('btn-warning');
         
         // Show filter summary
         $('#active-filters-text').text(activeFilters.join(', '));
         $('#active-filters-summary').show();
     } else {
-        $resetBtn.html('<i class="bi bi-arrow-clockwise"></i><span> Reset</span>');
+        $resetBtn.html('<i class="bi bi-arrow-clockwise me-2"></i>Reset Filters');
         $resetBtn.removeClass('btn-warning').addClass('btn-outline-secondary');
         
         // Hide filter summary
