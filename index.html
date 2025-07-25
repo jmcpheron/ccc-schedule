@@ -123,6 +123,16 @@
             }, 1000);
         })();
     </script>
+    <!-- Demo Notice -->
+    <div class="bg-info bg-gradient text-white py-2">
+        <div class="container">
+            <a href="https://github.com/jmcpheron/ccc-schedule" class="d-flex align-items-center justify-content-center text-white text-decoration-none" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-info-circle-fill me-2"></i>
+                <span>This is a demo of the <strong>CCC Schedule</strong> open source project. Cosmic Cactus Community College is a fictional institution created for demonstration purposes.</span>
+            </a>
+        </div>
+    </div>
+
     <!-- Navigation -->
     <nav class="navbar navbar-light shadow-sm" id="top-navbar" aria-label="navigation" style="background: linear-gradient(to right, #f8f9fa, #e9ecef);">
         <div class="container">
@@ -133,7 +143,7 @@
                      style="max-width: 60px; height: auto;">
                 <div class="text-center">
                     <h3 class="mb-0 text-dark" style="font-weight: 600;">Cosmic Cactus Community College</h3>
-                    <small class="text-muted">Schedule Viewer Demo</small>
+                    <small class="text-muted">Course Schedule</small>
                 </div>
             </div>
         </div>
@@ -141,62 +151,16 @@
 
     <!-- Main Container -->
     <div class="container">
-        <div class="mt-5">
-            <!-- Hero Section -->
-            <div class="text-center mb-5">
-                <h1 class="display-5 mb-3" style="color: #2c3e50; font-weight: 600;">Welcome to the CCC Schedule Viewer Demo</h1>
-                <p class="lead text-muted mb-4">Experience our innovative course schedule viewer with Cosmic Cactus Community College's whimsical catalog</p>
-                <button class="btn btn-primary btn-lg shadow px-5 py-3" onclick="loadCosmicCactusDemo()">
-                    <i class="bi bi-rocket-takeoff me-2"></i> Launch Demo
-                </button>
-            </div>
-
-            <!-- Info Cards -->
-            <div class="row g-4 mb-5">
-                <div class="col-md-4">
-                    <div class="card h-100 shadow-sm border-0">
-                        <div class="card-body text-center p-4">
-                            <i class="bi bi-search display-4 text-primary mb-3"></i>
-                            <h5 class="card-title">Smart Search</h5>
-                            <p class="card-text text-muted">Search by subject, course number, instructor, or keywords</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100 shadow-sm border-0">
-                        <div class="card-body text-center p-4">
-                            <i class="bi bi-funnel display-4 text-success mb-3"></i>
-                            <h5 class="card-title">Advanced Filters</h5>
-                            <p class="card-text text-muted">Filter by time, days, instructional mode, and more</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100 shadow-sm border-0">
-                        <div class="card-body text-center p-4">
-                            <i class="bi bi-stars display-4 text-warning mb-3"></i>
-                            <h5 class="card-title">Demo Courses</h5>
-                            <p class="card-text text-muted">Explore fun classes like UFO Engineering and Desert Survival</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Demo Notice -->
-            <div class="alert alert-light border-start border-primary border-5" role="alert">
-                <div class="d-flex align-items-center">
-                    <i class="bi bi-info-circle-fill text-primary me-3 fs-4"></i>
-                    <div>
-                        <strong>This is a demonstration</strong><br>
-                        <small>For actual course enrollment, please visit your college's official registration system. Real college data integration coming soon.</small>
-                    </div>
-                </div>
-            </div>
-
-            <form id="search-form" action="." class="d-none">
+        <div class="mt-4">
+            <form id="search-form" action=".">
                 <div class="row align-items-end">
                     <div class="col-12">
                         <h1 class="text-center mb-4" style="color: #2c3e50; font-weight: 600;">Search for Classes</h1>
+                        <div class="text-center mb-4">
+                            <button class="btn btn-primary btn-lg shadow px-5 py-3" onclick="loadCosmicCactusDemo()">
+                                <i class="bi bi-rocket-takeoff me-2"></i> Load Sample Schedule
+                            </button>
+                        </div>
                     </div>
                     <div class="col-12 mb-3">
                         <input id="search_input_main" class="form-control form-control-lg" type="search" placeholder="Subject, Course Number, CRN, or Keyword" aria-label="#search_input_main">
@@ -303,14 +267,14 @@
             </form>
         </div>
 
-        <div class="text-center mb-3 d-none">
+        <div class="text-center mb-3">
             <button class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#more-options" aria-expanded="false" aria-controls="more-options">
                 <i class="bi bi-sliders"></i> Advanced Filters
             </button>
         </div>
 
         <!-- More Options Collapsible Section -->
-        <div class="collapse p-3 d-none" id="more-options">
+        <div class="collapse p-3" id="more-options">
             <div class="row g-3">
                 <div class="col-md-3">
                     <div id="sessions-label">Class Length</div>
@@ -632,20 +596,13 @@
     <!-- Custom JS -->
     <script src="js/schedule-enhanced.js"></script>
     <script>
-        // Auto-hide search form on demo page load
+        // Ensure body is visible on page load
         document.addEventListener('DOMContentLoaded', function() {
             // Ensure body is visible
             document.body.classList.remove('d-none');
             
-            // Show hero content initially
-            const searchForm = document.getElementById('search-form');
-            const moreOptionsElement = document.getElementById('more-options');
+            // Keep search results hidden initially
             const searchResults = document.getElementById('search-results-container');
-            
-            if (searchForm) searchForm.classList.add('d-none');
-            if (moreOptionsElement && moreOptionsElement.parentElement && moreOptionsElement.parentElement.parentElement) {
-                moreOptionsElement.parentElement.parentElement.classList.add('d-none');
-            }
             if (searchResults) searchResults.classList.add('d-none');
         });
     </script>
@@ -654,17 +611,20 @@
     <footer class="mt-auto py-4 bg-light">
         <div class="container">
             <div class="text-center">
-                <p class="mb-2 text-muted">
-                    <strong>CCC Schedule Viewer Demo</strong> | 
-                    Made with <i class="bi bi-heart-fill text-danger"></i> for California Community Colleges
+                <p class="mb-2 text-muted" style="font-size: 1.1rem;">
+                    Made for California Community Colleges — with <i class="bi bi-code-slash text-primary"></i> + 🤖 + <i class="bi bi-heart-fill text-danger"></i>
                 </p>
-                <a href="https://github.com/jmcpheron/ccc-schedule" class="text-decoration-none link-secondary" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-github me-1"></i> View on GitHub
-                </a>
-                <span class="mx-2 text-muted">|</span>
-                <a href="https://github.com/jmcpheron/ccc-schedule-collector" class="text-decoration-none link-secondary" target="_blank" rel="noopener noreferrer">
-                    Learn More
-                </a>
+                <p class="text-muted small mb-0">
+                    <span class="me-2">MIT License</span>
+                    <span class="text-secondary">·</span>
+                    <span class="mx-2">Open Source</span>
+                    <span class="text-secondary">·</span>
+                    <span class="ms-2">
+                        <a href="https://github.com/jmcpheron/ccc-schedule" class="text-decoration-none link-secondary" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i> ccc-schedule
+                        </a>
+                    </span>
+                </p>
             </div>
         </div>
     </footer>
