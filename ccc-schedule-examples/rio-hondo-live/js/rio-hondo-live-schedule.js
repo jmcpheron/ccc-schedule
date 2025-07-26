@@ -1,6 +1,6 @@
 /**
- * Rio Hondo College Live Schedule JavaScript
- * Fetches and displays live data from the CCC Schedule Collector repository
+ * Rio Hondo College Schedule JavaScript
+ * Fetches and displays data from the CCC Schedule Collector repository
  */
 
 // Global variables
@@ -75,13 +75,13 @@ function initializeEventHandlers() {
 }
 
 /**
- * Load initial data from live GitHub repository
+ * Load initial data from GitHub repository
  */
 function loadInitialData() {
     // Show loading status
-    $('#data-status').html('<i class="bi bi-arrow-repeat spin"></i> Fetching live data...');
+    $('#data-status').html('<i class="bi bi-arrow-repeat spin"></i> Loading schedule data...');
     
-    // Load course data from live GitHub repository
+    // Load course data from GitHub repository
     const symlinkUrl = 'https://raw.githubusercontent.com/jmcpheron/ccc-schedule-collector/main/data/schedule_202570_latest.json';
     
     // First, fetch the symlink content to get the actual filename
@@ -142,7 +142,7 @@ function loadInitialData() {
                         'Unknown';
                     const courseCount = allCourses.length;
                     $('#data-status').html(
-                        `<i class="bi bi-check-circle text-success"></i> Live data loaded | ` +
+                        `<i class="bi bi-check-circle text-success"></i> Data loaded | ` +
                         `Last updated: ${collectedDate} | ${courseCount} courses available`
                     );
                 } else if (data.collection_timestamp) {
@@ -151,12 +151,12 @@ function loadInitialData() {
                     const sectionCount = data.courses.length;
                     const courseCount = allCourses.length;
                     $('#data-status').html(
-                        `<i class="bi bi-check-circle text-success"></i> Live data loaded | ` +
+                        `<i class="bi bi-check-circle text-success"></i> Data loaded | ` +
                         `Last updated: ${collectedDate} | ${courseCount} courses with ${sectionCount} sections`
                     );
                 } else {
                     $('#data-status').html(
-                        `<i class="bi bi-check-circle text-success"></i> Live data loaded | ${allCourses.length} courses available`
+                        `<i class="bi bi-check-circle text-success"></i> Data loaded | ${allCourses.length} courses available`
                     );
                 }
             } else if (data.schedule && data.schedule.courses) {
@@ -193,17 +193,17 @@ function loadInitialData() {
             }
         })
         .fail(function(jqXHR, textStatus, errorThrown) {
-            console.error('Failed to load live data:', textStatus, errorThrown);
+            console.error('Failed to load data:', textStatus, errorThrown);
             $('#loading-spinner').html(
                 '<div class="alert alert-danger">' +
-                '<h5><i class="bi bi-exclamation-triangle-fill"></i> Failed to Load Live Data</h5>' +
-                '<p>Unable to fetch live schedule data from the repository.</p>' +
+                '<h5><i class="bi bi-exclamation-triangle-fill"></i> Failed to Load Schedule Data</h5>' +
+                '<p>Unable to fetch schedule data from the repository.</p>' +
                 '<p class="mb-2">Error: ' + (errorThrown || textStatus) + '</p>' +
-                '<a href="../rio-hondo/" class="btn btn-primary btn-sm">View Static Demo Instead</a>' +
+                '<a href="../rio-hondo/" class="btn btn-primary btn-sm">View Cached Version</a>' +
                 '</div>'
             );
             $('#data-status').html(
-                '<i class="bi bi-x-circle text-danger"></i> Live data unavailable'
+                '<i class="bi bi-x-circle text-danger"></i> Data unavailable'
             );
         });
     })
@@ -211,14 +211,14 @@ function loadInitialData() {
         console.error('Failed to fetch symlink:', textStatus, errorThrown);
         $('#loading-spinner').html(
             '<div class="alert alert-danger">' +
-            '<h5><i class="bi bi-exclamation-triangle-fill"></i> Failed to Load Live Data</h5>' +
-            '<p>Unable to fetch schedule data reference from the repository.</p>' +
+            '<h5><i class="bi bi-exclamation-triangle-fill"></i> Failed to Load Schedule Data</h5>' +
+            '<p>Unable to fetch schedule data from the repository.</p>' +
             '<p class="mb-2">Error: ' + (errorThrown || textStatus) + '</p>' +
-            '<a href="../rio-hondo/" class="btn btn-primary btn-sm">View Static Demo Instead</a>' +
+            '<a href="../rio-hondo/" class="btn btn-primary btn-sm">View Cached Version</a>' +
             '</div>'
         );
         $('#data-status').html(
-            '<i class="bi bi-x-circle text-danger"></i> Live data unavailable'
+            '<i class="bi bi-x-circle text-danger"></i> Data unavailable'
         );
     });
 }
