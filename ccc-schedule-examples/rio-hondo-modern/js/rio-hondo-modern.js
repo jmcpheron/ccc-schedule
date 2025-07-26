@@ -1,13 +1,16 @@
 /**
- * Rio Hondo Modern Schedule Interface
- * Designed for young students with modern UX patterns
+ * Rio Hondo Modern Schedule Interface - Compact & Feature-Rich
  */
 
 class ModernSchedule {
     constructor() {
         this.courses = [];
         this.filteredCourses = [];
-        this.currentView = 'cards';
+        this.currentView = 'grid';
+        this.currentSort = 'default';
+        this.currentPage = 1;
+        this.coursesPerPage = 20;
+        
         this.filters = {
             search: '',
             open: false,
@@ -19,24 +22,31 @@ class ModernSchedule {
             maxUnits: 5,
             days: []
         };
-        this.savedCourses = this.loadSavedCourses();
         
+        this.savedCourses = this.loadSavedCourses();
         this.init();
     }
     
     async init() {
         this.setupEventListeners();
-        this.setupTheme();
         await this.loadData();
-        this.updateStats();
-        this.render();
     }
     
     setupEventListeners() {
         // Search
         const searchInput = document.getElementById('searchInput');
+        const searchClear = document.getElementById('searchClear');
+        
         searchInput.addEventListener('input', (e) => {
             this.filters.search = e.target.value.toLowerCase();
+            searchClear.style.display = e.target.value ? 'block' : 'none';
+            this.applyFilters();
+        });
+        
+        searchClear.addEventListener('click', () => {
+            searchInput.value = '';
+            this.filters.search = '';
+            searchClear.style.display = 'none';
             this.applyFilters();
         });
         
@@ -45,7 +55,7 @@ class ModernSchedule {
             chip.addEventListener('click', () => {
                 chip.classList.toggle('active');
                 const filter = chip.dataset.filter;
-                this.filters[filter] = chip.classList.contains('active');
+                this.filters[filter === 'in-person' ? 'inPerson' : filter] = chip.classList.contains('active');
                 this.applyFilters();
             });
         });
@@ -64,96 +74,133 @@ class ModernSchedule {
             });
         });
         
+        // Advanced filters
+        document.getElementById('moreFiltersBtn').addEventListener('click', () => {
+            const advancedFilters = document.getElementById('advancedFilters');
+            advancedFilters.style.display = advancedFilters.style.display === 'none' ? 'block' : 'none';
+        });
+        
         // Subject filter
-        const subjectFilter = document.getElementById('subjectFilter');
-        if (subjectFilter) {
-            subjectFilter.addEventListener('change', (e) => {
-                this.filters.subject = e.target.value;
-                this.applyFilters();
-            });
-        }
+        document.getElementById('subjectFilter').addEventListener('change', (e) => {
+            this.filters.subject = e.target.value;
+            this.applyFilters();
+        });
         
         // Units filter
         const unitsFilter = document.getElementById('unitsFilter');
-        if (unitsFilter) {
-            unitsFilter.addEventListener('input', (e) => {
-                this.filters.maxUnits = parseFloat(e.target.value);
-                document.getElementById('unitsValue').textContent = `0-${e.target.value} units`;
-                this.applyFilters();
-            });
-        }
+        unitsFilter.addEventListener('input', (e) => {
+            this.filters.maxUnits = parseFloat(e.target.value);
+            document.getElementById('unitsValue').textContent = e.target.value;
+            this.applyFilters();
+        });
+        
+        // Reset filters
+        document.getElementById('resetFiltersBtn').addEventListener('click', () => {
+            this.resetFilters();
+        });
         
         // View toggle
-        document.querySelectorAll('.view-toggle button').forEach(btn => {
+        document.querySelectorAll('[data-view]').forEach(btn => {
             btn.addEventListener('click', () => {
-                document.querySelectorAll('.view-toggle button').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('[data-view]').forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
                 this.currentView = btn.dataset.view;
                 this.render();
             });
         });
         
-        // Theme toggle
-        document.getElementById('themeToggle').addEventListener('click', () => {
-            this.toggleTheme();
+        // Sort
+        const sortBtn = document.getElementById('sortBtn');
+        const sortMenu = document.getElementById('sortMenu');
+        
+        sortBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            sortMenu.classList.toggle('show');
         });
+        
+        document.querySelectorAll('.sort-option').forEach(option => {
+            option.addEventListener('click', () => {
+                document.querySelectorAll('.sort-option').forEach(o => o.classList.remove('active'));
+                option.classList.add('active');
+                this.currentSort = option.dataset.sort;
+                sortMenu.classList.remove('show');
+                this.applyFilters();
+            });
+        });
+        
+        // Click outside to close sort menu
+        document.addEventListener('click', () => {
+            sortMenu.classList.remove('show');
+        });
+        
+        // Saved courses
+        document.getElementById('savedCoursesBtn').addEventListener('click', () => {
+            document.getElementById('savedSidebar').classList.toggle('show');
+            this.renderSavedCourses();
+        });
+        
+        document.getElementById('closeSidebarBtn').addEventListener('click', () => {
+            document.getElementById('savedSidebar').classList.remove('show');
+        });
+        
+        // Theme toggle (removed for brevity, but you can add it back)
     }
     
-    setupTheme() {
-        const savedTheme = localStorage.getItem('theme') || 'light';
-        document.documentElement.setAttribute('data-theme', savedTheme);
-        this.updateThemeIcon(savedTheme);
-    }
-    
-    toggleTheme() {
-        const currentTheme = document.documentElement.getAttribute('data-theme');
-        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-        document.documentElement.setAttribute('data-theme', newTheme);
-        localStorage.setItem('theme', newTheme);
-        this.updateThemeIcon(newTheme);
-    }
-    
-    updateThemeIcon(theme) {
-        const icon = document.getElementById('themeIcon');
-        icon.className = theme === 'light' ? 'bi bi-moon-fill' : 'bi bi-sun-fill';
+    resetFilters() {
+        // Reset all filters
+        this.filters = {
+            search: '',
+            open: false,
+            online: false,
+            inPerson: false,
+            evening: false,
+            ztc: false,
+            subject: '',
+            maxUnits: 5,
+            days: []
+        };
+        
+        // Reset UI
+        document.getElementById('searchInput').value = '';
+        document.getElementById('searchClear').style.display = 'none';
+        document.querySelectorAll('.chip[data-filter]').forEach(chip => chip.classList.remove('active'));
+        document.querySelectorAll('.chip[data-day]').forEach(chip => chip.classList.remove('active'));
+        document.getElementById('subjectFilter').value = '';
+        document.getElementById('unitsFilter').value = 5;
+        document.getElementById('unitsValue').textContent = '5';
+        
+        this.applyFilters();
     }
     
     async loadData() {
         try {
-            // First fetch the symlink to get the actual filename
+            // Fetch symlink first
             const symlinkResponse = await fetch('https://raw.githubusercontent.com/jmcpheron/ccc-schedule-collector/main/data/schedule_202570_latest.json');
             const filename = (await symlinkResponse.text()).trim();
             
-            // Then fetch the actual data
+            // Then fetch actual data
             const dataResponse = await fetch(`https://raw.githubusercontent.com/jmcpheron/ccc-schedule-collector/main/data/${filename}`);
             const data = await dataResponse.json();
             
             this.courses = data.courses || [];
-            this.filteredCourses = [...this.courses];
-            
-            // Populate subject dropdown
             this.populateSubjectFilter();
             
             // Update last update time
             if (data.collection_timestamp) {
                 const date = new Date(data.collection_timestamp);
-                document.getElementById('lastUpdate').textContent = date.toLocaleTimeString('en-US', { 
-                    hour: 'numeric', 
-                    minute: '2-digit' 
-                });
+                document.getElementById('lastUpdateTime').textContent = 
+                    `Updated ${date.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })}`;
             }
             
-            // Hide loading, show content
-            document.getElementById('loadingState').style.display = 'none';
-            document.getElementById('coursesGrid').style.display = 'grid';
+            // Initial render
+            this.applyFilters();
             
         } catch (error) {
             console.error('Failed to load data:', error);
             document.getElementById('loadingState').innerHTML = `
-                <div style="color: var(--danger);">
-                    <i class="bi bi-exclamation-triangle" style="font-size: 3rem;"></i>
-                    <h3 style="margin-top: 1rem;">Failed to load schedule data</h3>
-                    <p>Please check your internet connection and try again.</p>
+                <div style="text-align: center; color: var(--danger);">
+                    <i class="bi bi-exclamation-triangle" style="font-size: 2rem;"></i>
+                    <h3>Failed to load schedule data</h3>
                 </div>
             `;
         }
@@ -171,6 +218,7 @@ class ModernSchedule {
     }
     
     applyFilters() {
+        // Apply filters
         this.filteredCourses = this.courses.filter(course => {
             // Search filter
             if (this.filters.search) {
@@ -214,20 +262,378 @@ class ModernSchedule {
             return true;
         });
         
+        // Apply sorting
+        this.sortCourses();
+        
+        // Update UI
+        this.updateFilterUI();
         this.updateStats();
+        this.currentPage = 1;
         this.render();
+    }
+    
+    sortCourses() {
+        switch (this.currentSort) {
+            case 'course':
+                this.filteredCourses.sort((a, b) => {
+                    const codeA = `${a.subject} ${a.course_number}`;
+                    const codeB = `${b.subject} ${b.course_number}`;
+                    return codeA.localeCompare(codeB);
+                });
+                break;
+            case 'time':
+                this.filteredCourses.sort((a, b) => {
+                    const timeA = this.getStartTime(a);
+                    const timeB = this.getStartTime(b);
+                    return timeA - timeB;
+                });
+                break;
+            case 'enrollment':
+                this.filteredCourses.sort((a, b) => {
+                    const percentA = a.enrollment.capacity > 0 ? a.enrollment.actual / a.enrollment.capacity : 0;
+                    const percentB = b.enrollment.capacity > 0 ? b.enrollment.actual / b.enrollment.capacity : 0;
+                    return percentA - percentB;
+                });
+                break;
+            case 'units':
+                this.filteredCourses.sort((a, b) => b.units - a.units);
+                break;
+            default:
+                // Keep original order
+                break;
+        }
+    }
+    
+    getStartTime(course) {
+        if (!course.meeting_times || course.meeting_times.length === 0) return 9999;
+        const meeting = course.meeting_times[0];
+        if (!meeting.start_time) return 9999;
+        
+        const time = meeting.start_time;
+        const [hours, minutes] = time.replace(/[^\d:]/g, '').split(':').map(Number);
+        const isPM = time.toLowerCase().includes('pm');
+        let hour24 = hours;
+        if (isPM && hours !== 12) hour24 += 12;
+        if (!isPM && hours === 12) hour24 = 0;
+        
+        return hour24 * 60 + minutes;
+    }
+    
+    updateFilterUI() {
+        // Count active filters
+        let activeCount = 0;
+        if (this.filters.search) activeCount++;
+        if (this.filters.open) activeCount++;
+        if (this.filters.online) activeCount++;
+        if (this.filters.inPerson) activeCount++;
+        if (this.filters.evening) activeCount++;
+        if (this.filters.ztc) activeCount++;
+        if (this.filters.subject) activeCount++;
+        if (this.filters.maxUnits < 5) activeCount++;
+        if (this.filters.days.length > 0) activeCount++;
+        
+        // Update reset button
+        const resetBtn = document.getElementById('resetFiltersBtn');
+        const filterCount = document.getElementById('activeFilterCount');
+        
+        if (activeCount > 0) {
+            resetBtn.style.display = 'inline-flex';
+            filterCount.textContent = activeCount;
+        } else {
+            resetBtn.style.display = 'none';
+        }
+        
+        // Update open count chip
+        const openCount = this.courses.filter(c => c.status === 'OPEN').length;
+        document.getElementById('openCount').textContent = openCount;
+    }
+    
+    updateStats() {
+        document.getElementById('resultsCount').textContent = 
+            `${this.filteredCourses.length} course${this.filteredCourses.length !== 1 ? 's' : ''} found`;
+        
+        // Update saved badge
+        const savedBadge = document.getElementById('savedBadge');
+        if (this.savedCourses.length > 0) {
+            savedBadge.style.display = 'block';
+            savedBadge.textContent = this.savedCourses.length;
+        } else {
+            savedBadge.style.display = 'none';
+        }
+    }
+    
+    render() {
+        const grid = document.getElementById('coursesGrid');
+        const list = document.getElementById('listView');
+        const loading = document.getElementById('loadingState');
+        const noResults = document.getElementById('noResults');
+        const pagination = document.getElementById('pagination');
+        
+        // Hide all
+        grid.style.display = 'none';
+        list.style.display = 'none';
+        loading.style.display = 'none';
+        noResults.style.display = 'none';
+        pagination.style.display = 'none';
+        
+        if (this.filteredCourses.length === 0) {
+            noResults.style.display = 'block';
+            return;
+        }
+        
+        // Paginate
+        const start = (this.currentPage - 1) * this.coursesPerPage;
+        const end = start + this.coursesPerPage;
+        const pageCourses = this.filteredCourses.slice(start, end);
+        
+        if (this.currentView === 'grid') {
+            grid.style.display = 'grid';
+            grid.innerHTML = pageCourses.map(course => this.renderCourseCard(course)).join('');
+        } else {
+            list.style.display = 'block';
+            this.renderListView(pageCourses);
+        }
+        
+        // Render pagination
+        if (this.filteredCourses.length > this.coursesPerPage) {
+            pagination.style.display = 'flex';
+            this.renderPagination();
+        }
+        
+        // Attach event listeners
+        this.attachEventListeners();
+    }
+    
+    renderCourseCard(course) {
+        const enrollmentPercent = course.enrollment.capacity > 0 
+            ? (course.enrollment.actual / course.enrollment.capacity) * 100 
+            : 0;
+        const enrollmentClass = enrollmentPercent >= 90 ? 'full' : enrollmentPercent >= 70 ? 'high' : '';
+        const isSaved = this.savedCourses.includes(course.crn);
+        const meeting = course.meeting_times[0] || {};
+        
+        return `
+            <div class="course-card" data-crn="${course.crn}">
+                <div class="course-card-header">
+                    <div class="course-main-info">
+                        <div class="course-code-title">
+                            <span class="course-code">${course.subject} ${course.course_number}</span>
+                            <span class="course-title">${course.title}</span>
+                        </div>
+                        <div class="course-meta">
+                            <span>CRN: ${course.crn}</span>
+                            <span>${course.units} units</span>
+                            ${course.zero_textbook_cost ? '<span><i class="bi bi-book"></i> ZTC</span>' : ''}
+                        </div>
+                    </div>
+                    <span class="course-status status-${course.status.toLowerCase()}">${course.status}</span>
+                </div>
+                <div class="course-card-body">
+                    <div class="course-info-group">
+                        <i class="bi bi-person"></i>
+                        <span>${course.instructor || 'TBA'}</span>
+                    </div>
+                    <div class="course-info-group">
+                        <i class="bi bi-clock"></i>
+                        <span>${this.formatMeetingTime(meeting)}</span>
+                    </div>
+                    <div class="course-info-group">
+                        <i class="bi bi-geo-alt"></i>
+                        <span>${course.location || 'TBA'}</span>
+                    </div>
+                    <div class="enrollment-info">
+                        <span>${course.enrollment.actual}/${course.enrollment.capacity}</span>
+                        <div class="enrollment-bar">
+                            <div class="enrollment-fill ${enrollmentClass}" style="width: ${enrollmentPercent}%"></div>
+                        </div>
+                    </div>
+                    <div class="quick-actions">
+                        <button class="quick-action save-btn ${isSaved ? 'saved' : ''}" 
+                                data-crn="${course.crn}" 
+                                data-tooltip="${isSaved ? 'Remove' : 'Save'}">
+                            <i class="bi ${isSaved ? 'bi-bookmark-fill' : 'bi-bookmark'}"></i>
+                        </button>
+                        <button class="quick-action" 
+                                onclick="window.open('${course.book_link}', '_blank')"
+                                data-tooltip="Books">
+                            <i class="bi bi-book"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+    
+    renderListView(courses) {
+        const container = document.getElementById('listView');
+        container.innerHTML = `
+            <div class="list-header">
+                <div>Course</div>
+                <div>Instructor</div>
+                <div>Time</div>
+                <div>Enrollment</div>
+                <div>Actions</div>
+            </div>
+            ${courses.map(course => {
+                const meeting = course.meeting_times[0] || {};
+                const enrollmentPercent = course.enrollment.capacity > 0 
+                    ? (course.enrollment.actual / course.enrollment.capacity) * 100 
+                    : 0;
+                const isSaved = this.savedCourses.includes(course.crn);
+                
+                return `
+                    <div class="list-row">
+                        <div>
+                            <div style="font-weight: 600; color: var(--primary);">
+                                ${course.subject} ${course.course_number}
+                            </div>
+                            <div style="font-size: 0.75rem; color: var(--gray-600);">
+                                ${course.title}
+                            </div>
+                            <div style="font-size: 0.75rem; color: var(--gray-500);">
+                                CRN: ${course.crn} • ${course.units} units
+                                ${course.zero_textbook_cost ? ' • ZTC' : ''}
+                            </div>
+                        </div>
+                        <div>${course.instructor || 'TBA'}</div>
+                        <div>${this.formatMeetingTime(meeting)}</div>
+                        <div style="display: flex; align-items: center; gap: 0.5rem;">
+                            <span>${course.enrollment.actual}/${course.enrollment.capacity}</span>
+                            <div class="enrollment-bar">
+                                <div class="enrollment-fill" style="width: ${enrollmentPercent}%"></div>
+                            </div>
+                        </div>
+                        <div class="quick-actions">
+                            <button class="quick-action save-btn ${isSaved ? 'saved' : ''}" 
+                                    data-crn="${course.crn}">
+                                <i class="bi ${isSaved ? 'bi-bookmark-fill' : 'bi-bookmark'}"></i>
+                            </button>
+                        </div>
+                    </div>
+                `;
+            }).join('')}
+        `;
+    }
+    
+    renderPagination() {
+        const container = document.getElementById('pagination');
+        const totalPages = Math.ceil(this.filteredCourses.length / this.coursesPerPage);
+        
+        let html = '';
+        
+        // Previous button
+        html += `
+            <button class="page-btn" ${this.currentPage === 1 ? 'disabled' : ''} data-page="${this.currentPage - 1}">
+                <i class="bi bi-chevron-left"></i>
+            </button>
+        `;
+        
+        // Page numbers
+        const maxVisible = 5;
+        let startPage = Math.max(1, this.currentPage - Math.floor(maxVisible / 2));
+        let endPage = Math.min(totalPages, startPage + maxVisible - 1);
+        
+        if (endPage - startPage < maxVisible - 1) {
+            startPage = Math.max(1, endPage - maxVisible + 1);
+        }
+        
+        if (startPage > 1) {
+            html += `<button class="page-btn" data-page="1">1</button>`;
+            if (startPage > 2) html += `<span style="padding: 0 0.5rem;">...</span>`;
+        }
+        
+        for (let i = startPage; i <= endPage; i++) {
+            html += `
+                <button class="page-btn ${i === this.currentPage ? 'active' : ''}" data-page="${i}">
+                    ${i}
+                </button>
+            `;
+        }
+        
+        if (endPage < totalPages) {
+            if (endPage < totalPages - 1) html += `<span style="padding: 0 0.5rem;">...</span>`;
+            html += `<button class="page-btn" data-page="${totalPages}">${totalPages}</button>`;
+        }
+        
+        // Next button
+        html += `
+            <button class="page-btn" ${this.currentPage === totalPages ? 'disabled' : ''} data-page="${this.currentPage + 1}">
+                <i class="bi bi-chevron-right"></i>
+            </button>
+        `;
+        
+        container.innerHTML = html;
+        
+        // Add click handlers
+        container.querySelectorAll('.page-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const page = parseInt(btn.dataset.page);
+                if (page && page !== this.currentPage) {
+                    this.currentPage = page;
+                    this.render();
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+            });
+        });
+    }
+    
+    renderSavedCourses() {
+        const container = document.getElementById('savedCoursesContent');
+        const savedCourseData = this.courses.filter(c => this.savedCourses.includes(c.crn));
+        
+        if (savedCourseData.length === 0) {
+            container.innerHTML = `
+                <p style="text-align: center; color: var(--gray-500); padding: 2rem 0;">
+                    No saved courses yet
+                </p>
+            `;
+            return;
+        }
+        
+        container.innerHTML = savedCourseData.map(course => `
+            <div class="saved-course-item">
+                <div style="display: flex; justify-content: space-between; align-items: start;">
+                    <div>
+                        <div style="font-weight: 600; color: var(--primary);">
+                            ${course.subject} ${course.course_number}
+                        </div>
+                        <div style="font-size: 0.75rem; color: var(--gray-600);">
+                            ${course.title}
+                        </div>
+                        <div style="font-size: 0.75rem; color: var(--gray-500); margin-top: 0.25rem;">
+                            CRN: ${course.crn} • ${course.units} units
+                        </div>
+                    </div>
+                    <button class="quick-action" onclick="window.modernSchedule.toggleSavedCourse('${course.crn}')">
+                        <i class="bi bi-x"></i>
+                    </button>
+                </div>
+            </div>
+        `).join('');
+    }
+    
+    formatMeetingTime(meeting) {
+        if (!meeting.days || meeting.days === 'ARR') return 'Arranged';
+        if (meeting.days === 'TBA') return 'TBA';
+        
+        const days = meeting.days;
+        const time = meeting.start_time && meeting.end_time 
+            ? `${meeting.start_time}-${meeting.end_time}` 
+            : 'TBA';
+        
+        return `${days} ${time}`;
     }
     
     isOnline(course) {
         return course.delivery_method && (
-            course.delivery_method.includes('Online') || 
-            course.delivery_method === 'WEB'
+            course.delivery_method.toLowerCase().includes('online') || 
+            course.delivery_method.toLowerCase().includes('web')
         );
     }
     
     isInPerson(course) {
         return course.delivery_method && (
-            course.delivery_method === 'In-Person' ||
+            course.delivery_method.toLowerCase().includes('person') ||
             course.delivery_method === 'F2F' ||
             (!this.isOnline(course) && course.delivery_method !== 'Arranged')
         );
@@ -238,11 +644,12 @@ class ModernSchedule {
         const meeting = course.meeting_times[0];
         if (!meeting.start_time) return false;
         
-        const hour = parseInt(meeting.start_time.split(':')[0]);
-        const isPM = meeting.start_time.includes('pm');
-        const hour24 = isPM && hour !== 12 ? hour + 12 : hour;
-        
-        return hour24 >= 17; // 5pm or later
+        const time = meeting.start_time.toLowerCase();
+        if (time.includes('pm')) {
+            const hour = parseInt(time.split(':')[0]);
+            return hour >= 5 || hour === 12;
+        }
+        return false;
     }
     
     getCourseDays(course) {
@@ -252,284 +659,12 @@ class ModernSchedule {
         return days.split('');
     }
     
-    updateStats() {
-        document.getElementById('totalCourses').textContent = this.filteredCourses.length;
-        document.getElementById('openCourses').textContent = 
-            this.filteredCourses.filter(c => c.status === 'OPEN').length;
-        document.getElementById('onlineCourses').textContent = 
-            this.filteredCourses.filter(c => this.isOnline(c)).length;
-    }
-    
-    render() {
-        const container = document.getElementById('coursesGrid');
-        const calendarView = document.getElementById('calendarView');
-        const noResults = document.getElementById('noResults');
-        
-        // Hide all views first
-        container.style.display = 'none';
-        calendarView.style.display = 'none';
-        noResults.style.display = 'none';
-        
-        if (this.filteredCourses.length === 0) {
-            noResults.style.display = 'block';
-            return;
-        }
-        
-        switch (this.currentView) {
-            case 'cards':
-                container.style.display = 'grid';
-                container.innerHTML = this.filteredCourses.map(course => 
-                    this.renderCourseCard(course)
-                ).join('');
-                this.attachCardEventListeners();
-                break;
-            case 'calendar':
-                calendarView.style.display = 'block';
-                this.renderCalendarView();
-                break;
-            case 'list':
-                container.style.display = 'block';
-                container.innerHTML = this.renderListView();
-                this.attachCardEventListeners();
-                break;
-        }
-    }
-    
-    renderCourseCard(course) {
-        const enrollmentPercent = course.enrollment.capacity > 0 
-            ? (course.enrollment.actual / course.enrollment.capacity) * 100 
-            : 0;
-        const enrollmentClass = enrollmentPercent >= 90 ? 'full' : enrollmentPercent >= 70 ? 'high' : '';
-        
-        const isSaved = this.savedCourses.includes(course.crn);
-        const meeting = course.meeting_times[0] || {};
-        const instructorInitial = course.instructor && course.instructor !== 'TBA' 
-            ? course.instructor.charAt(0).toUpperCase() 
-            : '?';
-        
-        return `
-            <div class="course-card" data-crn="${course.crn}">
-                <div class="course-header">
-                    <div class="course-title-row">
-                        <span class="course-code">${course.subject} ${course.course_number}</span>
-                        <span class="course-status status-${course.status.toLowerCase()}">${course.status}</span>
-                    </div>
-                    <h3 class="course-title">${course.title}</h3>
-                    <div class="course-meta">
-                        <span><i class="bi bi-award"></i> ${course.units} units</span>
-                        <span><i class="bi bi-calendar3"></i> ${course.section_type}</span>
-                        ${course.zero_textbook_cost ? '<span><i class="bi bi-book"></i> ZTC</span>' : ''}
-                    </div>
-                </div>
-                <div class="course-body">
-                    <div class="instructor-info">
-                        <div class="instructor-avatar">${instructorInitial}</div>
-                        <div>
-                            <div style="font-weight: 500;">${course.instructor || 'TBA'}</div>
-                            ${course.instructor_email ? `<div style="font-size: 0.75rem; color: var(--gray-500);">${course.instructor_email}</div>` : ''}
-                        </div>
-                    </div>
-                    
-                    <div class="meeting-info">
-                        <span class="meeting-label"><i class="bi bi-clock"></i></span>
-                        <span>${this.formatMeetingTime(meeting)}</span>
-                        <span class="meeting-label"><i class="bi bi-geo-alt"></i></span>
-                        <span>${course.location || 'TBA'}</span>
-                        <span class="meeting-label"><i class="bi bi-laptop"></i></span>
-                        <span>${course.delivery_method}</span>
-                    </div>
-                    
-                    <div class="enrollment-section">
-                        <div class="enrollment-header">
-                            <span>Enrollment</span>
-                            <span>${course.enrollment.actual}/${course.enrollment.capacity} (${course.enrollment.remaining} open)</span>
-                        </div>
-                        <div class="enrollment-bar">
-                            <div class="enrollment-fill ${enrollmentClass}" style="width: ${enrollmentPercent}%"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="course-actions">
-                        <button class="action-btn save-btn ${isSaved ? 'primary' : ''}" data-crn="${course.crn}">
-                            <i class="bi ${isSaved ? 'bi-bookmark-fill' : 'bi-bookmark'}"></i>
-                            ${isSaved ? 'Saved' : 'Save'}
-                        </button>
-                        <button class="action-btn" onclick="window.open('${course.book_link}', '_blank')">
-                            <i class="bi bi-book"></i>
-                            Books
-                        </button>
-                        <button class="action-btn share-btn" data-course='${JSON.stringify({
-                            subject: course.subject,
-                            number: course.course_number,
-                            title: course.title,
-                            crn: course.crn
-                        }).replace(/'/g, '&apos;')}'>
-                            <i class="bi bi-share"></i>
-                            Share
-                        </button>
-                    </div>
-                </div>
-            </div>
-        `;
-    }
-    
-    renderListView() {
-        return `
-            <div style="background: white; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow);">
-                <table style="width: 100%; border-collapse: collapse;">
-                    <thead>
-                        <tr style="background: var(--gray-50); border-bottom: 1px solid var(--gray-200);">
-                            <th style="padding: 1rem; text-align: left; font-weight: 600;">Course</th>
-                            <th style="padding: 1rem; text-align: left; font-weight: 600;">Instructor</th>
-                            <th style="padding: 1rem; text-align: left; font-weight: 600;">Time</th>
-                            <th style="padding: 1rem; text-align: left; font-weight: 600;">Location</th>
-                            <th style="padding: 1rem; text-align: left; font-weight: 600;">Status</th>
-                            <th style="padding: 1rem; text-align: center; font-weight: 600;">Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        ${this.filteredCourses.map(course => {
-                            const meeting = course.meeting_times[0] || {};
-                            return `
-                                <tr style="border-bottom: 1px solid var(--gray-100);">
-                                    <td style="padding: 1rem;">
-                                        <div style="font-weight: 600; color: var(--primary);">${course.subject} ${course.course_number}</div>
-                                        <div style="font-size: 0.875rem; color: var(--gray-600);">${course.title}</div>
-                                        <div style="font-size: 0.75rem; color: var(--gray-500);">CRN: ${course.crn} • ${course.units} units</div>
-                                    </td>
-                                    <td style="padding: 1rem; font-size: 0.875rem;">${course.instructor || 'TBA'}</td>
-                                    <td style="padding: 1rem; font-size: 0.875rem;">${this.formatMeetingTime(meeting)}</td>
-                                    <td style="padding: 1rem; font-size: 0.875rem;">${course.location || 'TBA'}</td>
-                                    <td style="padding: 1rem;">
-                                        <span class="course-status status-${course.status.toLowerCase()}">${course.status}</span>
-                                    </td>
-                                    <td style="padding: 1rem; text-align: center;">
-                                        <button class="action-btn save-btn" data-crn="${course.crn}" style="padding: 0.375rem 0.75rem;">
-                                            <i class="bi bi-bookmark"></i>
-                                        </button>
-                                    </td>
-                                </tr>
-                            `;
-                        }).join('')}
-                    </tbody>
-                </table>
-            </div>
-        `;
-    }
-    
-    renderCalendarView() {
-        const container = document.getElementById('calendarView');
-        const days = ['Time', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-        const times = [];
-        
-        // Generate time slots from 7am to 10pm
-        for (let hour = 7; hour <= 22; hour++) {
-            times.push(`${hour > 12 ? hour - 12 : hour}:00 ${hour >= 12 ? 'PM' : 'AM'}`);
-        }
-        
-        let html = '<div class="calendar-grid">';
-        
-        // Header
-        days.forEach(day => {
-            html += `<div class="calendar-header">${day}</div>`;
-        });
-        
-        // Time slots and cells
-        times.forEach((time, timeIndex) => {
-            html += `<div class="time-slot">${time}</div>`;
-            for (let day = 1; day <= 7; day++) {
-                html += `<div class="calendar-cell" data-day="${day}" data-hour="${7 + timeIndex}"></div>`;
-            }
-        });
-        
-        html += '</div>';
-        container.innerHTML = html;
-        
-        // Add courses to calendar
-        this.filteredCourses.forEach(course => {
-            if (!course.meeting_times || course.meeting_times.length === 0) return;
-            const meeting = course.meeting_times[0];
-            if (!meeting.days || meeting.days === 'ARR' || meeting.days === 'TBA') return;
-            if (!meeting.start_time || !meeting.end_time) return;
-            
-            const dayMap = { 'M': 1, 'T': 2, 'W': 3, 'R': 4, 'F': 5, 'S': 6, 'U': 7 };
-            const days = meeting.days.split('');
-            
-            days.forEach(day => {
-                const dayNum = dayMap[day];
-                if (!dayNum) return;
-                
-                const startHour = this.parseTime(meeting.start_time);
-                const endHour = this.parseTime(meeting.end_time);
-                
-                for (let hour = Math.floor(startHour); hour < Math.ceil(endHour); hour++) {
-                    const cell = container.querySelector(`[data-day="${dayNum}"][data-hour="${hour}"]`);
-                    if (cell) {
-                        const event = document.createElement('div');
-                        event.className = 'calendar-event';
-                        event.style.top = `${(startHour - hour) * 100}%`;
-                        event.style.height = `${Math.min(endHour - startHour, hour + 1 - startHour) * 100}%`;
-                        event.innerHTML = `
-                            <div style="font-weight: 600;">${course.subject} ${course.course_number}</div>
-                            <div style="font-size: 0.625rem;">${course.location}</div>
-                        `;
-                        event.addEventListener('click', () => this.showCourseDetails(course));
-                        cell.appendChild(event);
-                    }
-                }
-            });
-        });
-    }
-    
-    parseTime(timeStr) {
-        const [time, period] = timeStr.split(/(?=[ap]m)/i);
-        const [hours, minutes] = time.split(':').map(Number);
-        let hour24 = hours;
-        
-        if (period.toLowerCase() === 'pm' && hours !== 12) {
-            hour24 += 12;
-        } else if (period.toLowerCase() === 'am' && hours === 12) {
-            hour24 = 0;
-        }
-        
-        return hour24 + (minutes / 60);
-    }
-    
-    formatMeetingTime(meeting) {
-        if (!meeting.days || meeting.days === 'ARR') return 'Arranged';
-        if (meeting.days === 'TBA') return 'TBA';
-        
-        const days = meeting.days;
-        const time = meeting.start_time && meeting.end_time 
-            ? `${meeting.start_time} - ${meeting.end_time}` 
-            : 'TBA';
-        
-        return `${days} ${time}`;
-    }
-    
-    attachCardEventListeners() {
+    attachEventListeners() {
         // Save buttons
         document.querySelectorAll('.save-btn').forEach(btn => {
             btn.addEventListener('click', (e) => {
                 e.stopPropagation();
                 this.toggleSavedCourse(btn.dataset.crn);
-            });
-        });
-        
-        // Share buttons
-        document.querySelectorAll('.share-btn').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                e.stopPropagation();
-                const courseData = JSON.parse(btn.dataset.course.replace(/&apos;/g, "'"));
-                this.shareCourse(courseData);
-            });
-        });
-        
-        // Card click for details
-        document.querySelectorAll('.course-card').forEach(card => {
-            card.addEventListener('click', () => {
-                const course = this.courses.find(c => c.crn === card.dataset.crn);
-                if (course) this.showCourseDetails(course);
             });
         });
     }
@@ -543,39 +678,22 @@ class ModernSchedule {
         }
         
         localStorage.setItem('savedCourses', JSON.stringify(this.savedCourses));
+        this.updateStats();
         this.render();
+        
+        // Update sidebar if open
+        if (document.getElementById('savedSidebar').classList.contains('show')) {
+            this.renderSavedCourses();
+        }
     }
     
     loadSavedCourses() {
         const saved = localStorage.getItem('savedCourses');
         return saved ? JSON.parse(saved) : [];
     }
-    
-    shareCourse(course) {
-        const text = `Check out ${course.subject} ${course.number}: ${course.title} (CRN: ${course.crn}) at Rio Hondo College!`;
-        
-        if (navigator.share) {
-            navigator.share({
-                title: 'Rio Hondo Course',
-                text: text,
-                url: window.location.href
-            });
-        } else {
-            // Fallback - copy to clipboard
-            navigator.clipboard.writeText(text).then(() => {
-                alert('Course info copied to clipboard!');
-            });
-        }
-    }
-    
-    showCourseDetails(course) {
-        // For now, just log - in a real app, this would show a modal
-        console.log('Course details:', course);
-        alert(`${course.subject} ${course.course_number}: ${course.title}\n\nCRN: ${course.crn}\nInstructor: ${course.instructor}\nStatus: ${course.status}`);
-    }
 }
 
-// Initialize when DOM is ready
+// Initialize
 document.addEventListener('DOMContentLoaded', () => {
-    new ModernSchedule();
+    window.modernSchedule = new ModernSchedule();
 });

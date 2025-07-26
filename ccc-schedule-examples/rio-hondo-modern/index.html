@@ -3,14 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Rio Hondo College - Schedule</title>
+    <title>Rio Hondo College - Course Schedule</title>
     
     <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico"/>
     
     <!-- Modern Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
@@ -18,84 +18,61 @@
     <!-- Custom Modern CSS -->
     <style>
         :root {
-            --primary: #6366f1;
-            --primary-dark: #4f46e5;
-            --secondary: #ec4899;
-            --success: #10b981;
-            --warning: #f59e0b;
-            --danger: #ef4444;
-            --dark: #1f2937;
-            --light: #f9fafb;
-            --gray-100: #f3f4f6;
-            --gray-200: #e5e7eb;
-            --gray-300: #d1d5db;
-            --gray-400: #9ca3af;
-            --gray-500: #6b7280;
-            --gray-600: #4b5563;
-            --gray-700: #374151;
-            --gray-800: #1f2937;
-            --gray-900: #111827;
+            --primary: #5b21b6;
+            --primary-light: #7c3aed;
+            --primary-dark: #4c1d95;
+            --success: #059669;
+            --warning: #d97706;
+            --danger: #dc2626;
+            --info: #0891b2;
+            --dark: #18181b;
+            --light: #fafafa;
+            --gray-50: #fafafa;
+            --gray-100: #f4f4f5;
+            --gray-200: #e4e4e7;
+            --gray-300: #d4d4d8;
+            --gray-400: #a1a1aa;
+            --gray-500: #71717a;
+            --gray-600: #52525b;
+            --gray-700: #3f3f46;
+            --gray-800: #27272a;
+            --gray-900: #18181b;
             --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
             --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
             --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-            --radius: 0.75rem;
-            --radius-lg: 1rem;
+            --radius: 0.5rem;
+            --radius-lg: 0.75rem;
         }
         
-        [data-theme="dark"] {
-            --dark: #f9fafb;
-            --light: #111827;
-            --gray-100: #1f2937;
-            --gray-200: #374151;
-            --gray-300: #4b5563;
-            --gray-400: #6b7280;
-            --gray-500: #9ca3af;
-            --gray-600: #d1d5db;
-            --gray-700: #e5e7eb;
-            --gray-800: #f3f4f6;
-            --gray-900: #f9fafb;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: var(--light);
+            font-family: 'Inter', -apple-system, system-ui, sans-serif;
+            background: var(--gray-50);
             color: var(--dark);
-            line-height: 1.6;
-            transition: background-color 0.3s ease, color 0.3s ease;
+            font-size: 14px;
+            line-height: 1.5;
+            overflow-x: hidden;
         }
         
-        /* Top Navigation */
+        /* Compact Navigation */
         .nav-header {
             background: white;
             border-bottom: 1px solid var(--gray-200);
             position: sticky;
             top: 0;
-            z-index: 100;
-            backdrop-filter: blur(10px);
-            background: rgba(255, 255, 255, 0.9);
-        }
-        
-        [data-theme="dark"] .nav-header {
-            background: rgba(17, 24, 39, 0.9);
-            border-bottom-color: var(--gray-700);
+            z-index: 50;
+            height: 56px;
         }
         
         .nav-container {
             max-width: 1400px;
             margin: 0 auto;
-            padding: 1rem;
+            padding: 0 1rem;
+            height: 100%;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            gap: 1rem;
-            flex-wrap: wrap;
         }
         
         .logo-section {
@@ -105,121 +82,144 @@
         }
         
         .logo-section h1 {
-            font-size: 1.25rem;
-            font-weight: 700;
-            margin: 0;
-        }
-        
-        .live-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.375rem;
-            background: var(--success);
-            color: white;
-            padding: 0.25rem 0.75rem;
-            border-radius: 9999px;
-            font-size: 0.75rem;
+            font-size: 1.125rem;
             font-weight: 600;
-            animation: pulse 2s infinite;
         }
         
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.8; }
-        }
-        
-        .theme-toggle {
-            background: var(--gray-100);
-            border: none;
-            width: 40px;
-            height: 40px;
-            border-radius: var(--radius);
+        .nav-actions {
             display: flex;
             align-items: center;
-            justify-content: center;
+            gap: 0.5rem;
+        }
+        
+        .saved-count {
+            position: relative;
+            padding: 0.5rem;
+            background: var(--gray-100);
+            border-radius: var(--radius);
             cursor: pointer;
             transition: all 0.2s;
         }
         
-        .theme-toggle:hover {
+        .saved-count:hover {
             background: var(--gray-200);
         }
         
-        /* Main Container */
-        .main-container {
+        .saved-badge {
+            position: absolute;
+            top: -4px;
+            right: -4px;
+            background: var(--danger);
+            color: white;
+            font-size: 10px;
+            font-weight: 600;
+            padding: 2px 6px;
+            border-radius: 999px;
+            min-width: 18px;
+            text-align: center;
+        }
+        
+        /* Sticky Filter Bar */
+        .filter-bar {
+            background: white;
+            border-bottom: 1px solid var(--gray-200);
+            position: sticky;
+            top: 56px;
+            z-index: 40;
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .filter-container {
             max-width: 1400px;
             margin: 0 auto;
-            padding: 1rem;
+            padding: 0.75rem 1rem;
         }
         
-        /* Search Section */
-        .search-section {
-            background: white;
-            border-radius: var(--radius-lg);
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
-            box-shadow: var(--shadow);
+        .filter-row {
+            display: flex;
+            gap: 0.75rem;
+            align-items: center;
+            flex-wrap: wrap;
         }
         
-        [data-theme="dark"] .search-section {
-            background: var(--gray-800);
-        }
-        
+        /* Compact Search */
         .search-wrapper {
             position: relative;
-            margin-bottom: 1rem;
+            flex: 1;
+            min-width: 200px;
+            max-width: 400px;
         }
         
         .search-input {
             width: 100%;
-            padding: 1rem 1rem 1rem 3rem;
-            font-size: 1rem;
-            border: 2px solid var(--gray-200);
+            padding: 0.5rem 2.5rem 0.5rem 2.25rem;
+            font-size: 0.875rem;
+            border: 1px solid var(--gray-300);
             border-radius: var(--radius);
-            background: var(--light);
-            color: var(--dark);
+            background: var(--gray-50);
             transition: all 0.2s;
         }
         
         .search-input:focus {
             outline: none;
             border-color: var(--primary);
-            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+            background: white;
+            box-shadow: 0 0 0 3px rgba(91, 33, 182, 0.1);
         }
         
         .search-icon {
             position: absolute;
-            left: 1rem;
+            left: 0.75rem;
             top: 50%;
             transform: translateY(-50%);
             color: var(--gray-400);
+            font-size: 0.875rem;
+        }
+        
+        .search-clear {
+            position: absolute;
+            right: 0.5rem;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: var(--gray-400);
+            cursor: pointer;
+            padding: 0.25rem;
+            border-radius: var(--radius);
+            display: none;
+        }
+        
+        .search-clear:hover {
+            background: var(--gray-100);
+            color: var(--gray-600);
         }
         
         /* Filter Chips */
         .filter-chips {
             display: flex;
             gap: 0.5rem;
-            flex-wrap: wrap;
-            margin-bottom: 1rem;
+            align-items: center;
         }
         
         .chip {
             display: inline-flex;
             align-items: center;
-            gap: 0.375rem;
-            padding: 0.5rem 1rem;
+            gap: 0.25rem;
+            padding: 0.375rem 0.75rem;
             background: var(--gray-100);
-            border: 2px solid transparent;
-            border-radius: 9999px;
-            font-size: 0.875rem;
+            border: 1px solid var(--gray-200);
+            border-radius: 999px;
+            font-size: 0.8125rem;
             font-weight: 500;
             cursor: pointer;
-            transition: all 0.2s;
-            user-select: none;
+            transition: all 0.15s;
+            white-space: nowrap;
         }
         
         .chip:hover {
             background: var(--gray-200);
+            border-color: var(--gray-300);
         }
         
         .chip.active {
@@ -228,201 +228,268 @@
             border-color: var(--primary);
         }
         
-        .chip-icon {
-            font-size: 1rem;
+        .chip-count {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0 0.375rem;
+            border-radius: 999px;
+            font-size: 0.75rem;
         }
         
-        /* View Toggle */
-        .view-toggle {
+        .chip.active .chip-count {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        /* Action Buttons */
+        .filter-actions {
             display: flex;
-            background: var(--gray-100);
-            border-radius: var(--radius);
-            padding: 0.25rem;
-            gap: 0.25rem;
-            margin-bottom: 1.5rem;
+            gap: 0.5rem;
+            align-items: center;
         }
         
-        .view-toggle button {
-            flex: 1;
+        .btn {
             padding: 0.5rem 1rem;
-            border: none;
-            background: transparent;
-            border-radius: calc(var(--radius) - 0.25rem);
+            border: 1px solid var(--gray-300);
+            background: white;
+            border-radius: var(--radius);
+            font-size: 0.8125rem;
             font-weight: 500;
             cursor: pointer;
-            transition: all 0.2s;
+            transition: all 0.15s;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.375rem;
+            white-space: nowrap;
         }
         
-        .view-toggle button.active {
-            background: white;
-            box-shadow: var(--shadow-sm);
+        .btn:hover {
+            background: var(--gray-50);
+            border-color: var(--gray-400);
         }
         
-        [data-theme="dark"] .view-toggle button.active {
-            background: var(--gray-700);
+        .btn.btn-primary {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
         }
         
-        /* Stats Bar */
-        .stats-bar {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 1rem;
-            margin-bottom: 1.5rem;
+        .btn.btn-primary:hover {
+            background: var(--primary-dark);
         }
         
-        .stat-card {
-            background: white;
-            padding: 1rem;
-            border-radius: var(--radius);
-            text-align: center;
-            box-shadow: var(--shadow-sm);
+        .btn.btn-ghost {
+            background: transparent;
+            border: none;
+            color: var(--gray-600);
+            padding: 0.5rem;
         }
         
-        [data-theme="dark"] .stat-card {
-            background: var(--gray-800);
+        .btn.btn-ghost:hover {
+            background: var(--gray-100);
+            color: var(--gray-800);
         }
         
-        .stat-value {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--primary);
-        }
-        
-        .stat-label {
-            font-size: 0.875rem;
-            color: var(--gray-500);
-        }
-        
-        /* Course Cards */
-        .courses-grid {
-            display: grid;
-            gap: 1rem;
-            margin-bottom: 2rem;
-        }
-        
-        .course-card {
-            background: white;
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            box-shadow: var(--shadow);
-            transition: all 0.3s;
-            cursor: pointer;
-        }
-        
-        [data-theme="dark"] .course-card {
-            background: var(--gray-800);
-        }
-        
-        .course-card:hover {
-            transform: translateY(-2px);
-            box-shadow: var(--shadow-lg);
-        }
-        
-        .course-header {
-            padding: 1.25rem;
-            border-bottom: 1px solid var(--gray-100);
-        }
-        
-        .course-title-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: start;
-            gap: 1rem;
-            margin-bottom: 0.5rem;
-        }
-        
-        .course-code {
-            font-weight: 700;
-            font-size: 1.125rem;
-            color: var(--primary);
-        }
-        
-        .course-status {
-            padding: 0.25rem 0.75rem;
-            border-radius: 9999px;
+        /* Filter Count Badge */
+        .filter-count {
+            background: var(--primary);
+            color: white;
+            padding: 0.125rem 0.5rem;
+            border-radius: 999px;
             font-size: 0.75rem;
             font-weight: 600;
         }
         
-        .status-open {
-            background: rgba(16, 185, 129, 0.1);
-            color: var(--success);
+        /* Main Layout */
+        .main-layout {
+            display: flex;
+            max-width: 1400px;
+            margin: 0 auto;
+            gap: 1rem;
+            padding: 1rem;
+            position: relative;
         }
         
-        .status-waitlisted {
-            background: rgba(245, 158, 11, 0.1);
-            color: var(--warning);
+        .content-area {
+            flex: 1;
+            min-width: 0;
         }
         
-        .status-closed {
-            background: rgba(239, 68, 68, 0.1);
-            color: var(--danger);
+        /* Results Header */
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+        
+        .results-info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 0.875rem;
+            color: var(--gray-600);
+        }
+        
+        .sort-dropdown {
+            position: relative;
+        }
+        
+        .sort-menu {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: 0.25rem;
+            background: white;
+            border: 1px solid var(--gray-200);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-md);
+            min-width: 200px;
+            display: none;
+            z-index: 30;
+        }
+        
+        .sort-menu.show {
+            display: block;
+        }
+        
+        .sort-option {
+            display: block;
+            width: 100%;
+            padding: 0.5rem 1rem;
+            text-align: left;
+            border: none;
+            background: none;
+            font-size: 0.875rem;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+        
+        .sort-option:hover {
+            background: var(--gray-50);
+        }
+        
+        .sort-option.active {
+            color: var(--primary);
+            font-weight: 500;
+        }
+        
+        /* Compact Course Cards */
+        .courses-grid {
+            display: grid;
+            gap: 0.75rem;
+        }
+        
+        .course-card {
+            background: white;
+            border: 1px solid var(--gray-200);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+        
+        .course-card:hover {
+            border-color: var(--gray-300);
+            box-shadow: var(--shadow-md);
+            transform: translateY(-1px);
+        }
+        
+        .course-card-header {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--gray-100);
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            gap: 1rem;
+        }
+        
+        .course-main-info {
+            flex: 1;
+            min-width: 0;
+        }
+        
+        .course-code-title {
+            display: flex;
+            align-items: baseline;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 0.25rem;
+        }
+        
+        .course-code {
+            font-weight: 600;
+            color: var(--primary);
+            font-size: 0.9375rem;
         }
         
         .course-title {
-            font-size: 1rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
+            color: var(--gray-700);
+            font-size: 0.875rem;
         }
         
         .course-meta {
             display: flex;
-            gap: 1rem;
-            font-size: 0.875rem;
+            gap: 0.75rem;
+            font-size: 0.75rem;
             color: var(--gray-500);
         }
         
-        .course-body {
-            padding: 1.25rem;
+        .course-status {
+            padding: 0.25rem 0.625rem;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            white-space: nowrap;
         }
         
-        .instructor-info {
+        .status-open {
+            background: var(--success);
+            color: white;
+        }
+        
+        .status-waitlisted {
+            background: var(--warning);
+            color: white;
+        }
+        
+        .status-closed {
+            background: var(--danger);
+            color: white;
+        }
+        
+        .course-card-body {
+            padding: 0.75rem 1rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr auto;
+            gap: 1rem;
+            align-items: center;
+        }
+        
+        .course-info-group {
+            display: flex;
+            align-items: center;
+            gap: 0.375rem;
+            font-size: 0.8125rem;
+        }
+        
+        .course-info-group i {
+            color: var(--gray-400);
+            font-size: 0.875rem;
+        }
+        
+        .enrollment-info {
             display: flex;
             align-items: center;
             gap: 0.5rem;
-            margin-bottom: 1rem;
-        }
-        
-        .instructor-avatar {
-            width: 32px;
-            height: 32px;
-            background: var(--gray-200);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 600;
-            font-size: 0.875rem;
-        }
-        
-        .meeting-info {
-            display: grid;
-            grid-template-columns: auto 1fr;
-            gap: 0.5rem 1rem;
-            font-size: 0.875rem;
-            margin-bottom: 1rem;
-        }
-        
-        .meeting-label {
-            color: var(--gray-500);
-        }
-        
-        .enrollment-section {
-            margin-top: 1rem;
-        }
-        
-        .enrollment-header {
-            display: flex;
-            justify-content: space-between;
-            font-size: 0.875rem;
-            margin-bottom: 0.5rem;
+            font-size: 0.8125rem;
         }
         
         .enrollment-bar {
-            width: 100%;
-            height: 8px;
+            width: 60px;
+            height: 4px;
             background: var(--gray-200);
-            border-radius: 9999px;
+            border-radius: 999px;
             overflow: hidden;
         }
         
@@ -440,295 +507,434 @@
             background: var(--danger);
         }
         
-        .course-actions {
+        .quick-actions {
             display: flex;
-            gap: 0.5rem;
-            margin-top: 1rem;
+            gap: 0.25rem;
         }
         
-        .action-btn {
-            flex: 1;
-            padding: 0.5rem;
+        .quick-action {
+            padding: 0.375rem;
+            background: transparent;
             border: 1px solid var(--gray-200);
-            background: white;
             border-radius: var(--radius);
-            font-size: 0.875rem;
             cursor: pointer;
-            transition: all 0.2s;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 0.375rem;
+            transition: all 0.15s;
+            color: var(--gray-600);
         }
         
-        [data-theme="dark"] .action-btn {
-            background: var(--gray-700);
-            border-color: var(--gray-600);
-        }
-        
-        .action-btn:hover {
+        .quick-action:hover {
             background: var(--gray-50);
             border-color: var(--gray-300);
+            color: var(--gray-800);
         }
         
-        .action-btn.primary {
+        .quick-action.saved {
             background: var(--primary);
             color: white;
             border-color: var(--primary);
         }
         
-        .action-btn.primary:hover {
-            background: var(--primary-dark);
-        }
-        
-        /* Calendar View */
-        .calendar-view {
-            display: none;
+        /* Saved Courses Sidebar */
+        .saved-sidebar {
+            position: fixed;
+            right: 0;
+            top: 56px;
+            bottom: 0;
+            width: 320px;
             background: white;
-            border-radius: var(--radius-lg);
-            padding: 1.5rem;
-            box-shadow: var(--shadow);
+            border-left: 1px solid var(--gray-200);
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+            z-index: 45;
+            overflow-y: auto;
         }
         
-        [data-theme="dark"] .calendar-view {
-            background: var(--gray-800);
+        .saved-sidebar.show {
+            transform: translateX(0);
+            box-shadow: -4px 0 12px rgba(0, 0, 0, 0.1);
         }
         
-        .calendar-grid {
-            display: grid;
-            grid-template-columns: 80px repeat(7, 1fr);
-            gap: 1px;
-            background: var(--gray-200);
+        .sidebar-header {
+            padding: 1rem;
+            border-bottom: 1px solid var(--gray-200);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .sidebar-content {
+            padding: 1rem;
+        }
+        
+        .saved-course-item {
+            padding: 0.75rem;
             border: 1px solid var(--gray-200);
             border-radius: var(--radius);
-            overflow: hidden;
-        }
-        
-        .calendar-header {
-            background: var(--gray-100);
-            padding: 0.75rem;
-            font-weight: 600;
-            text-align: center;
+            margin-bottom: 0.5rem;
             font-size: 0.875rem;
         }
         
-        .time-slot {
+        /* List View */
+        .list-view {
             background: white;
-            padding: 0.5rem;
-            font-size: 0.75rem;
-            color: var(--gray-500);
-            text-align: right;
-        }
-        
-        [data-theme="dark"] .time-slot {
-            background: var(--gray-900);
-        }
-        
-        .calendar-cell {
-            background: white;
-            min-height: 60px;
-            position: relative;
-        }
-        
-        [data-theme="dark"] .calendar-cell {
-            background: var(--gray-900);
-        }
-        
-        .calendar-event {
-            position: absolute;
-            left: 2px;
-            right: 2px;
-            background: var(--primary);
-            color: white;
-            padding: 0.25rem;
-            border-radius: calc(var(--radius) / 2);
-            font-size: 0.75rem;
+            border: 1px solid var(--gray-200);
+            border-radius: var(--radius-lg);
             overflow: hidden;
-            cursor: pointer;
+        }
+        
+        .list-header {
+            display: grid;
+            grid-template-columns: 2fr 1.5fr 1fr 1fr 80px;
+            padding: 0.75rem 1rem;
+            background: var(--gray-50);
+            border-bottom: 1px solid var(--gray-200);
+            font-size: 0.8125rem;
+            font-weight: 600;
+            color: var(--gray-700);
+        }
+        
+        .list-row {
+            display: grid;
+            grid-template-columns: 2fr 1.5fr 1fr 1fr 80px;
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--gray-100);
+            font-size: 0.8125rem;
+            align-items: center;
+            transition: background 0.15s;
+        }
+        
+        .list-row:hover {
+            background: var(--gray-50);
         }
         
         /* Loading State */
-        .loading {
-            text-align: center;
-            padding: 3rem;
+        .loading-skeleton {
+            display: grid;
+            gap: 0.75rem;
         }
         
-        .spinner {
-            display: inline-block;
-            width: 40px;
-            height: 40px;
-            border: 3px solid var(--gray-200);
-            border-top-color: var(--primary);
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
+        .skeleton-card {
+            background: white;
+            border: 1px solid var(--gray-200);
+            border-radius: var(--radius-lg);
+            padding: 1rem;
         }
         
-        @keyframes spin {
-            to { transform: rotate(360deg); }
+        .skeleton-line {
+            height: 12px;
+            background: var(--gray-200);
+            border-radius: var(--radius);
+            margin-bottom: 0.5rem;
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        /* Pagination */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 2rem;
+        }
+        
+        .page-btn {
+            padding: 0.375rem 0.75rem;
+            border: 1px solid var(--gray-300);
+            background: white;
+            border-radius: var(--radius);
+            font-size: 0.8125rem;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+        
+        .page-btn:hover:not(:disabled) {
+            background: var(--gray-50);
+            border-color: var(--gray-400);
+        }
+        
+        .page-btn.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+        
+        .page-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
         }
         
         /* Mobile Optimizations */
-        @media (max-width: 640px) {
-            .nav-container {
-                padding: 0.75rem;
+        @media (max-width: 768px) {
+            .filter-row {
+                gap: 0.5rem;
             }
             
-            .logo-section h1 {
-                font-size: 1.125rem;
+            .search-wrapper {
+                order: -1;
+                flex-basis: 100%;
+                max-width: 100%;
             }
             
-            .search-section {
-                padding: 1rem;
+            .filter-chips {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: none;
             }
             
-            .course-card {
-                border-radius: var(--radius);
+            .filter-chips::-webkit-scrollbar {
+                display: none;
             }
             
-            .stats-bar {
-                grid-template-columns: repeat(2, 1fr);
+            .course-card-body {
+                grid-template-columns: 1fr 1fr;
+                gap: 0.5rem;
+            }
+            
+            .saved-sidebar {
+                width: 100%;
+            }
+            
+            .list-header, .list-row {
+                grid-template-columns: 1fr;
+                gap: 0.25rem;
+            }
+            
+            .list-header > *:not(:first-child),
+            .list-row > *:not(:first-child) {
+                display: none;
             }
         }
         
-        /* Smooth Transitions */
-        * {
-            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+        /* Tooltips */
+        [data-tooltip] {
+            position: relative;
+        }
+        
+        [data-tooltip]:hover::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--gray-800);
+            color: white;
+            padding: 0.375rem 0.75rem;
+            border-radius: var(--radius);
+            font-size: 0.75rem;
+            white-space: nowrap;
+            z-index: 100;
+            margin-bottom: 0.25rem;
+        }
+        
+        /* Keyboard Focus Styles */
+        :focus-visible {
+            outline: 2px solid var(--primary);
+            outline-offset: 2px;
         }
     </style>
 </head>
 <body>
-    <!-- Navigation Header -->
+    <!-- Navigation -->
     <header class="nav-header">
         <div class="nav-container">
             <div class="logo-section">
                 <h1>Rio Hondo College</h1>
-                <span class="live-badge">
-                    <i class="bi bi-circle-fill" style="font-size: 0.5rem;"></i>
-                    LIVE
+                <span class="chip" style="background: var(--success); color: white; font-size: 0.75rem; padding: 0.25rem 0.625rem;">
+                    <i class="bi bi-circle-fill" style="font-size: 0.375rem;"></i> LIVE
                 </span>
             </div>
-            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
-                <i class="bi bi-moon-fill" id="themeIcon"></i>
-            </button>
+            
+            <div class="nav-actions">
+                <button class="saved-count" id="savedCoursesBtn" data-tooltip="Saved Courses">
+                    <i class="bi bi-bookmark-fill"></i>
+                    <span class="saved-badge" id="savedBadge" style="display: none;">0</span>
+                </button>
+                <button class="btn btn-ghost" id="themeToggle" data-tooltip="Toggle Theme">
+                    <i class="bi bi-moon-fill"></i>
+                </button>
+            </div>
         </div>
     </header>
     
-    <!-- Main Content -->
-    <main class="main-container">
-        <!-- Search Section -->
-        <section class="search-section">
-            <div class="search-wrapper">
-                <i class="bi bi-search search-icon"></i>
-                <input type="text" class="search-input" id="searchInput" placeholder="Search by course, professor, or CRN...">
+    <!-- Sticky Filter Bar -->
+    <div class="filter-bar">
+        <div class="filter-container">
+            <div class="filter-row">
+                <!-- Search -->
+                <div class="search-wrapper">
+                    <i class="bi bi-search search-icon"></i>
+                    <input type="text" 
+                           class="search-input" 
+                           id="searchInput" 
+                           placeholder="Search courses, instructors, CRN..."
+                           autocomplete="off">
+                    <button class="search-clear" id="searchClear">
+                        <i class="bi bi-x"></i>
+                    </button>
+                </div>
+                
+                <!-- Quick Filters -->
+                <div class="filter-chips">
+                    <button class="chip" data-filter="open">
+                        <i class="bi bi-check-circle" style="font-size: 0.875rem;"></i>
+                        Open
+                        <span class="chip-count" id="openCount">0</span>
+                    </button>
+                    <button class="chip" data-filter="online">
+                        <i class="bi bi-laptop" style="font-size: 0.875rem;"></i>
+                        Online
+                    </button>
+                    <button class="chip" data-filter="in-person">
+                        <i class="bi bi-building" style="font-size: 0.875rem;"></i>
+                        In-Person
+                    </button>
+                    <button class="chip" data-filter="evening">
+                        <i class="bi bi-moon" style="font-size: 0.875rem;"></i>
+                        Evening
+                    </button>
+                    <button class="chip" data-filter="ztc">
+                        <i class="bi bi-book" style="font-size: 0.875rem;"></i>
+                        ZTC
+                    </button>
+                </div>
+                
+                <!-- Filter Actions -->
+                <div class="filter-actions">
+                    <button class="btn btn-ghost" id="moreFiltersBtn">
+                        <i class="bi bi-funnel"></i>
+                        More
+                    </button>
+                    <button class="btn" id="resetFiltersBtn" style="display: none;">
+                        <i class="bi bi-arrow-clockwise"></i>
+                        Reset
+                        <span class="filter-count" id="activeFilterCount">0</span>
+                    </button>
+                </div>
             </div>
             
-            <!-- Quick Filters -->
-            <div class="filter-chips">
-                <button class="chip" data-filter="open">
-                    <i class="bi bi-check-circle chip-icon"></i>
-                    Open Classes
-                </button>
-                <button class="chip" data-filter="online">
-                    <i class="bi bi-laptop chip-icon"></i>
-                    Online Only
-                </button>
-                <button class="chip" data-filter="in-person">
-                    <i class="bi bi-building chip-icon"></i>
-                    In-Person
-                </button>
-                <button class="chip" data-filter="evening">
-                    <i class="bi bi-moon-stars chip-icon"></i>
-                    Evening
-                </button>
-                <button class="chip" data-filter="ztc">
-                    <i class="bi bi-book chip-icon"></i>
-                    Zero Cost Books
-                </button>
-            </div>
-            
-            <!-- Advanced Filters (collapsed by default) -->
-            <details class="advanced-filters">
-                <summary style="cursor: pointer; font-weight: 500; margin-bottom: 1rem;">
-                    <i class="bi bi-sliders"></i> More Filters
-                </summary>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
+            <!-- Advanced Filters (Hidden by default) -->
+            <div id="advancedFilters" style="display: none; margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid var(--gray-200);">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.75rem;">
                     <div>
-                        <label style="font-size: 0.875rem; color: var(--gray-600); display: block; margin-bottom: 0.25rem;">Subject</label>
-                        <select id="subjectFilter" style="width: 100%; padding: 0.5rem; border: 1px solid var(--gray-300); border-radius: var(--radius); background: var(--light);">
+                        <label style="font-size: 0.75rem; color: var(--gray-600); display: block; margin-bottom: 0.25rem;">Subject</label>
+                        <select id="subjectFilter" class="search-input" style="font-size: 0.8125rem; padding: 0.375rem 0.75rem;">
                             <option value="">All Subjects</option>
                         </select>
                     </div>
                     <div>
-                        <label style="font-size: 0.875rem; color: var(--gray-600); display: block; margin-bottom: 0.25rem;">Units</label>
-                        <input type="range" id="unitsFilter" min="0" max="5" step="0.5" value="5" style="width: 100%;">
-                        <span id="unitsValue" style="font-size: 0.875rem;">0-5 units</span>
+                        <label style="font-size: 0.75rem; color: var(--gray-600); display: block; margin-bottom: 0.25rem;">Max Units</label>
+                        <div style="display: flex; align-items: center; gap: 0.5rem;">
+                            <input type="range" id="unitsFilter" min="0" max="5" step="0.5" value="5" style="flex: 1;">
+                            <span id="unitsValue" style="font-size: 0.8125rem; min-width: 32px;">5</span>
+                        </div>
                     </div>
                     <div>
-                        <label style="font-size: 0.875rem; color: var(--gray-600); display: block; margin-bottom: 0.25rem;">Days</label>
+                        <label style="font-size: 0.75rem; color: var(--gray-600); display: block; margin-bottom: 0.25rem;">Days</label>
                         <div style="display: flex; gap: 0.25rem;">
-                            <button class="chip" data-day="M" style="padding: 0.375rem 0.625rem; font-size: 0.75rem;">M</button>
-                            <button class="chip" data-day="T" style="padding: 0.375rem 0.625rem; font-size: 0.75rem;">T</button>
-                            <button class="chip" data-day="W" style="padding: 0.375rem 0.625rem; font-size: 0.75rem;">W</button>
-                            <button class="chip" data-day="R" style="padding: 0.375rem 0.625rem; font-size: 0.75rem;">R</button>
-                            <button class="chip" data-day="F" style="padding: 0.375rem 0.625rem; font-size: 0.75rem;">F</button>
+                            <button class="chip" data-day="M" style="padding: 0.25rem 0.5rem; font-size: 0.75rem;">M</button>
+                            <button class="chip" data-day="T" style="padding: 0.25rem 0.5rem; font-size: 0.75rem;">T</button>
+                            <button class="chip" data-day="W" style="padding: 0.25rem 0.5rem; font-size: 0.75rem;">W</button>
+                            <button class="chip" data-day="R" style="padding: 0.25rem 0.5rem; font-size: 0.75rem;">R</button>
+                            <button class="chip" data-day="F" style="padding: 0.25rem 0.5rem; font-size: 0.75rem;">F</button>
                         </div>
                     </div>
                 </div>
-            </details>
-        </section>
-        
-        <!-- View Toggle -->
-        <div class="view-toggle">
-            <button class="active" data-view="cards">
-                <i class="bi bi-grid-3x2-gap"></i> Cards
+            </div>
+        </div>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="main-layout">
+        <main class="content-area">
+            <!-- Results Header -->
+            <div class="results-header">
+                <div class="results-info">
+                    <span id="resultsCount">Loading courses...</span>
+                    <span id="lastUpdateTime" style="color: var(--gray-500);"></span>
+                </div>
+                
+                <div style="display: flex; gap: 0.5rem; align-items: center;">
+                    <!-- View Toggle -->
+                    <div style="display: flex; background: var(--gray-100); border-radius: var(--radius); padding: 2px;">
+                        <button class="btn btn-ghost active" data-view="grid" style="padding: 0.375rem 0.75rem;">
+                            <i class="bi bi-grid-3x2-gap"></i>
+                        </button>
+                        <button class="btn btn-ghost" data-view="list" style="padding: 0.375rem 0.75rem;">
+                            <i class="bi bi-list"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Sort Dropdown -->
+                    <div class="sort-dropdown">
+                        <button class="btn" id="sortBtn">
+                            <i class="bi bi-sort-down"></i>
+                            Sort
+                        </button>
+                        <div class="sort-menu" id="sortMenu">
+                            <button class="sort-option active" data-sort="default">Default</button>
+                            <button class="sort-option" data-sort="course">Course Code</button>
+                            <button class="sort-option" data-sort="time">Meeting Time</button>
+                            <button class="sort-option" data-sort="enrollment">Enrollment</button>
+                            <button class="sort-option" data-sort="units">Units</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Loading State -->
+            <div class="loading-skeleton" id="loadingState">
+                <div class="skeleton-card">
+                    <div class="skeleton-line" style="width: 40%;"></div>
+                    <div class="skeleton-line" style="width: 70%;"></div>
+                    <div class="skeleton-line" style="width: 50%;"></div>
+                </div>
+                <div class="skeleton-card">
+                    <div class="skeleton-line" style="width: 45%;"></div>
+                    <div class="skeleton-line" style="width: 65%;"></div>
+                    <div class="skeleton-line" style="width: 55%;"></div>
+                </div>
+            </div>
+            
+            <!-- Course Grid -->
+            <div class="courses-grid" id="coursesGrid" style="display: none;"></div>
+            
+            <!-- List View -->
+            <div class="list-view" id="listView" style="display: none;"></div>
+            
+            <!-- No Results -->
+            <div style="text-align: center; padding: 3rem; display: none;" id="noResults">
+                <i class="bi bi-search" style="font-size: 2.5rem; color: var(--gray-300);"></i>
+                <h3 style="margin-top: 0.75rem; color: var(--gray-600); font-weight: 500;">No courses found</h3>
+                <p style="color: var(--gray-500); margin-top: 0.5rem;">Try adjusting your filters or search terms</p>
+                <button class="btn btn-primary" onclick="document.getElementById('resetFiltersBtn').click();" style="margin-top: 1rem;">
+                    Clear All Filters
+                </button>
+            </div>
+            
+            <!-- Pagination -->
+            <div class="pagination" id="pagination" style="display: none;"></div>
+        </main>
+    </div>
+    
+    <!-- Saved Courses Sidebar -->
+    <aside class="saved-sidebar" id="savedSidebar">
+        <div class="sidebar-header">
+            <h3 style="font-size: 1rem; font-weight: 600;">Saved Courses</h3>
+            <button class="btn btn-ghost" id="closeSidebarBtn">
+                <i class="bi bi-x-lg"></i>
             </button>
-            <button data-view="calendar">
-                <i class="bi bi-calendar-week"></i> Schedule
-            </button>
-            <button data-view="list">
-                <i class="bi bi-list-ul"></i> List
-            </button>
         </div>
-        
-        <!-- Stats Bar -->
-        <div class="stats-bar">
-            <div class="stat-card">
-                <div class="stat-value" id="totalCourses">0</div>
-                <div class="stat-label">Total Courses</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-value" id="openCourses">0</div>
-                <div class="stat-label">Open Sections</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-value" id="onlineCourses">0</div>
-                <div class="stat-label">Online Classes</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-value" id="lastUpdate">--</div>
-                <div class="stat-label">Last Updated</div>
-            </div>
+        <div class="sidebar-content" id="savedCoursesContent">
+            <p style="text-align: center; color: var(--gray-500); padding: 2rem 0;">
+                No saved courses yet
+            </p>
         </div>
-        
-        <!-- Loading State -->
-        <div class="loading" id="loadingState">
-            <div class="spinner"></div>
-            <p style="margin-top: 1rem; color: var(--gray-500);">Loading live schedule data...</p>
-        </div>
-        
-        <!-- Course Cards View -->
-        <div class="courses-grid" id="coursesGrid" style="display: none;"></div>
-        
-        <!-- Calendar View -->
-        <div class="calendar-view" id="calendarView"></div>
-        
-        <!-- No Results -->
-        <div style="text-align: center; padding: 3rem; display: none;" id="noResults">
-            <i class="bi bi-search" style="font-size: 3rem; color: var(--gray-300);"></i>
-            <h3 style="margin-top: 1rem; color: var(--gray-600);">No courses found</h3>
-            <p style="color: var(--gray-500);">Try adjusting your filters or search terms</p>
-        </div>
-    </main>
+    </aside>
     
     <!-- Modern JavaScript -->
     <script src="js/rio-hondo-modern.js"></script>
