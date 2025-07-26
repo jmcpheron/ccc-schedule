@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rio Hondo College - Live Schedule Demo</title>
+    <title>Rio Hondo College - Schedule Demo</title>
     
     <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico"/>
     <!-- Bootstrap CSS -->
@@ -31,22 +31,6 @@
             background-color: #e8f4f8;
             border-left: 4px solid #004B87;
         }
-        .live-indicator {
-            display: inline-flex;
-            align-items: center;
-            background-color: #28a745;
-            color: white;
-            padding: 0.25rem 0.75rem;
-            border-radius: 20px;
-            font-size: 0.875rem;
-            font-weight: 500;
-            animation: pulse 2s infinite;
-        }
-        @keyframes pulse {
-            0% { opacity: 1; }
-            50% { opacity: 0.8; }
-            100% { opacity: 1; }
-        }
         .spin {
             animation: spin 1s linear infinite;
         }
@@ -66,13 +50,7 @@
                 </a>
                 <div class="text-center">
                     <h3 class="mb-0">Rio Hondo College</h3>
-                    <small class="rio-hondo-accent">Live Schedule Demo - Fall 2025</small>
-                    <div class="mt-2">
-                        <span class="live-indicator">
-                            <i class="bi bi-circle-fill me-1" style="font-size: 0.5rem;"></i>
-                            LIVE DATA
-                        </span>
-                    </div>
+                    <small class="rio-hondo-accent">Schedule Demo - Fall 2025</small>
                 </div>
                 <div style="width: 120px;"></div> <!-- Spacer for centering -->
             </div>
@@ -87,11 +65,11 @@
                 <div class="d-flex align-items-start">
                     <i class="bi bi-info-circle-fill me-3 flex-shrink-0" style="font-size: 1.5rem; color: #004B87;"></i>
                     <div>
-                        <strong>Rio Hondo College Live Demo</strong><br>
-                        This demonstration connects to live data from Rio Hondo College's public schedule. 
-                        Data is fetched in real-time from the <a href="https://github.com/jmcpheron/ccc-schedule-collector" target="_blank">CCC Schedule Collector</a> repository.
+                        <strong>Rio Hondo College Schedule Demo</strong><br>
+                        This demonstration uses data from Rio Hondo College's public schedule, 
+                        collected via the <a href="https://github.com/jmcpheron/ccc-schedule-collector" target="_blank">CCC Schedule Collector</a> repository.
                         <br>
-                        <small class="text-muted" id="data-status">Loading live data...</small>
+                        <small class="text-muted" id="data-status">Loading schedule data...</small>
                     </div>
                 </div>
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -255,10 +233,10 @@
     <footer class="mt-5 py-3 bg-light">
         <div class="container text-center">
             <p class="text-muted mb-0">
-                Rio Hondo College Live Schedule Demo | 
+                Rio Hondo College Schedule Demo | 
                 <a href="https://github.com/jmcpheron/ccc-schedule" target="_blank">CCC Schedule Project</a> | 
-                <a href="https://github.com/jmcpheron/ccc-schedule-collector" target="_blank">Live Data Source</a> | 
-                <a href="../rio-hondo/" class="text-primary">View Static Demo</a>
+                <a href="https://github.com/jmcpheron/ccc-schedule-collector" target="_blank">Data Source</a> | 
+                <a href="../rio-hondo/" class="text-primary">View Cached Version</a>
             </p>
         </div>
     </footer>
