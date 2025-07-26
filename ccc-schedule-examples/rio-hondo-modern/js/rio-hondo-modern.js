@@ -28,8 +28,28 @@ class ModernSchedule {
     }
     
     async init() {
+        this.setupTheme();
         this.setupEventListeners();
         await this.loadData();
+    }
+    
+    setupTheme() {
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        this.updateThemeIcon(savedTheme);
+    }
+    
+    toggleTheme() {
+        const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+        this.updateThemeIcon(newTheme);
+    }
+    
+    updateThemeIcon(theme) {
+        const icon = document.getElementById('themeToggle').querySelector('i');
+        icon.className = theme === 'light' ? 'bi bi-moon-fill' : 'bi bi-sun-fill';
     }
     
     setupEventListeners() {
@@ -143,7 +163,10 @@ class ModernSchedule {
             document.getElementById('savedSidebar').classList.remove('show');
         });
         
-        // Theme toggle (removed for brevity, but you can add it back)
+        // Theme toggle
+        document.getElementById('themeToggle').addEventListener('click', () => {
+            this.toggleTheme();
+        });
     }
     
     resetFilters() {

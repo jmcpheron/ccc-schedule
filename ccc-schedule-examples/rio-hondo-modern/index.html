@@ -44,6 +44,31 @@
             --radius-lg: 0.75rem;
         }
         
+        [data-theme="dark"] {
+            --primary: #7c3aed;
+            --primary-light: #8b5cf6;
+            --primary-dark: #6d28d9;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --info: #06b6d4;
+            --dark: #f9fafb;
+            --light: #18181b;
+            --gray-50: #18181b;
+            --gray-100: #27272a;
+            --gray-200: #3f3f46;
+            --gray-300: #52525b;
+            --gray-400: #71717a;
+            --gray-500: #a1a1aa;
+            --gray-600: #d4d4d8;
+            --gray-700: #e4e4e7;
+            --gray-800: #f4f4f5;
+            --gray-900: #fafafa;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+            --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.4), 0 1px 2px -1px rgb(0 0 0 / 0.4);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.5), 0 2px 4px -2px rgb(0 0 0 / 0.5);
+        }
+        
         * { margin: 0; padding: 0; box-sizing: border-box; }
         
         body {
@@ -57,7 +82,7 @@
         
         /* Compact Navigation */
         .nav-header {
-            background: white;
+            background: var(--gray-50);
             border-bottom: 1px solid var(--gray-200);
             position: sticky;
             top: 0;
@@ -121,7 +146,7 @@
         
         /* Sticky Filter Bar */
         .filter-bar {
-            background: white;
+            background: var(--gray-50);
             border-bottom: 1px solid var(--gray-200);
             position: sticky;
             top: 56px;
@@ -156,15 +181,16 @@
             font-size: 0.875rem;
             border: 1px solid var(--gray-300);
             border-radius: var(--radius);
-            background: var(--gray-50);
+            background: var(--gray-100);
+            color: var(--dark);
             transition: all 0.2s;
         }
         
         .search-input:focus {
             outline: none;
             border-color: var(--primary);
-            background: white;
-            box-shadow: 0 0 0 3px rgba(91, 33, 182, 0.1);
+            background: var(--gray-50);
+            box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.2);
         }
         
         .search-icon {
@@ -249,7 +275,8 @@
         .btn {
             padding: 0.5rem 1rem;
             border: 1px solid var(--gray-300);
-            background: white;
+            background: var(--gray-50);
+            color: var(--dark);
             border-radius: var(--radius);
             font-size: 0.8125rem;
             font-weight: 500;
@@ -262,7 +289,7 @@
         }
         
         .btn:hover {
-            background: var(--gray-50);
+            background: var(--gray-100);
             border-color: var(--gray-400);
         }
         
@@ -340,7 +367,7 @@
             top: 100%;
             right: 0;
             margin-top: 0.25rem;
-            background: white;
+            background: var(--gray-50);
             border: 1px solid var(--gray-200);
             border-radius: var(--radius);
             box-shadow: var(--shadow-md);
@@ -366,7 +393,7 @@
         }
         
         .sort-option:hover {
-            background: var(--gray-50);
+            background: var(--gray-100);
         }
         
         .sort-option.active {
@@ -381,7 +408,7 @@
         }
         
         .course-card {
-            background: white;
+            background: var(--gray-50);
             border: 1px solid var(--gray-200);
             border-radius: var(--radius-lg);
             overflow: hidden;
@@ -458,6 +485,30 @@
             color: white;
         }
         
+        /* Enhanced chip styles for dark mode */
+        [data-theme="dark"] .chip {
+            background: var(--gray-200);
+            border-color: var(--gray-300);
+        }
+        
+        [data-theme="dark"] .chip:hover {
+            background: var(--gray-300);
+            border-color: var(--gray-400);
+        }
+        
+        [data-theme="dark"] .chip.active {
+            background: var(--primary);
+            border-color: var(--primary);
+        }
+        
+        /* Fix input styles in dark mode */
+        [data-theme="dark"] select,
+        [data-theme="dark"] input[type="range"] {
+            background: var(--gray-200);
+            color: var(--dark);
+            border-color: var(--gray-300);
+        }
+        
         .course-card-body {
             padding: 0.75rem 1rem;
             display: grid;
@@ -523,7 +574,7 @@
         }
         
         .quick-action:hover {
-            background: var(--gray-50);
+            background: var(--gray-100);
             border-color: var(--gray-300);
             color: var(--gray-800);
         }
@@ -541,7 +592,7 @@
             top: 56px;
             bottom: 0;
             width: 320px;
-            background: white;
+            background: var(--gray-50);
             border-left: 1px solid var(--gray-200);
             transform: translateX(100%);
             transition: transform 0.3s ease;
@@ -576,7 +627,7 @@
         
         /* List View */
         .list-view {
-            background: white;
+            background: var(--gray-50);
             border: 1px solid var(--gray-200);
             border-radius: var(--radius-lg);
             overflow: hidden;
@@ -586,7 +637,7 @@
             display: grid;
             grid-template-columns: 2fr 1.5fr 1fr 1fr 80px;
             padding: 0.75rem 1rem;
-            background: var(--gray-50);
+            background: var(--gray-100);
             border-bottom: 1px solid var(--gray-200);
             font-size: 0.8125rem;
             font-weight: 600;
@@ -604,7 +655,7 @@
         }
         
         .list-row:hover {
-            background: var(--gray-50);
+            background: var(--gray-100);
         }
         
         /* Loading State */
@@ -614,7 +665,7 @@
         }
         
         .skeleton-card {
-            background: white;
+            background: var(--gray-50);
             border: 1px solid var(--gray-200);
             border-radius: var(--radius-lg);
             padding: 1rem;
@@ -645,7 +696,8 @@
         .page-btn {
             padding: 0.375rem 0.75rem;
             border: 1px solid var(--gray-300);
-            background: white;
+            background: var(--gray-50);
+            color: var(--dark);
             border-radius: var(--radius);
             font-size: 0.8125rem;
             cursor: pointer;
@@ -653,7 +705,7 @@
         }
         
         .page-btn:hover:not(:disabled) {
-            background: var(--gray-50);
+            background: var(--gray-100);
             border-color: var(--gray-400);
         }
         
@@ -722,7 +774,7 @@
             left: 50%;
             transform: translateX(-50%);
             background: var(--gray-800);
-            color: white;
+            color: var(--gray-50);
             padding: 0.375rem 0.75rem;
             border-radius: var(--radius);
             font-size: 0.75rem;
