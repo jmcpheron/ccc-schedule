@@ -72,6 +72,17 @@ function initializeEventHandlers() {
     $('input[name="view-mode"]').on('change', function() {
         displayResults();
     });
+    
+    // Handle window resize to update card display
+    let resizeTimer;
+    $(window).on('resize', function() {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(function() {
+            if ($('#card-view').is(':checked')) {
+                displayResults();
+            }
+        }, 250);
+    });
 }
 
 /**
@@ -354,7 +365,7 @@ function displayResults() {
  * Display course as card
  */
 function displayCourseCard(course) {
-    const courseCard = $('<div class="col-12 mb-3">');
+    const courseCard = $('<div class="col-12">');
     const card = $('<div class="card">');
     
     // Card header
@@ -369,54 +380,94 @@ function displayCourseCard(course) {
     const body = $('<div class="card-body">');
     
     if (course.description) {
-        body.append(`<p class="card-text">${course.description}</p>`);
+        body.append(`<p class="card-text small">${course.description}</p>`);
     }
     
-    // Sections table
-    const sectionsTable = $(`
-        <table class="table table-sm mb-0">
-            <thead>
-                <tr>
-                    <th>CRN</th>
-                    <th>Instructor</th>
-                    <th>Days/Times</th>
-                    <th>Location</th>
-                    <th>Mode</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
-    `);
+    // Check if mobile view
+    const isMobile = window.innerWidth < 768;
     
-    course.sections.forEach(section => {
-        const meetingInfo = formatMeetingInfo(section.meetings);
-        const location = formatLocation(section.meetings);
-        const instructorDisplay = section.instructor + 
-            (section.instructorEmail && section.instructorEmail !== 'to.be..assigned@riohondo.edu' ? 
-                ` <a href="mailto:${section.instructorEmail}" title="Email instructor"><i class="bi bi-envelope-fill"></i></a>` : 
-                '');
-        
-        const row = $(`
-            <tr>
-                <td>${section.crn}</td>
-                <td>${instructorDisplay}</td>
-                <td>${meetingInfo}</td>
-                <td>${location}</td>
-                <td>${formatInstructionMode(section.instructionMode)}</td>
-                <td>
+    if (isMobile) {
+        // Mobile-friendly section display
+        course.sections.forEach(section => {
+            const sectionDiv = $('<div class="section-mobile mb-3 p-2 border rounded">');
+            
+            // CRN and Status on same line
+            const headerRow = $('<div class="d-flex justify-content-between align-items-center mb-1">');
+            headerRow.append(`<strong>CRN: ${section.crn}</strong>`);
+            headerRow.append(`
+                <div>
                     <span class="badge ${section.status === 'Open' ? 'bg-success' : 'bg-danger'}">
                         ${section.status}
                     </span>
                     ${section.textbookCost === 'ZTC' ? '<span class="badge bg-info ms-1">ZTC</span>' : ''}
-                </td>
-            </tr>
+                </div>
+            `);
+            sectionDiv.append(headerRow);
+            
+            // Instructor
+            const instructorDisplay = section.instructor + 
+                (section.instructorEmail && section.instructorEmail !== 'to.be..assigned@riohondo.edu' ? 
+                    ` <a href="mailto:${section.instructorEmail}" title="Email"><i class="bi bi-envelope-fill"></i></a>` : 
+                    '');
+            sectionDiv.append(`<div class="small"><strong>Instructor:</strong> ${instructorDisplay}</div>`);
+            
+            // Meeting info
+            const meetingInfo = formatMeetingInfo(section.meetings);
+            const location = formatLocation(section.meetings);
+            sectionDiv.append(`<div class="small"><strong>Time:</strong> ${meetingInfo}</div>`);
+            sectionDiv.append(`<div class="small"><strong>Location:</strong> ${location}</div>`);
+            sectionDiv.append(`<div class="small"><strong>Mode:</strong> ${formatInstructionMode(section.instructionMode)}</div>`);
+            
+            body.append(sectionDiv);
+        });
+    } else {
+        // Desktop table view
+        const sectionsTable = $(`
+            <table class="table table-sm mb-0">
+                <thead>
+                    <tr>
+                        <th>CRN</th>
+                        <th>Instructor</th>
+                        <th>Days/Times</th>
+                        <th>Location</th>
+                        <th>Mode</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
         `);
-        sectionsTable.find('tbody').append(row);
-    });
+        
+        course.sections.forEach(section => {
+            const meetingInfo = formatMeetingInfo(section.meetings);
+            const location = formatLocation(section.meetings);
+            const instructorDisplay = section.instructor + 
+                (section.instructorEmail && section.instructorEmail !== 'to.be..assigned@riohondo.edu' ? 
+                    ` <a href="mailto:${section.instructorEmail}" title="Email instructor"><i class="bi bi-envelope-fill"></i></a>` : 
+                    '');
+            
+            const row = $(`
+                <tr>
+                    <td>${section.crn}</td>
+                    <td>${instructorDisplay}</td>
+                    <td>${meetingInfo}</td>
+                    <td>${location}</td>
+                    <td>${formatInstructionMode(section.instructionMode)}</td>
+                    <td>
+                        <span class="badge ${section.status === 'Open' ? 'bg-success' : 'bg-danger'}">
+                            ${section.status}
+                        </span>
+                        ${section.textbookCost === 'ZTC' ? '<span class="badge bg-info ms-1">ZTC</span>' : ''}
+                    </td>
+                </tr>
+            `);
+            sectionsTable.find('tbody').append(row);
+        });
+        
+        body.append(sectionsTable);
+    }
     
-    body.append(sectionsTable);
     card.append(header).append(body);
     courseCard.append(card);
     $('#card-view-container').append(courseCard);
