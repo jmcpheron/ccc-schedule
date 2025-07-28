@@ -3,7 +3,7 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes">
     <title>Rio Hondo College - Schedule Demo</title>
     
     <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico"/>
@@ -31,6 +31,92 @@
             background-color: #e8f4f8;
             border-left: 4px solid #004B87;
         }
+        
+        /* Mobile-specific styles */
+        @media (max-width: 767px) {
+            .rio-hondo-header h3 {
+                font-size: 1.25rem;
+            }
+            .rio-hondo-header small {
+                font-size: 0.75rem;
+            }
+            #search-form .btn {
+                width: 100%;
+                margin-top: 0.5rem;
+            }
+            .search-button-group {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+                margin-top: 1rem;
+            }
+            #results-container .btn-group {
+                width: 100%;
+            }
+            #results-container .btn-group label {
+                font-size: 0.875rem;
+            }
+            .table-responsive {
+                font-size: 0.875rem;
+            }
+            .card-header h5 {
+                font-size: 1.1rem;
+            }
+            /* Prevent horizontal scroll */
+            .container {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .demo-notice {
+                font-size: 0.875rem;
+            }
+            .demo-notice i {
+                font-size: 1.25rem !important;
+            }
+        }
+        
+        /* Search input mobile adjustment */
+        @media (max-width: 575px) {
+            #search_input_main {
+                font-size: 16px; /* Prevents zoom on iOS */
+            }
+        }
+        
+        /* Additional mobile optimizations */
+        .search-button-group {
+            display: inline-flex;
+            gap: 0.5rem;
+            width: 100%;
+        }
+        
+        @media (max-width: 767px) {
+            .search-button-group {
+                flex-direction: column;
+            }
+            .search-button-group button {
+                width: 100%;
+            }
+        }
+        
+        /* Ensure buttons don't overflow on mobile */
+        #button-search, #button-search-open {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        /* Mobile table improvements */
+        @media (max-width: 576px) {
+            .table-responsive table {
+                min-width: 600px;
+            }
+            .pagination {
+                flex-wrap: wrap;
+            }
+            .page-item {
+                margin: 2px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -39,13 +125,13 @@
         <div class="container">
             <div class="d-flex justify-content-between align-items-center w-100">
                 <a href="../../index.html" class="btn btn-outline-light btn-sm">
-                    <i class="bi bi-arrow-left"></i> Back to Main
+                    <i class="bi bi-arrow-left"></i> <span class="d-none d-sm-inline">Back to Main</span>
                 </a>
-                <div class="text-center">
+                <div class="text-center flex-grow-1">
                     <h3 class="mb-0">Rio Hondo College</h3>
                     <small class="rio-hondo-accent">Schedule Demo - Fall 2025</small>
                 </div>
-                <div style="width: 120px;"></div> <!-- Spacer for centering -->
+                <div class="d-none d-sm-block" style="width: 120px;"></div> <!-- Spacer for centering -->
             </div>
         </div>
     </nav>
@@ -74,35 +160,37 @@
                         <h1 class="text-center mb-4">Search Rio Hondo Classes</h1>
                     </div>
                     <div class="col-12 mb-3">
-                        <input id="search_input_main" class="form-control form-control-lg" type="search" placeholder="Subject, Course Number, CRN, or Keyword" aria-label="#search_input_main">
-                        <button class="btn btn-primary" type="submit" id="button-search" value="ALL" title="Search all sections"><span class="bi bi-search"></span> All</button>
-                        <button class="btn btn-success" type="submit" id="button-search-open" value="OPEN" title="Search open sections only"><span class="bi bi-search"></span> Open Classes</button>
+                        <input id="search_input_main" class="form-control form-control-lg mb-3 mb-md-0" type="search" placeholder="Subject, Course Number, CRN, or Keyword" aria-label="#search_input_main">
+                        <div class="search-button-group d-flex flex-column flex-md-row gap-2">
+                            <button class="btn btn-primary btn-lg flex-fill" type="submit" id="button-search" value="ALL" title="Search all sections"><span class="bi bi-search"></span> All</button>
+                            <button class="btn btn-success btn-lg flex-fill" type="submit" id="button-search-open" value="OPEN" title="Search open sections only"><span class="bi bi-search"></span> Open Classes</button>
+                        </div>
                     </div>
                 </div>
                 <div class="row g-3 mb-3">
-                    <div class="col-md-3">
+                    <div class="col-sm-6 col-md-3">
                         <label for="term-select" class="form-label">Term</label>
                         <select class="form-select" id="term-select" aria-label="term select">
                             <option value="202570" selected>Fall 2025</option>
                         </select>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-6 col-md-3">
                         <label for="subject-select" class="form-label">Subject</label>
                         <select class="form-select" aria-label="Select Subject" id="subject-select">
                             <option value="">All Subjects</option>
                         </select>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3">
                         <label for="units-min" class="form-label">Min Units</label>
                         <input type="number" class="form-control" id="units-min" min="0" max="6" step="0.5" placeholder="0">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3">
                         <label for="units-max" class="form-label">Max Units</label>
                         <input type="number" class="form-control" id="units-max" min="0" max="6" step="0.5" placeholder="6">
                     </div>
                 </div>
                 <div class="row g-3 mb-3">
-                    <div class="col-md-3">
+                    <div class="col-sm-6 col-md-3">
                         <div id="instr-method-label">Instructional Mode</div>
                         <div class="dropdown" id="instr-method-drop-down">
                             <button class="form-select button-select dropdown-toggle" type="button" id="instr-method-button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -144,22 +232,22 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-6 col-md-3">
                         <label class="form-label">Open Classes Only</label>
                         <div>
                             <input type="checkbox" class="btn-check" id="open-only" autocomplete="off">
                             <label class="btn btn-outline-success w-100" for="open-only">Show Open Only</label>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-6 col-md-3">
                         <label class="form-label">Zero Textbook Cost</label>
                         <div>
                             <input type="checkbox" class="btn-check" id="ztc-only" autocomplete="off">
                             <label class="btn btn-outline-primary w-100" for="ztc-only">ZTC Courses</label>
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <label class="form-label">&nbsp;</label>
+                    <div class="col-sm-6 col-md-3">
+                        <label class="form-label d-none d-md-block">&nbsp;</label>
                         <button type="button" class="btn btn-secondary w-100" id="reset-filters">
                             <i class="bi bi-arrow-clockwise"></i> Reset Filters
                         </button>
@@ -177,8 +265,8 @@
         </div>
 
         <div id="results-container" style="display: none;">
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <h5 id="result-count">0 courses found</h5>
+            <div class="d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center mb-3 gap-2">
+                <h5 id="result-count" class="mb-0">0 courses found</h5>
                 <div class="btn-group" role="group">
                     <input type="radio" class="btn-check" name="view-mode" id="card-view" checked>
                     <label class="btn btn-outline-primary" for="card-view">
