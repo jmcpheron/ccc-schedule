@@ -78,30 +78,21 @@ function initializeEventHandlers() {
  * Load initial data
  */
 function loadInitialData() {
-    // First fetch the symlink file to get the latest data filename
+    // Fetch the latest data directly from the JSON file
     $.getJSON('https://raw.githubusercontent.com/jmcpheron/ccc-schedule-collector/main/data/schedule_202570_latest.json')
-        .done(function(symlinkData) {
-            const filename = symlinkData.trim ? symlinkData.trim() : symlinkData;
-            
-            // Then fetch the actual data file
-            $.getJSON(`https://raw.githubusercontent.com/jmcpheron/ccc-schedule-collector/main/data/${filename}`)
-                .done(function(data) {
-                    if (data.courses) {
-                        // Transform the live data to match expected format
-                        allCourses = transformLiveData(data);
-                        
-                        // Update the data collection date in the UI
-                        updateDataCollectionDate(data.collection_timestamp);
-                        
-                        populateDropdowns();
-                        $('#loading-spinner').hide();
-                        $('#results-container').show();
-                        performSearch();
-                    }
-                })
-                .fail(function() {
-                    $('#loading-spinner').html('<div class="alert alert-danger">Failed to load schedule data</div>');
-                });
+        .done(function(data) {
+            if (data.courses) {
+                // Transform the live data to match expected format
+                allCourses = transformLiveData(data);
+                
+                // Update the data collection date in the UI
+                updateDataCollectionDate(data.collection_timestamp);
+                
+                populateDropdowns();
+                $('#loading-spinner').hide();
+                $('#results-container').show();
+                performSearch();
+            }
         })
         .fail(function() {
             $('#loading-spinner').html('<div class="alert alert-danger">Failed to load schedule data</div>');
