@@ -78,43 +78,136 @@ function initializeEventHandlers() {
  * Load initial data
  */
 function loadInitialData() {
-    // Load course data from standardized format
-    $.getJSON('data/standardized_schedule.json')
-        .done(function(data) {
-            if (data.schedule && data.schedule.courses) {
-                // Transform the data to match expected format
-                allCourses = data.schedule.courses.map(course => ({
-                    subject: course.subject,
-                    courseNumber: course.course_number,
-                    courseId: course.course_id,
-                    title: course.title,
-                    units: course.units,
-                    description: course.description,
-                    sections: course.sections.map(section => ({
-                        crn: section.crn,
-                        status: section.status,
-                        instructionMode: section.instruction_mode,
-                        instructor: section.instructor ? section.instructor.name : 'TBA',
-                        instructorEmail: section.instructor ? section.instructor.email : null,
-                        enrolled: section.enrollment.enrolled,
-                        capacity: section.enrollment.capacity,
-                        available: section.enrollment.available,
-                        meetings: section.meetings,
-                        startDate: section.dates.start,
-                        endDate: section.dates.end,
-                        textbookCost: section.fees && section.fees.zero_textbook_cost ? 'ZTC' : ''
-                    }))
-                }));
-                
-                populateDropdowns();
-                $('#loading-spinner').hide();
-                $('#results-container').show();
-                performSearch();
-            }
+    // First fetch the symlink file to get the latest data filename
+    $.getJSON('https://raw.githubusercontent.com/jmcpheron/ccc-schedule-collector/main/data/schedule_202570_latest.json')
+        .done(function(symlinkData) {
+            const filename = symlinkData.trim ? symlinkData.trim() : symlinkData;
+            
+            // Then fetch the actual data file
+            $.getJSON(`https://raw.githubusercontent.com/jmcpheron/ccc-schedule-collector/main/data/${filename}`)
+                .done(function(data) {
+                    if (data.courses) {
+                        // Transform the live data to match expected format
+                        allCourses = transformLiveData(data);
+                        
+                        // Update the data collection date in the UI
+                        updateDataCollectionDate(data.collection_timestamp);
+                        
+                        populateDropdowns();
+                        $('#loading-spinner').hide();
+                        $('#results-container').show();
+                        performSearch();
+                    }
+                })
+                .fail(function() {
+                    $('#loading-spinner').html('<div class="alert alert-danger">Failed to load schedule data</div>');
+                });
         })
         .fail(function() {
             $('#loading-spinner').html('<div class="alert alert-danger">Failed to load schedule data</div>');
         });
+}
+
+/**
+ * Transform live data format to expected structure
+ */
+function transformLiveData(data) {
+    // Group courses by subject and course number
+    const courseMap = {};
+    
+    data.courses.forEach(course => {
+        const courseKey = `${course.subject}-${course.course_number}`;
+        
+        if (!courseMap[courseKey]) {
+            courseMap[courseKey] = {
+                subject: course.subject,
+                courseNumber: course.course_number,
+                courseId: courseKey,
+                title: course.title,
+                units: course.units,
+                description: '',
+                sections: []
+            };
+        }
+        
+        // Determine status based on enrollment
+        let status = 'Open';
+        if (course.enrollment_actual >= course.enrollment_capacity) {
+            status = 'Closed';
+        } else if (course.waitlist_actual > 0) {
+            status = 'Waitlisted';
+        }
+        
+        // Transform instruction mode
+        let instructionMode = 'ARR';
+        if (course.instruction_mode) {
+            if (course.instruction_mode.includes('Online')) {
+                instructionMode = 'ONL';
+            } else if (course.instruction_mode.includes('Hybrid')) {
+                instructionMode = 'HYB';
+            } else if (course.instruction_mode.includes('Person') || course.instruction_mode.includes('Campus')) {
+                instructionMode = 'INP';
+            }
+        }
+        
+        // Transform meetings
+        const meetings = [];
+        if (course.meeting_times && course.meeting_times.length > 0) {
+            course.meeting_times.forEach(meeting => {
+                meetings.push({
+                    days: meeting.days ? (meeting.days === 'ARR' ? [] : meeting.days.split('')) : [],
+                    start_time: meeting.start_time,
+                    end_time: meeting.end_time,
+                    location: {
+                        building: meeting.building || 'TBA',
+                        room: meeting.room || ''
+                    }
+                });
+            });
+        }
+        
+        courseMap[courseKey].sections.push({
+            crn: course.crn,
+            status: status,
+            instructionMode: instructionMode,
+            instructor: course.instructor || 'TBA',
+            instructorEmail: course.instructor_email,
+            enrolled: course.enrollment_actual || 0,
+            capacity: course.enrollment_capacity || 0,
+            available: (course.enrollment_capacity || 0) - (course.enrollment_actual || 0),
+            meetings: meetings,
+            startDate: course.start_date,
+            endDate: course.end_date,
+            textbookCost: course.textbook_cost === 0 || course.zero_textbook_cost ? 'ZTC' : ''
+        });
+    });
+    
+    return Object.values(courseMap);
+}
+
+/**
+ * Update data collection date in the UI
+ */
+function updateDataCollectionDate(timestamp) {
+    if (timestamp) {
+        const date = new Date(timestamp);
+        const formattedDate = date.toLocaleDateString('en-US', { 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric' 
+        });
+        
+        // Count total sections (which is what was originally meant by "courses")
+        let totalSections = 0;
+        allCourses.forEach(course => {
+            totalSections += course.sections.length;
+        });
+        
+        // Update the demo notice with the actual collection date and section count
+        $('.text-muted:contains("Data collected on")').html(
+            `Data collected on: ${formattedDate} | ${totalSections} courses available`
+        );
+    }
 }
 
 /**
