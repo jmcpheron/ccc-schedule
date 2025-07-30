@@ -17,6 +17,7 @@
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/schedule.css">
+    <link rel="stylesheet" href="css/accessibility.css">
     <style>
         /* CRITICAL: Ensure body is always visible */
         body {
@@ -204,8 +205,8 @@
                             <button class="form-select button-select dropdown-toggle" type="button" id="instr-method-button" data-bs-toggle="dropdown" aria-expanded="false">
                                 All Modes
                             </button>
-                            <ul class="dropdown-menu" aria-labelledby="instr-method-label">
-                                <li class="dropdown-item">
+                            <ul class="dropdown-menu" id="instr-method-menu" role="menu" aria-labelledby="instr-method-label">
+                                <li class="dropdown-item" role="menuitem">
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod1" value="INP">
                                         <label class="form-check-label" for="flexRadioInstrMethod1">
@@ -213,7 +214,7 @@
                                         </label>
                                     </div>
                                 </li>
-                                <li class="dropdown-item">
+                                <li class="dropdown-item" role="menuitem">
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod2" value="HYB">
                                         <label class="form-check-label" for="flexRadioInstrMethod2">
@@ -221,7 +222,7 @@
                                         </label>
                                     </div>
                                 </li>
-                                <li class="dropdown-item">
+                                <li class="dropdown-item" role="menuitem">
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" name="flexRadioInstrMethod" id="flexRadioInstrMethod3" value="FLX">
                                         <label class="form-check-label" for="flexRadioInstrMethod3">
@@ -230,7 +231,7 @@
                                     </div>
                                 </li>
                                 <li class="dropdown-divider"></li>
-                                <li class="dropdown-item">
+                                <li class="dropdown-item" role="menuitem">
                                     <div class="row">
                                         <div class="col">
                                             <div class="form-check">
@@ -251,7 +252,7 @@
                                     </div>
                                 </li>
                                 <li class="dropdown-divider"></li>
-                                <li class="dropdown-item">
+                                <li class="dropdown-item" role="menuitem">
                                     <div class="row">
                                         <div class="col">
                                             <div class="form-check">
@@ -274,7 +275,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </fieldset>
             </form>
         </div>
 
@@ -455,8 +456,9 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div class="row g-3 mt-3">
+            </fieldset>
+            <fieldset class="row g-3 mt-3">
+                <legend class="visually-hidden">Credit type filter</legend>
                 <div class="col-md-3">
                     <label for="credit-select" class="form-label">Credit Type</label>
                     <select class="form-select" aria-label="Credit Type" id="credit-select" name="credit-select">
@@ -465,9 +467,9 @@
                         <option value="NC">Non-Credit</option>
                     </select>
                 </div>
-            </div>
+            </fieldset>
         </div>
-    </div>
+    </main>
 
     <!-- Search Results Container -->
     <div id="search-results-container" class="container d-none">
@@ -609,6 +611,7 @@
     
     <!-- Custom JS -->
     <script src="js/schedule-enhanced.js"></script>
+    <script src="js/accessibility-enhancements.js"></script>
     <script>
         // Ensure body is visible on page load and load sample data
         document.addEventListener('DOMContentLoaded', function() {
