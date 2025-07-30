@@ -18,6 +18,11 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/schedule.css">
     <link rel="stylesheet" href="css/accessibility.css">
+    
+    <!-- Skip Links for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <a href="#search-form" class="skip-link">Skip to search form</a>
+    <a href="#search-results-container" class="skip-link">Skip to search results</a>
     <style>
         /* CRITICAL: Ensure body is always visible */
         body {
@@ -135,6 +140,7 @@
     </div>
 
     <!-- Navigation -->
+    <header role="banner">
     <nav class="navbar navbar-light shadow-sm" id="top-navbar" aria-label="navigation" style="background: linear-gradient(to right, #f8f9fa, #e9ecef);">
         <div class="container">
             <div class="mx-auto d-flex align-items-center">
@@ -149,8 +155,10 @@
             </div>
         </div>
     </nav>
+    </header>
 
     <!-- Main Container -->
+    <main id="main-content" role="main">
     <div class="container">
         <div class="mt-4">
             <form id="search-form" action=".">
@@ -163,18 +171,20 @@
                         <div class="mb-3">
                             <input id="search_input_main" class="form-control form-control-lg shadow-sm" type="search" 
                                    placeholder="Search by subject, course number, CRN, instructor, or keyword..." 
-                                   aria-label="Course search">
+                                   aria-label="Course search"
+                                   aria-describedby="search-help">
+                        <span id="search-help" class="visually-hidden">Enter subject code, course number, CRN, instructor name, or keyword to search for courses</span>
                         </div>
                         
                         <!-- Action Buttons -->
                         <div class="d-flex justify-content-center gap-2 flex-wrap">
-                            <button class="btn btn-primary btn-lg px-4" type="submit" id="button-search" value="ALL" title="Search all sections">
+                            <button class="btn btn-primary btn-lg px-4" type="submit" id="button-search" value="ALL" title="Search all sections" aria-label="Search all courses">
                                 <i class="bi bi-search me-2"></i>Search All Courses
                             </button>
-                            <button class="btn btn-success btn-lg px-4" type="submit" id="button-search-open" value="OPEN" title="Search open sections only">
+                            <button class="btn btn-success btn-lg px-4" type="submit" id="button-search-open" value="OPEN" title="Search open sections only" aria-label="Search open sections only">
                                 <i class="bi bi-check-circle me-2"></i>Open Sections Only
                             </button>
-                            <button class="btn btn-outline-secondary btn-lg px-4" type="button" id="reset-filters" title="Reset all filters">
+                            <button class="btn btn-outline-secondary btn-lg px-4" type="button" id="reset-filters" title="Reset all filters" aria-label="Reset all filters">
                                 <i class="bi bi-arrow-clockwise me-2"></i>Reset Filters
                             </button>
                         </div>
@@ -183,9 +193,10 @@
                 <div class="row g-3 mb-3">
                     <div class="col-md-3">
                         <label for="term-select" class="form-label">Term</label>
-                        <select class="form-select" id="term-select" aria-label="term select">
+                        <select class="form-select" id="term-select" aria-label="term select" aria-describedby="term-help">
                             <option value="">All Terms</option>
                         </select>
+                        <span id="term-help" class="visually-hidden">Select a specific term or leave as All Terms to search across all terms</span>
                     </div>
                     <div class="col-md-3">
                         <label for="college-select" class="form-label">College</label>
@@ -202,7 +213,7 @@
                     <div class="col-md-3">
                         <div id="instr-method-label">Instructional Mode</div>
                         <div class="dropdown" id="instr-method-drop-down">
-                            <button class="form-select button-select dropdown-toggle" type="button" id="instr-method-button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button class="form-select button-select dropdown-toggle" type="button" id="instr-method-button" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" role="button">
                                 All Modes
                             </button>
                             <ul class="dropdown-menu" id="instr-method-menu" role="menu" aria-labelledby="instr-method-label">
@@ -294,7 +305,7 @@
                 <div class="col-md-3">
                     <div id="sessions-label">Class Length</div>
                     <div class="dropdown">
-                        <button class="form-select button-select dropdown-toggle" type="button" id="dropdownMenuButtonSessions" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="form-select button-select dropdown-toggle" type="button" id="dropdownMenuButtonSessions" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" role="button">
                             Any Length
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="sessions-label" id="sessions-list">
@@ -329,7 +340,7 @@
                 <div class="col-md-3">
                     <div id="textbook-cost-label">Textbook Cost</div>
                     <div class="dropdown">
-                        <button class="form-select button-select dropdown-toggle" type="button" id="textbookDropDown" data-bs-toggle="dropdown" aria-expanded="false">Any Cost</button>
+                        <button class="form-select button-select dropdown-toggle" type="button" id="textbookDropDown" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" role="button">Any Cost</button>
                         <ul class="dropdown-menu" aria-labelledby="textbook-cost-label">
                             <li class="dropdown-item">
                                 <div class="form-check">
@@ -353,7 +364,7 @@
                 <div class="col-md-3">
                     <div id="meeting-days-label">Meeting Days</div>
                     <div class="dropdown" id="instr-method-drop-down">
-                        <button class="form-select button-select dropdown-toggle" type="button" id="meetingDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="form-select button-select dropdown-toggle" type="button" id="meetingDropdown" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" role="button">
                             Any Days
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="meeting-days-label">
@@ -406,12 +417,12 @@
             <div class="row g-3 mt-3">
                 <div class="col-md-6">
                     <label for="start-time" class="form-label">Start Time</label>
-                    <div><span id="start-time-result">05:00 AM</span></div>
+                    <div><span id="start-time-result" aria-live="polite">05:00 AM</span></div>
                     <input type="range" class="form-range" min="5" max="23" step="0.5" value="5" id="start-time">
                 </div>
                 <div class="col-md-6">
                     <label for="end-time" class="form-label">End Time</label>
-                    <div><span id="end-time-result">12:00 AM</span></div>
+                    <div><span id="end-time-result" aria-live="polite">12:00 AM</span></div>
                     <input type="range" class="form-range" min="5" max="24" step="0.5" value="24" id="end-time">
                 </div>
             </div>
@@ -419,7 +430,7 @@
                 <div class="col-md-3">
                     <div id="csuge-label">CSU Transfer/GE Requirements</div>
                     <div class="dropdown">
-                        <button class="form-select dropdown-toggle" type="button" id="dropdownMenuButtonCSUGE" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="form-select dropdown-toggle" type="button" id="dropdownMenuButtonCSUGE" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" role="button">
                             Any
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="csuge-label" id="csuge-list">
@@ -429,7 +440,7 @@
                 <div class="col-md-3">
                     <div id="igetc-label">UC/IGETC Transfer/GE Requirements</div>
                     <div class="dropdown">
-                        <button class="form-select dropdown-toggle" type="button" id="dropdownMenuButtonIGETC" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="form-select dropdown-toggle" type="button" id="dropdownMenuButtonIGETC" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" role="button">
                             Any
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="igetc-label" id="igetc-list">
@@ -439,7 +450,7 @@
                 <div class="col-md-3">
                     <div id="wvm-label">Local GE Requirements</div>
                     <div class="dropdown">
-                        <button class="form-select dropdown-toggle" type="button" id="dropdownMenuButtonWVM" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="form-select dropdown-toggle" type="button" id="dropdownMenuButtonWVM" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" role="button">
                             Any
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="wvm-label" id="wvm-list">
@@ -449,7 +460,7 @@
                 <div class="col-md-3">
                     <div id="calgetc-label">CalGETC Transfer/GE Requirements</div>
                     <div class="dropdown">
-                        <button class="form-select dropdown-toggle" type="button" id="dropdownMenuButtonCALGETC" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="form-select dropdown-toggle" type="button" id="dropdownMenuButtonCALGETC" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" role="button">
                             Any
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="calgetc-label" id="calgetc-list">
@@ -469,10 +480,13 @@
                 </div>
             </fieldset>
         </div>
+    </div>
     </main>
 
     <!-- Search Results Container -->
     <div id="search-results-container" class="container d-none">
+        <!-- Results announcement for screen readers -->
+        <div id="results-announcement" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
         <div class="row">
             <div class="col-12">
                 <h2 class="mt-4"><span id="term-title"></span>Search Results</h2>
@@ -522,12 +536,12 @@
     </div>
 
     <!-- Section Details Modal -->
-    <div class="modal fade" id="section-details-modal" tabindex="-1" aria-labelledby="section-details-college" aria-hidden="true">
+    <div class="modal fade" id="section-details-modal" tabindex="-1" aria-labelledby="section-details-college" aria-hidden="true" role="dialog" aria-modal="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
                     <h3 class="modal-title" id="section-details-college"></h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close section details modal"></button>
                 </div>
                 <div class="modal-body">
                     <h3 class="h3"><span id="section-details-subj"></span> <span id="section-details-crse"></span> <span id="section-details-title"></span></h3>
@@ -540,27 +554,27 @@
                     </div>
                     <div class="row mt-3">
                         <div class="col-md-4">
-                            <h5>Units</h5>
+                            <h4>Units</h4>
                             <span id="section-details-units"></span>
                         </div>
                         <div class="col-md-4">
-                            <h5>Length</h5>
+                            <h4>Length</h4>
                             <span id="section-details-length"></span>
                         </div>
                         <div class="col-md-4">
-                            <h5>Description</h5>
+                            <h4>Description</h4>
                             <span id="section-details-description"></span>
                         </div>
                     </div>
                     <div class="row mt-3">
                         <div class="col">
-                            <h5>Attributes</h5>
+                            <h4>Attributes</h4>
                             <ul class="list-group" id="section-details-attributes"></ul>
                         </div>
                     </div>
                     <div class="row mt-3">
                         <div id="section-details-linked-courses">
-                            <h5>Linked Courses</h5>
+                            <h4>Linked Courses</h4>
                             <table class="table" id="">
                                 <thead>
                                     <tr>
@@ -576,12 +590,12 @@
                         </div>
                     </div>
                     <div class="p-2" id="section-details-cohorts-container">
-                        <h5>Learning Communities</h5>
+                        <h4>Learning Communities</h4>
                         <ul class="list-group" id="section-details-cohorts"></ul>
                     </div>
                     <div class="row mt-3">
                         <div class="col">
-                            <h5>Textbook Information</h5>
+                            <h4>Textbook Information</h4>
                             <span id="section-details-bookstore-link"></span>
                         </div>
                     </div>
@@ -594,10 +608,11 @@
     </div>
 
     <!-- Spinner Modal -->
-    <div class="modal fade" id="spinner-modal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal fade" id="spinner-modal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-modal="true" aria-labelledby="spinner-modal-label">
         <div class="modal-dialog modal-sm modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body text-center">
+                    <h2 id="spinner-modal-label" class="visually-hidden">Loading</h2>
                     <div class="spinner-border text-primary" role="status">
                         <span class="visually-hidden">Loading...</span>
                     </div>
@@ -632,7 +647,7 @@
     </script>
 
     <!-- Footer -->
-    <footer class="mt-auto py-4 bg-light">
+    <footer class="mt-auto py-4 bg-light" role="contentinfo">
         <div class="container">
             <div class="text-center">
                 <p class="mb-2 text-muted" style="font-size: 1.1rem;">

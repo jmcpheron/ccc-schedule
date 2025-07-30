@@ -503,6 +503,19 @@
             }
         });
         
+        // Add keyboard event handlers for course cards
+        document.addEventListener('keydown', function(e) {
+            if (e.target.matches('.course-card')) {
+                if (e.key === KEYS.ENTER || e.key === KEYS.SPACE) {
+                    e.preventDefault();
+                    const showButton = e.target.querySelector('[data-bs-toggle="collapse"]');
+                    if (showButton) {
+                        showButton.click();
+                    }
+                }
+            }
+        });
+        
         // Update aria-pressed states
         const searchButtons = document.querySelectorAll('#button-search, #button-search-open');
         searchButtons.forEach(button => {

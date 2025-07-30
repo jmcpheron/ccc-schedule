@@ -664,7 +664,7 @@ function displayCourse(course, index) {
     
     const courseCard = $(`
         <li>
-            <div class="card mb-4 course-card" id="${courseId}-card">
+            <div class="card mb-4 course-card" id="${courseId}-card" tabindex="0" role="article" aria-label="${course.subj || ''} ${course.crse || course.course_id || ''}: ${course.title || ''}">
                 <div class="card-header bg-primary text-white">
                     <div class="row">
                         <div class="col-9 align-self-start">
