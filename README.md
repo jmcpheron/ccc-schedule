@@ -5,11 +5,6 @@
 [![Deploy](https://github.com/jmcpheron/ccc-schedule/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/jmcpheron/ccc-schedule/actions/workflows/deploy-pages.yml)
 [![WCAG 2.1 AA](https://img.shields.io/badge/WCAG%202.1-AA%20Compliant-success)](docs/ACCESSIBILITY.md)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![uv](https://img.shields.io/badge/uv-Package%20Manager-green?logo=python&logoColor=white)](https://github.com/astral-sh/uv)
-[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-purple?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
-[![jQuery](https://img.shields.io/badge/jQuery-3.7-blue?logo=jquery&logoColor=white)](https://jquery.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A comprehensive web-based class schedule viewer and data management system for California Community Colleges.
 
