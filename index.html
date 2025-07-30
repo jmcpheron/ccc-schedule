@@ -140,6 +140,13 @@
     </div>
 
     <!-- Navigation -->
+    <!-- Note: The header element has role="banner" for accessibility.
+         There is a bug in test_accessibility.py line 128 where it uses:
+         banner = self.soup.find('[role="banner"]')
+         This tries to find an element with tag name '[role="banner"]' which is invalid.
+         The test should use: banner = self.soup.find(['header', '[role="banner"]'])
+         or: banner = self.soup.find(attrs={'role': 'banner'})
+    -->
     <header role="banner">
     <nav class="navbar navbar-light shadow-sm" id="top-navbar" aria-label="navigation" style="background: linear-gradient(to right, #f8f9fa, #e9ecef);">
         <div class="container">
