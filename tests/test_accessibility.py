@@ -142,7 +142,7 @@ class TestAccessibilityCompliance:
         assert nav is not None, "Page missing navigation landmark"
 
         # Check for banner (header)
-        banner = self.soup.find('[role="banner"]')
+        banner = self.soup.find(attrs={'role': 'banner'})
         assert banner is not None, "Page missing banner landmark"
 
         # Check for contentinfo (footer)
