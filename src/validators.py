@@ -5,8 +5,8 @@ Provides comprehensive validation with clear error messages and guardrails.
 
 import re
 from datetime import datetime, time
-from typing import Dict, List, Optional, Tuple, Union, Any
 from pathlib import Path
+from typing import Any, Union
 
 
 class ValidationError(Exception):
@@ -23,8 +23,8 @@ class ValidationResult:
     """Container for validation results with errors and warnings."""
 
     def __init__(self):
-        self.errors: List[ValidationError] = []
-        self.warnings: List[Dict[str, str]] = []
+        self.errors: list[ValidationError] = []
+        self.warnings: list[dict[str, str]] = []
         self.valid_count: int = 0
         self.total_count: int = 0
 
@@ -43,10 +43,7 @@ class ValidationResult:
 
     def get_summary(self) -> str:
         """Get a summary of validation results."""
-        if self.is_valid:
-            status = "✓ Validation passed"
-        else:
-            status = "✗ Validation failed"
+        status = "✓ Validation passed" if self.is_valid else "✗ Validation failed"
 
         summary = [
             status,
@@ -76,7 +73,7 @@ class CourseValidator:
     VALID_MEETING_DAYS = {"M", "T", "W", "R", "F", "S", "U"}
     VALID_TEXTBOOK_COSTS = {"ZTC", "LTC", "REG"}
 
-    def validate_course(self, course: Dict[str, Any]) -> ValidationResult:
+    def validate_course(self, course: dict[str, Any]) -> ValidationResult:
         """Validate a single course and all its sections."""
         result = ValidationResult()
         result.total_count = 1
@@ -101,7 +98,7 @@ class CourseValidator:
 
         return result
 
-    def validate_courses(self, courses: List[Dict[str, Any]]) -> ValidationResult:
+    def validate_courses(self, courses: list[dict[str, Any]]) -> ValidationResult:
         """Validate multiple courses."""
         result = ValidationResult()
         result.total_count = len(courses)
@@ -124,7 +121,7 @@ class CourseValidator:
         return result
 
     def _validate_required_fields(
-        self, course: Dict[str, Any], result: ValidationResult
+        self, course: dict[str, Any], result: ValidationResult
     ):
         """Check that all required fields are present."""
         required_fields = ["course_id", "title", "units", "college", "term"]
@@ -135,7 +132,7 @@ class CourseValidator:
             elif isinstance(course[field], str) and not course[field].strip():
                 result.add_error(field, f"Required field '{field}' is empty")
 
-    def _validate_course_fields(self, course: Dict[str, Any], result: ValidationResult):
+    def _validate_course_fields(self, course: dict[str, Any], result: ValidationResult):
         """Validate course-level fields."""
         # Course ID format
         course_id = course.get("course_id", "")
@@ -179,7 +176,7 @@ class CourseValidator:
             )
 
     def _validate_section(
-        self, section: Dict[str, Any], index: int, result: ValidationResult
+        self, section: dict[str, Any], index: int, result: ValidationResult
     ):
         """Validate a course section."""
         section_prefix = f"sections[{index}]"
@@ -269,11 +266,11 @@ class CourseValidator:
             end = time(end_h, end_m)
 
             return end > start
-        except:
+        except (ValueError, AttributeError):
             return False
 
     def _validate_enrollment(
-        self, section: Dict[str, Any], prefix: str, result: ValidationResult
+        self, section: dict[str, Any], prefix: str, result: ValidationResult
     ):
         """Validate enrollment data."""
         status = section.get("enrollStatus")
@@ -343,7 +340,7 @@ class CourseValidator:
                 )
 
     def _validate_instructor(
-        self, section: Dict[str, Any], prefix: str, result: ValidationResult
+        self, section: dict[str, Any], prefix: str, result: ValidationResult
     ):
         """Validate instructor information."""
         name = section.get("instructorName")
@@ -371,7 +368,7 @@ class ScheduleValidator:
     def __init__(self):
         self.course_validator = CourseValidator()
 
-    def validate_schedule(self, schedule_data: Dict[str, Any]) -> ValidationResult:
+    def validate_schedule(self, schedule_data: dict[str, Any]) -> ValidationResult:
         """Validate a complete schedule data structure."""
         result = ValidationResult()
 
@@ -397,7 +394,7 @@ class ScheduleValidator:
 
         return result
 
-    def _validate_metadata(self, metadata: Dict[str, Any], result: ValidationResult):
+    def _validate_metadata(self, metadata: dict[str, Any], result: ValidationResult):
         """Validate metadata section."""
         required_fields = ["version", "last_updated"]
 
@@ -412,7 +409,7 @@ class ScheduleValidator:
         if last_updated:
             try:
                 datetime.fromisoformat(last_updated.replace("Z", "+00:00"))
-            except:
+            except (ValueError, TypeError):
                 result.add_error(
                     "metadata.last_updated",
                     f"Invalid date format: '{last_updated}'. Use ISO format (YYYY-MM-DDTHH:MM:SSZ)",
@@ -420,8 +417,8 @@ class ScheduleValidator:
 
 
 def validate_course_submission(
-    course_data: Dict[str, Any],
-) -> Tuple[bool, List[str], List[str]]:
+    course_data: dict[str, Any],
+) -> tuple[bool, list[str], list[str]]:
     """
     Convenience function to validate course data submission.
 
@@ -456,7 +453,7 @@ def validate_schedule_file(file_path: Union[str, Path]) -> ValidationResult:
         return result
 
     try:
-        with open(path, "r", encoding="utf-8") as f:
+        with open(path, encoding="utf-8") as f:
             data = json.load(f)
     except json.JSONDecodeError as e:
         result = ValidationResult()

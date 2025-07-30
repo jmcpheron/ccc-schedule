@@ -3,11 +3,11 @@ Accessibility tests for CCC Schedule application.
 Tests WCAG 2.1 AA compliance, keyboard navigation, and screen reader support.
 """
 
-import pytest
-from typing import List, Dict, Any
 import re
-from bs4 import BeautifulSoup
 from pathlib import Path
+
+import pytest
+from bs4 import BeautifulSoup
 
 
 class TestAccessibilityCompliance:
@@ -16,7 +16,7 @@ class TestAccessibilityCompliance:
     def setup_method(self):
         """Load the HTML file for testing."""
         html_path = Path(__file__).parent.parent / "index.html"
-        with open(html_path, "r", encoding="utf-8") as f:
+        with open(html_path, encoding="utf-8") as f:
             self.html_content = f.read()
         self.soup = BeautifulSoup(self.html_content, "html.parser")
 
@@ -58,7 +58,7 @@ class TestAccessibilityCompliance:
             level = int(heading.name[1])
             # Allow skipping from h3 to h1 (new section), but not h1 to h3
             if prev_level > 0 and level > prev_level + 1:
-                assert False, (
+                raise AssertionError(
                     f"Heading hierarchy broken: {heading.name} follows h{prev_level}"
                 )
             prev_level = level
@@ -95,7 +95,7 @@ class TestAccessibilityCompliance:
             else:
                 # Input without ID should have aria-label
                 aria_label = inp.get("aria-label")
-                assert aria_label is not None, f"Input without ID missing aria-label"
+                assert aria_label is not None, "Input without ID missing aria-label"
 
     def test_aria_attributes(self):
         """Test that ARIA attributes are properly used."""
@@ -208,7 +208,7 @@ class TestAccessibilityCompliance:
         css_path = Path(__file__).parent.parent / "css" / "accessibility.css"
         assert css_path.exists(), "accessibility.css file not found"
 
-        with open(css_path, "r", encoding="utf-8") as f:
+        with open(css_path, encoding="utf-8") as f:
             css_content = f.read()
 
         # Check for focus styles
@@ -219,7 +219,7 @@ class TestAccessibilityCompliance:
     def test_color_contrast_classes(self):
         """Test that proper color contrast classes are defined."""
         css_path = Path(__file__).parent.parent / "css" / "accessibility.css"
-        with open(css_path, "r", encoding="utf-8") as f:
+        with open(css_path, encoding="utf-8") as f:
             css_content = f.read()
 
         # Check for high contrast support
@@ -230,7 +230,7 @@ class TestAccessibilityCompliance:
     def test_reduced_motion_support(self):
         """Test that reduced motion preferences are respected."""
         css_path = Path(__file__).parent.parent / "css" / "accessibility.css"
-        with open(css_path, "r", encoding="utf-8") as f:
+        with open(css_path, encoding="utf-8") as f:
             css_content = f.read()
 
         assert "@media (prefers-reduced-motion: reduce)" in css_content, (
@@ -244,7 +244,7 @@ class TestKeyboardNavigation:
     def setup_method(self):
         """Load JavaScript files for testing."""
         js_path = Path(__file__).parent.parent / "js" / "accessibility-enhancements.js"
-        with open(js_path, "r", encoding="utf-8") as f:
+        with open(js_path, encoding="utf-8") as f:
             self.js_content = f.read()
 
     def test_keyboard_shortcuts_defined(self):
@@ -293,7 +293,7 @@ class TestFormValidation:
     def setup_method(self):
         """Load JavaScript for testing."""
         js_path = Path(__file__).parent.parent / "js" / "accessibility-enhancements.js"
-        with open(js_path, "r", encoding="utf-8") as f:
+        with open(js_path, encoding="utf-8") as f:
             self.js_content = f.read()
 
     def test_validation_functions_exist(self):
@@ -327,7 +327,7 @@ class TestScreenReaderSupport:
     def setup_method(self):
         """Load files for testing."""
         html_path = Path(__file__).parent.parent / "index.html"
-        with open(html_path, "r", encoding="utf-8") as f:
+        with open(html_path, encoding="utf-8") as f:
             self.html_content = f.read()
         self.soup = BeautifulSoup(self.html_content, "html.parser")
 
@@ -375,7 +375,7 @@ class TestResponsiveAccessibility:
     def setup_method(self):
         """Load CSS for testing."""
         css_path = Path(__file__).parent.parent / "css" / "accessibility.css"
-        with open(css_path, "r", encoding="utf-8") as f:
+        with open(css_path, encoding="utf-8") as f:
             self.css_content = f.read()
 
     def test_touch_target_sizes(self):
