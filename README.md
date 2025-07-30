@@ -3,12 +3,8 @@
 [![Tests](https://github.com/jmcpheron/ccc-schedule/actions/workflows/test.yml/badge.svg)](https://github.com/jmcpheron/ccc-schedule/actions/workflows/test.yml)
 [![Code Quality](https://github.com/jmcpheron/ccc-schedule/actions/workflows/code-quality.yml/badge.svg)](https://github.com/jmcpheron/ccc-schedule/actions/workflows/code-quality.yml)
 [![Deploy](https://github.com/jmcpheron/ccc-schedule/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/jmcpheron/ccc-schedule/actions/workflows/deploy-pages.yml)
+[![WCAG 2.1 AA](https://img.shields.io/badge/WCAG%202.1-AA%20Compliant-success)](docs/ACCESSIBILITY.md)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![uv](https://img.shields.io/badge/uv-Package%20Manager-green?logo=python&logoColor=white)](https://github.com/astral-sh/uv)
-[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-purple?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
-[![jQuery](https://img.shields.io/badge/jQuery-3.7-blue?logo=jquery&logoColor=white)](https://jquery.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A comprehensive web-based class schedule viewer and data management system for California Community Colleges.
 
@@ -26,6 +22,7 @@ CCC Schedule provides a modern, accessible interface for browsing community coll
 - 🔍 **Advanced Search**: Real-time search across course titles, descriptions, and course numbers
 - 🎯 **Smart Filtering**: Filter by term, college, subject, units, days, time, and more
 - 📱 **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
+- ♿ **WCAG 2.1 AA Compliant**: Full accessibility with keyboard navigation and screen reader support
 - 🌓 **Dark Mode**: Automatic theme detection with manual toggle and persistence
 - 📊 **Multiple Views**: Card view and table view for different browsing preferences
 - 📄 **Pagination**: Efficient browsing of large course catalogs
