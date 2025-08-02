@@ -191,7 +191,7 @@ function updateDataCollectionDate(timestamp) {
     if (timestamp) {
         const date = new Date(timestamp);
         // Force Pacific Time for California schools
-        const formattedDate = date.toLocaleDateString('en-US', { 
+        const formattedDate = date.toLocaleString('en-US', { 
             year: 'numeric', 
             month: 'long', 
             day: 'numeric',
