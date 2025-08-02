@@ -193,12 +193,14 @@ function transformLiveData(data) {
 function updateDataCollectionDate(timestamp) {
     if (timestamp) {
         const date = new Date(timestamp);
+        // Force Pacific Time for California schools
         const formattedDate = date.toLocaleDateString('en-US', { 
             year: 'numeric', 
             month: 'long', 
             day: 'numeric',
             hour: 'numeric',
             minute: 'numeric',
+            timeZone: 'America/Los_Angeles',
             timeZoneName: 'short'
         });
         
