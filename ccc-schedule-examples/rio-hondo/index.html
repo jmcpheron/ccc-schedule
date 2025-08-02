@@ -244,6 +244,23 @@
             color: #004B87;
         }
         
+        /* Clickable sections */
+        .section-clickable {
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .section-clickable:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        
+        tr.section-clickable:hover {
+            background-color: #e8f4f8;
+            transform: none;
+            box-shadow: none;
+        }
+        
         /* Hide table view option on very small screens */
         @media (max-width: 480px) {
             #table-view,
@@ -451,6 +468,24 @@
             <nav aria-label="Search results pagination">
                 <ul class="pagination justify-content-center" id="pagination"></ul>
             </nav>
+        </div>
+    </div>
+
+    <!-- Section Details Modal -->
+    <div class="modal fade" id="sectionDetailsModal" tabindex="-1" aria-labelledby="sectionDetailsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="sectionDetailsModalLabel">Section Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="sectionDetailsBody">
+                    <!-- Section details will be populated here -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
     </div>
 
