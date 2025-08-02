@@ -133,7 +133,7 @@ function transformLiveData(data) {
         }
         
         // Use the status directly from the data
-        let status = course.status || 'Open';
+        let status = course.status || 'OPEN';
         
         // Use delivery method from the data
         let instructionMode = 'ARR';
@@ -386,7 +386,7 @@ function displayCourseCard(course) {
     if (isMobile) {
         // Mobile-friendly section display
         course.sections.forEach(section => {
-            const sectionDiv = $('<div class="section-mobile mb-3 p-2 border rounded">');
+            const sectionDiv = $('<div class="section-mobile section-clickable mb-3 p-2 border rounded">');
             
             // CRN and Status on same line
             const headerRow = $('<div class="d-flex justify-content-between align-items-center mb-1">');
@@ -404,7 +404,7 @@ function displayCourseCard(course) {
             // Instructor
             const instructorDisplay = section.instructor + 
                 (section.instructorEmail && section.instructorEmail !== 'to.be..assigned@riohondo.edu' ? 
-                    ` <a href="mailto:${section.instructorEmail}" title="Email"><i class="bi bi-envelope-fill"></i></a>` : 
+                    ` <a href="mailto:${section.instructorEmail}" title="Email" class="email-link"><i class="bi bi-envelope-fill"></i></a>` : 
                     '');
             sectionDiv.append(`<div class="small"><strong>Instructor:</strong> ${instructorDisplay}</div>`);
             
@@ -414,6 +414,15 @@ function displayCourseCard(course) {
             sectionDiv.append(`<div class="small"><strong>Time:</strong> ${meetingInfo}</div>`);
             sectionDiv.append(`<div class="small"><strong>Location:</strong> ${location}</div>`);
             sectionDiv.append(`<div class="small"><strong>Mode:</strong> ${formatInstructionMode(section.instructionMode)}</div>`);
+            
+            // Add click handler for this section
+            sectionDiv.on('click', function(e) {
+                if (!$(e.target).closest('.email-link').length) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    showSectionDetails(course, section);
+                }
+            });
             
             body.append(sectionDiv);
         });
@@ -441,24 +450,34 @@ function displayCourseCard(course) {
             const location = formatLocation(section.meetings);
             const instructorDisplay = section.instructor + 
                 (section.instructorEmail && section.instructorEmail !== 'to.be..assigned@riohondo.edu' ? 
-                    ` <a href="mailto:${section.instructorEmail}" title="Email instructor"><i class="bi bi-envelope-fill"></i></a>` : 
+                    ` <a href="mailto:${section.instructorEmail}" title="Email instructor" class="email-link"><i class="bi bi-envelope-fill"></i></a>` : 
                     '');
             
             const row = $(`
-                <tr>
+                <tr class="section-clickable">
                     <td>${section.crn}</td>
                     <td>${instructorDisplay}</td>
                     <td>${meetingInfo}</td>
                     <td>${location}</td>
                     <td>${formatInstructionMode(section.instructionMode)}</td>
                     <td>
-                        <span class="badge ${section.status === 'Open' ? 'bg-success' : 'bg-danger'}">
+                        <span class="badge ${section.status.toLowerCase() === 'open' ? 'bg-success' : 'bg-danger'}">
                             ${section.status}
                         </span>
                         ${section.textbookCost === 'ZTC' ? '<span class="badge bg-info ms-1">ZTC</span>' : ''}
                     </td>
                 </tr>
             `);
+            
+            // Add click handler for this row
+            row.on('click', function(e) {
+                if (!$(e.target).closest('.email-link').length) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    showSectionDetails(course, section);
+                }
+            });
+            
             sectionsTable.find('tbody').append(row);
         });
         
@@ -479,11 +498,11 @@ function displayCourseTableRows(course) {
         const location = formatLocation(section.meetings);
         const instructorDisplay = section.instructor + 
             (section.instructorEmail && section.instructorEmail !== 'to.be..assigned@riohondo.edu' ? 
-                ` <a href="mailto:${section.instructorEmail}" title="Email instructor"><i class="bi bi-envelope-fill"></i></a>` : 
+                ` <a href="mailto:${section.instructorEmail}" title="Email instructor" class="email-link"><i class="bi bi-envelope-fill"></i></a>` : 
                 '');
         
         const row = $(`
-            <tr>
+            <tr class="section-clickable">
                 <td>${section.crn}</td>
                 <td>${course.subject} ${course.courseNumber}</td>
                 <td>${course.title}</td>
@@ -499,6 +518,15 @@ function displayCourseTableRows(course) {
                 </td>
             </tr>
         `);
+        
+        // Add click handler
+        row.on('click', function(e) {
+            // Prevent click on email links from opening modal
+            if ($(e.target).closest('.email-link').length === 0) {
+                showSectionDetails(course, section);
+            }
+        });
+        
         $('#table-body').append(row);
     });
 }
@@ -618,4 +646,102 @@ function updatePagination() {
             $('html, body').animate({ scrollTop: $('#results-container').offset().top - 100 }, 300);
         }
     });
+}
+
+/**
+ * Show section details in modal
+ */
+function showSectionDetails(course, section) {
+    console.log('showSectionDetails called', course, section);
+    
+    // Build the modal content
+    let modalContent = `
+        <div class="container-fluid">
+            <div class="row mb-3">
+                <div class="col-12">
+                    <h4>${course.subject} ${course.courseNumber}: ${course.title}</h4>
+                    <p class="text-muted mb-0">${course.units} Units</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <h6 class="border-bottom pb-2">Section Information</h6>
+                    <dl class="row">
+                        <dt class="col-sm-4">CRN:</dt>
+                        <dd class="col-sm-8">${section.crn}</dd>
+                        
+                        <dt class="col-sm-4">Status:</dt>
+                        <dd class="col-sm-8">
+                            <span class="badge ${section.status.toLowerCase() === 'open' ? 'bg-success' : 'bg-danger'}">
+                                ${section.status}
+                            </span>
+                        </dd>
+                        
+                        <dt class="col-sm-4">Enrollment:</dt>
+                        <dd class="col-sm-8">${section.enrolled} / ${section.capacity} (${section.available} available)</dd>
+                        
+                        <dt class="col-sm-4">Instruction Mode:</dt>
+                        <dd class="col-sm-8">${formatInstructionMode(section.instructionMode)}</dd>
+                        
+                        ${section.textbookCost === 'ZTC' ? `
+                        <dt class="col-sm-4">Textbook:</dt>
+                        <dd class="col-sm-8"><span class="badge bg-info">Zero Textbook Cost</span></dd>
+                        ` : ''}
+                    </dl>
+                </div>
+                
+                <div class="col-md-6">
+                    <h6 class="border-bottom pb-2">Instructor & Schedule</h6>
+                    <dl class="row">
+                        <dt class="col-sm-4">Instructor:</dt>
+                        <dd class="col-sm-8">
+                            ${section.instructor}
+                            ${section.instructorEmail && section.instructorEmail !== 'to.be..assigned@riohondo.edu' ? 
+                                `<br><a href="mailto:${section.instructorEmail}"><i class="bi bi-envelope-fill"></i> ${section.instructorEmail}</a>` : 
+                                ''}
+                        </dd>
+                        
+                        <dt class="col-sm-4">Days/Times:</dt>
+                        <dd class="col-sm-8">${formatMeetingInfo(section.meetings)}</dd>
+                        
+                        <dt class="col-sm-4">Location:</dt>
+                        <dd class="col-sm-8">${formatLocation(section.meetings)}</dd>
+                        
+                        ${section.startDate ? `
+                        <dt class="col-sm-4">Dates:</dt>
+                        <dd class="col-sm-8">${section.startDate} - ${section.endDate}</dd>
+                        ` : ''}
+                    </dl>
+                </div>
+            </div>
+            
+            ${course.description ? `
+            <div class="row mt-3">
+                <div class="col-12">
+                    <h6 class="border-bottom pb-2">Course Description</h6>
+                    <p>${course.description}</p>
+                </div>
+            </div>
+            ` : ''}
+        </div>
+    `;
+    
+    // Update modal title and body
+    $('#sectionDetailsModalLabel').text(`${course.subject} ${course.courseNumber} - Section ${section.crn}`);
+    $('#sectionDetailsBody').html(modalContent);
+    
+    // Show the modal
+    try {
+        const modalElement = document.getElementById('sectionDetailsModal');
+        if (!modalElement) {
+            console.error('Modal element not found');
+            return;
+        }
+        const modal = new bootstrap.Modal(modalElement);
+        modal.show();
+        console.log('Modal shown');
+    } catch (error) {
+        console.error('Error showing modal:', error);
+    }
 }
