@@ -132,23 +132,20 @@ function transformLiveData(data) {
             };
         }
         
-        // Determine status based on enrollment
-        let status = 'Open';
-        if (course.enrollment_actual >= course.enrollment_capacity) {
-            status = 'Closed';
-        } else if (course.waitlist_actual > 0) {
-            status = 'Waitlisted';
-        }
+        // Use the status directly from the data
+        let status = course.status || 'Open';
         
-        // Transform instruction mode
+        // Use delivery method from the data
         let instructionMode = 'ARR';
-        if (course.instruction_mode) {
-            if (course.instruction_mode.includes('Online')) {
+        if (course.delivery_method) {
+            if (course.delivery_method.includes('Online')) {
                 instructionMode = 'ONL';
-            } else if (course.instruction_mode.includes('Hybrid')) {
+            } else if (course.delivery_method.includes('Hybrid')) {
                 instructionMode = 'HYB';
-            } else if (course.instruction_mode.includes('Person') || course.instruction_mode.includes('Campus')) {
+            } else if (course.delivery_method.includes('Person')) {
                 instructionMode = 'INP';
+            } else if (course.delivery_method === 'Arranged') {
+                instructionMode = 'ARR';
             }
         }
         
@@ -157,12 +154,12 @@ function transformLiveData(data) {
         if (course.meeting_times && course.meeting_times.length > 0) {
             course.meeting_times.forEach(meeting => {
                 meetings.push({
-                    days: meeting.days ? (meeting.days === 'ARR' ? [] : meeting.days.split('')) : [],
+                    days: meeting.days ? (meeting.days === 'ARR' || meeting.days === 'TBA' ? [] : meeting.days.split('')) : [],
                     start_time: meeting.start_time,
                     end_time: meeting.end_time,
                     location: {
-                        building: meeting.building || 'TBA',
-                        room: meeting.room || ''
+                        building: course.location || 'TBA',
+                        room: ''
                     }
                 });
             });
@@ -174,9 +171,9 @@ function transformLiveData(data) {
             instructionMode: instructionMode,
             instructor: course.instructor || 'TBA',
             instructorEmail: course.instructor_email,
-            enrolled: course.enrollment_actual || 0,
-            capacity: course.enrollment_capacity || 0,
-            available: (course.enrollment_capacity || 0) - (course.enrollment_actual || 0),
+            enrolled: course.enrollment?.actual || 0,
+            capacity: course.enrollment?.capacity || 0,
+            available: course.enrollment?.remaining || 0,
             meetings: meetings,
             startDate: course.start_date,
             endDate: course.end_date,
@@ -277,8 +274,8 @@ function performSearch() {
         
         // Section-based filters
         const hasMatchingSection = course.sections.some(section => {
-            // Open only filter
-            if (openOnly && section.status !== 'Open') return false;
+            // Open only filter (case-insensitive check)
+            if (openOnly && section.status.toLowerCase() !== 'open') return false;
             
             // ZTC filter
             if (ztcOnly && section.textbookCost !== 'ZTC') return false;
@@ -396,7 +393,7 @@ function displayCourseCard(course) {
             headerRow.append(`<strong>CRN: ${section.crn}</strong>`);
             headerRow.append(`
                 <div>
-                    <span class="badge ${section.status === 'Open' ? 'bg-success' : 'bg-danger'}">
+                    <span class="badge ${section.status.toLowerCase() === 'open' ? 'bg-success' : 'bg-danger'}">
                         ${section.status}
                     </span>
                     ${section.textbookCost === 'ZTC' ? '<span class="badge bg-info ms-1">ZTC</span>' : ''}
@@ -495,7 +492,7 @@ function displayCourseTableRows(course) {
                 <td>${location}</td>
                 <td>${course.units}</td>
                 <td>
-                    <span class="badge ${section.status === 'Open' ? 'bg-success' : 'bg-danger'}">
+                    <span class="badge ${section.status.toLowerCase() === 'open' ? 'bg-success' : 'bg-danger'}">
                         ${section.status}
                     </span>
                     ${section.textbookCost === 'ZTC' ? '<span class="badge bg-info ms-1">ZTC</span>' : ''}
