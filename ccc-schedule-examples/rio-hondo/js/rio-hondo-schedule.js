@@ -90,7 +90,7 @@ function initializeEventHandlers() {
  */
 function loadInitialData() {
     // Fetch the latest data directly from the JSON file
-    $.getJSON('https://raw.githubusercontent.com/jmcpheron/ccc-schedule-collector/main/data/schedule_202570_latest.json')
+    $.getJSON('https://raw.githubusercontent.com/jmcpheron/ccc-schedule-collector/main/data/rio-hondo/schedule_202570_latest.json')
         .done(function(data) {
             if (data.courses) {
                 // Transform the live data to match expected format
