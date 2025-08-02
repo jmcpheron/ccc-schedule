@@ -1,5 +1,5 @@
 /**
- * Rio Hondo College Schedule JavaScript
+ * Citrus College Schedule JavaScript
  * Handles the specific data structure from the standardized schedule format
  */
 
@@ -90,7 +90,7 @@ function initializeEventHandlers() {
  */
 function loadInitialData() {
     // Fetch the latest data directly from the JSON file
-    $.getJSON('https://raw.githubusercontent.com/jmcpheron/ccc-schedule-collector/main/data/rio-hondo/schedule_202570_latest.json')
+    $.getJSON('https://raw.githubusercontent.com/jmcpheron/ccc-schedule-collector/main/data/citrus/schedule_202620_latest.json')
         .done(function(data) {
             if (data.courses) {
                 // Transform the live data to match expected format
@@ -177,7 +177,10 @@ function transformLiveData(data) {
             meetings: meetings,
             startDate: course.start_date,
             endDate: course.end_date,
-            textbookCost: course.textbook_cost === 0 || course.zero_textbook_cost ? 'ZTC' : ''
+            textbookCost: course.textbook_cost === 0 || course.zero_textbook_cost ? 'ZTC' : '',
+            sectionType: course.section_type || '',
+            weeks: course.weeks || '',
+            bookLink: course.book_link || ''
         });
     });
     
@@ -264,6 +267,10 @@ function performSearch() {
                 (course.courseNumber && course.courseNumber.toLowerCase().includes(searchTerm)) ||
                 (course.title && course.title.toLowerCase().includes(searchTerm)) ||
                 (course.description && course.description.toLowerCase().includes(searchTerm)) ||
+                (course.sections && course.sections.some(s => 
+                    (s.instructor && s.instructor.toLowerCase().includes(searchTerm)) ||
+                    (s.sectionType && s.sectionType.toLowerCase().includes(searchTerm))
+                )) ||
                 (course.sections && course.sections.some(s => s.crn && s.crn.includes(searchTerm)));
             
             if (!matchesSearch) return false;
@@ -277,8 +284,8 @@ function performSearch() {
         
         // Section-based filters
         const hasMatchingSection = course.sections.some(section => {
-            // Open only filter (case-insensitive check)
-            if (openOnly && section.status.toLowerCase() !== 'open') return false;
+            // Open only filter
+            if (openOnly && section.status !== 'Open') return false;
             
             // ZTC filter
             if (ztcOnly && section.textbookCost !== 'ZTC') return false;
@@ -400,7 +407,7 @@ function displayCourseCard(course) {
             headerRow.append(`<strong>CRN: ${section.crn}</strong>`);
             headerRow.append(`
                 <div>
-                    <span class="badge ${section.status.toLowerCase() === 'open' ? 'bg-success' : 'bg-danger'}">
+                    <span class="badge ${section.status === 'Open' ? 'bg-success' : 'bg-danger'}">
                         ${section.status}
                     </span>
                     ${section.textbookCost === 'ZTC' ? '<span class="badge bg-info ms-1">ZTC</span>' : ''}
@@ -410,7 +417,7 @@ function displayCourseCard(course) {
             
             // Instructor
             const instructorDisplay = section.instructor + 
-                (section.instructorEmail && section.instructorEmail !== 'to.be..assigned@riohondo.edu' ? 
+                (section.instructorEmail && section.instructorEmail !== 'to.be..assigned@riohondo.edu' && section.instructorEmail !== null ? 
                     ` <a href="mailto:${section.instructorEmail}" title="Email" class="email-link"><i class="bi bi-envelope-fill"></i></a>` : 
                     '');
             sectionDiv.append(`<div class="small"><strong>Instructor:</strong> ${instructorDisplay}</div>`);
@@ -420,7 +427,11 @@ function displayCourseCard(course) {
             const location = formatLocation(section.meetings);
             sectionDiv.append(`<div class="small"><strong>Time:</strong> ${meetingInfo}</div>`);
             sectionDiv.append(`<div class="small"><strong>Location:</strong> ${location}</div>`);
+            sectionDiv.append(`<div class="small"><strong>Type:</strong> ${section.sectionType || 'LEC'}</div>`);
             sectionDiv.append(`<div class="small"><strong>Mode:</strong> ${formatInstructionMode(section.instructionMode)}</div>`);
+            if (section.weeks) {
+                sectionDiv.append(`<div class="small"><strong>Duration:</strong> ${section.weeks} weeks</div>`);
+            }
             
             // Add click handler for this section
             sectionDiv.on('click', function(e) {
@@ -443,6 +454,7 @@ function displayCourseCard(course) {
                         <th>Instructor</th>
                         <th>Days/Times</th>
                         <th>Location</th>
+                        <th>Type</th>
                         <th>Mode</th>
                         <th>Status</th>
                     </tr>
@@ -456,7 +468,7 @@ function displayCourseCard(course) {
             const meetingInfo = formatMeetingInfo(section.meetings);
             const location = formatLocation(section.meetings);
             const instructorDisplay = section.instructor + 
-                (section.instructorEmail && section.instructorEmail !== 'to.be..assigned@riohondo.edu' ? 
+                (section.instructorEmail && section.instructorEmail !== 'to.be..assigned@riohondo.edu' && section.instructorEmail !== null ? 
                     ` <a href="mailto:${section.instructorEmail}" title="Email instructor" class="email-link"><i class="bi bi-envelope-fill"></i></a>` : 
                     '');
             
@@ -466,9 +478,10 @@ function displayCourseCard(course) {
                     <td>${instructorDisplay}</td>
                     <td>${meetingInfo}</td>
                     <td>${location}</td>
+                    <td>${section.sectionType || 'LEC'}</td>
                     <td>${formatInstructionMode(section.instructionMode)}</td>
                     <td>
-                        <span class="badge ${section.status.toLowerCase() === 'open' ? 'bg-success' : 'bg-danger'}">
+                        <span class="badge ${section.status === 'Open' ? 'bg-success' : 'bg-danger'}">
                             ${section.status}
                         </span>
                         ${section.textbookCost === 'ZTC' ? '<span class="badge bg-info ms-1">ZTC</span>' : ''}
@@ -518,7 +531,7 @@ function displayCourseTableRows(course) {
                 <td>${location}</td>
                 <td>${course.units}</td>
                 <td>
-                    <span class="badge ${section.status.toLowerCase() === 'open' ? 'bg-success' : 'bg-danger'}">
+                    <span class="badge ${section.status === 'Open' ? 'bg-success' : 'bg-danger'}">
                         ${section.status}
                     </span>
                     ${section.textbookCost === 'ZTC' ? '<span class="badge bg-info ms-1">ZTC</span>' : ''}
@@ -563,11 +576,8 @@ function formatMeetingInfo(meetings) {
  */
 function formatTime(time) {
     if (!time) return '';
-    const [hours, minutes] = time.split(':');
-    const h = parseInt(hours);
-    const period = h >= 12 ? 'PM' : 'AM';
-    const displayHours = h > 12 ? h - 12 : (h === 0 ? 12 : h);
-    return `${displayHours}:${minutes} ${period}`;
+    // Citrus data already includes AM/PM format
+    return time;
 }
 
 /**
@@ -680,10 +690,13 @@ function showSectionDetails(course, section) {
                         
                         <dt class="col-sm-4">Status:</dt>
                         <dd class="col-sm-8">
-                            <span class="badge ${section.status.toLowerCase() === 'open' ? 'bg-success' : 'bg-danger'}">
+                            <span class="badge ${section.status === 'Open' ? 'bg-success' : 'bg-danger'}">
                                 ${section.status}
                             </span>
                         </dd>
+                        
+                        <dt class="col-sm-4">Section Type:</dt>
+                        <dd class="col-sm-8">${section.sectionType || 'LEC'}</dd>
                         
                         <dt class="col-sm-4">Enrollment:</dt>
                         <dd class="col-sm-8">${section.enrolled} / ${section.capacity} (${section.available} available)</dd>
@@ -718,6 +731,16 @@ function showSectionDetails(course, section) {
                         ${section.startDate ? `
                         <dt class="col-sm-4">Dates:</dt>
                         <dd class="col-sm-8">${section.startDate} - ${section.endDate}</dd>
+                        ` : ''}
+                        
+                        ${section.weeks ? `
+                        <dt class="col-sm-4">Duration:</dt>
+                        <dd class="col-sm-8">${section.weeks} weeks</dd>
+                        ` : ''}
+                        
+                        ${section.bookLink ? `
+                        <dt class="col-sm-4">Textbook:</dt>
+                        <dd class="col-sm-8"><a href="${section.bookLink}" target="_blank" class="btn btn-sm btn-outline-primary"><i class="bi bi-book"></i> View Book Info</a></dd>
                         ` : ''}
                     </dl>
                 </div>
