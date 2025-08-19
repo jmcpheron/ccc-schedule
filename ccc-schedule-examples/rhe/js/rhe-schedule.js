@@ -91,7 +91,7 @@ function initializeEventHandlers() {
  */
 function loadInitialData() {
     // Fetch the detailed data directly from the new feed
-    $.getJSON('https://raw.githubusercontent.com/jmcpheron/ccc-schedule-collector/refs/heads/main/data/rio-hondo/schedule_detailed_202570_20250817_064204.json')
+    $.getJSON('https://raw.githubusercontent.com/jmcpheron/ccc-schedule-collector/refs/heads/main/data/rio-hondo/schedule_detailed_202570.json')
         .done(function(data) {
             if (data.courses) {
                 rawScheduleData = data; // Store raw data for detailed views
